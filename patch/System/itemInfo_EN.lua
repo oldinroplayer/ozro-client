@@ -435295,17 +435295,13 @@ tbl = {
 		unidentifiedResourceName = "¿µÈ¥ÀÇÁ¶°¢",
 		unidentifiedDescriptionName = {
 			"Fragmento de la esencia de un MVP derrotado.",
-			"Se usa para invocar monstruos poderosos.",
-			"Prueba de acentos: áéíóú ÁÉÍÓÚ ñÑ üÜ ¿¡",
-			"^0000CCAcento con color:^000000 ñandú, pingüino, ¿qué tal?"
+			"Se usa para invocar monstruos poderosos."
 		},
 		identifiedDisplayName = "Alma de MVP",
 		identifiedResourceName = "¿µÈ¥ÀÇÁ¶°¢",
 		identifiedDescriptionName = {
 			"Fragmento de la esencia de un MVP derrotado.",
-			"Se usa para invocar monstruos poderosos.",
-			"Prueba de acentos: áéíóú ÁÉÍÓÚ ñÑ üÜ ¿¡",
-			"^0000CCAcento con color:^000000 ñandú, pingüino, ¿qué tal?"
+			"Se usa para invocar monstruos poderosos."
 		},
 		slotCount = 0,
 		ClassNum = 0,
@@ -435316,8 +435312,6 @@ tbl = {
 		unidentifiedResourceName = "ozro_apple",
 		unidentifiedDescriptionName = {
 			"A crisp apple from OzRagnarok. Good for testing custom effects.",
-			"Prueba de acentos: áéíóú ÁÉÍÓÚ ñÑ üÜ ¿¡",
-			"^0000CCAcento con color:^000000 ñandú, pingüino, ¿qué tal?",
 			"^FFFFFF_^000000",
 			" HP",
 			"^ffffff_^000000",
@@ -435327,8 +435321,6 @@ tbl = {
 		identifiedResourceName = "ozro_apple",
 		identifiedDescriptionName = {
 			"A crisp apple from OzRagnarok. Good for testing custom effects.",
-			"Prueba de acentos: áéíóú ÁÉÍÓÚ ñÑ üÜ ¿¡",
-			"^0000CCAcento con color:^000000 ñandú, pingüino, ¿qué tal?",
 			"^FFFFFF_^000000",
 			" HP",
 			"^ffffff_^000000",
