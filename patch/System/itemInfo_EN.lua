@@ -321146,32 +321146,71 @@ tbl = {
 		ClassNum = 0,
 		costume = true
 	},
-	[24665] = {		unidentifiedDisplayName = "Unidentified Shadow Earring",		unidentifiedResourceName = "이어링쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Full Tempest Shadow Earring",		identifiedResourceName = "이어링쉐도우3",		identifiedDescriptionName = {			"A sacred earring which is believed to protect its wearer. It also draws the wearer's potential abilities.",			"________________________",
-			"Ignores magical defense of all race monsters, except ^FF0000Players^000000, by 5%.",			"________________________",
-			"^0000FFFor each 2 Refine Levels^000000:",
-			"Ignores magical defense of all race monsters, except ^FF0000Players^000000, by additional 1%.",			"________________________",
-			"^0000FFRefine Level +10^000000:",
-			"Increases magical damage against all race monsters, except ^FF0000Players^000000, by 3%.",			"________________________",
-			"When equipped with ^990099Full Tempest Shadow Pendant^000000:",
-			"MATK +2%",
-			" ",
-			"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+18^000000:",
-			"Ignores magical defense of all race monsters, except ^FF0000Players^000000, by 100%.",			"________________________",
-			"^0000CCType:^000000 Shadow Earring",
+	[24665] = {
+		unidentifiedDisplayName = "Unidentified Shadow Earring",
+		unidentifiedResourceName = "이어링쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Full Tempest Shadow Earring",
+		identifiedResourceName = "이어링쉐도우3",
+		identifiedDescriptionName = {
+			"A sacred earring which is believed to protect its wearer. It also draws the wearer's potential abilities.",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24666] = {		unidentifiedDisplayName = "Unidentified Shadow Shoes",		unidentifiedResourceName = "슈즈쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Full Tempest Shadow Shoes",		identifiedResourceName = "슈즈쉐도우3",		identifiedDescriptionName = {			"A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",			"________________________",
 			"Ignores magical defense of all race monsters, except ^FF0000Players^000000, by 5%.",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
 			"Ignores magical defense of all race monsters, except ^FF0000Players^000000, by additional 1%.",
 			"________________________",
 			"^0000FFRefine Level +10^000000:",
-			"Increases magical damage against all race monsters, except ^FF0000Players^000000, by 3%.",			"________________________",
+			"Increases magical damage against all race monsters, except ^FF0000Players^000000, by 3%.",
+			"________________________",
+			"When equipped with ^990099Full Tempest Shadow Pendant^000000:",
+			"MATK +2%",
+			" ",
+			"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+18^000000:",
+			"Ignores magical defense of all race monsters, except ^FF0000Players^000000, by 100%.",
+			"________________________",
+			"^0000CCType:^000000 Shadow Earring",
+			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24666] = {
+		unidentifiedDisplayName = "Unidentified Shadow Shoes",
+		unidentifiedResourceName = "슈즈쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Full Tempest Shadow Shoes",
+		identifiedResourceName = "슈즈쉐도우3",
+		identifiedDescriptionName = {
+			"A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",
+			"________________________",
+			"Ignores magical defense of all race monsters, except ^FF0000Players^000000, by 5%.",
+			"________________________",
+			"^0000FFFor each 2 Refine Levels^000000:",
+			"Ignores magical defense of all race monsters, except ^FF0000Players^000000, by additional 1%.",
+			"________________________",
+			"^0000FFRefine Level +10^000000:",
+			"Increases magical damage against all race monsters, except ^FF0000Players^000000, by 3%.",
+			"________________________",
 			"^0000CCType:^000000 Shadow Shoes",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24667] = {		unidentifiedDisplayName = "Unidentified Shadow Armor",		unidentifiedResourceName = "아머쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Full Tempest Shadow Armor",		identifiedResourceName = "아머쉐도우3",		identifiedDescriptionName = {			"A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24667] = {
+		unidentifiedDisplayName = "Unidentified Shadow Armor",
+		unidentifiedResourceName = "아머쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Full Tempest Shadow Armor",
+		identifiedResourceName = "아머쉐도우3",
+		identifiedDescriptionName = {
+			"A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",
+			"________________________",
 			"Ignores magical defense of all race monsters, except ^FF0000Players^000000, by 5%.",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
@@ -321184,11 +321223,25 @@ tbl = {
 			"MATK +2%",
 			" ",
 			"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+18^000000:",
-			"Ignores magical defense of all race monsters, except ^FF0000Players^000000, by 100%.",			"________________________",
+			"Ignores magical defense of all race monsters, except ^FF0000Players^000000, by 100%.",
+			"________________________",
 			"^0000CCType:^000000 Shadow Armor",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24668] = {		unidentifiedDisplayName = "Unidentified Shadow Pendant",		unidentifiedResourceName = "펜던트쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Full Tempest Shadow Pendant",		identifiedResourceName = "펜던트쉐도우3",		identifiedDescriptionName = {			"A sacred necklace which is believed to protect its wearer. It also draws the wearer's potential abilities.",			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24668] = {
+		unidentifiedDisplayName = "Unidentified Shadow Pendant",
+		unidentifiedResourceName = "펜던트쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Full Tempest Shadow Pendant",
+		identifiedResourceName = "펜던트쉐도우3",
+		identifiedDescriptionName = {
+			"A sacred necklace which is believed to protect its wearer. It also draws the wearer's potential abilities.",
+			"________________________",
 			"Ignores magical defense of all race monsters, except ^FF0000Players^000000, by 5%.",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
@@ -321199,17 +321252,46 @@ tbl = {
 			"________________________",
 			"^0000CCType:^000000 Shadow Armor",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24669] = {		unidentifiedDisplayName = "Unidentified Shadow Armor",		unidentifiedResourceName = "아머쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Mammoth Shadow Armor",		identifiedResourceName = "아머쉐도우",		identifiedDescriptionName = {			"A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",			"________________________",
-			"Critical +10",			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24669] = {
+		unidentifiedDisplayName = "Unidentified Shadow Armor",
+		unidentifiedResourceName = "아머쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Mammoth Shadow Armor",
+		identifiedResourceName = "아머쉐도우",
+		identifiedDescriptionName = {
+			"A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",
+			"________________________",
+			"Critical +10",
+			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
-			"Critical +1",			"________________________",
+			"Critical +1",
+			"________________________",
 			"^0000FFRefine Level +9^000000:",
-			"Increases Critical Damage by 5%.",			"________________________",
+			"Increases Critical Damage by 5%.",
+			"________________________",
 			"^0000CCType:^000000 Shadow Armor",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24670] = {		unidentifiedDisplayName = "Unidentified Shadow Shoes",		unidentifiedResourceName = "슈즈쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Mammoth Shadow Shoes",		identifiedResourceName = "슈즈쉐도우",		identifiedDescriptionName = {			"A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24670] = {
+		unidentifiedDisplayName = "Unidentified Shadow Shoes",
+		unidentifiedResourceName = "슈즈쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Mammoth Shadow Shoes",
+		identifiedResourceName = "슈즈쉐도우",
+		identifiedDescriptionName = {
+			"A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",
+			"________________________",
 			"FLEE +10",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
@@ -321220,8 +321302,21 @@ tbl = {
 			"________________________",
 			"^0000CCType:^000000 Shadow Shoes",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24671] = {		unidentifiedDisplayName = "Unidentified Shadow Pendant",		unidentifiedResourceName = "펜던트쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Mammoth Shadow Pendant",		identifiedResourceName = "펜던트쉐도우",		identifiedDescriptionName = {			"A sacred necklace which is believed to protect its wearer. It also draws the wearer's potential abilities.",			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24671] = {
+		unidentifiedDisplayName = "Unidentified Shadow Pendant",
+		unidentifiedResourceName = "펜던트쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Mammoth Shadow Pendant",
+		identifiedResourceName = "펜던트쉐도우",
+		identifiedDescriptionName = {
+			"A sacred necklace which is believed to protect its wearer. It also draws the wearer's potential abilities.",
+			"________________________",
 			"ATK +10",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
@@ -321232,8 +321327,20 @@ tbl = {
 			"________________________",
 			"^0000CCType:^000000 Shadow Pendant",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24672] = {		unidentifiedDisplayName = "Unidentified Shadow Earring",		unidentifiedResourceName = "이어링쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Mammoth Shadow Earring",		identifiedResourceName = "이어링쉐도우",		identifiedDescriptionName = {			"A sacred earring which is believed to protect its wearer. It also draws the wearer's potential abilities.",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24672] = {
+		unidentifiedDisplayName = "Unidentified Shadow Earring",
+		unidentifiedResourceName = "이어링쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Mammoth Shadow Earring",
+		identifiedResourceName = "이어링쉐도우",
+		identifiedDescriptionName = {
+			"A sacred earring which is believed to protect its wearer. It also draws the wearer's potential abilities.",
 			"________________________",
 			"Increases Critical Damage by 1%.",
 			"________________________",
@@ -321251,19 +321358,46 @@ tbl = {
 			"________________________",
 			"^0000CCType:^000000 Shadow Pendant",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24673] = {		unidentifiedDisplayName = "Unidentified Shadow Weapon",		unidentifiedResourceName = "웨폰쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Mammoth Shadow Weapon",		identifiedResourceName = "웨폰쉐도우",		identifiedDescriptionName = {			"A pair of gloves that can draw the wearer's potential ability.",			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24673] = {
+		unidentifiedDisplayName = "Unidentified Shadow Weapon",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Mammoth Shadow Weapon",
+		identifiedResourceName = "웨폰쉐도우",
+		identifiedDescriptionName = {
+			"A pair of gloves that can draw the wearer's potential ability.",
+			"________________________",
 			"HIT +10",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
 			"HIT +1",
 			"________________________",
 			"^0000FFRefine Level +9^000000:",
-			"Perfect Hit +5%",			"________________________",
+			"Perfect Hit +5%",
+			"________________________",
 			"^0000CCType:^000000 Shadow Weapon",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24674] = {		unidentifiedDisplayName = "Unidentified Shadow Shield",		unidentifiedResourceName = "쉴드쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Mammoth Shadow Shield",		identifiedResourceName = "쉴드쉐도우",		identifiedDescriptionName = {			"A small shield worn on the arm for additional defense. Needs a complete set to have bonus effect.",			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24674] = {
+		unidentifiedDisplayName = "Unidentified Shadow Shield",
+		unidentifiedResourceName = "쉴드쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Mammoth Shadow Shield",
+		identifiedResourceName = "쉴드쉐도우",
+		identifiedDescriptionName = {
+			"A small shield worn on the arm for additional defense. Needs a complete set to have bonus effect.",
+			"________________________",
 			"DEF +5",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
@@ -321274,37 +321408,81 @@ tbl = {
 			"________________________",
 			"^0000CCType:^000000 Shadow Shield",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24675] = {		unidentifiedDisplayName = "Unidentified Shadow Armor",		unidentifiedResourceName = "아머쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "True Gemstone Shadow Armor",		identifiedResourceName = "아머쉐도우3",		identifiedDescriptionName = {			"A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",			"________________________",
-			"MATK +3%",			"________________________",
-			"^0000FFFor each 2 Refine Levels^000000:",
-			"Increases all elemental magic damage by 1%.",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24675] = {
+		unidentifiedDisplayName = "Unidentified Shadow Armor",
+		unidentifiedResourceName = "아머쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "True Gemstone Shadow Armor",
+		identifiedResourceName = "아머쉐도우3",
+		identifiedDescriptionName = {
+			"A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",
 			"________________________",
-			"^0000FFRefine Level +10^000000:",
-			"Decreases Variable Casting Time of all skills by 3%.",			"________________________",
-			"When equipped with ^990099True Gemstone Shadow Shoes^000000:",
-			"MATK +2%",
-			" ",
-			"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+18^000000:",
-			"Nullifies Gemstone requirement of certain skills.",
-			"Increases SP Consumption of all skills by 40%.",
-			" ",			"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+20^000000:",
-			"Increases magical damage against all sized enemies by 12%.",			"________________________",
-			"^0000CCType:^000000 Shadow Armor",
-			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24676] = {		unidentifiedDisplayName = "Unidentified Shadow Shoes",		unidentifiedResourceName = "슈즈쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "True Gemstone Shadow Shoes",		identifiedResourceName = "슈즈쉐도우3",		identifiedDescriptionName = {			"A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",			"________________________",
 			"MATK +3%",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
 			"Increases all elemental magic damage by 1%.",
 			"________________________",
 			"^0000FFRefine Level +10^000000:",
-			"Decreases Variable Casting Time of all skills by 3%.",			"________________________",
+			"Decreases Variable Casting Time of all skills by 3%.",
+			"________________________",
+			"When equipped with ^990099True Gemstone Shadow Shoes^000000:",
+			"MATK +2%",
+			" ",
+			"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+18^000000:",
+			"Nullifies Gemstone requirement of certain skills.",
+			"Increases SP Consumption of all skills by 40%.",
+			" ",
+			"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+20^000000:",
+			"Increases magical damage against all sized enemies by 12%.",
+			"________________________",
+			"^0000CCType:^000000 Shadow Armor",
+			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24676] = {
+		unidentifiedDisplayName = "Unidentified Shadow Shoes",
+		unidentifiedResourceName = "슈즈쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "True Gemstone Shadow Shoes",
+		identifiedResourceName = "슈즈쉐도우3",
+		identifiedDescriptionName = {
+			"A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",
+			"________________________",
+			"MATK +3%",
+			"________________________",
+			"^0000FFFor each 2 Refine Levels^000000:",
+			"Increases all elemental magic damage by 1%.",
+			"________________________",
+			"^0000FFRefine Level +10^000000:",
+			"Decreases Variable Casting Time of all skills by 3%.",
+			"________________________",
 			"^0000CCType:^000000 Shadow Shoes",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24677] = {		unidentifiedDisplayName = "Unidentified Shadow Earring",		unidentifiedResourceName = "이어링쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "True Gemstone Shadow Earring",		identifiedResourceName = "이어링쉐도우3",		identifiedDescriptionName = {			"A sacred earring which is believed to protect its wearer. It also draws the wearer's potential abilities.",			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24677] = {
+		unidentifiedDisplayName = "Unidentified Shadow Earring",
+		unidentifiedResourceName = "이어링쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "True Gemstone Shadow Earring",
+		identifiedResourceName = "이어링쉐도우3",
+		identifiedDescriptionName = {
+			"A sacred earring which is believed to protect its wearer. It also draws the wearer's potential abilities.",
+			"________________________",
 			"MATK +3%",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
@@ -321325,8 +321503,21 @@ tbl = {
 			"________________________",
 			"^0000CCType:^000000 Shadow Earring",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24678] = {		unidentifiedDisplayName = "Unidentified Shadow Pendant",		unidentifiedResourceName = "펜던트쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "True Gemstone Shadow Pendant",		identifiedResourceName = "펜던트쉐도우3",		identifiedDescriptionName = {			"A sacred necklace which is believed to protect its wearer. It also draws the wearer's potential abilities.",			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24678] = {
+		unidentifiedDisplayName = "Unidentified Shadow Pendant",
+		unidentifiedResourceName = "펜던트쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "True Gemstone Shadow Pendant",
+		identifiedResourceName = "펜던트쉐도우3",
+		identifiedDescriptionName = {
+			"A sacred necklace which is believed to protect its wearer. It also draws the wearer's potential abilities.",
+			"________________________",
 			"MATK +3%",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
@@ -321337,8 +321528,21 @@ tbl = {
 			"________________________",
 			"^0000CCType:^000000 Shadow Pendant",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24679] = {		unidentifiedDisplayName = "Unidentified Shadow Armor",		unidentifiedResourceName = "아머쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Maximum Mammoth Shadow Armor",		identifiedResourceName = "아머쉐도우3",		identifiedDescriptionName = {			"A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24679] = {
+		unidentifiedDisplayName = "Unidentified Shadow Armor",
+		unidentifiedResourceName = "아머쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Maximum Mammoth Shadow Armor",
+		identifiedResourceName = "아머쉐도우3",
+		identifiedDescriptionName = {
+			"A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",
+			"________________________",
 			"ATK +3%",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
@@ -321354,11 +321558,24 @@ tbl = {
 			"Prevents knock-back effect.",
 			" ",
 			"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+20^000000:",
-			"Increases physical damage against all elemental enemies by 12%.",			"________________________",
+			"Increases physical damage against all elemental enemies by 12%.",
+			"________________________",
 			"^0000CCType:^000000 Shadow Armor",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24680] = {		unidentifiedDisplayName = "Unidentified Shadow Shoes",		unidentifiedResourceName = "슈즈쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Maximum Mammoth Shadow Shoes",		identifiedResourceName = "슈즈쉐도우3",		identifiedDescriptionName = {			"A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24680] = {
+		unidentifiedDisplayName = "Unidentified Shadow Shoes",
+		unidentifiedResourceName = "슈즈쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Maximum Mammoth Shadow Shoes",
+		identifiedResourceName = "슈즈쉐도우3",
+		identifiedDescriptionName = {
+			"A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",
 			"________________________",
 			"ATK +3%",
 			"________________________",
@@ -321370,8 +321587,21 @@ tbl = {
 			"________________________",
 			"^0000CCType:^000000 Shadow Shoes",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24681] = {		unidentifiedDisplayName = "Unidentified Shadow Earring",		unidentifiedResourceName = "이어링쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Maximum Mammoth Shadow Earring",		identifiedResourceName = "이어링쉐도우3",		identifiedDescriptionName = {			"A sacred earring which is believed to protect its wearer. It also draws the wearer's potential abilities.",			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24681] = {
+		unidentifiedDisplayName = "Unidentified Shadow Earring",
+		unidentifiedResourceName = "이어링쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Maximum Mammoth Shadow Earring",
+		identifiedResourceName = "이어링쉐도우3",
+		identifiedDescriptionName = {
+			"A sacred earring which is believed to protect its wearer. It also draws the wearer's potential abilities.",
+			"________________________",
 			"ATK +3%",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
@@ -321391,8 +321621,21 @@ tbl = {
 			"________________________",
 			"^0000CCType:^000000 Shadow Earring",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24682] = {		unidentifiedDisplayName = "Unidentified Shadow Pendant",		unidentifiedResourceName = "펜던트쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Maximum Mammoth Shadow Pendant",		identifiedResourceName = "펜던트쉐도우3",		identifiedDescriptionName = {			"A sacred necklace which is believed to protect its wearer. It also draws the wearer's potential abilities.",			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24682] = {
+		unidentifiedDisplayName = "Unidentified Shadow Pendant",
+		unidentifiedResourceName = "펜던트쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Maximum Mammoth Shadow Pendant",
+		identifiedResourceName = "펜던트쉐도우3",
+		identifiedDescriptionName = {
+			"A sacred necklace which is believed to protect its wearer. It also draws the wearer's potential abilities.",
+			"________________________",
 			"ATK +3%",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
@@ -321403,20 +321646,49 @@ tbl = {
 			"________________________",
 			"^0000CCType:^000000 Shadow Pendant",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24683] = {		unidentifiedDisplayName = "Unidentified Shadow Shield",		unidentifiedResourceName = "쉴드쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Experience Shadow Shield",		identifiedResourceName = "쉴드쉐도우3",		identifiedDescriptionName = {			"A small shield worn on the arm for additional defense. Needs a complete set to have bonus effect.",			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24683] = {
+		unidentifiedDisplayName = "Unidentified Shadow Shield",
+		unidentifiedResourceName = "쉴드쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Experience Shadow Shield",
+		identifiedResourceName = "쉴드쉐도우3",
+		identifiedDescriptionName = {
+			"A small shield worn on the arm for additional defense. Needs a complete set to have bonus effect.",
+			"________________________",
 			"^CC6600Base Level^000000 is less than ^FF0000175^000000:",
 			"Increases experience gained from monsters by 20%.",
 			"________________________",
-			"^CC6600Base Level^000000 is at least ^FF0000175^000000:",			"Increases experience gained from monsters by 10%.",
-			"________________________",			"^0000FFFor each 2 Refine Levels^000000:",
-			"Increases experience gained from monsters by additional 1%.",			"________________________",
-			"^0000FFRefine Level +10^000000:",			"Increases experience gained from monsters by additional 5%.",
+			"^CC6600Base Level^000000 is at least ^FF0000175^000000:",
+			"Increases experience gained from monsters by 10%.",
+			"________________________",
+			"^0000FFFor each 2 Refine Levels^000000:",
+			"Increases experience gained from monsters by additional 1%.",
+			"________________________",
+			"^0000FFRefine Level +10^000000:",
+			"Increases experience gained from monsters by additional 5%.",
 			"________________________",
 			"^0000CCType:^000000 Shadow Shield",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24685] = {		unidentifiedDisplayName = "Unidentified Shadow Shield",		unidentifiedResourceName = "쉴드쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Absolve Shadow Shield",		identifiedResourceName = "쉴드쉐도우3",		identifiedDescriptionName = {			"A small shield worn on the arm for additional defense. Needs a complete set to have bonus effect.",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24685] = {
+		unidentifiedDisplayName = "Unidentified Shadow Shield",
+		unidentifiedResourceName = "쉴드쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Absolve Shadow Shield",
+		identifiedResourceName = "쉴드쉐도우3",
+		identifiedDescriptionName = {
+			"A small shield worn on the arm for additional defense. Needs a complete set to have bonus effect.",
 			"________________________",
 			"MaxHP +3%",
 			"MaxSP +3%",
@@ -321432,8 +321704,20 @@ tbl = {
 			"________________________",
 			"^0000CCType:^000000 Shadow Shield",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
-	[24686] = {		unidentifiedDisplayName = "Unidentified Shadow Weapon",		unidentifiedResourceName = "웨폰쉐도우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Absolve Shadow Weapon",		identifiedResourceName = "웨폰쉐도우3",		identifiedDescriptionName = {			"A pair of gloves that can draw the wearer's potential ability.",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
+	[24686] = {
+		unidentifiedDisplayName = "Unidentified Shadow Weapon",
+		unidentifiedResourceName = "웨폰쉐도우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Absolve Shadow Weapon",
+		identifiedResourceName = "웨폰쉐도우3",
+		identifiedDescriptionName = {
+			"A pair of gloves that can draw the wearer's potential ability.",
 			"________________________",
 			"MaxHP +3%",
 			"MaxSP +3%",
@@ -321449,7 +321733,12 @@ tbl = {
 			"________________________",
 			"^0000CCType:^000000 Shadow Weapon",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 0,		costume = true	},
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = true
+	},
 	[25000] = {
 		unidentifiedDisplayName = "SP Absorb Stone(Upper)",
 		unidentifiedResourceName = "영혼의조각",
@@ -343063,27 +343352,74 @@ tbl = {
 		costume = false,
 		EffectID = 1186
 	},
-	[27394] = {		unidentifiedDisplayName = "Kathryne Wigner Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Kathryne Wigner Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"Decreases Variable Casting Time of all skills by 5%.",			"________________________",
-			"When equipped with ^990099Spica Nerius Card^000000 and ^990099Nihil M. Heine Card^000000:",			"Increases magical damage against ^FF0000Small^000000 size and ^FF0000Brute^000000 race monsters by 7%.",			"________________________",
-			"When equipped with ^990099Wolf Lugenburg Card^000000 and ^990099Poe Richard Card^000000:",			"Increases magical damage against ^FF0000Medium^000000 sized monsters by 7%.",
-			"Decreases After Skill Delay of all skills by 5%.",			"________________________",
+	[27394] = {
+		unidentifiedDisplayName = "Kathryne Wigner Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Kathryne Wigner Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Decreases Variable Casting Time of all skills by 5%.",
+			"________________________",
+			"When equipped with ^990099Spica Nerius Card^000000 and ^990099Nihil M. Heine Card^000000:",
+			"Increases magical damage against ^FF0000Small^000000 size and ^FF0000Brute^000000 race monsters by 7%.",
+			"________________________",
+			"When equipped with ^990099Wolf Lugenburg Card^000000 and ^990099Poe Richard Card^000000:",
+			"Increases magical damage against ^FF0000Medium^000000 sized monsters by 7%.",
+			"Decreases After Skill Delay of all skills by 5%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Headgear",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[27395] = {		unidentifiedDisplayName = "Isaac Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Isaac Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"\"I think the more desolate the atmosphere, the more you should smile.\" -Isaac Wigner",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[27395] = {
+		unidentifiedDisplayName = "Isaac Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Isaac Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"\"I think the more desolate the atmosphere, the more you should smile.\" -Isaac Wigner",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Headgear",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[27396] = {		unidentifiedDisplayName = "Isaac Wagner Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Isaac Wagner Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"Decreases After Skill Delay of all skills by 5%.",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[27396] = {
+		unidentifiedDisplayName = "Isaac Wagner Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Isaac Wagner Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Decreases After Skill Delay of all skills by 5%.",
+			"________________________",
 			"When equipped with ^990099Juergen Wagner Card^000000 and ^990099Agnes Lugenburg Card^000000:",
 			"Increases physical damage against ^FF0000Small^000000 size and ^FF0000Brute^000000 race monsters by 7%.",
 			"________________________",
 			"When equipped with ^990099Wolf Lugenburg Card^000000 and ^990099Poe Richard Card^000000:",
 			"Increases physical damage against ^FF0000Medium^000000 sized monsters by 7%.",
-			"Decreases After Skill Delay of all skills by additional 3%.",			"________________________",
+			"Decreases After Skill Delay of all skills by additional 3%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Headgear",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
 	[28000] = {
 		unidentifiedDisplayName = "Unidentified Katar",
 		unidentifiedResourceName = "카타르",
@@ -384556,28 +384892,71 @@ tbl = {
 		ClassNum = 1779,
 		costume = true
 	},
-	[31959] = {		unidentifiedDisplayName = "Unidentified Ribbon",		unidentifiedResourceName = "리본",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Costume Firm Wave Hair(Black)",		identifiedResourceName = "C_RK_Hair_BL",		identifiedDescriptionName = {			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",			"________________________",
-			"^0000CCType:^000000 Costume",
-			"^0000CCPosition:^000000 Lower",
-			"^0000CCWeight:^000000 0",
-			"________________________",
-			"^0000CCRequirement:^000000 None"		},
-		slotCount = 0,		ClassNum = 2062,		costume = true	},
-	[31960] = {		unidentifiedDisplayName = "Unidentified Ribbon",		unidentifiedResourceName = "리본",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Costume Firm Wave Hair(Blue)",		identifiedResourceName = "C_RK_Hair_BU",		identifiedDescriptionName = {			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
-			"________________________",
-			"^0000CCType:^000000 Costume",
-			"^0000CCPosition:^000000 Lower",
-			"^0000CCWeight:^000000 0",
-			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 2063,		costume = true	},
-	[31961] = {		unidentifiedDisplayName = "Unidentified Ribbon",		unidentifiedResourceName = "리본",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Costume Firm Wave Hair(Green)",		identifiedResourceName = "C_RK_Hair_GN",		identifiedDescriptionName = {			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
+	[31959] = {
+		unidentifiedDisplayName = "Unidentified Ribbon",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Costume Firm Wave Hair(Black)",
+		identifiedResourceName = "C_RK_Hair_BL",
+		identifiedDescriptionName = {
+			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
 			"________________________",
 			"^0000CCType:^000000 Costume",
 			"^0000CCPosition:^000000 Lower",
 			"^0000CCWeight:^000000 0",
 			"________________________",
-			"^0000CCRequirement:^000000 None"		},		slotCount = 0,		ClassNum = 2064,		costume = true	},
-	[31962] = {		unidentifiedDisplayName = "Unidentified Ribbon",		unidentifiedResourceName = "리본",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Costume Firm Wave Hair(Brown)",		identifiedResourceName = "C_RK_Hair_OM",		identifiedDescriptionName = {			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 2062,
+		costume = true
+	},
+	[31960] = {
+		unidentifiedDisplayName = "Unidentified Ribbon",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Costume Firm Wave Hair(Blue)",
+		identifiedResourceName = "C_RK_Hair_BU",
+		identifiedDescriptionName = {
+			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
+			"________________________",
+			"^0000CCType:^000000 Costume",
+			"^0000CCPosition:^000000 Lower",
+			"^0000CCWeight:^000000 0",
+			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 2063,
+		costume = true
+	},
+	[31961] = {
+		unidentifiedDisplayName = "Unidentified Ribbon",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Costume Firm Wave Hair(Green)",
+		identifiedResourceName = "C_RK_Hair_GN",
+		identifiedDescriptionName = {
+			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
+			"________________________",
+			"^0000CCType:^000000 Costume",
+			"^0000CCPosition:^000000 Lower",
+			"^0000CCWeight:^000000 0",
+			"________________________",
+			"^0000CCRequirement:^000000 None"
+		},
+		slotCount = 0,
+		ClassNum = 2064,
+		costume = true
+	},
+	[31962] = {
+		unidentifiedDisplayName = "Unidentified Ribbon",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Costume Firm Wave Hair(Brown)",
+		identifiedResourceName = "C_RK_Hair_OM",
+		identifiedDescriptionName = {
+			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
 			"________________________",
 			"^0000CCType:^000000 Costume",
 			"^0000CCPosition:^000000 Lower",
@@ -384589,7 +384968,14 @@ tbl = {
 		ClassNum = 2065,
 		costume = true
 	},
-	[31963] = {		unidentifiedDisplayName = "Unidentified Ribbon",		unidentifiedResourceName = "리본",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Costume Firm Wave Hair(Pink)",		identifiedResourceName = "C_RK_Hair_PK",		identifiedDescriptionName = {			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
+	[31963] = {
+		unidentifiedDisplayName = "Unidentified Ribbon",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Costume Firm Wave Hair(Pink)",
+		identifiedResourceName = "C_RK_Hair_PK",
+		identifiedDescriptionName = {
+			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
 			"________________________",
 			"^0000CCType:^000000 Costume",
 			"^0000CCPosition:^000000 Lower",
@@ -384601,7 +384987,14 @@ tbl = {
 		ClassNum = 2066,
 		costume = true
 	},
-	[31964] = {		unidentifiedDisplayName = "Unidentified Ribbon",		unidentifiedResourceName = "리본",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Costume Firm Wave Hair(Purple)",		identifiedResourceName = "C_RK_Hair_PP",		identifiedDescriptionName = {			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
+	[31964] = {
+		unidentifiedDisplayName = "Unidentified Ribbon",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Costume Firm Wave Hair(Purple)",
+		identifiedResourceName = "C_RK_Hair_PP",
+		identifiedDescriptionName = {
+			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
 			"________________________",
 			"^0000CCType:^000000 Costume",
 			"^0000CCPosition:^000000 Lower",
@@ -384613,7 +385006,14 @@ tbl = {
 		ClassNum = 2067,
 		costume = true
 	},
-	[31965] = {		unidentifiedDisplayName = "Unidentified Ribbon",		unidentifiedResourceName = "리본",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Costume Firm Wave Hair(Red)",		identifiedResourceName = "C_RK_Hair_RD",		identifiedDescriptionName = {			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
+	[31965] = {
+		unidentifiedDisplayName = "Unidentified Ribbon",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Costume Firm Wave Hair(Red)",
+		identifiedResourceName = "C_RK_Hair_RD",
+		identifiedDescriptionName = {
+			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
 			"________________________",
 			"^0000CCType:^000000 Costume",
 			"^0000CCPosition:^000000 Lower",
@@ -384625,7 +385025,14 @@ tbl = {
 		ClassNum = 2068,
 		costume = true
 	},
-	[31966] = {		unidentifiedDisplayName = "Unidentified Ribbon",		unidentifiedResourceName = "리본",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Costume Firm Wave Hair(White)",		identifiedResourceName = "C_RK_Hair_WH",		identifiedDescriptionName = {			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
+	[31966] = {
+		unidentifiedDisplayName = "Unidentified Ribbon",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Costume Firm Wave Hair(White)",
+		identifiedResourceName = "C_RK_Hair_WH",
+		identifiedDescriptionName = {
+			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
 			"________________________",
 			"^0000CCType:^000000 Costume",
 			"^0000CCPosition:^000000 Lower",
@@ -384637,7 +385044,14 @@ tbl = {
 		ClassNum = 2069,
 		costume = true
 	},
-	[31967] = {		unidentifiedDisplayName = "Unidentified Ribbon",		unidentifiedResourceName = "리본",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Costume Firm Wave Hair(Yellow)",		identifiedResourceName = "C_RK_Hair_YL",		identifiedDescriptionName = {			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
+	[31967] = {
+		unidentifiedDisplayName = "Unidentified Ribbon",
+		unidentifiedResourceName = "리본",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Costume Firm Wave Hair(Yellow)",
+		identifiedResourceName = "C_RK_Hair_YL",
+		identifiedDescriptionName = {
+			"A wig for clothes that can appeal to the cuteness with a fluffy wave.",
 			"________________________",
 			"^0000CCType:^000000 Costume",
 			"^0000CCPosition:^000000 Lower",
@@ -394251,7 +394665,14 @@ tbl = {
 		ClassNum = 0,
 		costume = false
 	},
-	[100596] = {		unidentifiedDisplayName = "Full Tempest Shadow Thump Box",		unidentifiedResourceName = "라피네뚝딱상자",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Full Tempest Shadow Thump Box",		identifiedResourceName = "라피네뚝딱상자",		identifiedDescriptionName = {			"Full Tempest Shadow Thump Box.",
+	[100596] = {
+		unidentifiedDisplayName = "Full Tempest Shadow Thump Box",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Full Tempest Shadow Thump Box",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"Full Tempest Shadow Thump Box.",
 			"If you add 10 +7 of the following Shadow Equipments, you can revieve one of Full Tempest Shadow Earring, Full Tempest Shadow Pendant, Full Tempest Shadow Shoes or Full Tempest Shadow Armor randomly:",
 			"________________________",
 			"Tempest Shadow Shoes,",
@@ -394282,67 +394703,143 @@ tbl = {
 			"Magic Vibration Dragon Killer Shadow Weapon,",
 			"Magic Corrupted Exorcist Shadow Weapon.",
 			"________________________",
-			"^ff0000The refine level of an item that becomes a material does not affect the result.^000000",			"________________________",
+			"^ff0000The refine level of an item that becomes a material does not affect the result.^000000",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100600] = {		unidentifiedDisplayName = "New Shadow Thump Box",		unidentifiedResourceName = "라피네뚝딱상자",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "New Shadow Thump Box",		identifiedResourceName = "라피네뚝딱상자",		identifiedDescriptionName = {			"New Shadow Thump Box.",			"________________________",
+	[100600] = {
+		unidentifiedDisplayName = "New Shadow Thump Box",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "New Shadow Thump Box",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"New Shadow Thump Box.",
+			"________________________",
 			"Using 3 of any Shadow Equipment as a material, you can get 1 random Shadow Equipment.",
-			"Combination Shadow Equipment can be acquired with a low chance.",			"________________________",
+			"Combination Shadow Equipment can be acquired with a low chance.",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100601] = {		unidentifiedDisplayName = "Illusion Module Thump Box",		unidentifiedResourceName = "라피네뚝딱상자",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Illusion Module Thump Box",		identifiedResourceName = "라피네뚝딱상자",		identifiedDescriptionName = {			"Illusion Module Thump Box.",			"________________________",
-			"Using 5 different Illusion modules as materials, you receive 1 random Illusion module.",			"________________________",
+	[100601] = {
+		unidentifiedDisplayName = "Illusion Module Thump Box",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Illusion Module Thump Box",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"Illusion Module Thump Box.",
+			"________________________",
+			"Using 5 different Illusion modules as materials, you receive 1 random Illusion module.",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100602] = {		unidentifiedDisplayName = "Automatic Module Thump Box",		unidentifiedResourceName = "라피네뚝딱상자",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Automatic Module Thump Box",		identifiedResourceName = "라피네뚝딱상자",		identifiedDescriptionName = {			"Automatic Module Thump Box.",			"________________________",
-			"Using 5 different Automatic modules as materials, you receive 1 random Automatic module.",			"________________________",
+	[100602] = {
+		unidentifiedDisplayName = "Automatic Module Thump Box",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Automatic Module Thump Box",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"Automatic Module Thump Box.",
+			"________________________",
+			"Using 5 different Automatic modules as materials, you receive 1 random Automatic module.",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100603] = {		unidentifiedDisplayName = "New Lapine Thump Box",		unidentifiedResourceName = "라피네뚝딱상자",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "New Lapine Thump Box",		identifiedResourceName = "라피네뚝딱상자",		identifiedDescriptionName = {			"New Lapine Thump Box.",			"________________________",
+	[100603] = {
+		unidentifiedDisplayName = "New Lapine Thump Box",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "New Lapine Thump Box",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"New Lapine Thump Box.",
+			"________________________",
 			"A mysterious box made by the Rafine Alchemy Association [The Gate of Truth] to compress extra items.",
 			"You can get 2 Thump Boxes for combination that can combine various items.",
-			"Includes a new Shadow Thump Box and a new Thump Box.",			"________________________",
-			"^ff0000Ccaution! - The contents of Lapines Thump Box are subject to change without notice.^000000",			"________________________",
+			"Includes a new Shadow Thump Box and a new Thump Box.",
+			"________________________",
+			"^ff0000Ccaution! - The contents of Lapines Thump Box are subject to change without notice.^000000",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100616] = {		unidentifiedDisplayName = "Donation Participaton Box",		unidentifiedResourceName = "다이아보물상자",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Donation Participaton Box",		identifiedResourceName = "다이아보물상자",		identifiedDescriptionName = {			"Ragnarok Online X Auction's Donation Promotion Event Box!",
-			"Your little donation brightens the candle of love.",			"________________________",			"50x [NotForSale] Level 10 Blessing Scroll",			"50x [NotForSale] Level 10 Increase Agility Scroll",			"30x [NotForSale] Small Life Potion",			"30x [NotForSale] Medium Life Potion",			"30x [NotForSale] Mysterious Life Potion",			"20x [NotForSale] Almighty",			"20x [NotForSale] Power Booster",			"20x [NotForSale] Infinity Drink",			"20x [NotForSale] Small Mana Potion",			"20x World Tour Ticket",			"________________________",			"^ff0000(This item will be deleted at the last regular inspection in January 2021.)^000000",			"________________________",
+	[100616] = {
+		unidentifiedDisplayName = "Donation Participaton Box",
+		unidentifiedResourceName = "다이아보물상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Donation Participaton Box",
+		identifiedResourceName = "다이아보물상자",
+		identifiedDescriptionName = {
+			"Ragnarok Online X Auction's Donation Promotion Event Box!",
+			"Your little donation brightens the candle of love.",
+			"________________________",
+			"50x [NotForSale] Level 10 Blessing Scroll",
+			"50x [NotForSale] Level 10 Increase Agility Scroll",
+			"30x [NotForSale] Small Life Potion",
+			"30x [NotForSale] Medium Life Potion",
+			"30x [NotForSale] Mysterious Life Potion",
+			"20x [NotForSale] Almighty",
+			"20x [NotForSale] Power Booster",
+			"20x [NotForSale] Infinity Drink",
+			"20x [NotForSale] Small Mana Potion",
+			"20x World Tour Ticket",
+			"________________________",
+			"^ff0000(This item will be deleted at the last regular inspection in January 2021.)^000000",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100619] = {		unidentifiedDisplayName = "Modified Thanos Refine Hammer",		unidentifiedResourceName = "해머",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Modified Thanos Refine Hammer",		identifiedResourceName = "해머",		identifiedDescriptionName = {			"A mysterious refine hammer that increases the refine level of the Thanos weapon series modified by Tim Atnard by +1.",
+	[100619] = {
+		unidentifiedDisplayName = "Modified Thanos Refine Hammer",
+		unidentifiedResourceName = "해머",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Modified Thanos Refine Hammer",
+		identifiedResourceName = "해머",
+		identifiedDescriptionName = {
+			"A mysterious refine hammer that increases the refine level of the Thanos weapon series modified by Tim Atnard by +1.",
 			"Only modified Thanos weapons of +9 until +11 can be used.",
-			"For each use, 14 Blacksmith's Blessings are consumed as a material.",			"________________________",
+			"For each use, 14 Blacksmith's Blessings are consumed as a material.",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100620] = {		unidentifiedDisplayName = "True Gemstone Shadow Thump Box",		unidentifiedResourceName = "라피네뚝딱상자",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "True Gemstone Shadow Thump Box",		identifiedResourceName = "라피네뚝딱상자",		identifiedDescriptionName = {			"True Gemstone Shadow Thump Box",			"If you add 6 +7 of the following Shadow Equipments, you can revieve one of True Gemstone Shadow Armor, True Gemstone Shadow Shoes, True Gemstone Shadow Earring or True Gemstone Shadow Pendant randomly:",			"________________________",
+	[100620] = {
+		unidentifiedDisplayName = "True Gemstone Shadow Thump Box",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "True Gemstone Shadow Thump Box",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"True Gemstone Shadow Thump Box",
+			"If you add 6 +7 of the following Shadow Equipments, you can revieve one of True Gemstone Shadow Armor, True Gemstone Shadow Shoes, True Gemstone Shadow Earring or True Gemstone Shadow Pendant randomly:",
+			"________________________",
 			"Gemstone Shadow Weapon,",	
 			"Gemstone Shadow Armor,",
 			"Gemstone Shadow Shoes,",
@@ -394351,41 +394848,49 @@ tbl = {
 			"Gemstone Shadow Earring,",
 			"Gemstone Shadow Weapon II,",
 			"Gemstone Shadow Shield II,",
-			"Gemstone Shadow Earring II.",			"________________________",
-			"^ff0000The refine level of an item that becomes a material does not affect the result.^000000",			"________________________",
+			"Gemstone Shadow Earring II.",
+			"________________________",
+			"^ff0000The refine level of an item that becomes a material does not affect the result.^000000",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100621] = {		unidentifiedDisplayName = "Maximum Mammonth Shadow Thump Box",		unidentifiedResourceName = "라피네뚝딱상자",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Maximum Mammonth Shadow Thump Box",		identifiedResourceName = "라피네뚝딱상자",		identifiedDescriptionName = {			"Maximum Mammonth Shadow Thump Box.",			"If you add 6 +7 of the following Shadow Equipments, you can revieve one of Maximum Mammonth Shadow Armor, Maximum Mammonth Shadow Shoes, Maximum Mammonth Shadow Pendant or Maximum Mammonth Shadow Earring randomly:",			"________________________",
+	[100621] = {
+		unidentifiedDisplayName = "Maximum Mammonth Shadow Thump Box",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Maximum Mammonth Shadow Thump Box",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"Maximum Mammonth Shadow Thump Box.",
+			"If you add 6 +7 of the following Shadow Equipments, you can revieve one of Maximum Mammonth Shadow Armor, Maximum Mammonth Shadow Shoes, Maximum Mammonth Shadow Pendant or Maximum Mammonth Shadow Earring randomly:",
+			"________________________",
 			"Mammonth Shadow Weapon,",	
 			"Mammonth Shadow Armor,",
 			"Mammonth Shadow Shoes,",
 			"Mammonth Shadow Shield,",
 			"Mammonth Shadow Pendant,",
-			"Mammonth Shadow Earring.",			"________________________",
-			"^ff0000The refine level of an item that becomes a material does not affect the result.^000000",			"________________________",
+			"Mammonth Shadow Earring.",
+			"________________________",
+			"^ff0000The refine level of an item that becomes a material does not affect the result.^000000",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100626] = {		unidentifiedDisplayName = "Gray Wolf +7 Refinement Box",		unidentifiedResourceName = "쉐도우큐브",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Gray Wolf +7 Refinement Box",		identifiedResourceName = "쉐도우큐브",		identifiedDescriptionName = {			"A magic box that can refine Gray Wolf equipment. If you put Gray Wolf armor, you can get +7 refined Gray Wolf armor.",			"________________________",			"[Target Items]",			"Gray Wolf Suit,",
-			"Gray Wolf Robe,",
-			"Gray Wolf Manteau,",
-			"Gray Wolf Scarf,",
-			"Gray Wolf Boots,",
-			"Gray Wolf Shoes.",			"________________________",
-			"^0000CCWeight:^000000 1"
-		},
-		slotCount = 0,
-		ClassNum = 0,
-		costume = false
-	},
-	[100627] = {		unidentifiedDisplayName = "Gray Wolf +9 Refinement Box",		unidentifiedResourceName = "쉐도우큐브",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Gray Wolf +9 Refinement Box",		identifiedResourceName = "쉐도우큐브",		identifiedDescriptionName = {			"A magic box that can refine Gray Wolf equipment. If you put Gray Wolf armor, you can get +9 refined Gray Wolf armor.",
+	[100626] = {
+		unidentifiedDisplayName = "Gray Wolf +7 Refinement Box",
+		unidentifiedResourceName = "쉐도우큐브",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Gray Wolf +7 Refinement Box",
+		identifiedResourceName = "쉐도우큐브",
+		identifiedDescriptionName = {
+			"A magic box that can refine Gray Wolf equipment. If you put Gray Wolf armor, you can get +7 refined Gray Wolf armor.",
 			"________________________",
 			"[Target Items]",
 			"Gray Wolf Suit,",
@@ -394393,89 +394898,178 @@ tbl = {
 			"Gray Wolf Manteau,",
 			"Gray Wolf Scarf,",
 			"Gray Wolf Boots,",
-			"Gray Wolf Shoes.",			"________________________",
+			"Gray Wolf Shoes.",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100648] = {		unidentifiedDisplayName = "Purification Ritual",		unidentifiedResourceName = "오래된보라상자", 
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Purification Ritual",		identifiedResourceName = "오래된보라상자", 
-		identifiedDescriptionName = {},
-		slotCount = 0,
-		ClassNum = 0,
-		costume = false
-	},
-	[100649] = {		unidentifiedDisplayName = "Greater Purification Ritual",		unidentifiedResourceName = "오래된보라상자", 
-		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Greater Purification Ritual",		identifiedResourceName = "오래된보라상자", 
-		identifiedDescriptionName = {},
-		slotCount = 0,
-		ClassNum = 0,
-		costume = false
-	},
-	[100650] = {		unidentifiedDisplayName = "High Priest's Courage",		unidentifiedResourceName = "Pontifex_Courage",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "High Priest's Courage",		identifiedResourceName = "Pontifex_Courage",		identifiedDescriptionName = {			"A stone that can impart strong physical power to a false belief weapon.",			"________________________",
-			"^0000CCWeight:^000000 1",
+	[100627] = {
+		unidentifiedDisplayName = "Gray Wolf +9 Refinement Box",
+		unidentifiedResourceName = "쉐도우큐브",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Gray Wolf +9 Refinement Box",
+		identifiedResourceName = "쉐도우큐브",
+		identifiedDescriptionName = {
+			"A magic box that can refine Gray Wolf equipment. If you put Gray Wolf armor, you can get +9 refined Gray Wolf armor.",
 			"________________________",
-			"^0000CCRequirements:^000000",
-			"Base Level 180"		},
-		slotCount = 0,
-		ClassNum = 0,
-		costume = false
-	},
-	[100651] = {		unidentifiedDisplayName = "High Priest's Wisdom",		unidentifiedResourceName = "Pontifex_Wisdom",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "High Priest's Wisdom",		identifiedResourceName = "Pontifex_Wisdom",		identifiedDescriptionName = {			"A stone that can impart strong magical power to a false belief weapon.",			"________________________",
-			"^0000CCWeight:^000000 1",
+			"[Target Items]",
+			"Gray Wolf Suit,",
+			"Gray Wolf Robe,",
+			"Gray Wolf Manteau,",
+			"Gray Wolf Scarf,",
+			"Gray Wolf Boots,",
+			"Gray Wolf Shoes.",
 			"________________________",
-			"^0000CCRequirements:^000000",
-			"Base Level 180"
-		},
-		slotCount = 0,
-		ClassNum = 0,
-		costume = false
-	},
-	[100652] = {		unidentifiedDisplayName = "High Priest's Tenacity",		unidentifiedResourceName = "Pontifex_Tenacity",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "High Priest's Tenacity",		identifiedResourceName = "Pontifex_Tenacity",		identifiedDescriptionName = {			"A stone that can impart strong physical abilities to a purified faith weapon.",			"________________________",
-			"^0000CCWeight:^000000 1",
-			"________________________",
-			"^0000CCRequirements:^000000",
-			"Base Level 180"
-		},
-		slotCount = 0,
-		ClassNum = 0,
-		costume = false
-	},
-	[100653] = {		unidentifiedDisplayName = "High Priest's Belief",		unidentifiedResourceName = "Pontifex_Belief",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "High Priest's Belief",		identifiedResourceName = "Pontifex_Belief",		identifiedDescriptionName = {			"A stone that can impart strong magical abilities to a purified faith weapon.",			"________________________",
-			"^0000CCWeight:^000000 1",
-			"________________________",
-			"^0000CCRequirements:^000000",
-			"Base Level 180"
-		},
-		slotCount = 0,
-		ClassNum = 0,
-		costume = false
-	},
-	[100655] = {		unidentifiedDisplayName = "Cleansing Blueprint Bundle",		unidentifiedResourceName = "Blue_Prints_Scroll",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Cleansing Blueprint Bundle",		identifiedResourceName = "Blue_Prints_Scroll",		identifiedDescriptionName = {			"A bundle containing three blueprints required to purify and reassemble weapons made with false belief.",			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100661] = {		unidentifiedDisplayName = "Experience Shadow Thump Box",		unidentifiedResourceName = "라피네뚝딱상자",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Experience Shadow Thump Box",		identifiedResourceName = "라피네뚝딱상자",		identifiedDescriptionName = {			"Experience Shadow Thump Box.",
+	[100648] = {
+		unidentifiedDisplayName = "Purification Ritual",
+		unidentifiedResourceName = "오래된보라상자", 
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Purification Ritual",
+		identifiedResourceName = "오래된보라상자", 
+		identifiedDescriptionName = {},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[100649] = {
+		unidentifiedDisplayName = "Greater Purification Ritual",
+		unidentifiedResourceName = "오래된보라상자", 
+		unidentifiedDescriptionName = {},
+		identifiedDisplayName = "Greater Purification Ritual",
+		identifiedResourceName = "오래된보라상자", 
+		identifiedDescriptionName = {},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[100650] = {
+		unidentifiedDisplayName = "High Priest's Courage",
+		unidentifiedResourceName = "Pontifex_Courage",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "High Priest's Courage",
+		identifiedResourceName = "Pontifex_Courage",
+		identifiedDescriptionName = {
+			"A stone that can impart strong physical power to a false belief weapon.",
+			"________________________",
+			"^0000CCWeight:^000000 1",
+			"________________________",
+			"^0000CCRequirements:^000000",
+			"Base Level 180"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[100651] = {
+		unidentifiedDisplayName = "High Priest's Wisdom",
+		unidentifiedResourceName = "Pontifex_Wisdom",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "High Priest's Wisdom",
+		identifiedResourceName = "Pontifex_Wisdom",
+		identifiedDescriptionName = {
+			"A stone that can impart strong magical power to a false belief weapon.",
+			"________________________",
+			"^0000CCWeight:^000000 1",
+			"________________________",
+			"^0000CCRequirements:^000000",
+			"Base Level 180"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[100652] = {
+		unidentifiedDisplayName = "High Priest's Tenacity",
+		unidentifiedResourceName = "Pontifex_Tenacity",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "High Priest's Tenacity",
+		identifiedResourceName = "Pontifex_Tenacity",
+		identifiedDescriptionName = {
+			"A stone that can impart strong physical abilities to a purified faith weapon.",
+			"________________________",
+			"^0000CCWeight:^000000 1",
+			"________________________",
+			"^0000CCRequirements:^000000",
+			"Base Level 180"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[100653] = {
+		unidentifiedDisplayName = "High Priest's Belief",
+		unidentifiedResourceName = "Pontifex_Belief",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "High Priest's Belief",
+		identifiedResourceName = "Pontifex_Belief",
+		identifiedDescriptionName = {
+			"A stone that can impart strong magical abilities to a purified faith weapon.",
+			"________________________",
+			"^0000CCWeight:^000000 1",
+			"________________________",
+			"^0000CCRequirements:^000000",
+			"Base Level 180"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[100655] = {
+		unidentifiedDisplayName = "Cleansing Blueprint Bundle",
+		unidentifiedResourceName = "Blue_Prints_Scroll",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Cleansing Blueprint Bundle",
+		identifiedResourceName = "Blue_Prints_Scroll",
+		identifiedDescriptionName = {
+			"A bundle containing three blueprints required to purify and reassemble weapons made with false belief.",
+			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[100661] = {
+		unidentifiedDisplayName = "Experience Shadow Thump Box",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Experience Shadow Thump Box",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"Experience Shadow Thump Box.",
 			"If you add 5 +7 of any of the following Shadow Equipments, you can revieve one Experience Shadow Shield:",
 			"________________________",
 			"Beginner, Rookie,",
 			"Advanced, Expert.",
 			"________________________",
-			"^ff0000The refine level of an item that becomes a material does not affect the result.^000000",			"________________________",
+			"^ff0000The refine level of an item that becomes a material does not affect the result.^000000",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100684] = {		unidentifiedDisplayName = "Biological Lab Helmet +11 Refinement Cube",		unidentifiedResourceName = "쉐도우큐브",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Biological Lab Helmet +11 Refinement Cube",		identifiedResourceName = "쉐도우큐브",		identifiedDescriptionName = {			"Mysterious Cube, which refines Biological Helmets to +11.",			"________________________",			"[Target Item]",			"Goral Crown,",
+	[100684] = {
+		unidentifiedDisplayName = "Biological Lab Helmet +11 Refinement Cube",
+		unidentifiedResourceName = "쉐도우큐브",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Biological Lab Helmet +11 Refinement Cube",
+		identifiedResourceName = "쉐도우큐브",
+		identifiedDescriptionName = {
+			"Mysterious Cube, which refines Biological Helmets to +11.",
+			"________________________",
+			"[Target Item]",
+			"Goral Crown,",
 			"Trial Tiadem,",
 			"Jade Crown,",
 			"Spinel Tiadem,",
@@ -394486,22 +395080,39 @@ tbl = {
 			"Saint Crown,",
 			"Lion Crown,",
 			"Goat Crown,",
-			"Twins Crown.",			"________________________",
+			"Twins Crown.",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100690] = {		unidentifiedDisplayName = "Material Shadow Cube II",		unidentifiedResourceName = "쉐도우큐브",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Material Shadow Cube II",		identifiedResourceName = "쉐도우큐브",		identifiedDescriptionName = {			"A cube that collects Shadow Equipments used as materials to recieve Shadow Equipments from Shadow Thump Boxes.",			"________________________",
-			"You can get 2 of the Shadow Equipments used in Infinity, Full Penetration, Full Tempest, True Gemstone, Maximum Mammoth, Experience and Absolve Shadow Thump Box.",			"________________________",
+	[100690] = {
+		unidentifiedDisplayName = "Material Shadow Cube II",
+		unidentifiedResourceName = "쉐도우큐브",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Material Shadow Cube II",
+		identifiedResourceName = "쉐도우큐브",
+		identifiedDescriptionName = {
+			"A cube that collects Shadow Equipments used as materials to recieve Shadow Equipments from Shadow Thump Boxes.",
+			"________________________",
+			"You can get 2 of the Shadow Equipments used in Infinity, Full Penetration, Full Tempest, True Gemstone, Maximum Mammoth, Experience and Absolve Shadow Thump Box.",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100691] = {		unidentifiedDisplayName = "Absolve Shadow Thump Box",		unidentifiedResourceName = "라피네뚝딱상자",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Absolve Shadow Thump Box",		identifiedResourceName = "라피네뚝딱상자",		identifiedDescriptionName = {			"Absolve Shadow Thump Box.",
+	[100691] = {
+		unidentifiedDisplayName = "Absolve Shadow Thump Box",
+		unidentifiedResourceName = "라피네뚝딱상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Absolve Shadow Thump Box",
+		identifiedResourceName = "라피네뚝딱상자",
+		identifiedDescriptionName = {
+			"Absolve Shadow Thump Box.",
 			"If you add 5 +7 of the following Shadow Equipments, you can revieve one Absolve Shadow Weapon or Absolve Shadow Shield randomly:",
 			"________________________",
 			"Malicious Shadow Armor,",
@@ -394513,24 +395124,31 @@ tbl = {
 			"Spiritual Shadow Earring,",
 			"Spiritual Shadow Pendant.",
 			"________________________",
-			"^ff0000The refine level of an item that becomes a material does not affect the result.^000000",			"________________________",
+			"^ff0000The refine level of an item that becomes a material does not affect the result.^000000",
+			"________________________",
 			"^0000CCWeight:^000000 1"
 		},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100694] = {		unidentifiedDisplayName = "Armor Modification Box(Lower)",		unidentifiedResourceName = "오래된보라상자", 
+	[100694] = {
+		unidentifiedDisplayName = "Armor Modification Box(Lower)",
+		unidentifiedResourceName = "오래된보라상자", 
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Armor Modification Box(Lower)",		identifiedResourceName = "오래된보라상자", 
+		identifiedDisplayName = "Armor Modification Box(Lower)",
+		identifiedResourceName = "오래된보라상자", 
 		identifiedDescriptionName = {},
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
-	[100695] = {		unidentifiedDisplayName = "Armor Modification Box(Intermediate)",		unidentifiedResourceName = "오래된보라상자", 
+	[100695] = {
+		unidentifiedDisplayName = "Armor Modification Box(Intermediate)",
+		unidentifiedResourceName = "오래된보라상자", 
 		unidentifiedDescriptionName = {},
-		identifiedDisplayName = "Armor Modification Box(Intermediate)",		identifiedResourceName = "오래된보라상자", 
+		identifiedDisplayName = "Armor Modification Box(Intermediate)",
+		identifiedResourceName = "오래된보라상자", 
 		identifiedDescriptionName = {},
 		slotCount = 0,
 		ClassNum = 0,
@@ -394859,30 +395477,92 @@ tbl = {
 		ClassNum = 0,
 		costume = false
 	},
-	[200090] = {		unidentifiedDisplayName = "(Limited) Mana Potion Box",		unidentifiedResourceName = "폭우의상자",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "(Limited) Mana Potion Box",		identifiedResourceName = "폭우의상자",		identifiedDescriptionName = {			"A box containing 125 Small Mana Potion.",			"Additionally, you can recieve 11 Katsua's Secret Keys.",			"________________________",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[200091] = {		unidentifiedDisplayName = "(Limited) Silvervine Cat Fruit Package II",		unidentifiedResourceName = "보물상자_",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "(Limited) Silvervine Cat Fruit Package II",		identifiedResourceName = "보물상자_",		identifiedDescriptionName = {			"A box containing 100 Silvervine Cat Fruit, 200 Small Life Potion, 200 Medium Life Potion and 200 Mysterious Life Potion.",
+	[200090] = {
+		unidentifiedDisplayName = "(Limited) Mana Potion Box",
+		unidentifiedResourceName = "폭우의상자",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "(Limited) Mana Potion Box",
+		identifiedResourceName = "폭우의상자",
+		identifiedDescriptionName = {
+			"A box containing 125 Small Mana Potion.",
+			"Additionally, you can recieve 11 Katsua's Secret Keys.",
+			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[200091] = {
+		unidentifiedDisplayName = "(Limited) Silvervine Cat Fruit Package II",
+		unidentifiedResourceName = "보물상자_",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "(Limited) Silvervine Cat Fruit Package II",
+		identifiedResourceName = "보물상자_",
+		identifiedDescriptionName = {
+			"A box containing 100 Silvervine Cat Fruit, 200 Small Life Potion, 200 Medium Life Potion and 200 Mysterious Life Potion.",
 			"Additionally, you can recieve 22 Katsua's Secret Keys.",
 			"________________________",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[200092] = {		unidentifiedDisplayName = "(Limited) Silvervine Cat Fruit Package III",		unidentifiedResourceName = "보물상자_",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "(Limited) Silvervine Cat Fruit Package III",		identifiedResourceName = "보물상자_",		identifiedDescriptionName = {			"A box containing 200 Silvervine Cat Fruit, 100 Infinity Drink, 300 Brilliant Protection Scroll and 50 Small Mana Potion.",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[200092] = {
+		unidentifiedDisplayName = "(Limited) Silvervine Cat Fruit Package III",
+		unidentifiedResourceName = "보물상자_",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "(Limited) Silvervine Cat Fruit Package III",
+		identifiedResourceName = "보물상자_",
+		identifiedDescriptionName = {
+			"A box containing 200 Silvervine Cat Fruit, 100 Infinity Drink, 300 Brilliant Protection Scroll and 50 Small Mana Potion.",
 			"Additionally, you can recieve 44 Katsua's Secret Keys.",
 			"________________________",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[200093] = {		unidentifiedDisplayName = "(Limited) HD Oridecon Box(Hollgrehenn)(30)",		unidentifiedResourceName = "캐시상자_빨강",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "(Limited) HD Oridecon Box(Hollgrehenn)(30)",		identifiedResourceName = "캐시상자_빨강",		identifiedDescriptionName = {			"(Limited) A box containing 30 HD Oridecon and 3 Hollgrehenn's Shadow Refine Hammer.",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[200093] = {
+		unidentifiedDisplayName = "(Limited) HD Oridecon Box(Hollgrehenn)(30)",
+		unidentifiedResourceName = "캐시상자_빨강",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "(Limited) HD Oridecon Box(Hollgrehenn)(30)",
+		identifiedResourceName = "캐시상자_빨강",
+		identifiedDescriptionName = {
+			"(Limited) A box containing 30 HD Oridecon and 3 Hollgrehenn's Shadow Refine Hammer.",
 			"________________________",
 			"A delicate ore that guarantees the safety of valuable equipment.",
 			"- If you fail to refine a weapon with a refine level of +7 or higher, the weapon is not destroyed and the refine level is decreased by 1 instead. It can't refine past +10. -",
 			"(If the refine attempt fails, the refine level decreases by 1.)",
 			"________________________",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[200094] = {		unidentifiedDisplayName = "(Limited) HD Elunium Box(Hollgrehenn)(30)",		unidentifiedResourceName = "캐시상자_빨강",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "(Limited) HD Elunium Box(Hollgrehenn)(30)",		identifiedResourceName = "캐시상자_빨강",		identifiedDescriptionName = {			"(Limited) A box containing 30 HD Elunium and 3 Hollgrehenn's Shadow Refine Hammer.",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[200094] = {
+		unidentifiedDisplayName = "(Limited) HD Elunium Box(Hollgrehenn)(30)",
+		unidentifiedResourceName = "캐시상자_빨강",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "(Limited) HD Elunium Box(Hollgrehenn)(30)",
+		identifiedResourceName = "캐시상자_빨강",
+		identifiedDescriptionName = {
+			"(Limited) A box containing 30 HD Elunium and 3 Hollgrehenn's Shadow Refine Hammer.",
 			"________________________",
 			"A delicate ore that guarantees the safety of valuable equipment.",
 			"- If you fail to refine a armor with a refine level of +7 or higher, the armor is not destroyed and the refine level is decreased by 1 instead. It can't refine past +10. -",
 			"(If the refine attempt fails, the refine level decreases by 1.)",
 			"________________________",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
 	[300000] = {
 		unidentifiedDisplayName = "IDTest Card",
 		unidentifiedResourceName = "이름없는카드",
@@ -397377,28 +398057,92 @@ tbl = {
 		costume = false,
 		EffectID = 1186
 	},
-	[300170] = {		unidentifiedDisplayName = "Rotten Wood Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Rotten Wood Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"Increases Natural HP Recovery Rate by 100%.",			"Increases damage against ^FF0000Insect^000000 race monsters by 10%.",			"________________________",
+	[300170] = {
+		unidentifiedDisplayName = "Rotten Wood Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Rotten Wood Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Increases Natural HP Recovery Rate by 100%.",
+			"Increases damage against ^FF0000Insect^000000 race monsters by 10%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Armor",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[300171] = {		unidentifiedDisplayName = "Grave Worm Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Grave Worm Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[300171] = {
+		unidentifiedDisplayName = "Grave Worm Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Grave Worm Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
 			"When compounded on either ^990099One-Handed Staff^000000 or ^990099Two-Handed Staff^000000:",
-			"Ignores magic defense of all race enemies, except ^FF0000Players^000000, by 10%.",			" ",
+			"Ignores magic defense of all race enemies, except ^FF0000Players^000000, by 10%.",
+			" ",
 			"^0000FFFor each 4 Refine Levels^000000:",
-			"Ignores magic defense of enemies by additional 2% and increases recieved physical damage by 2%.",			"________________________",
+			"Ignores magic defense of enemies by additional 2% and increases recieved physical damage by 2%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Weapon",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[300172] = {		unidentifiedDisplayName = "Brain Sucker Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Brain Sucker Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"MaxHP -15%",			"________________________",
-			"Drains 2 SP on each physical attack.",			"Physical attacks have a random chance to absorb 20% of the inflicted damage as HP.",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[300172] = {
+		unidentifiedDisplayName = "Brain Sucker Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Brain Sucker Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"MaxHP -15%",
+			"________________________",
+			"Drains 2 SP on each physical attack.",
+			"Physical attacks have a random chance to absorb 20% of the inflicted damage as HP.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Weapon",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[300173] = {		unidentifiedDisplayName = "Mosquilo Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Mosquilo Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"Decreases Variable Casting Time of all skills by 7%.",			"Decreases Attack Speed (Increases After Attack Delay by 3%).",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[300173] = {
+		unidentifiedDisplayName = "Mosquilo Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Mosquilo Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Decreases Variable Casting Time of all skills by 7%.",
+			"Decreases Attack Speed (Increases After Attack Delay by 3%).",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Accessory",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[300174] = {		unidentifiedDisplayName = "Melted Poring Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Melted Poring Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"MaxHP +10%",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[300174] = {
+		unidentifiedDisplayName = "Melted Poring Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Melted Poring Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"MaxHP +10%",
+			"________________________",
 			"Base ^CC6600VIT^000000 is at least ^FF0000100^000000:",
 			"Decreases damage taken from ^CC5500Earth^000000 and ^663399Poison^000000 elemental attacks by 1%.",
 			"________________________",
@@ -397407,19 +398151,52 @@ tbl = {
 			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Headgear",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[300175] = {		unidentifiedDisplayName = "Unknown Creature Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Unknown Creature Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"Increases ^663399Poison^000000 and ^777777Shadow^000000 elemental magic damage by 30%.",			"Increases damage taken from ^777777Holy^000000 elemental attacks by 10%.",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[300175] = {
+		unidentifiedDisplayName = "Unknown Creature Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Unknown Creature Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Increases ^663399Poison^000000 and ^777777Shadow^000000 elemental magic damage by 30%.",
+			"Increases damage taken from ^777777Holy^000000 elemental attacks by 10%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Accessory (Right)",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 104,		costume = false	},
-	[300176] = {		unidentifiedDisplayName = "Unidentified Creature Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Unidentified Creature Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {
-			"When compounded on either ^990099Two-Handed Sword^000000 or ^990099Two-Handed Axe^000000:",			"Increases melee physical damage by 10%.",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 104,
+		costume = false
+	},
+	[300176] = {
+		unidentifiedDisplayName = "Unidentified Creature Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Unidentified Creature Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"When compounded on either ^990099Two-Handed Sword^000000 or ^990099Two-Handed Axe^000000:",
+			"Increases melee physical damage by 10%.",
 			"ASPD +1",
-			" ",			"^0000FFFor each 2 Refine Levels^000000:",			"Increases melee physical damage by additional 1%.",
+			" ",
+			"^0000FFFor each 2 Refine Levels^000000:",
+			"Increases melee physical damage by additional 1%.",
 			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Weapon",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 104,		costume = false	},
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 104,
+		costume = false
+	},
 	[300177] = {
 		unidentifiedDisplayName = "Arena Arhi Card",
 		unidentifiedResourceName = "이름없는카드",
@@ -397714,115 +398491,355 @@ tbl = {
 		costume = false,
 		EffectID = 1186
 	},
-	[300192] = {		unidentifiedDisplayName = "Sakrai Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Sakrai Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {
+	[300192] = {
+		unidentifiedDisplayName = "Sakrai Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Sakrai Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
 			"P.ATK +1",
 			"S.MATK +1",
 			"________________________",
-			"Decreases After Skill Delay of all skills by 5%.",			"________________________",
+			"Decreases After Skill Delay of all skills by 5%.",
+			"________________________",
 			"When equipped with ^990099Tiara Card^000000:",
 			"P.ATK +3",
 			"S.MATK +3",
-			"Decreases After Skill Delay of all skills by additional 10%.",			"________________________",
+			"Decreases After Skill Delay of all skills by additional 10%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Headgear",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 104,		costume = false,		EffectID = 1186	}, 
-	[300193] = {		unidentifiedDisplayName = "Tiara Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Tiara Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"P.ATK +1",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 104,
+		costume = false,
+		EffectID = 1186
+	}, 
+	[300193] = {
+		unidentifiedDisplayName = "Tiara Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Tiara Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"P.ATK +1",
 			"S.MATK +1",
 			"________________________",
-			"Decreases After Skill Delay of all skills by 5%.",			"________________________",
+			"Decreases After Skill Delay of all skills by 5%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Headgear",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 104,		costume = false,		EffectID = 1186	}, 
-	[300211] = {		unidentifiedDisplayName = "Ash Toad Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Ash Toad Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"Increases ^CC5500Earth^000000 elemental magic damage by 35%.",			"Increases SP Consumption of all skills by 10%.",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 104,
+		costume = false,
+		EffectID = 1186
+	}, 
+	[300211] = {
+		unidentifiedDisplayName = "Ash Toad Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Ash Toad Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Increases ^CC5500Earth^000000 elemental magic damage by 35%.",
+			"Increases SP Consumption of all skills by 10%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Accessory (Left)",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[300212] = {		unidentifiedDisplayName = "Rake Hand Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Rake Hand Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"DEF +50",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[300212] = {
+		unidentifiedDisplayName = "Rake Hand Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Rake Hand Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"DEF +50",
 			"________________________",
-			"Decreases damage taken from ^777777Shadow^000000 elemental enemies by 10%.",			"________________________",
+			"Decreases damage taken from ^777777Shadow^000000 elemental enemies by 10%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Armor",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[300213] = {		unidentifiedDisplayName = "Fire Spark Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fire Spark Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"ATK +5",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[300213] = {
+		unidentifiedDisplayName = "Fire Spark Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fire Spark Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"ATK +5",
+			"________________________",
 			"Increases physical damage against ^FF0000Fire^000000 elemental enemies by 10%.",
-			"Increases Critical against ^FF0000Undead^000000 and ^FF0000Demon^000000 race monsters by 15%.",			"________________________",
+			"Increases Critical against ^FF0000Undead^000000 and ^FF0000Demon^000000 race monsters by 15%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Garment",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[300214] = {		unidentifiedDisplayName = "Hot Molar Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Hot Molar Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {
-			"When compounded on ^990099Katar^000000:",			"Increases melee physical damage by 10%.",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[300214] = {
+		unidentifiedDisplayName = "Hot Molar Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Hot Molar Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"When compounded on ^990099Katar^000000:",
+			"Increases melee physical damage by 10%.",
 			" ",
 			"^0000FFFor each 2 Refine Levels^000000:",
-			"Increases melee physical damage by additional 1%.",			"________________________",
+			"Increases melee physical damage by additional 1%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Weapon",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[300215] = {		unidentifiedDisplayName = "Volkering Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Volkering Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {
-			"Increases ^FF0000Fire^000000 and ^CC5500Earth^000000 elemental magic damage by 5%.",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[300215] = {
+		unidentifiedDisplayName = "Volkering Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Volkering Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Increases ^FF0000Fire^000000 and ^CC5500Earth^000000 elemental magic damage by 5%.",
+			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
-			"Increases ^FF0000Fire^000000 and ^CC5500Earth^000000 elemental magic damage by additional 1%.",			"________________________",
+			"Increases ^FF0000Fire^000000 and ^CC5500Earth^000000 elemental magic damage by additional 1%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Shoes",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[300216] = {		unidentifiedDisplayName = "Lava Toad Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Lava Toad Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {
-			"Increases ^FF0000Fire^000000 elemental magic damage by 35%.",			"Increases SP Consumption of all skills by 10%.",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[300216] = {
+		unidentifiedDisplayName = "Lava Toad Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Lava Toad Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Increases ^FF0000Fire^000000 elemental magic damage by 35%.",
+			"Increases SP Consumption of all skills by 10%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Accessory (Left)",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[300217] = {		unidentifiedDisplayName = "Burning Fang Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Burning Fang Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[300217] = {
+		unidentifiedDisplayName = "Burning Fang Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Burning Fang Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
 			"Increases melee physical damage by 20%.",
-			"Increases damage taken from all elemental attacks by 15%.",			"________________________",
+			"Increases damage taken from all elemental attacks by 15%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Shoes",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 104,		costume = false,		EffectID = 1186	}, 
-	[300218] = {		unidentifiedDisplayName = "Ash Hopper Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Ash Hopper Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"Increases ^777777Neutral^000000 elemental magic damage by 35%.",
-			"Increases SP Consumption of all skills by 10%.",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 104,
+		costume = false,
+		EffectID = 1186
+	}, 
+	[300218] = {
+		unidentifiedDisplayName = "Ash Hopper Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Ash Hopper Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Increases ^777777Neutral^000000 elemental magic damage by 35%.",
+			"Increases SP Consumption of all skills by 10%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Accessory (Left)",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[300219] = {		unidentifiedDisplayName = "Ashring Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Ashring Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {
-			"When compounded on either ^990099One-Handed Staff^000000 or ^990099Two-Handed Staff^000000:",			"Increases ^777777Shadow^000000 elemental magic damage by 10%.",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[300219] = {
+		unidentifiedDisplayName = "Ashring Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Ashring Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"When compounded on either ^990099One-Handed Staff^000000 or ^990099Two-Handed Staff^000000:",
+			"Increases ^777777Shadow^000000 elemental magic damage by 10%.",
 			" ",
-			"^0000FFRefine Level +10^000000:",			"Increases ^777777Shadow^000000 elemental magic damage by additional 10%.",
+			"^0000FFRefine Level +10^000000:",
+			"Increases ^777777Shadow^000000 elemental magic damage by additional 10%.",
 			" ",
 			"^0000FFRefine Level +14^000000:",
-			"Increases ^777777Shadow^000000 elemental magic damage by additional 10%.",			"________________________",
+			"Increases ^777777Shadow^000000 elemental magic damage by additional 10%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Weapon",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[300220] = {		unidentifiedDisplayName = "Gray Wolf Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Gray Wolf Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"Increases melee physical damage by 6%.",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[300220] = {
+		unidentifiedDisplayName = "Gray Wolf Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Gray Wolf Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Increases melee physical damage by 6%.",
 			"________________________",
-			"When equipped with ^990099Ghost Wolf Card^000000:",			"Increases melee physical damage by additional 8%.",
+			"When equipped with ^990099Ghost Wolf Card^000000:",
+			"Increases melee physical damage by additional 8%.",
 			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Accessory (Left)",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[300221] = {		unidentifiedDisplayName = "Bushring Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Bushring Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"Increases ^777777Neutral^000000 and ^777777Shadow^000000 elemental magic damage by 5%.",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[300221] = {
+		unidentifiedDisplayName = "Bushring Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Bushring Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Increases ^777777Neutral^000000 and ^777777Shadow^000000 elemental magic damage by 5%.",
+			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
 			"Increases ^777777Neutral^000000 and ^777777Shadow^000000 elemental magic damage by 1%.",
 			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Shoes",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[300222] = {		unidentifiedDisplayName = "Fire Wind Kite Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fire Wind Kite Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"Increases ^33CC00Wind^000000 elemental magic damage by 35%.",
-			"Increases SP Consumption of all skills by 10%.",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[300222] = {
+		unidentifiedDisplayName = "Fire Wind Kite Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fire Wind Kite Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Increases ^33CC00Wind^000000 elemental magic damage by 35%.",
+			"Increases SP Consumption of all skills by 10%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Accessory (Left)",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[300223] = {		unidentifiedDisplayName = "Ghost Wolf Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Ghost Wolf Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {
-			"Increases melee phsyical damage by 6%.",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[300223] = {
+		unidentifiedDisplayName = "Ghost Wolf Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Ghost Wolf Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Increases melee phsyical damage by 6%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Accessory (Right)",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false,		EffectID = 1186	},
-	[300227] = {		unidentifiedDisplayName = "Shulan Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Shulan Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"Increases magical damage against ^FF0000Angel^000000 race monsters by 75%.",			"Increases damage taken from ^FF0000Angel^000000 race monsters by 25%.",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false,
+		EffectID = 1186
+	},
+	[300227] = {
+		unidentifiedDisplayName = "Shulan Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Shulan Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Increases magical damage against ^FF0000Angel^000000 race monsters by 75%.",
+			"Increases damage taken from ^FF0000Angel^000000 race monsters by 25%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Armor",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 104,		costume = false,		EffectID = 1186	}, 
-	[300228] = {		unidentifiedDisplayName = "Distorted God Card",		unidentifiedResourceName = "이름없는카드",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Distorted God Card",		identifiedResourceName = "이름없는카드",		identifiedDescriptionName = {			"Increases magical damage against ^FF0000Demon^000000 race monsters by 75%.",
-			"Increases damage taken from ^FF0000Demon^000000 race monsters by 25%.",			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 104,
+		costume = false,
+		EffectID = 1186
+	}, 
+	[300228] = {
+		unidentifiedDisplayName = "Distorted God Card",
+		unidentifiedResourceName = "이름없는카드",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Distorted God Card",
+		identifiedResourceName = "이름없는카드",
+		identifiedDescriptionName = {
+			"Increases magical damage against ^FF0000Demon^000000 race monsters by 75%.",
+			"Increases damage taken from ^FF0000Demon^000000 race monsters by 25%.",
+			"________________________",
 			"^0000CCType:^000000 Card",
 			"^0000CCCompound on:^000000 Armor",
-			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 104,		costume = false,		EffectID = 1186	}, 
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 104,
+		costume = false,
+		EffectID = 1186
+	}, 
 	[310000] = {
 		unidentifiedDisplayName = "Sniper Stone II(Upper)",
 		unidentifiedResourceName = "궁수피규어",
@@ -401289,14 +402306,36 @@ tbl = {
 		ClassNum = 0,
 		costume = false
 	},
-	[310478] = {		unidentifiedDisplayName = "Wolf Orb(STR) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Str_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(STR) 1Lv",		identifiedResourceName = "Wolf_Orb_Str_1",		identifiedDescriptionName = {			"STR +1",
+	[310478] = {
+		unidentifiedDisplayName = "Wolf Orb(STR) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Str_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(STR) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Str_1",
+		identifiedDescriptionName = {
+			"STR +1",
 			"________________________",
-			"^0000FFRefine Level +7^000000:",			"STR +1",			"________________________",
+			"^0000FFRefine Level +7^000000:",
+			"STR +1",
+			"________________________",
 			"^0000FFRefine Level +9^000000:",
-			"STR +1",			"________________________",
+			"STR +1",
+			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"STR +1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310479] = {		unidentifiedDisplayName = "Wolf Orb(DEX) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Dex_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(DEX) 1Lv",		identifiedResourceName = "Wolf_Orb_Dex_1",		identifiedDescriptionName = {			"DEX +1",
+			"STR +1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310479] = {
+		unidentifiedDisplayName = "Wolf Orb(DEX) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Dex_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(DEX) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Dex_1",
+		identifiedDescriptionName = {
+			"DEX +1",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"DEX +1",
@@ -401305,8 +402344,20 @@ tbl = {
 			"DEX +1",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"DEX +1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310480] = {		unidentifiedDisplayName = "Wolf Orb(AGI) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Agi_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(AGI) 1Lv",		identifiedResourceName = "Wolf_Orb_Agi_1",		identifiedDescriptionName = {			"AGI +1",
+			"DEX +1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310480] = {
+		unidentifiedDisplayName = "Wolf Orb(AGI) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Agi_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(AGI) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Agi_1",
+		identifiedDescriptionName = {
+			"AGI +1",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"AGI +1",
@@ -401315,8 +402366,20 @@ tbl = {
 			"AGI +1",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"AGI +1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310481] = {		unidentifiedDisplayName = "Wolf Orb(INT) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Int_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(INT) 1Lv",		identifiedResourceName = "Wolf_Orb_Int_1",		identifiedDescriptionName = {			"INT +1",
+			"AGI +1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310481] = {
+		unidentifiedDisplayName = "Wolf Orb(INT) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Int_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(INT) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Int_1",
+		identifiedDescriptionName = {
+			"INT +1",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"INT +1",
@@ -401325,8 +402388,20 @@ tbl = {
 			"INT +1",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"INT +1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310482] = {		unidentifiedDisplayName = "Wolf Orb(VIT) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Vit_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(VIT) 1Lv",		identifiedResourceName = "Wolf_Orb_Vit_1",		identifiedDescriptionName = {			"VIT +1",
+			"INT +1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310482] = {
+		unidentifiedDisplayName = "Wolf Orb(VIT) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Vit_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(VIT) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Vit_1",
+		identifiedDescriptionName = {
+			"VIT +1",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"VIT +1",
@@ -401335,8 +402410,20 @@ tbl = {
 			"VIT +1",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"VIT +1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310483] = {		unidentifiedDisplayName = "Wolf Orb(LUK) 1Lv",		unidentifiedResourceName = "Wolf_Orb_luk_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(LUK) 1Lv",		identifiedResourceName = "Wolf_Orb_luk_1",		identifiedDescriptionName = {			"LUK +1",
+			"VIT +1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310483] = {
+		unidentifiedDisplayName = "Wolf Orb(LUK) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_luk_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(LUK) 1Lv",
+		identifiedResourceName = "Wolf_Orb_luk_1",
+		identifiedDescriptionName = {
+			"LUK +1",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"LUK +1",
@@ -401345,8 +402432,20 @@ tbl = {
 			"LUK +1",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"LUK +1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310484] = {		unidentifiedDisplayName = "Wolf Orb(STR) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Str_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(STR) 2Lv",		identifiedResourceName = "Wolf_Orb_Str_2",		identifiedDescriptionName = {			"STR +2",
+			"LUK +1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310484] = {
+		unidentifiedDisplayName = "Wolf Orb(STR) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Str_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(STR) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Str_2",
+		identifiedDescriptionName = {
+			"STR +2",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"STR +1",
@@ -401356,8 +402455,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"STR +2",
-			"Increases melee physical damage by 1%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310485] = {		unidentifiedDisplayName = "Wolf Orb(DEX) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Dex_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(DEX) 2Lv",		identifiedResourceName = "Wolf_Orb_Dex_2",		identifiedDescriptionName = {			"DEX +2",
+			"Increases melee physical damage by 1%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310485] = {
+		unidentifiedDisplayName = "Wolf Orb(DEX) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Dex_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(DEX) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Dex_2",
+		identifiedDescriptionName = {
+			"DEX +2",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"DEX +1",
@@ -401367,8 +402478,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"DEX +2",
-			"Increases ranged physical damage by 1%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310486] = {		unidentifiedDisplayName = "Wolf Orb(AGI) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Agi_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(AGI) 2Lv",		identifiedResourceName = "Wolf_Orb_Agi_2",		identifiedDescriptionName = {			"AGI +2",
+			"Increases ranged physical damage by 1%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310486] = {
+		unidentifiedDisplayName = "Wolf Orb(AGI) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Agi_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(AGI) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Agi_2",
+		identifiedDescriptionName = {
+			"AGI +2",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"AGI +1",
@@ -401378,8 +402501,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"AGI +2",
-			"Perfect HIT +1%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310487] = {		unidentifiedDisplayName = "Wolf Orb(INT) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Int_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(INT) 2Lv",		identifiedResourceName = "Wolf_Orb_Int_2",		identifiedDescriptionName = {			"INT +2",
+			"Perfect HIT +1%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310487] = {
+		unidentifiedDisplayName = "Wolf Orb(INT) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Int_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(INT) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Int_2",
+		identifiedDescriptionName = {
+			"INT +2",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"INT +1",
@@ -401389,8 +402524,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"INT +2",
-			"Increases all elemental magic damage by 1%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310488] = {		unidentifiedDisplayName = "Wolf Orb(VIT) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Vit_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(VIT) 2Lv",		identifiedResourceName = "Wolf_Orb_Vit_2",		identifiedDescriptionName = {			"VIT +2",
+			"Increases all elemental magic damage by 1%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310488] = {
+		unidentifiedDisplayName = "Wolf Orb(VIT) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Vit_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(VIT) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Vit_2",
+		identifiedDescriptionName = {
+			"VIT +2",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"VIT +1",
@@ -401400,8 +402547,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"VIT +2",
-			"Decreases After Skill Delay of all skills by 1%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310489] = {		unidentifiedDisplayName = "Wolf Orb(LUK) 2Lv",		unidentifiedResourceName = "Wolf_Orb_luk_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(LUK) 2Lv",		identifiedResourceName = "Wolf_Orb_luk_2",		identifiedDescriptionName = {			"LUK +2",
+			"Decreases After Skill Delay of all skills by 1%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310489] = {
+		unidentifiedDisplayName = "Wolf Orb(LUK) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_luk_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(LUK) 2Lv",
+		identifiedResourceName = "Wolf_Orb_luk_2",
+		identifiedDescriptionName = {
+			"LUK +2",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"LUK +1",
@@ -401411,8 +402570,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"LUK +2",
-			"Increases Critical Damage by 1%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310490] = {		unidentifiedDisplayName = "Wolf Orb(STR) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Str_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(STR) 3Lv",		identifiedResourceName = "Wolf_Orb_Str_3",		identifiedDescriptionName = {			"STR +3",
+			"Increases Critical Damage by 1%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310490] = {
+		unidentifiedDisplayName = "Wolf Orb(STR) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Str_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(STR) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Str_3",
+		identifiedDescriptionName = {
+			"STR +3",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"STR +1",
@@ -401422,8 +402593,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"STR +2",
-			"Increases melee physical damage by 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310491] = {		unidentifiedDisplayName = "Wolf Orb(DEX) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Dex_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(DEX) 3Lv",		identifiedResourceName = "Wolf_Orb_Dex_3",		identifiedDescriptionName = {			"DEX +3",
+			"Increases melee physical damage by 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310491] = {
+		unidentifiedDisplayName = "Wolf Orb(DEX) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Dex_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(DEX) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Dex_3",
+		identifiedDescriptionName = {
+			"DEX +3",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"DEX +1",
@@ -401433,8 +402616,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"DEX +2",
-			"Increases ranged physical damage by 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310492] = {		unidentifiedDisplayName = "Wolf Orb(AGI) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Agi_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(AGI) 3Lv",		identifiedResourceName = "Wolf_Orb_Agi_3",		identifiedDescriptionName = {			"AGI +3",
+			"Increases ranged physical damage by 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310492] = {
+		unidentifiedDisplayName = "Wolf Orb(AGI) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Agi_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(AGI) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Agi_3",
+		identifiedDescriptionName = {
+			"AGI +3",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"AGI +1",
@@ -401444,8 +402639,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"AGI +2",
-			"Perfect HIT +3%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310493] = {		unidentifiedDisplayName = "Wolf Orb(INT) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Int_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(INT) 3Lv",		identifiedResourceName = "Wolf_Orb_Int_3",		identifiedDescriptionName = {			"INT +3",
+			"Perfect HIT +3%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310493] = {
+		unidentifiedDisplayName = "Wolf Orb(INT) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Int_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(INT) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Int_3",
+		identifiedDescriptionName = {
+			"INT +3",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"INT +1",
@@ -401455,8 +402662,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"INT +2",
-			"Increases all elemental magic damage by 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310494] = {		unidentifiedDisplayName = "Wolf Orb(VIT) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Vit_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(VIT) 3Lv",		identifiedResourceName = "Wolf_Orb_Vit_3",		identifiedDescriptionName = {			"VIT +3",
+			"Increases all elemental magic damage by 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310494] = {
+		unidentifiedDisplayName = "Wolf Orb(VIT) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Vit_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(VIT) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Vit_3",
+		identifiedDescriptionName = {
+			"VIT +3",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"VIT +1",
@@ -401466,8 +402685,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"VIT +2",
-			"Decreases After Skill Delay of all skills by 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310495] = {		unidentifiedDisplayName = "Wolf Orb(LUK) 3Lv",		unidentifiedResourceName = "Wolf_Orb_luk_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(LUK) 3Lv",		identifiedResourceName = "Wolf_Orb_luk_3",		identifiedDescriptionName = {			"LUK +3",
+			"Decreases After Skill Delay of all skills by 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310495] = {
+		unidentifiedDisplayName = "Wolf Orb(LUK) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_luk_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(LUK) 3Lv",
+		identifiedResourceName = "Wolf_Orb_luk_3",
+		identifiedDescriptionName = {
+			"LUK +3",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"LUK +1",
@@ -401477,8 +402708,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"LUK +2",
-			"Increases Critical Damage by 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310496] = {		unidentifiedDisplayName = "Wolf Orb(Defense) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Def_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Defense) 1Lv",		identifiedResourceName = "Wolf_Orb_Def_1",		identifiedDescriptionName = {			"DEF +150",
+			"Increases Critical Damage by 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310496] = {
+		unidentifiedDisplayName = "Wolf Orb(Defense) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Def_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Defense) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Def_1",
+		identifiedDescriptionName = {
+			"DEF +150",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"DEF +75",
@@ -401487,8 +402730,20 @@ tbl = {
 			"DEF +75",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"DEF +75"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310497] = {		unidentifiedDisplayName = "Wolf Orb(Magical Defense) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Mdef_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Magical Defense) 1Lv",		identifiedResourceName = "Wolf_Orb_Mdef_1",		identifiedDescriptionName = {			"MDEF +15",
+			"DEF +75"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310497] = {
+		unidentifiedDisplayName = "Wolf Orb(Magical Defense) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Mdef_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Magical Defense) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Mdef_1",
+		identifiedDescriptionName = {
+			"MDEF +15",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"MDEF +7",
@@ -401497,8 +402752,20 @@ tbl = {
 			"MDEF +7",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"MDEF +7"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310498] = {		unidentifiedDisplayName = "Wolf Orb(Defense) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Def_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Defense) 2Lv",		identifiedResourceName = "Wolf_Orb_Def_2",		identifiedDescriptionName = {			"DEF +200",
+			"MDEF +7"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310498] = {
+		unidentifiedDisplayName = "Wolf Orb(Defense) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Def_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Defense) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Def_2",
+		identifiedDescriptionName = {
+			"DEF +200",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"DEF +75",
@@ -401507,8 +402774,20 @@ tbl = {
 			"DEF +75",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"DEF +100"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310499] = {		unidentifiedDisplayName = "Wolf Orb(Magical Defense) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Mdef_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Magical Defense) 2Lv",		identifiedResourceName = "Wolf_Orb_Mdef_2",		identifiedDescriptionName = {			"MDEF +20",
+			"DEF +100"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310499] = {
+		unidentifiedDisplayName = "Wolf Orb(Magical Defense) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Mdef_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Magical Defense) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Mdef_2",
+		identifiedDescriptionName = {
+			"MDEF +20",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"MDEF +7",
@@ -401517,8 +402796,20 @@ tbl = {
 			"MDEF +7",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"MDEF +10"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310500] = {		unidentifiedDisplayName = "Wolf Orb(Defense) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Def_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Defense) 3Lv",		identifiedResourceName = "Wolf_Orb_Def_3",		identifiedDescriptionName = {			"DEF +250",
+			"MDEF +10"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310500] = {
+		unidentifiedDisplayName = "Wolf Orb(Defense) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Def_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Defense) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Def_3",
+		identifiedDescriptionName = {
+			"DEF +250",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"DEF +75",
@@ -401527,8 +402818,20 @@ tbl = {
 			"DEF +100",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"DEF +100"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310501] = {		unidentifiedDisplayName = "Wolf Orb(Magical Defense) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Mdef_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Magical Defense) 3Lv",		identifiedResourceName = "Wolf_Orb_Mdef_3",		identifiedDescriptionName = {			"MDEF +25",
+			"DEF +100"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310501] = {
+		unidentifiedDisplayName = "Wolf Orb(Magical Defense) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Mdef_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Magical Defense) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Mdef_3",
+		identifiedDescriptionName = {
+			"MDEF +25",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"MDEF +7",
@@ -401537,8 +402840,20 @@ tbl = {
 			"MDEF +10",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"MDEF +10"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310502] = {		unidentifiedDisplayName = "Wolf Orb(Shooter) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Ran_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Shooter) 1Lv",		identifiedResourceName = "Wolf_Orb_Ran_1",		identifiedDescriptionName = {			"Increases ranged physical damage by 3%.",
+			"MDEF +10"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310502] = {
+		unidentifiedDisplayName = "Wolf Orb(Shooter) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Ran_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Shooter) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Ran_1",
+		identifiedDescriptionName = {
+			"Increases ranged physical damage by 3%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases ranged physical damage by additional 3%.",
@@ -401547,8 +402862,20 @@ tbl = {
 			"Increases ranged physical damage by additional 3%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases ranged physical damage by additional 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310503] = {		unidentifiedDisplayName = "Wolf Orb(Warrior) 1Lv",		unidentifiedResourceName = "Wolf_Orb_War_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Warrior) 1Lv",		identifiedResourceName = "Wolf_Orb_War_1",		identifiedDescriptionName = {			"ATK +2%, ATK +25",
+			"Increases ranged physical damage by additional 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310503] = {
+		unidentifiedDisplayName = "Wolf Orb(Warrior) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_War_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Warrior) 1Lv",
+		identifiedResourceName = "Wolf_Orb_War_1",
+		identifiedDescriptionName = {
+			"ATK +2%, ATK +25",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases melee physical damage by 3%.",
@@ -401557,8 +402884,20 @@ tbl = {
 			"Increases melee physical damage by additional 3%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases melee physical damage by additional 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310504] = {		unidentifiedDisplayName = "Wolf Orb(Mage) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Mag_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Mage) 1Lv",		identifiedResourceName = "Wolf_Orb_Mag_1",		identifiedDescriptionName = {			"MATK +2%, MATK +25",
+			"Increases melee physical damage by additional 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310504] = {
+		unidentifiedDisplayName = "Wolf Orb(Mage) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Mag_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Mage) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Mag_1",
+		identifiedDescriptionName = {
+			"MATK +2%, MATK +25",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases all elemental magic damage by 3%.",
@@ -401567,8 +402906,20 @@ tbl = {
 			"Increases all elemental magic damage by additional 3%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases all elemental magic damage by additional 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310505] = {		unidentifiedDisplayName = "Wolf Orb(Shooter) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Ran_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Shooter) 2Lv",		identifiedResourceName = "Wolf_Orb_Ran_2",		identifiedDescriptionName = {			"Increases ranged physical damage by 5%.",
+			"Increases all elemental magic damage by additional 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310505] = {
+		unidentifiedDisplayName = "Wolf Orb(Shooter) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Ran_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Shooter) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Ran_2",
+		identifiedDescriptionName = {
+			"Increases ranged physical damage by 5%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases ranged physical damage by additional 3%.",
@@ -401577,8 +402928,20 @@ tbl = {
 			"Increases ranged physical damage by additional 3%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases ranged physical damage by additional 5%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310506] = {		unidentifiedDisplayName = "Wolf Orb(Warrior) 2Lv",		unidentifiedResourceName = "Wolf_Orb_War_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Warrior) 2Lv",		identifiedResourceName = "Wolf_Orb_War_2",		identifiedDescriptionName = {			"ATK +4%, ATK +50",
+			"Increases ranged physical damage by additional 5%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310506] = {
+		unidentifiedDisplayName = "Wolf Orb(Warrior) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_War_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Warrior) 2Lv",
+		identifiedResourceName = "Wolf_Orb_War_2",
+		identifiedDescriptionName = {
+			"ATK +4%, ATK +50",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases melee physical damage by 3%.",
@@ -401587,8 +402950,20 @@ tbl = {
 			"Increases melee physical damage by additional 3%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases melee physical damage by additional 5%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310507] = {		unidentifiedDisplayName = "Wolf Orb(Mage) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Mag_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Mage) 2Lv",		identifiedResourceName = "Wolf_Orb_Mag_2",		identifiedDescriptionName = {			"MATK +4%, MATK +50",
+			"Increases melee physical damage by additional 5%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310507] = {
+		unidentifiedDisplayName = "Wolf Orb(Mage) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Mag_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Mage) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Mag_2",
+		identifiedDescriptionName = {
+			"MATK +4%, MATK +50",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases all elemental magic damage by 3%.",
@@ -401597,8 +402972,20 @@ tbl = {
 			"Increases all elemental magic damage by additional 3%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases all elemental magic damage by additional 5%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310508] = {		unidentifiedDisplayName = "Wolf Orb(Shooter) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Ran_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Shooter) 3Lv",		identifiedResourceName = "Wolf_Orb_Ran_3",		identifiedDescriptionName = {			"Increases ranged physical damage by 5%.",
+			"Increases all elemental magic damage by additional 5%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310508] = {
+		unidentifiedDisplayName = "Wolf Orb(Shooter) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Ran_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Shooter) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Ran_3",
+		identifiedDescriptionName = {
+			"Increases ranged physical damage by 5%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases ranged physical damage by additional 5%.",
@@ -401607,8 +402994,20 @@ tbl = {
 			"Increases ranged physical damage by additional 5%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases ranged physical damage by additional 5%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310509] = {		unidentifiedDisplayName = "Wolf Orb(Warrior) 3Lv",		unidentifiedResourceName = "Wolf_Orb_War_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Warrior) 3Lv",		identifiedResourceName = "Wolf_Orb_War_3",		identifiedDescriptionName = {			"ATK +6%, ATK +100",
+			"Increases ranged physical damage by additional 5%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310509] = {
+		unidentifiedDisplayName = "Wolf Orb(Warrior) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_War_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Warrior) 3Lv",
+		identifiedResourceName = "Wolf_Orb_War_3",
+		identifiedDescriptionName = {
+			"ATK +6%, ATK +100",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases melee physical damage by 5%.",
@@ -401617,8 +403016,20 @@ tbl = {
 			"Increases melee physical damage by additional 5%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases melee physical damage by additional 5%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310510] = {		unidentifiedDisplayName = "Wolf Orb(마도사) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Mag_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(마도사) 3Lv",		identifiedResourceName = "Wolf_Orb_Mag_3",		identifiedDescriptionName = {			"MATK +6%, MATK +100",
+			"Increases melee physical damage by additional 5%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310510] = {
+		unidentifiedDisplayName = "Wolf Orb(마도사) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Mag_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(마도사) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Mag_3",
+		identifiedDescriptionName = {
+			"MATK +6%, MATK +100",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases all elemental magic damage by 5%.",
@@ -401627,8 +403038,20 @@ tbl = {
 			"Increases all elemental magic damage by additional 5%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases all elemental magic damage by additional 5%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310511] = {		unidentifiedDisplayName = "Wolf Orb(Reflection Reject) 1Lv",		unidentifiedResourceName = "Wolf_Orb_R_Reject_1",		unidentifiedDescriptionName = { "?" },		identifiedDisplayName = "Wolf Orb(Reflection Reject) 1Lv",		identifiedResourceName = "Wolf_Orb_R_Reject_1",		identifiedDescriptionName = {			"Decreases reflected damage taken by 2%.",
+			"Increases all elemental magic damage by additional 5%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310511] = {
+		unidentifiedDisplayName = "Wolf Orb(Reflection Reject) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_R_Reject_1",
+		unidentifiedDescriptionName = { "?" },
+		identifiedDisplayName = "Wolf Orb(Reflection Reject) 1Lv",
+		identifiedResourceName = "Wolf_Orb_R_Reject_1",
+		identifiedDescriptionName = {
+			"Decreases reflected damage taken by 2%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases reflected damage taken by additional 2%.",
@@ -401637,8 +403060,20 @@ tbl = {
 			"Decreases reflected damage taken by additional 2%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases reflected damage taken by additional 2%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310512] = {		unidentifiedDisplayName = "Wolf Orb(Reflection Reject) 2Lv",		unidentifiedResourceName = "Wolf_Orb_R_Reject_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Reflection Reject) 2Lv",		identifiedResourceName = "Wolf_Orb_R_Reject_2",		identifiedDescriptionName = {			"Decreases reflected damage taken by 3%.",
+			"Decreases reflected damage taken by additional 2%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310512] = {
+		unidentifiedDisplayName = "Wolf Orb(Reflection Reject) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_R_Reject_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Reflection Reject) 2Lv",
+		identifiedResourceName = "Wolf_Orb_R_Reject_2",
+		identifiedDescriptionName = {
+			"Decreases reflected damage taken by 3%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases reflected damage taken by additional 3%.",
@@ -401647,8 +403082,20 @@ tbl = {
 			"Decreases reflected damage taken by additional 3%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases reflected damage taken by additional 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310513] = {		unidentifiedDisplayName = "Wolf Orb(Reflection Reject) 3Lv",		unidentifiedResourceName = "Wolf_Orb_R_Reject_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Reflection Reject) 3Lv",		identifiedResourceName = "Wolf_Orb_R_Reject_3",		identifiedDescriptionName = {			"Decreases damage taken from reflected attacks by 4%.",
+			"Decreases reflected damage taken by additional 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310513] = {
+		unidentifiedDisplayName = "Wolf Orb(Reflection Reject) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_R_Reject_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Reflection Reject) 3Lv",
+		identifiedResourceName = "Wolf_Orb_R_Reject_3",
+		identifiedDescriptionName = {
+			"Decreases damage taken from reflected attacks by 4%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases damage taken from reflected attacks by additional 4%.",
@@ -401657,8 +403104,20 @@ tbl = {
 			"Decreases damage taken from reflected attacks by additional 4%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases damage taken from reflected attacks by additional 4%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310514] = {		unidentifiedDisplayName = "Wolf Orb(Power Force)",		unidentifiedResourceName = "Wolf_Orb_Force",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Power Force)",		identifiedResourceName = "Wolf_Orb_Force",		identifiedDescriptionName = {			"ATK +2%, MATK +2%",
+			"Decreases damage taken from reflected attacks by additional 4%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310514] = {
+		unidentifiedDisplayName = "Wolf Orb(Power Force)",
+		unidentifiedResourceName = "Wolf_Orb_Force",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Power Force)",
+		identifiedResourceName = "Wolf_Orb_Force",
+		identifiedDescriptionName = {
+			"ATK +2%, MATK +2%",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"ATK +2%, MATK +2%",
@@ -401667,8 +403126,20 @@ tbl = {
 			"ATK +2%, MATK +2%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"ATK +4%, MATK +4%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310515] = {		unidentifiedDisplayName = "Wolf Orb(After Skill Delay)",		unidentifiedResourceName = "Wolf_Orb_S_Delay",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(After Skill Delay)",		identifiedResourceName = "Wolf_Orb_S_Delay",		identifiedDescriptionName = {			"Decreases After Skill Delay of all skills by 4%.",
+			"ATK +4%, MATK +4%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310515] = {
+		unidentifiedDisplayName = "Wolf Orb(After Skill Delay)",
+		unidentifiedResourceName = "Wolf_Orb_S_Delay",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(After Skill Delay)",
+		identifiedResourceName = "Wolf_Orb_S_Delay",
+		identifiedDescriptionName = {
+			"Decreases After Skill Delay of all skills by 4%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases After Skill Delay of all skills by additional 4%.",
@@ -401677,8 +403148,20 @@ tbl = {
 			"Decreases After Skill Delay of all skills by additional 4%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases After Skill Delay of all skills by additional 4%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310516] = {		unidentifiedDisplayName = "Wolf Orb(Dragon Breath)",		unidentifiedResourceName = "Wolf_Orb_Skill_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Dragon Breath)",		identifiedResourceName = "Wolf_Orb_Skill_1",		identifiedDescriptionName = {			"Increases damage of ^009900Dragon Breath^000000 and ^009900Dragon Breath - Water^000000 by 15%.",
+			"Decreases After Skill Delay of all skills by additional 4%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310516] = {
+		unidentifiedDisplayName = "Wolf Orb(Dragon Breath)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Dragon Breath)",
+		identifiedResourceName = "Wolf_Orb_Skill_1",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Dragon Breath^000000 and ^009900Dragon Breath - Water^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Dragon Breath^000000 and ^009900Dragon Breath - Water^000000 by additional 15%.",
@@ -401687,8 +403170,20 @@ tbl = {
 			"Increases damage of ^009900Dragon Breath^000000 and ^009900Dragon Breath - Water^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Dragon Breath^000000 and ^009900Dragon Breath - Water^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310517] = {		unidentifiedDisplayName = "Wolf Orb(Cutter Break)",		unidentifiedResourceName = "Wolf_Orb_Skill_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Cutter Break)",		identifiedResourceName = "Wolf_Orb_Skill_2",		identifiedDescriptionName = {			"Increases damage of ^009900Wind Cutter^000000 and ^009900Ignition Break^000000 by 15%.",
+			"Increases damage of ^009900Dragon Breath^000000 and ^009900Dragon Breath - Water^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310517] = {
+		unidentifiedDisplayName = "Wolf Orb(Cutter Break)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Cutter Break)",
+		identifiedResourceName = "Wolf_Orb_Skill_2",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Wind Cutter^000000 and ^009900Ignition Break^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Wind Cutter^000000 and ^009900Ignition Break^000000 by additional 15%.",
@@ -401698,8 +403193,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"Increases damage of ^009900Wind Cutter^000000 by additional 15%.",
-			"Decreases ^009900Ignition Break^000000 skill cooldown by 0.3 seconds."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310518] = {		unidentifiedDisplayName = "Wolf Orb(Hundred Wave)",		unidentifiedResourceName = "Wolf_Orb_Skill_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Hundred Wave)",		identifiedResourceName = "Wolf_Orb_Skill_3",		identifiedDescriptionName = { 			"Increases damage of ^009900Sonic Wave^000000 and ^009900Hundred Spear^000000 by 15%.",
+			"Decreases ^009900Ignition Break^000000 skill cooldown by 0.3 seconds."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310518] = {
+		unidentifiedDisplayName = "Wolf Orb(Hundred Wave)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Hundred Wave)",
+		identifiedResourceName = "Wolf_Orb_Skill_3",
+		identifiedDescriptionName = { 
+			"Increases damage of ^009900Sonic Wave^000000 and ^009900Hundred Spear^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Sonic Wave^000000 and ^009900Hundred Spear^000000 by additional 15%.",
@@ -401709,8 +403216,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"Increases damage of ^009900Sonic Wave^000000 by additional 15%.",
-			"Decreases ^009900Hundred Spear^000000 skill cooldown by 0.5 seconds."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310519] = {		unidentifiedDisplayName = "Wolf Orb(Brand Drive)",		unidentifiedResourceName = "Wolf_Orb_Skill_4",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Brand Drive)",		identifiedResourceName = "Wolf_Orb_Skill_4",		identifiedDescriptionName = {			"Increases damage of ^009900Overbrand^000000 and ^009900Earth Drive^000000 by 15%.",
+			"Decreases ^009900Hundred Spear^000000 skill cooldown by 0.5 seconds."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310519] = {
+		unidentifiedDisplayName = "Wolf Orb(Brand Drive)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_4",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Brand Drive)",
+		identifiedResourceName = "Wolf_Orb_Skill_4",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Overbrand^000000 and ^009900Earth Drive^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Overbrand^000000 and ^009900Earth Drive^000000 by additional 15%.",
@@ -401720,8 +403239,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"Increases damage of ^009900Overbrand^000000 by additional 15%.",
-			"Decreases ^009900Earth Drive^000000 skill cooldown by 1 second."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310520] = {		unidentifiedDisplayName = "Wolf Orb(Banishing Cannon)",		unidentifiedResourceName = "Wolf_Orb_Skill_5",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Banishing Cannon)",		identifiedResourceName = "Wolf_Orb_Skill_5",		identifiedDescriptionName = {			"Increases damage of ^009900Banishing Point^000000 and ^009900Cannon Spear^000000 by 15%.",
+			"Decreases ^009900Earth Drive^000000 skill cooldown by 1 second."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310520] = {
+		unidentifiedDisplayName = "Wolf Orb(Banishing Cannon)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_5",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Banishing Cannon)",
+		identifiedResourceName = "Wolf_Orb_Skill_5",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Banishing Point^000000 and ^009900Cannon Spear^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Banishing Point^000000 and ^009900Cannon Spear^000000 by additional 15%.",
@@ -401730,8 +403261,20 @@ tbl = {
 			"Increases damage of ^009900Banishing Point^000000 and ^009900Cannon Spear^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Banishing Point^000000 and ^009900Cannon Spear^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310521] = {		unidentifiedDisplayName = "Wolf Orb(Genesis Pressure)",		unidentifiedResourceName = "Wolf_Orb_Skill_6",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Genesis Pressure)",		identifiedResourceName = "Wolf_Orb_Skill_6",		identifiedDescriptionName = {			"Increases damage of ^009900Pressure^000000 and ^009900Genesis Ray^000000 by 15%.",
+			"Increases damage of ^009900Banishing Point^000000 and ^009900Cannon Spear^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310521] = {
+		unidentifiedDisplayName = "Wolf Orb(Genesis Pressure)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_6",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Genesis Pressure)",
+		identifiedResourceName = "Wolf_Orb_Skill_6",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Pressure^000000 and ^009900Genesis Ray^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Pressure^000000 and ^009900Genesis Ray^000000 by additional 15%.",
@@ -401740,8 +403283,20 @@ tbl = {
 			"Increases damage of ^009900Pressure^000000 and ^009900Genesis Ray^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Pressure^000000 and ^009900Genesis Ray^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310522] = {		unidentifiedDisplayName = "Wolf Orb(Boost Cannon)",		unidentifiedResourceName = "Wolf_Orb_Skill_7",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Boost Cannon)",		identifiedResourceName = "Wolf_Orb_Skill_7",		identifiedDescriptionName = {			"Increases damage of ^009900Knuckle Boost^000000 and ^009900Arms Cannon^000000 by 15%.",
+			"Increases damage of ^009900Pressure^000000 and ^009900Genesis Ray^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310522] = {
+		unidentifiedDisplayName = "Wolf Orb(Boost Cannon)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_7",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Boost Cannon)",
+		identifiedResourceName = "Wolf_Orb_Skill_7",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Knuckle Boost^000000 and ^009900Arms Cannon^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Knuckle Boost^000000 and ^009900Arms Cannon^000000 by additional 15%.",
@@ -401750,8 +403305,20 @@ tbl = {
 			"Increases damage of ^009900Knuckle Boost^000000 and ^009900Arms Cannon^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Knuckle Boost^000000 and ^009900Arms Cannon^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310523] = {		unidentifiedDisplayName = "Wolf Orb(Vulcan Boomerang)",		unidentifiedResourceName = "Wolf_Orb_Skill_8",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Vulcan Boomerang)",		identifiedResourceName = "Wolf_Orb_Skill_8",		identifiedDescriptionName = {			"Increases damage of ^009900Vulcan Arm^000000 and ^009900Axe Boomerang^000000 by 15%.",
+			"Increases damage of ^009900Knuckle Boost^000000 and ^009900Arms Cannon^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310523] = {
+		unidentifiedDisplayName = "Wolf Orb(Vulcan Boomerang)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_8",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Vulcan Boomerang)",
+		identifiedResourceName = "Wolf_Orb_Skill_8",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Vulcan Arm^000000 and ^009900Axe Boomerang^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Vulcan Arm^000000 and ^009900Axe Boomerang^000000 by additional 15%.",
@@ -401761,8 +403328,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"Increases damage of ^009900Vulcan Arm^000000 by additional 15%.",
-			"Decreases ^009900Axe Boomerang^000000 skill cooldown by 2 seconds."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310524] = {		unidentifiedDisplayName = "Wolf Orb(Tornado Swing)",		unidentifiedResourceName = "Wolf_Orb_Skill_9",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Tornado Swing)",		identifiedResourceName = "Wolf_Orb_Skill_9",		identifiedDescriptionName = {			"Increases damage of ^009900Axe Tornado^000000 and ^009900Power Swing^000000 by 15%.",
+			"Decreases ^009900Axe Boomerang^000000 skill cooldown by 2 seconds."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310524] = {
+		unidentifiedDisplayName = "Wolf Orb(Tornado Swing)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_9",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Tornado Swing)",
+		identifiedResourceName = "Wolf_Orb_Skill_9",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Axe Tornado^000000 and ^009900Power Swing^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Axe Tornado^000000 and ^009900Power Swing^000000 by additional 15%.",
@@ -401771,8 +403350,20 @@ tbl = {
 			"Increases damage of ^009900Axe Tornado^000000 and ^009900Power Swing^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Axe Tornado^000000 and ^009900Power Swing^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310525] = {		unidentifiedDisplayName = "Wolf Orb(Hell Tornado)",		unidentifiedResourceName = "Wolf_Orb_Skill_10",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Hell Tornado)",		identifiedResourceName = "Wolf_Orb_Skill_10",		identifiedDescriptionName = {			"Increases damage of ^009900Cart Tornado^000000 and ^009900Hell's Plant^000000 by 15%.",
+			"Increases damage of ^009900Axe Tornado^000000 and ^009900Power Swing^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310525] = {
+		unidentifiedDisplayName = "Wolf Orb(Hell Tornado)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_10",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Hell Tornado)",
+		identifiedResourceName = "Wolf_Orb_Skill_10",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Cart Tornado^000000 and ^009900Hell's Plant^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Cart Tornado^000000 and ^009900Hell's Plant^000000 by additional 15%.",
@@ -401781,8 +403372,20 @@ tbl = {
 			"Increases damage of ^009900Cart Tornado^000000 and ^009900Hell's Plant^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Cart Tornado^000000 and ^009900Hell's Plant^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310526] = {		unidentifiedDisplayName = "Wolf Orb(Crazy Cannon)",		unidentifiedResourceName = "Wolf_Orb_Skill_11",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Crazy Cannon)",		identifiedResourceName = "Wolf_Orb_Skill_11",		identifiedDescriptionName = {			"Increases damage of ^009900Crazy Weed^000000 and ^009900Cart Cannon^000000 by 15%.",
+			"Increases damage of ^009900Cart Tornado^000000 and ^009900Hell's Plant^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310526] = {
+		unidentifiedDisplayName = "Wolf Orb(Crazy Cannon)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_11",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Crazy Cannon)",
+		identifiedResourceName = "Wolf_Orb_Skill_11",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Crazy Weed^000000 and ^009900Cart Cannon^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Crazy Weed^000000 and ^009900Cart Cannon^000000 by additional 15%.",
@@ -401792,8 +403395,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"Increases damage of ^009900Cart Cannon^000000 by additional 15%.",
-			"Decreases ^009900Crazy Weed^000000 skill cooldown by 1 second."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310527] = {		unidentifiedDisplayName = "Wolf Orb(Acid Explosion)",		unidentifiedResourceName = "Wolf_Orb_Skill_12",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Acid Explosion)",		identifiedResourceName = "Wolf_Orb_Skill_12",		identifiedDescriptionName = {			"Increases damage of ^009900Acid Demonstration^000000 and ^009900Spore Explosion^000000 by 15%.",
+			"Decreases ^009900Crazy Weed^000000 skill cooldown by 1 second."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310527] = {
+		unidentifiedDisplayName = "Wolf Orb(Acid Explosion)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_12",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Acid Explosion)",
+		identifiedResourceName = "Wolf_Orb_Skill_12",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Acid Demonstration^000000 and ^009900Spore Explosion^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Acid Demonstration^000000 and ^009900Spore Explosion^000000 by additional 15%.",
@@ -401802,8 +403417,20 @@ tbl = {
 			"Increases damage of ^009900Acid Demonstration^000000 and ^009900Spore Explosion^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Acid Demonstration^000000 and ^009900Spore Explosion^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310528] = {		unidentifiedDisplayName = "Wolf Orb(Sonic Impact)",		unidentifiedResourceName = "Wolf_Orb_Skill_13",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Sonic Impact)",		identifiedResourceName = "Wolf_Orb_Skill_13",		identifiedDescriptionName = {			"Increases damage of ^009900Sonic Blow^000000 and ^009900Cross Impact^000000 by 15%.",
+			"Increases damage of ^009900Acid Demonstration^000000 and ^009900Spore Explosion^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310528] = {
+		unidentifiedDisplayName = "Wolf Orb(Sonic Impact)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_13",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Sonic Impact)",
+		identifiedResourceName = "Wolf_Orb_Skill_13",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Sonic Blow^000000 and ^009900Cross Impact^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Sonic Blow^000000 and ^009900Cross Impact^000000 by additional 15%.",
@@ -401812,8 +403439,20 @@ tbl = {
 			"Increases damage of ^009900Sonic Blow^000000 and ^009900Cross Impact^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Sonic Blow^000000 and ^009900Cross Impact^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310529] = {		unidentifiedDisplayName = "Wolf Orb(Cutter Slasher)",		unidentifiedResourceName = "Wolf_Orb_Skill_14",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Cutter Slasher)",		identifiedResourceName = "Wolf_Orb_Skill_14",		identifiedDescriptionName = {			"Increases damage of ^009900Cross Ripper Slasher^000000 and ^009900Rolling Cutter^000000 by 15%.",
+			"Increases damage of ^009900Sonic Blow^000000 and ^009900Cross Impact^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310529] = {
+		unidentifiedDisplayName = "Wolf Orb(Cutter Slasher)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_14",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Cutter Slasher)",
+		identifiedResourceName = "Wolf_Orb_Skill_14",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Cross Ripper Slasher^000000 and ^009900Rolling Cutter^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Cross Ripper Slasher^000000 and ^009900Rolling Cutter^000000 by additional 15%.",
@@ -401822,8 +403461,20 @@ tbl = {
 			"Increases damage of ^009900Cross Ripper Slasher^000000 and ^009900Rolling Cutter^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Cross Ripper Slasher^000000 and ^009900Rolling Cutter^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310530] = {		unidentifiedDisplayName = "Wolf Orb(Soul Slash)",		unidentifiedResourceName = "Wolf_Orb_Skill_15",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Soul Slash)",		identifiedResourceName = "Wolf_Orb_Skill_15",		identifiedDescriptionName = {			"Increases damage of ^009900Soul Destroyer^000000 and ^009900Counter Slash^000000 by 15%.",
+			"Increases damage of ^009900Cross Ripper Slasher^000000 and ^009900Rolling Cutter^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310530] = {
+		unidentifiedDisplayName = "Wolf Orb(Soul Slash)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_15",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Soul Slash)",
+		identifiedResourceName = "Wolf_Orb_Skill_15",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Soul Destroyer^000000 and ^009900Counter Slash^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Soul Destroyer^000000 and ^009900Counter Slash^000000 by additional 15%.",
@@ -401832,8 +403483,20 @@ tbl = {
 			"Increases damage of ^009900Soul Destroyer^000000 and ^009900Counter Slash^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Soul Destroyer^000000 and ^009900Counter Slash^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310531] = {		unidentifiedDisplayName = "Wolf Orb(Fatal Raid)",		unidentifiedResourceName = "Wolf_Orb_Skill_16",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Fatal Raid)",		identifiedResourceName = "Wolf_Orb_Skill_16",		identifiedDescriptionName = {			"Increases damage of ^009900Fatal Menace^000000 and ^009900Raid^000000 by 15%.",
+			"Increases damage of ^009900Soul Destroyer^000000 and ^009900Counter Slash^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310531] = {
+		unidentifiedDisplayName = "Wolf Orb(Fatal Raid)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_16",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Fatal Raid)",
+		identifiedResourceName = "Wolf_Orb_Skill_16",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Fatal Menace^000000 and ^009900Raid^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Fatal Menace^000000 and ^009900Raid^000000 by additional 15%.",
@@ -401842,8 +403505,20 @@ tbl = {
 			"Increases damage of ^009900Fatal Menace^000000 and ^009900Raid^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Fatal Menace^000000 and ^009900Raid^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310532] = {		unidentifiedDisplayName = "Wolf Orb(Shadow Spell)",		unidentifiedResourceName = "Wolf_Orb_Skill_17",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Shadow Spell)",		identifiedResourceName = "Wolf_Orb_Skill_17",		identifiedDescriptionName = {			"Increases all elemental magic damage by 15%.",
+			"Increases damage of ^009900Fatal Menace^000000 and ^009900Raid^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310532] = {
+		unidentifiedDisplayName = "Wolf Orb(Shadow Spell)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_17",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Shadow Spell)",
+		identifiedResourceName = "Wolf_Orb_Skill_17",
+		identifiedDescriptionName = {
+			"Increases all elemental magic damage by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases all elemental magic damage by additional 15%.",
@@ -401852,10 +403527,22 @@ tbl = {
 			"Increases all elemental magic damage by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases all elemental magic damage by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310533] = {		unidentifiedDisplayName = "Wolf Orb(Angle Shot)",		unidentifiedResourceName = "Wolf_Orb_Skill_18",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Angle Shot)",		identifiedResourceName = "Wolf_Orb_Skill_18",		identifiedDescriptionName = {
+			"Increases all elemental magic damage by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310533] = {
+		unidentifiedDisplayName = "Wolf Orb(Angle Shot)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_18",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Angle Shot)",
+		identifiedResourceName = "Wolf_Orb_Skill_18",
+		identifiedDescriptionName = {
 			"Increases damage of ^009900Triangle Shot^000000 by 15%.",
-			"Increases ranged physical damage by 5%.",			"________________________",
+			"Increases ranged physical damage by 5%.",
+			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Triangle Shot^000000 by additional 15%.",
 			"Increases ranged physical damage by additional 10%.",
@@ -401866,8 +403553,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"Increases damage of ^009900Triangle Shot^000000 by additional 15%.",
-			"Increases ranged physical damage by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310534] = {		unidentifiedDisplayName = "Wolf Orb(Crimson Strain)",		unidentifiedResourceName = "Wolf_Orb_Skill_19",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Crimson Strain)",		identifiedResourceName = "Wolf_Orb_Skill_19",		identifiedDescriptionName = {			"Increases damage of ^009900Crimson Rock^000000 and ^009900Earth Strain^000000 by 15%.",
+			"Increases ranged physical damage by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310534] = {
+		unidentifiedDisplayName = "Wolf Orb(Crimson Strain)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_19",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Crimson Strain)",
+		identifiedResourceName = "Wolf_Orb_Skill_19",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Crimson Rock^000000 and ^009900Earth Strain^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Crimson Rock^000000 and ^009900Earth Strain^000000 by additional 15%.",
@@ -401876,8 +403575,20 @@ tbl = {
 			"Increases damage of ^009900Crimson Rock^000000 and ^009900Earth Strain^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Crimson Rock^000000 and ^009900Earth Strain^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310535] = {		unidentifiedDisplayName = "Wolf Orb(Jack Lightning)",		unidentifiedResourceName = "Wolf_Orb_Skill_20",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Jack Lightning)",		identifiedResourceName = "Wolf_Orb_Skill_20",		identifiedDescriptionName = {			"Increases damage of ^009900Jack Frost^000000 and ^009900Chain Lightning^000000 by 15%.",
+			"Increases damage of ^009900Crimson Rock^000000 and ^009900Earth Strain^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310535] = {
+		unidentifiedDisplayName = "Wolf Orb(Jack Lightning)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_20",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Jack Lightning)",
+		identifiedResourceName = "Wolf_Orb_Skill_20",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Jack Frost^000000 and ^009900Chain Lightning^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Jack Frost^000000 and ^009900Chain Lightning^000000 by additional 15%.",
@@ -401886,8 +403597,20 @@ tbl = {
 			"Increases damage of ^009900Jack Frost^000000 and ^009900Chain Lightning^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Jack Frost^000000 and ^009900Chain Lightning^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310536] = {		unidentifiedDisplayName = "Wolf Orb(Comet Vortex)",		unidentifiedResourceName = "Wolf_Orb_Skill_21",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Comet Vortex)",		identifiedResourceName = "Wolf_Orb_Skill_21",		identifiedDescriptionName = {			"Increases damage of ^009900Comet^000000 and ^009900Tetra Vortex^000000 by 15%.",
+			"Increases damage of ^009900Jack Frost^000000 and ^009900Chain Lightning^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310536] = {
+		unidentifiedDisplayName = "Wolf Orb(Comet Vortex)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_21",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Comet Vortex)",
+		identifiedResourceName = "Wolf_Orb_Skill_21",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Comet^000000 and ^009900Tetra Vortex^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Comet^000000 and ^009900Tetra Vortex^000000 by additional 15%.",
@@ -401896,8 +403619,20 @@ tbl = {
 			"Increases damage of ^009900Comet^000000 and ^009900Tetra Vortex^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Comet^000000 and ^009900Tetra Vortex^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310537] = {		unidentifiedDisplayName = "Wolf Orb(Cloud Buster)",		unidentifiedResourceName = "Wolf_Orb_Skill_22",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Cloud Buster)",		identifiedResourceName = "Wolf_Orb_Skill_22",		identifiedDescriptionName = {			"Increases damage of ^009900Killing Cloud^000000 and ^009900Poison Buster^000000 by 15%.",
+			"Increases damage of ^009900Comet^000000 and ^009900Tetra Vortex^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310537] = {
+		unidentifiedDisplayName = "Wolf Orb(Cloud Buster)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_22",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Cloud Buster)",
+		identifiedResourceName = "Wolf_Orb_Skill_22",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Killing Cloud^000000 and ^009900Poison Buster^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Killing Cloud^000000 and ^009900Poison Buster^000000 by additional 15%.",
@@ -401906,8 +403641,20 @@ tbl = {
 			"Increases damage of ^009900Killing Cloud^000000 and ^009900Poison Buster^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Killing Cloud^000000 and ^009900Poison Buster^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310538] = {		unidentifiedDisplayName = "Wolf Orb(Varetyr Wave)",		unidentifiedResourceName = "Wolf_Orb_Skill_23",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Varetyr Wave)",		identifiedResourceName = "Wolf_Orb_Skill_23",		identifiedDescriptionName = {			"Increases damage of ^009900Psychic Wave^000000 and ^009900Varetyr Spear^000000 by 15%.",
+			"Increases damage of ^009900Killing Cloud^000000 and ^009900Poison Buster^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310538] = {
+		unidentifiedDisplayName = "Wolf Orb(Varetyr Wave)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_23",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Varetyr Wave)",
+		identifiedResourceName = "Wolf_Orb_Skill_23",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Psychic Wave^000000 and ^009900Varetyr Spear^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Psychic Wave^000000 and ^009900Varetyr Spear^000000 by additional 15%.",
@@ -401916,8 +403663,20 @@ tbl = {
 			"Increases damage of ^009900Psychic Wave^000000 and ^009900Varetyr Spear^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Psychic Wave^000000 and ^009900Varetyr Spear^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310539] = {		unidentifiedDisplayName = "Wolf Orb(Diamond Grave)",		unidentifiedResourceName = "Wolf_Orb_Skill_24",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Diamond Grave)",		identifiedResourceName = "Wolf_Orb_Skill_24",		identifiedDescriptionName = {			"Increases damage of ^009900Diamond Dust^000000 and ^009900Earth Grave^000000 by 15%.",
+			"Increases damage of ^009900Psychic Wave^000000 and ^009900Varetyr Spear^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310539] = {
+		unidentifiedDisplayName = "Wolf Orb(Diamond Grave)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_24",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Diamond Grave)",
+		identifiedResourceName = "Wolf_Orb_Skill_24",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Diamond Dust^000000 and ^009900Earth Grave^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Diamond Dust^000000 and ^009900Earth Grave^000000 by additional 15%.",
@@ -401926,8 +403685,20 @@ tbl = {
 			"Increases damage of ^009900Diamond Dust^000000 and ^009900Earth Grave^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Diamond Dust^000000 and ^009900Earth Grave^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310540] = {		unidentifiedDisplayName = "Wolf Orb(Magnusmus)",		unidentifiedResourceName = "Wolf_Orb_Skill_25",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Magnusmus)",		identifiedResourceName = "Wolf_Orb_Skill_25",		identifiedDescriptionName = {			"Increases damage of ^009900Magnus Exorcismus^000000 and ^009900Adoramus^000000 by 15%.",
+			"Increases damage of ^009900Diamond Dust^000000 and ^009900Earth Grave^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310540] = {
+		unidentifiedDisplayName = "Wolf Orb(Magnusmus)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_25",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Magnusmus)",
+		identifiedResourceName = "Wolf_Orb_Skill_25",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Magnus Exorcismus^000000 and ^009900Adoramus^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Magnus Exorcismus^000000 and ^009900Adoramus^000000 by additional 15%.",
@@ -401936,8 +403707,20 @@ tbl = {
 			"Increases damage of ^009900Magnus Exorcismus^000000 and ^009900Adoramus^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Magnus Exorcismus^000000 and ^009900Adoramus^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310541] = {		unidentifiedDisplayName = "Wolf Orb(Holy Judex)",		unidentifiedResourceName = "Wolf_Orb_Skill_26",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Holy Judex)",		identifiedResourceName = "Wolf_Orb_Skill_26",		identifiedDescriptionName = {			"Increases damage of ^009900Judex^000000 by 15%.",
+			"Increases damage of ^009900Magnus Exorcismus^000000 and ^009900Adoramus^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310541] = {
+		unidentifiedDisplayName = "Wolf Orb(Holy Judex)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_26",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Holy Judex)",
+		identifiedResourceName = "Wolf_Orb_Skill_26",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Judex^000000 by 15%.",
 			"Increases magical damage by 5%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
@@ -401949,9 +403732,21 @@ tbl = {
 			"Increases magical damage by additional 10%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Judex^000000 by additional 15%.",			"Increases magical damage by additional 15%."
-		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310542] = {		unidentifiedDisplayName = "Wolf Orb(Melee Duple)",		unidentifiedResourceName = "Wolf_Orb_Skill_27",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Melee Duple)",		identifiedResourceName = "Wolf_Orb_Skill_27",		identifiedDescriptionName = {			"Increases damage of ^009900Duple Light^000000 by 15%.",
+			"Increases damage of ^009900Judex^000000 by additional 15%.",
+			"Increases magical damage by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310542] = {
+		unidentifiedDisplayName = "Wolf Orb(Melee Duple)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_27",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Melee Duple)",
+		identifiedResourceName = "Wolf_Orb_Skill_27",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Duple Light^000000 by 15%.",
 			"Increases melee physical damage by 5%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
@@ -401964,8 +403759,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"Increases damage of ^009900Duple Light^000000 by additional 15%.",
-			"Increases melee physical damage by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310543] = {		unidentifiedDisplayName = "Wolf Orb(Tiger Empire)",		unidentifiedResourceName = "Wolf_Orb_Skill_28",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Tiger Empire)",		identifiedResourceName = "Wolf_Orb_Skill_28",		identifiedDescriptionName = {			"Increases damage of ^009900Tiger Cannon^000000 and ^009900Fallen Empire^000000 by 15%.",
+			"Increases melee physical damage by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310543] = {
+		unidentifiedDisplayName = "Wolf Orb(Tiger Empire)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_28",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Tiger Empire)",
+		identifiedResourceName = "Wolf_Orb_Skill_28",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Tiger Cannon^000000 and ^009900Fallen Empire^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Tiger Cannon^000000 and ^009900Fallen Empire^000000 by additional 15%.",
@@ -401974,8 +403781,20 @@ tbl = {
 			"Increases damage of ^009900Tiger Cannon^000000 and ^009900Fallen Empire^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Tiger Cannon^000000 and ^009900Fallen Empire^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310544] = {		unidentifiedDisplayName = "Wolf Orb(Lightning Blaster)",		unidentifiedResourceName = "Wolf_Orb_Skill_29",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Lightning Blaster)",		identifiedResourceName = "Wolf_Orb_Skill_29",		identifiedDescriptionName = {			"Increases damage of ^009900Rampage Blaster^000000 and ^009900Ride in Lightning^000000 by 15%.",
+			"Increases damage of ^009900Tiger Cannon^000000 and ^009900Fallen Empire^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310544] = {
+		unidentifiedDisplayName = "Wolf Orb(Lightning Blaster)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_29",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Lightning Blaster)",
+		identifiedResourceName = "Wolf_Orb_Skill_29",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Rampage Blaster^000000 and ^009900Ride in Lightning^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Rampage Blaster^000000 and ^009900Ride in Lightning^000000 by additional 15%.",
@@ -401985,8 +403804,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"Increases damage of ^009900Ride in Lightning^000000 by additional 15%.",
-			"Decreases ^009900Rampage Blaster^000000 skill cooldown by 0.5 seconds."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310545] = {		unidentifiedDisplayName = "Wolf Orb(Hell Arrow)",		unidentifiedResourceName = "Wolf_Orb_Skill_30",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Hell Arrow)",		identifiedResourceName = "Wolf_Orb_Skill_30",		identifiedDescriptionName = {			"Increases damage of ^009900Gate of Hell^000000 and ^009900Knuckle Arrow^000000 by 15%.",
+			"Decreases ^009900Rampage Blaster^000000 skill cooldown by 0.5 seconds."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310545] = {
+		unidentifiedDisplayName = "Wolf Orb(Hell Arrow)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_30",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Hell Arrow)",
+		identifiedResourceName = "Wolf_Orb_Skill_30",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Gate of Hell^000000 and ^009900Knuckle Arrow^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Gate of Hell^000000 and ^009900Knuckle Arrow^000000 by additional 15%.",
@@ -401995,8 +403826,20 @@ tbl = {
 			"Increases damage of ^009900Gate of Hell^000000 and ^009900Knuckle Arrow^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Gate of Hell^000000 and ^009900Knuckle Arrow^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310546] = {		unidentifiedDisplayName = "Wolf Orb(Cluster)",		unidentifiedResourceName = "Wolf_Orb_Skill_31",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Cluster)",		identifiedResourceName = "Wolf_Orb_Skill_31",		identifiedDescriptionName = {			"Increases damage of ^009900Cluster Bomb^000000 by 15%.",
+			"Increases damage of ^009900Gate of Hell^000000 and ^009900Knuckle Arrow^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310546] = {
+		unidentifiedDisplayName = "Wolf Orb(Cluster)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_31",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Cluster)",
+		identifiedResourceName = "Wolf_Orb_Skill_31",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Cluster Bomb^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Cluster Bomb^000000 by additional 15%.",
@@ -402005,8 +403848,20 @@ tbl = {
 			"Increases damage of ^009900Cluster Bomb^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Cluster Bomb^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310547] = {		unidentifiedDisplayName = "Wolf Orb(Breeze Shooting)",		unidentifiedResourceName = "Wolf_Orb_Skill_32",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Breeze Shooting)",		identifiedResourceName = "Wolf_Orb_Skill_32",		identifiedDescriptionName = {			"Increases damage of ^009900Sharp Shooting^000000 by 15%.",
+			"Increases damage of ^009900Cluster Bomb^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310547] = {
+		unidentifiedDisplayName = "Wolf Orb(Breeze Shooting)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_32",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Breeze Shooting)",
+		identifiedResourceName = "Wolf_Orb_Skill_32",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Sharp Shooting^000000 by 15%.",
 			"Increases Critical Damage by 10%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
@@ -402018,9 +403873,21 @@ tbl = {
 			"Increases Critical Damage by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Sharp Shooting^000000 by additional 15%.",			"Increases Critical Damage by additional 15%."
-		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310548] = {		unidentifiedDisplayName = "Wolf Orb(Aimed Storm)",		unidentifiedResourceName = "Wolf_Orb_Skill_33",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Aimed Storm)",		identifiedResourceName = "Wolf_Orb_Skill_33",		identifiedDescriptionName = {			"Increases damage of ^009900Aimed Bolt^000000 and ^009900Arrow Storm^000000 by 15%.",
+			"Increases damage of ^009900Sharp Shooting^000000 by additional 15%.",
+			"Increases Critical Damage by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310548] = {
+		unidentifiedDisplayName = "Wolf Orb(Aimed Storm)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_33",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Aimed Storm)",
+		identifiedResourceName = "Wolf_Orb_Skill_33",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Aimed Bolt^000000 and ^009900Arrow Storm^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Aimed Bolt^000000 and ^009900Arrow Storm^000000 by additional 15%.",
@@ -402029,8 +403896,20 @@ tbl = {
 			"Increases damage of ^009900Aimed Bolt^000000 and ^009900Arrow Storm^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Aimed Bolt^000000 and ^009900Arrow Storm^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310549] = {		unidentifiedDisplayName = "Wolf Orb(Sound Metal)",		unidentifiedResourceName = "Wolf_Orb_Skill_34",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Sound Metal)",		identifiedResourceName = "Wolf_Orb_Skill_34",		identifiedDescriptionName = {			"Increases damage of ^009900Metallic Sound^000000  and ^777777Neutral^000000 elemental magical damage by 5%.",
+			"Increases damage of ^009900Aimed Bolt^000000 and ^009900Arrow Storm^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310549] = {
+		unidentifiedDisplayName = "Wolf Orb(Sound Metal)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_34",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Sound Metal)",
+		identifiedResourceName = "Wolf_Orb_Skill_34",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Metallic Sound^000000  and ^777777Neutral^000000 elemental magical damage by 5%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Metallic Sound^000000 and ^777777Neutral^000000 elemental magical damage by additional 10%.",
@@ -402039,8 +403918,20 @@ tbl = {
 			"Increases damage of ^009900Metallic Sound^000000 and ^777777Neutral^000000 elemental magical damage by additional 10%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Metallic Sound^000000 and ^777777Neutral^000000 elemental magical damage by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310550] = {		unidentifiedDisplayName = "Wolf Orb(Reverb)",		unidentifiedResourceName = "Wolf_Orb_Skill_35",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Reverb)",		identifiedResourceName = "Wolf_Orb_Skill_35",		identifiedDescriptionName = {			"Increases damage of ^009900Reverberation^000000 by 15%.",
+			"Increases damage of ^009900Metallic Sound^000000 and ^777777Neutral^000000 elemental magical damage by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310550] = {
+		unidentifiedDisplayName = "Wolf Orb(Reverb)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_35",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Reverb)",
+		identifiedResourceName = "Wolf_Orb_Skill_35",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Reverberation^000000 by 15%.",
 			"Increases all elemental magical damage by 5%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
@@ -402053,8 +403944,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"Increases damage of ^009900Reverberation^000000 by additional 15%.",
-			"Increases all elemental magical damage by additional 10%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310551] = {		unidentifiedDisplayName = "Wolf Orb(Vulcanstorm)",		unidentifiedResourceName = "Wolf_Orb_Skill_36",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Vulcanstorm)",		identifiedResourceName = "Wolf_Orb_Skill_36",		identifiedDescriptionName = {			"Increases damage of ^009900Arrow Vulcan^000000 and ^009900Severe Rainstorm^000000 by 15%.",
+			"Increases all elemental magical damage by additional 10%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310551] = {
+		unidentifiedDisplayName = "Wolf Orb(Vulcanstorm)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_36",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Vulcanstorm)",
+		identifiedResourceName = "Wolf_Orb_Skill_36",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Arrow Vulcan^000000 and ^009900Severe Rainstorm^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Arrow Vulcan^000000 and ^009900Severe Rainstorm^000000 by additional 15%.",
@@ -402063,8 +403966,20 @@ tbl = {
 			"Increases damage of ^009900Arrow Vulcan^000000 and ^009900Severe Rainstorm^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Arrow Vulcan^000000 and ^009900Severe Rainstorm^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310552] = {		unidentifiedDisplayName = "Wolf Orb(Red Flame Explosion)",		unidentifiedResourceName = "Wolf_Orb_Skill_37",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Red Flame Explosion)",		identifiedResourceName = "Wolf_Orb_Skill_37",		identifiedDescriptionName = {			"Increases damage of ^009900Prominence Kick^000000 and ^009900Solar Burst^000000 by 15%.",
+			"Increases damage of ^009900Arrow Vulcan^000000 and ^009900Severe Rainstorm^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310552] = {
+		unidentifiedDisplayName = "Wolf Orb(Red Flame Explosion)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_37",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Red Flame Explosion)",
+		identifiedResourceName = "Wolf_Orb_Skill_37",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Prominence Kick^000000 and ^009900Solar Burst^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Prominence Kick^000000 and ^009900Solar Burst^000000 by additional 15%.",
@@ -402073,8 +403988,20 @@ tbl = {
 			"Increases damage of ^009900Prominence Kick^000000 and ^009900Solar Burst^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Prominence Kick^000000 and ^009900Solar Burst^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310553] = {		unidentifiedDisplayName = "Wolf Orb(Moon)",		unidentifiedResourceName = "Wolf_Orb_Skill_38",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Moon)",		identifiedResourceName = "Wolf_Orb_Skill_38",		identifiedDescriptionName = {			"Increases damage of ^009900New Moon Kick^000000 and ^009900Full Moon Kick^000000 by 15%.",
+			"Increases damage of ^009900Prominence Kick^000000 and ^009900Solar Burst^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310553] = {
+		unidentifiedDisplayName = "Wolf Orb(Moon)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_38",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Moon)",
+		identifiedResourceName = "Wolf_Orb_Skill_38",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900New Moon Kick^000000 and ^009900Full Moon Kick^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900New Moon Kick^000000 and ^009900Full Moon Kick^000000 by additional 15%.",
@@ -402083,8 +404010,20 @@ tbl = {
 			"Increases damage of ^009900New Moon Kick^000000 and ^009900Full Moon Kick^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900New Moon Kick^000000 and ^009900Full Moon Kick^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310554] = {		unidentifiedDisplayName = "Wolf Orb(Flash Fall)",		unidentifiedResourceName = "Wolf_Orb_Skill_39",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Flash Fall)",		identifiedResourceName = "Wolf_Orb_Skill_39",		identifiedDescriptionName = {			"Increases damage of ^009900Flash Kick^000000 and ^009900Falling Star^000000 by 15%.",
+			"Increases damage of ^009900New Moon Kick^000000 and ^009900Full Moon Kick^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310554] = {
+		unidentifiedDisplayName = "Wolf Orb(Flash Fall)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_39",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Flash Fall)",
+		identifiedResourceName = "Wolf_Orb_Skill_39",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Flash Kick^000000 and ^009900Falling Star^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Flash Kick^000000 and ^009900Falling Star^000000 by additional 15%.",
@@ -402093,8 +404032,20 @@ tbl = {
 			"Increases damage of ^009900Flash Kick^000000 and ^009900Falling Star^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Flash Kick^000000 and ^009900Falling Star^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310555] = {		unidentifiedDisplayName = "Wolf Orb(Shoo)",		unidentifiedResourceName = "Wolf_Orb_Skill_40",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Shoo)",		identifiedResourceName = "Wolf_Orb_Skill_40",		identifiedDescriptionName = {			"Increases damage of ^009900Esma^000000 and ^009900Eswhoo^000000 by 15%.",
+			"Increases damage of ^009900Flash Kick^000000 and ^009900Falling Star^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310555] = {
+		unidentifiedDisplayName = "Wolf Orb(Shoo)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_40",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Shoo)",
+		identifiedResourceName = "Wolf_Orb_Skill_40",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Esma^000000 and ^009900Eswhoo^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Esma^000000 and ^009900Eswhoo^000000 by additional 15%.",
@@ -402103,8 +404054,20 @@ tbl = {
 			"Increases damage of ^009900Esma^000000 and ^009900Eswhoo^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Esma^000000 and ^009900Eswhoo^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310556] = {		unidentifiedDisplayName = "Wolf Orb(Spa)",		unidentifiedResourceName = "Wolf_Orb_Skill_41",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Spa)",		identifiedResourceName = "Wolf_Orb_Skill_41",		identifiedDescriptionName = {			"Increases damage of ^009900Espa^000000 by 15%.",
+			"Increases damage of ^009900Esma^000000 and ^009900Eswhoo^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310556] = {
+		unidentifiedDisplayName = "Wolf Orb(Spa)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_41",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Spa)",
+		identifiedResourceName = "Wolf_Orb_Skill_41",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Espa^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Espa^000000 by additional 15%.",
@@ -402113,8 +404076,20 @@ tbl = {
 			"Increases damage of ^009900Espa^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Espa^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310557] = {		unidentifiedDisplayName = "Wolf Orb(Curse Explosion)",		unidentifiedResourceName = "Wolf_Orb_Skill_42",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Curse Explosion)",		identifiedResourceName = "Wolf_Orb_Skill_42",		identifiedDescriptionName = {			"Increases damage of ^009900Curse Explosion^000000 by 15%.",
+			"Increases damage of ^009900Espa^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310557] = {
+		unidentifiedDisplayName = "Wolf Orb(Curse Explosion)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_42",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Curse Explosion)",
+		identifiedResourceName = "Wolf_Orb_Skill_42",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Curse Explosion^000000 by 15%.",
 			"Increases ^777777Shadow^000000 elemental magical damage by 5%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
@@ -402127,8 +404102,20 @@ tbl = {
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
 			"Increases damage of ^009900Curse Explosion^000000 by additional 15%.",
-			"Increases ^777777Shadow^000000 elemental magical damage by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310558] = {		unidentifiedDisplayName = "Wolf Orb(Death Hammer Dance)",		unidentifiedResourceName = "Wolf_Orb_Skill_43",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Death Hammer Dance)",		identifiedResourceName = "Wolf_Orb_Skill_43",		identifiedDescriptionName = {			"Increases damage of ^009900Desperado^000000, ^009900Fire Dance^000000 and ^009900Hammer of God^000000 by 15%.",
+			"Increases ^777777Shadow^000000 elemental magical damage by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310558] = {
+		unidentifiedDisplayName = "Wolf Orb(Death Hammer Dance)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_43",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Death Hammer Dance)",
+		identifiedResourceName = "Wolf_Orb_Skill_43",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Desperado^000000, ^009900Fire Dance^000000 and ^009900Hammer of God^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Desperado^000000, ^009900Fire Dance^000000 and ^009900Hammer of God^000000 by additional 15%.",
@@ -402137,8 +404124,20 @@ tbl = {
 			"Increases damage of ^009900Desperado^000000, ^009900Fire Dance^000000 and ^009900Hammer of God^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Desperado^000000, ^009900Fire Dance^000000 and ^009900Hammer of God^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310559] = {		unidentifiedDisplayName = "Wolf Orb(Fire Howling Tail)",		unidentifiedResourceName = "Wolf_Orb_Skill_44",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Fire Howling Tail)",		identifiedResourceName = "Wolf_Orb_Skill_44",		identifiedDescriptionName = {			"Increases damage of ^009900Fire Rain^000000, ^009900Howling Mine^000000 and ^009900Dragon Tail^000000 by 15%.",
+			"Increases damage of ^009900Desperado^000000, ^009900Fire Dance^000000 and ^009900Hammer of God^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310559] = {
+		unidentifiedDisplayName = "Wolf Orb(Fire Howling Tail)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_44",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Fire Howling Tail)",
+		identifiedResourceName = "Wolf_Orb_Skill_44",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Fire Rain^000000, ^009900Howling Mine^000000 and ^009900Dragon Tail^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Fire Rain^000000, ^009900Howling Mine^000000 and ^009900Dragon Tail^000000 by additional 15%.",
@@ -402147,8 +404146,20 @@ tbl = {
 			"Increases damage of ^009900Fire Rain^000000, ^009900Howling Mine^000000 and ^009900Dragon Tail^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Fire Rain^000000, ^009900Howling Mine^000000 and ^009900Dragon Tail^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310560] = {		unidentifiedDisplayName = "Wolf Orb(Storm Buster Trip)",		unidentifiedResourceName = "Wolf_Orb_Skill_45",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Storm Buster Trip)",		identifiedResourceName = "Wolf_Orb_Skill_45",		identifiedDescriptionName = {			"Increases damage of ^009900Shattering Storm^000000, ^009900Banishing Buster^000000 and ^009900Round Trip^000000 by 15%.",
+			"Increases damage of ^009900Fire Rain^000000, ^009900Howling Mine^000000 and ^009900Dragon Tail^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310560] = {
+		unidentifiedDisplayName = "Wolf Orb(Storm Buster Trip)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_45",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Storm Buster Trip)",
+		identifiedResourceName = "Wolf_Orb_Skill_45",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Shattering Storm^000000, ^009900Banishing Buster^000000 and ^009900Round Trip^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Shattering Storm^000000, ^009900Banishing Buster^000000 and ^009900Round Trip^000000 by additional 15%.",
@@ -402157,8 +404168,20 @@ tbl = {
 			"Increases damage of ^009900Shattering Storm^000000, ^009900Banishing Buster^000000 and ^009900Round Trip^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Shattering Storm^000000, ^009900Banishing Buster^000000 and ^009900Round Trip^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310561] = {		unidentifiedDisplayName = "Wolf Orb(Chemical Fiber Style)",		unidentifiedResourceName = "Wolf_Orb_Skill_46",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Chemical Fiber Style)",		identifiedResourceName = "Wolf_Orb_Skill_46",		identifiedDescriptionName = {			"Increases damage of ^009900Flaming Petals^000000, ^009900Freezing Spear^000000 and ^009900Wind Blade^000000 by 15%.",
+			"Increases damage of ^009900Shattering Storm^000000, ^009900Banishing Buster^000000 and ^009900Round Trip^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310561] = {
+		unidentifiedDisplayName = "Wolf Orb(Chemical Fiber Style)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_46",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Chemical Fiber Style)",
+		identifiedResourceName = "Wolf_Orb_Skill_46",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Flaming Petals^000000, ^009900Freezing Spear^000000 and ^009900Wind Blade^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Flaming Petals^000000, ^009900Freezing Spear^000000 and ^009900Wind Blade^000000 by additional 15%.",
@@ -402167,8 +404190,20 @@ tbl = {
 			"Increases damage of ^009900Flaming Petals^000000, ^009900Freezing Spear^000000 and ^009900Wind Blade^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Flaming Petals^000000, ^009900Freezing Spear^000000 and ^009900Wind Blade^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310562] = {		unidentifiedDisplayName = "Wolf Orb(Crucifixion)",		unidentifiedResourceName = "Wolf_Orb_Skill_47",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Crucifixion)",		identifiedResourceName = "Wolf_Orb_Skill_47",		identifiedDescriptionName = {			"Increases damage of ^009900Cross Slash^000000 and ^009900Swirling Petal^000000 by 15%.",
+			"Increases damage of ^009900Flaming Petals^000000, ^009900Freezing Spear^000000 and ^009900Wind Blade^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310562] = {
+		unidentifiedDisplayName = "Wolf Orb(Crucifixion)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_47",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Crucifixion)",
+		identifiedResourceName = "Wolf_Orb_Skill_47",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Cross Slash^000000 and ^009900Swirling Petal^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Cross Slash^000000 and ^009900Swirling Petal^000000 by additional 15%.",
@@ -402177,8 +404212,20 @@ tbl = {
 			"Increases damage of ^009900Cross Slash^000000 and ^009900Swirling Petal^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Cross Slash^000000 and ^009900Swirling Petal^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310563] = {		unidentifiedDisplayName = "Wolf Orb(Dreamlike)",		unidentifiedResourceName = "Wolf_Orb_Skill_48",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Dreamlike)",		identifiedResourceName = "Wolf_Orb_Skill_48",		identifiedDescriptionName = {			"Increases damage of ^009900Exploding Dragon^000000, ^009900Snow Flake Draft^000000 and ^009900First Wind^000000 by 15%.",
+			"Increases damage of ^009900Cross Slash^000000 and ^009900Swirling Petal^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310563] = {
+		unidentifiedDisplayName = "Wolf Orb(Dreamlike)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_48",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Dreamlike)",
+		identifiedResourceName = "Wolf_Orb_Skill_48",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Exploding Dragon^000000, ^009900Snow Flake Draft^000000 and ^009900First Wind^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Exploding Dragon^000000, ^009900Snow Flake Draft^000000 and ^009900First Wind^000000 by additional 15%.",
@@ -402187,8 +404234,21 @@ tbl = {
 			"Increases damage of ^009900Exploding Dragon^000000, ^009900Snow Flake Draft^000000 and ^009900First Wind^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Exploding Dragon^000000, ^009900Snow Flake Draft^000000 and ^009900First Wind^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310564] = {		unidentifiedDisplayName = "Wolf Orb(Sea Power)",		unidentifiedResourceName = "Wolf_Orb_Skill_49",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Sea Power)",		identifiedResourceName = "Wolf_Orb_Skill_49",		identifiedDescriptionName = {			"Decreases ^009900Tuna Party^000000 and ^009900Tasty Shrimp Party^000000 skill cooldown by 1 second.",			"________________________",
+			"Increases damage of ^009900Exploding Dragon^000000, ^009900Snow Flake Draft^000000 and ^009900First Wind^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310564] = {
+		unidentifiedDisplayName = "Wolf Orb(Sea Power)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_49",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Sea Power)",
+		identifiedResourceName = "Wolf_Orb_Skill_49",
+		identifiedDescriptionName = {
+			"Decreases ^009900Tuna Party^000000 and ^009900Tasty Shrimp Party^000000 skill cooldown by 1 second.",
+			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases ^009900Tuna Party^000000 and ^009900Tasty Shrimp Party^000000 skill cooldown by additional 1 second.",
 			"________________________",
@@ -402196,8 +404256,20 @@ tbl = {
 			"Decreases ^009900Tuna Party^000000 and ^009900Tasty Shrimp Party^000000 skill cooldown by additional 2 seconds.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases ^009900Tuna Party^000000 and ^009900Tasty Shrimp Party^000000 skill cooldown by additional 2 seconds."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310565] = {		unidentifiedDisplayName = "Wolf Orb(Earth Power)",		unidentifiedResourceName = "Wolf_Orb_Skill_50",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Earth Power)",		identifiedResourceName = "Wolf_Orb_Skill_50",		identifiedDescriptionName = {			"Increases damage of ^009900Silvervine Stem Spear^000000 and ^009900Catnip Meteor^000000 by 15%.",
+			"Decreases ^009900Tuna Party^000000 and ^009900Tasty Shrimp Party^000000 skill cooldown by additional 2 seconds."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310565] = {
+		unidentifiedDisplayName = "Wolf Orb(Earth Power)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_50",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Earth Power)",
+		identifiedResourceName = "Wolf_Orb_Skill_50",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Silvervine Stem Spear^000000 and ^009900Catnip Meteor^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Silvervine Stem Spear^000000 and ^009900Catnip Meteor^000000 by additional 15%.",
@@ -402206,8 +404278,20 @@ tbl = {
 			"Increases damage of ^009900Silvervine Stem Spear^000000 and ^009900Catnip Meteor^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Silvervine Stem Spear^000000 and ^009900Catnip Meteor^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310566] = {		unidentifiedDisplayName = "Wolf Orb(Power of Life)",		unidentifiedResourceName = "Wolf_Orb_Skill_51",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Power of Life)",		identifiedResourceName = "Wolf_Orb_Skill_51",		identifiedDescriptionName = {			"Increases damage of ^009900Picky Peck^000000 and ^009900Lunatic Carrot Beat^000000 by 15%.",
+			"Increases damage of ^009900Silvervine Stem Spear^000000 and ^009900Catnip Meteor^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310566] = {
+		unidentifiedDisplayName = "Wolf Orb(Power of Life)",
+		unidentifiedResourceName = "Wolf_Orb_Skill_51",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Power of Life)",
+		identifiedResourceName = "Wolf_Orb_Skill_51",
+		identifiedDescriptionName = {
+			"Increases damage of ^009900Picky Peck^000000 and ^009900Lunatic Carrot Beat^000000 by 15%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases damage of ^009900Picky Peck^000000 and ^009900Lunatic Carrot Beat^000000 by additional 15%.",
@@ -402216,8 +404300,20 @@ tbl = {
 			"Increases damage of ^009900Picky Peck^000000 and ^009900Lunatic Carrot Beat^000000 by additional 15%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases damage of ^009900Picky Peck^000000 and ^009900Lunatic Carrot Beat^000000 by additional 15%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310567] = {		unidentifiedDisplayName = "Wolf Orb(Fast) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Speed_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Fast) 1Lv",		identifiedResourceName = "Wolf_Orb_Speed_1",		identifiedDescriptionName = {			"FLEE +10",
+			"Increases damage of ^009900Picky Peck^000000 and ^009900Lunatic Carrot Beat^000000 by additional 15%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310567] = {
+		unidentifiedDisplayName = "Wolf Orb(Fast) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Speed_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Fast) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Speed_1",
+		identifiedDescriptionName = {
+			"FLEE +10",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases After Attack Delay by 6%.",
@@ -402226,8 +404322,20 @@ tbl = {
 			"Decreases After Attack Delay by additional 6%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases After Attack Delay by additional 8%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310568] = {		unidentifiedDisplayName = "Wolf Orb(Caster) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Caster_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Caster) 1Lv",		identifiedResourceName = "Wolf_Orb_Caster_1",		identifiedDescriptionName = {			"Decreases Variable Casting Time of all skills by 6%.",
+			"Decreases After Attack Delay by additional 8%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310568] = {
+		unidentifiedDisplayName = "Wolf Orb(Caster) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Caster_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Caster) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Caster_1",
+		identifiedDescriptionName = {
+			"Decreases Variable Casting Time of all skills by 6%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases Variable Casting Time of all skills by additional 8%.",
@@ -402236,8 +404344,20 @@ tbl = {
 			"Decreases Variable Casting Time of all skills by additional 8%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases Variable Casting Time of all skills by additional 8%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310569] = {		unidentifiedDisplayName = "Wolf Orb(Critical) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Critical_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Critical) 1Lv",		identifiedResourceName = "Wolf_Orb_Critical_1",		identifiedDescriptionName = {			"Critical +10",
+			"Decreases Variable Casting Time of all skills by additional 8%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310569] = {
+		unidentifiedDisplayName = "Wolf Orb(Critical) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Critical_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Critical) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Critical_1",
+		identifiedDescriptionName = {
+			"Critical +10",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases Critical Damage by 6%.",
@@ -402246,8 +404366,20 @@ tbl = {
 			"Increases Critical Damage by additional 6%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases Critical Damage by additional 8%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310570] = {		unidentifiedDisplayName = "Wolf Orb(Guided Attack) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Guide_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Guided Attack) 1Lv",		identifiedResourceName = "Wolf_Orb_Guide_1",		identifiedDescriptionName = {			"HIT +20",
+			"Increases Critical Damage by additional 8%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310570] = {
+		unidentifiedDisplayName = "Wolf Orb(Guided Attack) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Guide_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Guided Attack) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Guide_1",
+		identifiedDescriptionName = {
+			"HIT +20",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Perfect HIT +6%",
@@ -402256,8 +404388,20 @@ tbl = {
 			"Perfect HIT +6%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Perfect HIT +8%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310571] = {		unidentifiedDisplayName = "Wolf Orb(Fast) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Speed_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Fast) 2Lv",		identifiedResourceName = "Wolf_Orb_Speed_2",		identifiedDescriptionName = {			"FLEE +20",
+			"Perfect HIT +8%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310571] = {
+		unidentifiedDisplayName = "Wolf Orb(Fast) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Speed_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Fast) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Speed_2",
+		identifiedDescriptionName = {
+			"FLEE +20",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases After Attack Delay by 6%.",
@@ -402266,8 +404410,20 @@ tbl = {
 			"Decreases After Attack Delay by additional 8%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases After Attack Delay by additional 8%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310572] = {		unidentifiedDisplayName = "Wolf Orb(Caster) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Caster_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Caster) 2Lv",		identifiedResourceName = "Wolf_Orb_Caster_2",		identifiedDescriptionName = {			"Decreases Variable Casting Time of all skills by 8%.",
+			"Decreases After Attack Delay by additional 8%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310572] = {
+		unidentifiedDisplayName = "Wolf Orb(Caster) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Caster_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Caster) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Caster_2",
+		identifiedDescriptionName = {
+			"Decreases Variable Casting Time of all skills by 8%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases Variable Casting Time of all skills by additional 8%.",
@@ -402276,8 +404432,20 @@ tbl = {
 			"Decreases Variable Casting Time of all skills by additional 8%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases Variable Casting Time of all skills by additional 8%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310573] = {		unidentifiedDisplayName = "Wolf Orb(Critical) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Critical_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Critical) 2Lv",		identifiedResourceName = "Wolf_Orb_Critical_2",		identifiedDescriptionName = {			"Critical +10",
+			"Decreases Variable Casting Time of all skills by additional 8%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310573] = {
+		unidentifiedDisplayName = "Wolf Orb(Critical) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Critical_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Critical) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Critical_2",
+		identifiedDescriptionName = {
+			"Critical +10",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases Critical Damage by 6%.",
@@ -402286,8 +404454,20 @@ tbl = {
 			"Increases Critical Damage by additional 8%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases Critical Damage by additional 8%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310574] = {		unidentifiedDisplayName = "Wolf Orb(Guided Attack) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Guide_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Guided Attack) 2Lv",		identifiedResourceName = "Wolf_Orb_Guide_2",		identifiedDescriptionName = {			"HIT +20",
+			"Increases Critical Damage by additional 8%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310574] = {
+		unidentifiedDisplayName = "Wolf Orb(Guided Attack) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Guide_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Guided Attack) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Guide_2",
+		identifiedDescriptionName = {
+			"HIT +20",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Perfect HIT +6%",
@@ -402296,8 +404476,20 @@ tbl = {
 			"Perfect HIT +8%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Perfect HIT +8%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310575] = {		unidentifiedDisplayName = "Wolf Orb(Fast) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Speed_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Fast) 3Lv",		identifiedResourceName = "Wolf_Orb_Speed_3",		identifiedDescriptionName = {			"FLEE +30",
+			"Perfect HIT +8%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310575] = {
+		unidentifiedDisplayName = "Wolf Orb(Fast) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Speed_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Fast) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Speed_3",
+		identifiedDescriptionName = {
+			"FLEE +30",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases After Attack Delay by 8%.",
@@ -402306,8 +404498,19 @@ tbl = {
 			"Decreases After Attack Delay by additional 8%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases After Attack Delay by additional 8%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310576] = {		unidentifiedDisplayName = "Wolf Orb(Caster) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Caster_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Caster) 3Lv",		identifiedResourceName = "Wolf_Orb_Caster_3",		identifiedDescriptionName = {
+			"Decreases After Attack Delay by additional 8%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310576] = {
+		unidentifiedDisplayName = "Wolf Orb(Caster) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Caster_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Caster) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Caster_3",
+		identifiedDescriptionName = {
 			"MATK +30",
 			"Decreases Variable Casting Time of all skills by 8%.",
 			"________________________",
@@ -402318,8 +404521,20 @@ tbl = {
 			"Decreases Variable Casting Time of all skills by additional 8%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases Variable Casting Time of all skills by additional 8%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310577] = {		unidentifiedDisplayName = "Wolf Orb(Critical) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Critical_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Critical) 3Lv",		identifiedResourceName = "Wolf_Orb_Critical_3",		identifiedDescriptionName = {			"Critical +15",
+			"Decreases Variable Casting Time of all skills by additional 8%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310577] = {
+		unidentifiedDisplayName = "Wolf Orb(Critical) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Critical_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Critical) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Critical_3",
+		identifiedDescriptionName = {
+			"Critical +15",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases Critical Damage by 8%.",
@@ -402328,8 +404543,20 @@ tbl = {
 			"Increases Critical Damage by additional 8%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases Critical Damage by additional 8%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310578] = {		unidentifiedDisplayName = "Wolf Orb(Guided Attack) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Guide_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Guided Attack) 3Lv",		identifiedResourceName = "Wolf_Orb_Guide_3",		identifiedDescriptionName = {			"HIT +30",
+			"Increases Critical Damage by additional 8%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310578] = {
+		unidentifiedDisplayName = "Wolf Orb(Guided Attack) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Guide_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Guided Attack) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Guide_3",
+		identifiedDescriptionName = {
+			"HIT +30",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Perfect HIT +8%",
@@ -402338,8 +404565,20 @@ tbl = {
 			"Perfect HIT +8%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Perfect HIT +8%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310579] = {		unidentifiedDisplayName = "Wolf Orb(Above All) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Above_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Above All) 1Lv",		identifiedResourceName = "Wolf_Orb_Above_1",		identifiedDescriptionName = {			"Decreases damage taken from ^FF0000Normal^000000 and ^FF0000Boss^000000 class enemies by 3%.",
+			"Perfect HIT +8%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310579] = {
+		unidentifiedDisplayName = "Wolf Orb(Above All) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Above_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Above All) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Above_1",
+		identifiedDescriptionName = {
+			"Decreases damage taken from ^FF0000Normal^000000 and ^FF0000Boss^000000 class enemies by 3%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases damage taken from all elemental enemies by 3%.",
@@ -402348,8 +404587,20 @@ tbl = {
 			"Decreases damage taken from all sized enemies by 3%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases damage taken from all race enemies, except ^FF0000Players^000000, by 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310580] = {		unidentifiedDisplayName = "Wolf Orb(Above All) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Above_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Above All) 2Lv",		identifiedResourceName = "Wolf_Orb_Above_2",		identifiedDescriptionName = {			"Decreases damage taken from ^FF0000Normal^000000 and ^FF0000Boss^000000 class enemies by 5%.",
+			"Decreases damage taken from all race enemies, except ^FF0000Players^000000, by 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310580] = {
+		unidentifiedDisplayName = "Wolf Orb(Above All) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Above_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Above All) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Above_2",
+		identifiedDescriptionName = {
+			"Decreases damage taken from ^FF0000Normal^000000 and ^FF0000Boss^000000 class enemies by 5%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases damage taken from all elemental enemies by 5%.",
@@ -402358,8 +404609,20 @@ tbl = {
 			"Decreases damage taken from all sized enemies by 5%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases damage taken from all race enemies, except ^FF0000Players^000000, by 5%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310581] = {		unidentifiedDisplayName = "Wolf Orb(Above All) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Above_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Above All) 3Lv",		identifiedResourceName = "Wolf_Orb_Above_3",		identifiedDescriptionName = {			"Decreases damage taken from ^FF0000Normal^000000 and ^FF0000Boss^000000 class enemies by 7%.",
+			"Decreases damage taken from all race enemies, except ^FF0000Players^000000, by 5%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310581] = {
+		unidentifiedDisplayName = "Wolf Orb(Above All) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Above_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Above All) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Above_3",
+		identifiedDescriptionName = {
+			"Decreases damage taken from ^FF0000Normal^000000 and ^FF0000Boss^000000 class enemies by 7%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases damage taken from all elemental enemies by 7%.",
@@ -402368,8 +404631,20 @@ tbl = {
 			"Decreases damage taken from all sized enemies by 7%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases damage taken from all race enemies, except ^FF0000Players^000000, by 7%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310582] = {		unidentifiedDisplayName = "Wolf Orb(Powerful) 1Lv",		unidentifiedResourceName = "Wolf_Orb_P_Full_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Powerful) 1Lv",		identifiedResourceName = "Wolf_Orb_P_Full_1",		identifiedDescriptionName = {			"Increases physical damage and all elemental magic damage by 2%.",
+			"Decreases damage taken from all race enemies, except ^FF0000Players^000000, by 7%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310582] = {
+		unidentifiedDisplayName = "Wolf Orb(Powerful) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_P_Full_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Powerful) 1Lv",
+		identifiedResourceName = "Wolf_Orb_P_Full_1",
+		identifiedDescriptionName = {
+			"Increases physical damage and all elemental magic damage by 2%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases physical damage and all elemental magic damage by additional 2%.",
@@ -402378,8 +404653,20 @@ tbl = {
 			"Increases physical damage and all elemental magic damage by additional 2%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases physical damage and all elemental magic damage by additional 2%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310583] = {		unidentifiedDisplayName = "Wolf Orb(Powerful) 2Lv",		unidentifiedResourceName = "Wolf_Orb_P_Full_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Powerful) 2Lv",		identifiedResourceName = "Wolf_Orb_P_Full_2",		identifiedDescriptionName = {			"Increases physical damage and all elemental magic damage by 2%.",
+			"Increases physical damage and all elemental magic damage by additional 2%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310583] = {
+		unidentifiedDisplayName = "Wolf Orb(Powerful) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_P_Full_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Powerful) 2Lv",
+		identifiedResourceName = "Wolf_Orb_P_Full_2",
+		identifiedDescriptionName = {
+			"Increases physical damage and all elemental magic damage by 2%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases physical damage and all elemental magic damage by additional 2%.",
@@ -402388,8 +404675,20 @@ tbl = {
 			"Increases physical damage and all elemental magic damage by additional 3%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases physical damage and all elemental magic damage by additional 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310584] = {		unidentifiedDisplayName = "Wolf Orb(Powerful) 3Lv",		unidentifiedResourceName = "Wolf_Orb_P_Full_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Powerful) 3Lv",		identifiedResourceName = "Wolf_Orb_P_Full_3",		identifiedDescriptionName = {			"Increases physical damage and all elemental magic damage by 3%.",
+			"Increases physical damage and all elemental magic damage by additional 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310584] = {
+		unidentifiedDisplayName = "Wolf Orb(Powerful) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_P_Full_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Powerful) 3Lv",
+		identifiedResourceName = "Wolf_Orb_P_Full_3",
+		identifiedDescriptionName = {
+			"Increases physical damage and all elemental magic damage by 3%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases physical damage and all elemental magic damage by additional 3%.",
@@ -402398,8 +404697,20 @@ tbl = {
 			"Increases physical damage and all elemental magic damage by additional 3%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases physical damage and all elemental magic damage by additional 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310585] = {		unidentifiedDisplayName = "Wolf Orb(Mirror Counter) 1Lv",		unidentifiedResourceName = "Wolf_Orb_M_Counter_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Mirror Counter) 1Lv",		identifiedResourceName = "Wolf_Orb_M_Counter_1",		identifiedDescriptionName = {			"Decreases damage taken from reflected attacks by 2%.",
+			"Increases physical damage and all elemental magic damage by additional 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310585] = {
+		unidentifiedDisplayName = "Wolf Orb(Mirror Counter) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_M_Counter_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Mirror Counter) 1Lv",
+		identifiedResourceName = "Wolf_Orb_M_Counter_1",
+		identifiedDescriptionName = {
+			"Decreases damage taken from reflected attacks by 2%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases damage taken from reflected attacks by additional 2%.",
@@ -402408,8 +404719,20 @@ tbl = {
 			"Decreases damage taken from reflected attacks by additional 3%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases damage taken from reflected attacks by additional 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310586] = {		unidentifiedDisplayName = "Wolf Orb(Mirror Counter) 2Lv",		unidentifiedResourceName = "Wolf_Orb_M_Counter_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Mirror Counter) 2Lv",		identifiedResourceName = "Wolf_Orb_M_Counter_2",		identifiedDescriptionName = {			"Decreases damage taken from reflected attacks by 3%.",
+			"Decreases damage taken from reflected attacks by additional 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310586] = {
+		unidentifiedDisplayName = "Wolf Orb(Mirror Counter) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_M_Counter_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Mirror Counter) 2Lv",
+		identifiedResourceName = "Wolf_Orb_M_Counter_2",
+		identifiedDescriptionName = {
+			"Decreases damage taken from reflected attacks by 3%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases damage taken from reflected attacks by additional 3%.",
@@ -402418,8 +404741,20 @@ tbl = {
 			"Decreases damage taken from reflected attacks by additional 4%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases damage taken from reflected attacks by additional 4%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310587] = {		unidentifiedDisplayName = "Wolf Orb(Mirror Counter) 3Lv",		unidentifiedResourceName = "Wolf_Orb_M_Counter_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Mirror Counter) 3Lv",		identifiedResourceName = "Wolf_Orb_M_Counter_3",		identifiedDescriptionName = {			"Decreases damage taken from reflected attacks by 4%.",
+			"Decreases damage taken from reflected attacks by additional 4%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310587] = {
+		unidentifiedDisplayName = "Wolf Orb(Mirror Counter) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_M_Counter_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Mirror Counter) 3Lv",
+		identifiedResourceName = "Wolf_Orb_M_Counter_3",
+		identifiedDescriptionName = {
+			"Decreases damage taken from reflected attacks by 4%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases damage taken from reflected attacks by additional 4%.",
@@ -402428,8 +404763,20 @@ tbl = {
 			"Decreases damage taken from reflected attacks by additional 5%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Decreases damage taken from reflected attacks by additional 5%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310588] = {		unidentifiedDisplayName = "Wolf Orb(Health) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Hp_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Health) 1Lv",		identifiedResourceName = "Wolf_Orb_Hp_1",		identifiedDescriptionName = {			"MaxHP +5%, MaxHP +1500",
+			"Decreases damage taken from reflected attacks by additional 5%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310588] = {
+		unidentifiedDisplayName = "Wolf Orb(Health) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Hp_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Health) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Hp_1",
+		identifiedDescriptionName = {
+			"MaxHP +5%, MaxHP +1500",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"MaxHP +2%",
@@ -402438,8 +404785,20 @@ tbl = {
 			"MaxHP +2%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"MaxHP +3%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310589] = {		unidentifiedDisplayName = "Wolf Orb(Mental Power) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Sp_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Mental Power) 1Lv",		identifiedResourceName = "Wolf_Orb_Sp_1",		identifiedDescriptionName = {			"MaxSP +5%, MaxSP +300",
+			"MaxHP +3%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310589] = {
+		unidentifiedDisplayName = "Wolf Orb(Mental Power) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Sp_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Mental Power) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Sp_1",
+		identifiedDescriptionName = {
+			"MaxSP +5%, MaxSP +300",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"MaxSP +2%",
@@ -402448,8 +404807,21 @@ tbl = {
 			"MaxSP +2%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"MaxSP +3%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310590] = {		unidentifiedDisplayName = "Wolf Orb(Heal) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Heal_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Heal) 1Lv",		identifiedResourceName = "Wolf_Orb_Heal_1",		identifiedDescriptionName = {			"Increases ^009900Healing^000000 skills effectiveness by 3%.",			"________________________",
+			"MaxSP +3%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310590] = {
+		unidentifiedDisplayName = "Wolf Orb(Heal) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Heal_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Heal) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Heal_1",
+		identifiedDescriptionName = {
+			"Increases ^009900Healing^000000 skills effectiveness by 3%.",
+			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases ^009900Healing^000000 skills effectiveness by additional 4%.",
 			"________________________",
@@ -402457,8 +404829,20 @@ tbl = {
 			"Increases ^009900Healing^000000 skills effectiveness by additional 5%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases ^009900Healing^000000 skills effectiveness by additional 5%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310591] = {		unidentifiedDisplayName = "Wolf Orb(Health) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Hp_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Health) 2Lv",		identifiedResourceName = "Wolf_Orb_Hp_2",		identifiedDescriptionName = {			"MaxHP +5%, MaxHP +2000",
+			"Increases ^009900Healing^000000 skills effectiveness by additional 5%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310591] = {
+		unidentifiedDisplayName = "Wolf Orb(Health) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Hp_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Health) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Hp_2",
+		identifiedDescriptionName = {
+			"MaxHP +5%, MaxHP +2000",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"MaxHP +3%",
@@ -402467,8 +404851,20 @@ tbl = {
 			"MaxHP +4%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"MaxHP +5%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310592] = {		unidentifiedDisplayName = "Wolf Orb(Mental Power) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Sp_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Mental Power) 2Lv",		identifiedResourceName = "Wolf_Orb_Sp_2",		identifiedDescriptionName = {			"MaxSP +5%, MaxSP +400",
+			"MaxHP +5%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310592] = {
+		unidentifiedDisplayName = "Wolf Orb(Mental Power) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Sp_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Mental Power) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Sp_2",
+		identifiedDescriptionName = {
+			"MaxSP +5%, MaxSP +400",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"MaxSP +3%",
@@ -402477,8 +404873,20 @@ tbl = {
 			"MaxSP +4%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"MaxSP +5%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310593] = {		unidentifiedDisplayName = "Wolf Orb(Heal) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Heal_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Heal) 2Lv",		identifiedResourceName = "Wolf_Orb_Heal_2",		identifiedDescriptionName = {			"Increases ^009900Healing^000000 skills effectiveness by 5%.",
+			"MaxSP +5%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310593] = {
+		unidentifiedDisplayName = "Wolf Orb(Heal) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Heal_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Heal) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Heal_2",
+		identifiedDescriptionName = {
+			"Increases ^009900Healing^000000 skills effectiveness by 5%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases ^009900Healing^000000 skills effectiveness by additional 5%.",
@@ -402487,8 +404895,20 @@ tbl = {
 			"Increases ^009900Healing^000000 skills effectiveness by additional 5%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases ^009900Healing^000000 skills effectiveness by additional 5%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310594] = {		unidentifiedDisplayName = "Wolf Orb(Health) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Hp_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Health) 3Lv",		identifiedResourceName = "Wolf_Orb_Hp_3",		identifiedDescriptionName = {			"MaxHP +5%, MaxHP +2500",
+			"Increases ^009900Healing^000000 skills effectiveness by additional 5%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310594] = {
+		unidentifiedDisplayName = "Wolf Orb(Health) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Hp_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Health) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Hp_3",
+		identifiedDescriptionName = {
+			"MaxHP +5%, MaxHP +2500",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"MaxHP +5%",
@@ -402497,8 +404917,20 @@ tbl = {
 			"MaxHP +5%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"MaxHP +5%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310595] = {		unidentifiedDisplayName = "Wolf Orb(Mental Power) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Sp_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Mental Power) 3Lv",		identifiedResourceName = "Wolf_Orb_Sp_3",		identifiedDescriptionName = {			"MaxSP +5%, MaxSP +450",
+			"MaxHP +5%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310595] = {
+		unidentifiedDisplayName = "Wolf Orb(Mental Power) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Sp_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Mental Power) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Sp_3",
+		identifiedDescriptionName = {
+			"MaxSP +5%, MaxSP +450",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"MaxSP +5%",
@@ -402507,8 +404939,20 @@ tbl = {
 			"MaxSP +5%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"MaxSP +5%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310596] = {		unidentifiedDisplayName = "Wolf Orb(Heal) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Heal_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Heal) 3Lv",		identifiedResourceName = "Wolf_Orb_Heal_3",		identifiedDescriptionName = {			"Increases ^009900Healing^000000 skills effectiveness by 5%.",
+			"MaxSP +5%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310596] = {
+		unidentifiedDisplayName = "Wolf Orb(Heal) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Heal_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Heal) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Heal_3",
+		identifiedDescriptionName = {
+			"Increases ^009900Healing^000000 skills effectiveness by 5%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases ^009900Healing^000000 skills effectiveness by additional 5%.",
@@ -402517,8 +404961,20 @@ tbl = {
 			"Increases ^009900Healing^000000 skills effectiveness by additional 7%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases ^009900Healing^000000 skills effectiveness by additional 7%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310597] = {		unidentifiedDisplayName = "Wolf Orb(Robust) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Robust_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Robust) 1Lv",		identifiedResourceName = "Wolf_Orb_Robust_1",		identifiedDescriptionName = {			"MaxHP +5%, MaxSP +5%, MaxHP +1200, MaxSP +250",
+			"Increases ^009900Healing^000000 skills effectiveness by additional 7%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310597] = {
+		unidentifiedDisplayName = "Wolf Orb(Robust) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Robust_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Robust) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Robust_1",
+		identifiedDescriptionName = {
+			"MaxHP +5%, MaxSP +5%, MaxHP +1200, MaxSP +250",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"MaxHP +1%, MaxSP +1%",
@@ -402527,8 +404983,20 @@ tbl = {
 			"MaxHP +2%, MaxSP +2%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"MaxHP +2%, MaxSP +2%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310598] = {		unidentifiedDisplayName = "Wolf Orb(Robust) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Robust_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Robust) 2Lv",		identifiedResourceName = "Wolf_Orb_Robust_2",		identifiedDescriptionName = {			"MaxHP +5%, MaxSP +5%, MaxHP +1500, MaxSP +300",
+			"MaxHP +2%, MaxSP +2%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310598] = {
+		unidentifiedDisplayName = "Wolf Orb(Robust) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Robust_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Robust) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Robust_2",
+		identifiedDescriptionName = {
+			"MaxHP +5%, MaxSP +5%, MaxHP +1500, MaxSP +300",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"MaxHP +2%, MaxSP +2%",
@@ -402537,8 +405005,20 @@ tbl = {
 			"MaxHP +3%, MaxSP +3%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"MaxHP +4%, MaxSP +4%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310599] = {		unidentifiedDisplayName = "Wolf Orb(Robust) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Robust_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Robust) 3Lv",		identifiedResourceName = "Wolf_Orb_Robust_3",		identifiedDescriptionName = {			"MaxHP +5%, MaxSP +5%, MaxHP +2000, MaxSP +350",
+			"MaxHP +4%, MaxSP +4%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310599] = {
+		unidentifiedDisplayName = "Wolf Orb(Robust) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Robust_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Robust) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Robust_3",
+		identifiedDescriptionName = {
+			"MaxHP +5%, MaxSP +5%, MaxHP +2000, MaxSP +350",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"MaxHP +3%, MaxSP +3%",
@@ -402547,11 +405027,59 @@ tbl = {
 			"MaxHP +4%, MaxSP +4%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"MaxHP +5%, MaxSP +5%"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310600] = {		unidentifiedDisplayName = "Wolf Orb(Fixed Casting) 1Lv",		unidentifiedResourceName = "Wolf_Orb_F_Cast_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Fixed Casting) 1Lv",		identifiedResourceName = "Wolf_Orb_F_Cast_1",		identifiedDescriptionName = {			"Decreases Fixed Casting Time of all skills by 0.5 seconds."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310601] = {		unidentifiedDisplayName = "Wolf Orb(Fixed Casting) 2Lv",		unidentifiedResourceName = "Wolf_Orb_F_Cast_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Fixed Casting) 2Lv",		identifiedResourceName = "Wolf_Orb_F_Cast_2",		identifiedDescriptionName = {			"Decreases Fixed Casting Time of all skills by 0.7 seconds."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310602] = {		unidentifiedDisplayName = "Wolf Orb(Fixed Casting) 3Lv",		unidentifiedResourceName = "Wolf_Orb_F_Cast_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Fixed Casting) 3Lv",		identifiedResourceName = "Wolf_Orb_F_Cast_3",		identifiedDescriptionName = {			"Decreases Fixed Casting Time of all skills by 1 second."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310603] = {		unidentifiedDisplayName = "Wolf Orb(Magical Force) 1Lv",		unidentifiedResourceName = "Wolf_Orb_M_F_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Magical Force) 1Lv",		identifiedResourceName = "Wolf_Orb_M_F_1",		identifiedDescriptionName = {			"Increases magic damage against all sized enemies by 2%.",
+			"MaxHP +5%, MaxSP +5%"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310600] = {
+		unidentifiedDisplayName = "Wolf Orb(Fixed Casting) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_F_Cast_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Fixed Casting) 1Lv",
+		identifiedResourceName = "Wolf_Orb_F_Cast_1",
+		identifiedDescriptionName = {
+			"Decreases Fixed Casting Time of all skills by 0.5 seconds."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310601] = {
+		unidentifiedDisplayName = "Wolf Orb(Fixed Casting) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_F_Cast_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Fixed Casting) 2Lv",
+		identifiedResourceName = "Wolf_Orb_F_Cast_2",
+		identifiedDescriptionName = {
+			"Decreases Fixed Casting Time of all skills by 0.7 seconds."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310602] = {
+		unidentifiedDisplayName = "Wolf Orb(Fixed Casting) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_F_Cast_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Fixed Casting) 3Lv",
+		identifiedResourceName = "Wolf_Orb_F_Cast_3",
+		identifiedDescriptionName = {
+			"Decreases Fixed Casting Time of all skills by 1 second."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310603] = {
+		unidentifiedDisplayName = "Wolf Orb(Magical Force) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_M_F_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Magical Force) 1Lv",
+		identifiedResourceName = "Wolf_Orb_M_F_1",
+		identifiedDescriptionName = {
+			"Increases magic damage against all sized enemies by 2%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases magic damage against all sized enemies by additional 2%.",
@@ -402560,8 +405088,20 @@ tbl = {
 			"Increases magic damage against all sized enemies by additional 2%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases magic damage against all sized enemies by additional 2%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310604] = {		unidentifiedDisplayName = "Wolf Orb(Physical Force) 1Lv",		unidentifiedResourceName = "Wolf_Orb_P_F_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Physical Force) 1Lv",		identifiedResourceName = "Wolf_Orb_P_F_1",		identifiedDescriptionName = {			"Increases physical damage against all sized enemies by 2%.",
+			"Increases magic damage against all sized enemies by additional 2%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310604] = {
+		unidentifiedDisplayName = "Wolf Orb(Physical Force) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_P_F_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Physical Force) 1Lv",
+		identifiedResourceName = "Wolf_Orb_P_F_1",
+		identifiedDescriptionName = {
+			"Increases physical damage against all sized enemies by 2%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases physical damage against all sized enemies by additional 2%.",
@@ -402570,8 +405110,20 @@ tbl = {
 			"Increases physical damage against all sized enemies by additional 2%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases physical damage against all sized enemies by additional 2%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310605] = {		unidentifiedDisplayName = "Wolf Orb(Magical Force) 2Lv",		unidentifiedResourceName = "Wolf_Orb_M_F_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Magical Force) 2Lv",		identifiedResourceName = "Wolf_Orb_M_F_2",		identifiedDescriptionName = {			"Increases magic damage against all sized enemies by 3%.",
+			"Increases physical damage against all sized enemies by additional 2%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310605] = {
+		unidentifiedDisplayName = "Wolf Orb(Magical Force) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_M_F_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Magical Force) 2Lv",
+		identifiedResourceName = "Wolf_Orb_M_F_2",
+		identifiedDescriptionName = {
+			"Increases magic damage against all sized enemies by 3%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases magic damage against all sized enemies by additional 3%.",
@@ -402580,8 +405132,20 @@ tbl = {
 			"Increases magic damage against all sized enemies by additional 3%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases magic damage against all sized enemies by additional 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310606] = {		unidentifiedDisplayName = "Wolf Orb(Physical Force) 2Lv",		unidentifiedResourceName = "Wolf_Orb_P_F_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Physical Force) 2Lv",		identifiedResourceName = "Wolf_Orb_P_F_2",		identifiedDescriptionName = {			"Increases physical damage against all sized enemies by 3%.",
+			"Increases magic damage against all sized enemies by additional 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310606] = {
+		unidentifiedDisplayName = "Wolf Orb(Physical Force) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_P_F_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Physical Force) 2Lv",
+		identifiedResourceName = "Wolf_Orb_P_F_2",
+		identifiedDescriptionName = {
+			"Increases physical damage against all sized enemies by 3%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases physical damage against all sized enemies by additional 3%.",
@@ -402590,8 +405154,20 @@ tbl = {
 			"Increases physical damage against all sized enemies by additional 3%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases physical damage against all sized enemies by additional 3%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310607] = {		unidentifiedDisplayName = "Wolf Orb(Magical Force) 3Lv",		unidentifiedResourceName = "Wolf_Orb_M_F_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Magical Force) 3Lv",		identifiedResourceName = "Wolf_Orb_M_F_3",		identifiedDescriptionName = {			"Increases magic damage against all sized enemies by 4%.",
+			"Increases physical damage against all sized enemies by additional 3%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310607] = {
+		unidentifiedDisplayName = "Wolf Orb(Magical Force) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_M_F_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Magical Force) 3Lv",
+		identifiedResourceName = "Wolf_Orb_M_F_3",
+		identifiedDescriptionName = {
+			"Increases magic damage against all sized enemies by 4%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases magic damage against all sized enemies by additional 4%.",
@@ -402600,8 +405176,20 @@ tbl = {
 			"Increases magic damage against all sized enemies by additional 4%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases magic damage against all sized enemies by additional 4%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310608] = {		unidentifiedDisplayName = "Wolf Orb(Physical Force) 3Lv",		unidentifiedResourceName = "Wolf_Orb_P_F_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Physical Force) 3Lv",		identifiedResourceName = "Wolf_Orb_P_F_3",		identifiedDescriptionName = {			"Increases physical damage against all sized enemies by 4%.",
+			"Increases magic damage against all sized enemies by additional 4%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310608] = {
+		unidentifiedDisplayName = "Wolf Orb(Physical Force) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_P_F_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Physical Force) 3Lv",
+		identifiedResourceName = "Wolf_Orb_P_F_3",
+		identifiedDescriptionName = {
+			"Increases physical damage against all sized enemies by 4%.",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Increases physical damage against all sized enemies by additional 4%.",
@@ -402610,87 +405198,560 @@ tbl = {
 			"Increases physical damage against all sized enemies by additional 4%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases physical damage against all sized enemies by additional 4%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310609] = {		unidentifiedDisplayName = "Wolf Orb(Unlimited Vitality)",		unidentifiedResourceName = "Wolf_Orb_Un_Vit",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Unlimited Vitality)",		identifiedResourceName = "Wolf_Orb_Un_Vit",		identifiedDescriptionName = {			"Physical attacks have a 3% chance to increase VIT by 50 and ATK by 25% for 10 seconds."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310610] = {		unidentifiedDisplayName = "Wolf Orb(Spell Buster)",		unidentifiedResourceName = "Wolf_Orb_Sp_Int",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Spell Buster)",		identifiedResourceName = "Wolf_Orb_Sp_Int",		identifiedDescriptionName = {			"Magical attacks have a 3% chance to increase INT by 50 and MATK by 25% for 10 seconds."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310611] = {		unidentifiedDisplayName = "Wolf Orb(Firing Shot)",		unidentifiedResourceName = "Wolf_Orb_Fi_Dex",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Firing Shot)",		identifiedResourceName = "Wolf_Orb_Fi_Dex",		identifiedDescriptionName = {			"Physical attacks have a 3% chance to increase DEX by 50 and ranged physical damage by 15% for 10 seconds."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310612] = {		unidentifiedDisplayName = "Wolf Orb(Over Power)",		unidentifiedResourceName = "Wolf_Orb_Ov_Str",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Over Power)",		identifiedResourceName = "Wolf_Orb_Ov_Str",		identifiedDescriptionName = {			"Physical attacks have a 3% chance to increase STR by 50 and melee physical damage by 15% for 10 seconds."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310613] = {		unidentifiedDisplayName = "Wolf Orb(Fatal Flash)",		unidentifiedResourceName = "Wolf_Orb_Fa_Agi",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Fatal Flash)",		identifiedResourceName = "Wolf_Orb_Fa_Agi",		identifiedDescriptionName = {			"Physical attacks have a 3% chance to increase AGI by 50 and Critical Damage by 25% for 10 seconds."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310614] = {		unidentifiedDisplayName = "Wolf Orb(Lucky Strike)",		unidentifiedResourceName = "Wolf_Orb_Lu_Luk",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Lucky Strike)",		identifiedResourceName = "Wolf_Orb_Lu_Luk",		identifiedDescriptionName = {			"Physical attacks have a 3% chance to increase LUK by 50 and all elemental magic damage by 15% for 10 seconds."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310615] = {		unidentifiedDisplayName = "Wolf Orb(After Attack Delay) 1Lv",		unidentifiedResourceName = "Wolf_Orb_A_Delay_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(After Attack Delay) 1Lv",		identifiedResourceName = "Wolf_Orb_A_Delay_1",		identifiedDescriptionName = {			"ATK +18",
+			"Increases physical damage against all sized enemies by additional 4%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310609] = {
+		unidentifiedDisplayName = "Wolf Orb(Unlimited Vitality)",
+		unidentifiedResourceName = "Wolf_Orb_Un_Vit",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Unlimited Vitality)",
+		identifiedResourceName = "Wolf_Orb_Un_Vit",
+		identifiedDescriptionName = {
+			"Physical attacks have a 3% chance to increase VIT by 50 and ATK by 25% for 10 seconds."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310610] = {
+		unidentifiedDisplayName = "Wolf Orb(Spell Buster)",
+		unidentifiedResourceName = "Wolf_Orb_Sp_Int",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Spell Buster)",
+		identifiedResourceName = "Wolf_Orb_Sp_Int",
+		identifiedDescriptionName = {
+			"Magical attacks have a 3% chance to increase INT by 50 and MATK by 25% for 10 seconds."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310611] = {
+		unidentifiedDisplayName = "Wolf Orb(Firing Shot)",
+		unidentifiedResourceName = "Wolf_Orb_Fi_Dex",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Firing Shot)",
+		identifiedResourceName = "Wolf_Orb_Fi_Dex",
+		identifiedDescriptionName = {
+			"Physical attacks have a 3% chance to increase DEX by 50 and ranged physical damage by 15% for 10 seconds."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310612] = {
+		unidentifiedDisplayName = "Wolf Orb(Over Power)",
+		unidentifiedResourceName = "Wolf_Orb_Ov_Str",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Over Power)",
+		identifiedResourceName = "Wolf_Orb_Ov_Str",
+		identifiedDescriptionName = {
+			"Physical attacks have a 3% chance to increase STR by 50 and melee physical damage by 15% for 10 seconds."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310613] = {
+		unidentifiedDisplayName = "Wolf Orb(Fatal Flash)",
+		unidentifiedResourceName = "Wolf_Orb_Fa_Agi",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Fatal Flash)",
+		identifiedResourceName = "Wolf_Orb_Fa_Agi",
+		identifiedDescriptionName = {
+			"Physical attacks have a 3% chance to increase AGI by 50 and Critical Damage by 25% for 10 seconds."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310614] = {
+		unidentifiedDisplayName = "Wolf Orb(Lucky Strike)",
+		unidentifiedResourceName = "Wolf_Orb_Lu_Luk",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Lucky Strike)",
+		identifiedResourceName = "Wolf_Orb_Lu_Luk",
+		identifiedDescriptionName = {
+			"Physical attacks have a 3% chance to increase LUK by 50 and all elemental magic damage by 15% for 10 seconds."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310615] = {
+		unidentifiedDisplayName = "Wolf Orb(After Attack Delay) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_A_Delay_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(After Attack Delay) 1Lv",
+		identifiedResourceName = "Wolf_Orb_A_Delay_1",
+		identifiedDescriptionName = {
+			"ATK +18",
 			"________________________",
-			"Increases Attack Speed (Decreases After Attack Delay by 4%)."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310616] = {		unidentifiedDisplayName = "Wolf Orb(Archer) 1Lv",		unidentifiedResourceName = "Wolf_Orb_E_Archer_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Archer) 1Lv",		identifiedResourceName = "Wolf_Orb_E_Archer_1",		identifiedDescriptionName = {			"HIT +8",
+			"Increases Attack Speed (Decreases After Attack Delay by 4%)."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310616] = {
+		unidentifiedDisplayName = "Wolf Orb(Archer) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_E_Archer_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Archer) 1Lv",
+		identifiedResourceName = "Wolf_Orb_E_Archer_1",
+		identifiedDescriptionName = {
+			"HIT +8",
 			"________________________",
-			"Increases ranged physical damage by 4%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310617] = {		unidentifiedDisplayName = "Wolf Orb(Critical) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Fatal_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Critical) 1Lv",		identifiedResourceName = "Wolf_Orb_Fatal_1",		identifiedDescriptionName = {			"CRI +6",
+			"Increases ranged physical damage by 4%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310617] = {
+		unidentifiedDisplayName = "Wolf Orb(Critical) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Fatal_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Critical) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Fatal_1",
+		identifiedDescriptionName = {
+			"CRI +6",
 			"________________________",
-			"Increases Critical Damage by 6%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310618] = {		unidentifiedDisplayName = "Wolf Orb(Fighting Spirit) 1Lv",		unidentifiedResourceName = "Wolf_Orb_F_Spirit_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Fighting Spirit) 1Lv",		identifiedResourceName = "Wolf_Orb_F_Spirit_1",		identifiedDescriptionName = {			"Perfect HIT +2%",
+			"Increases Critical Damage by 6%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310618] = {
+		unidentifiedDisplayName = "Wolf Orb(Fighting Spirit) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_F_Spirit_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Fighting Spirit) 1Lv",
+		identifiedResourceName = "Wolf_Orb_F_Spirit_1",
+		identifiedDescriptionName = {
+			"Perfect HIT +2%",
 			"________________________",
-			"Increases melee physical damage by 4%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310619] = {		unidentifiedDisplayName = "Wolf Orb(Magic Power) 1Lv",		unidentifiedResourceName = "Wolf_Orb_Spell_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Magic Power) 1Lv",		identifiedResourceName = "Wolf_Orb_Spell_1",		identifiedDescriptionName = {			"MATK +18",
+			"Increases melee physical damage by 4%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310619] = {
+		unidentifiedDisplayName = "Wolf Orb(Magic Power) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_Spell_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Magic Power) 1Lv",
+		identifiedResourceName = "Wolf_Orb_Spell_1",
+		identifiedDescriptionName = {
+			"MATK +18",
 			"________________________",
-			"Decreases Variable Casting Time of all skills by 4%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310620] = {		unidentifiedDisplayName = "Wolf Orb(After Attack Delay) 2Lv",		unidentifiedResourceName = "Wolf_Orb_A_Delay_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(After Attack Delay) 2Lv",		identifiedResourceName = "Wolf_Orb_A_Delay_2",		identifiedDescriptionName = {			"ATK +22",
+			"Decreases Variable Casting Time of all skills by 4%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310620] = {
+		unidentifiedDisplayName = "Wolf Orb(After Attack Delay) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_A_Delay_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(After Attack Delay) 2Lv",
+		identifiedResourceName = "Wolf_Orb_A_Delay_2",
+		identifiedDescriptionName = {
+			"ATK +22",
 			"________________________",
-			"Increases Attack Speed (Decreases After Attack Delay by 6%)."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310621] = {		unidentifiedDisplayName = "Wolf Orb(Archer) 2Lv",		unidentifiedResourceName = "Wolf_Orb_E_Archer_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Archer) 2Lv",		identifiedResourceName = "Wolf_Orb_E_Archer_2",		identifiedDescriptionName = {			"HIT +12",
+			"Increases Attack Speed (Decreases After Attack Delay by 6%)."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310621] = {
+		unidentifiedDisplayName = "Wolf Orb(Archer) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_E_Archer_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Archer) 2Lv",
+		identifiedResourceName = "Wolf_Orb_E_Archer_2",
+		identifiedDescriptionName = {
+			"HIT +12",
 			"________________________",
-			"Increases ranged physical damage by 6%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310622] = {		unidentifiedDisplayName = "Wolf Orb(Critical) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Fatal_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Critical) 2Lv",		identifiedResourceName = "Wolf_Orb_Fatal_2",		identifiedDescriptionName = {			"CRI +9",
+			"Increases ranged physical damage by 6%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310622] = {
+		unidentifiedDisplayName = "Wolf Orb(Critical) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Fatal_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Critical) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Fatal_2",
+		identifiedDescriptionName = {
+			"CRI +9",
 			"________________________",
-			"Increases Critical Damage by 8%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310623] = {		unidentifiedDisplayName = "Wolf Orb(Fighting Spirit) 2Lv",		unidentifiedResourceName = "Wolf_Orb_F_Spirit_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Fighting Spirit) 2Lv",		identifiedResourceName = "Wolf_Orb_F_Spirit_2",		identifiedDescriptionName = {			"Perfect HIT +3%",
+			"Increases Critical Damage by 8%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310623] = {
+		unidentifiedDisplayName = "Wolf Orb(Fighting Spirit) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_F_Spirit_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Fighting Spirit) 2Lv",
+		identifiedResourceName = "Wolf_Orb_F_Spirit_2",
+		identifiedDescriptionName = {
+			"Perfect HIT +3%",
 			"________________________",
-			"Increases melee physical damage by 6%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310624] = {		unidentifiedDisplayName = "Wolf Orb(Magic Power) 2Lv",		unidentifiedResourceName = "Wolf_Orb_Spell_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Magic Power) 2Lv",		identifiedResourceName = "Wolf_Orb_Spell_2",		identifiedDescriptionName = {			"MATK +22",
+			"Increases melee physical damage by 6%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310624] = {
+		unidentifiedDisplayName = "Wolf Orb(Magic Power) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_Spell_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Magic Power) 2Lv",
+		identifiedResourceName = "Wolf_Orb_Spell_2",
+		identifiedDescriptionName = {
+			"MATK +22",
 			"________________________",
-			"Decreases Variable Casting Time of all skills by 6%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310625] = {		unidentifiedDisplayName = "Wolf Orb(After Attack Delay) 3Lv",		unidentifiedResourceName = "Wolf_Orb_A_Delay_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(After Attack Delay) 3Lv",		identifiedResourceName = "Wolf_Orb_A_Delay_3",		identifiedDescriptionName = {			"ATK +26",
+			"Decreases Variable Casting Time of all skills by 6%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310625] = {
+		unidentifiedDisplayName = "Wolf Orb(After Attack Delay) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_A_Delay_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(After Attack Delay) 3Lv",
+		identifiedResourceName = "Wolf_Orb_A_Delay_3",
+		identifiedDescriptionName = {
+			"ATK +26",
 			"________________________",
-			"Increases Attack Speed (Decreases After Attack Delay by 8%)."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310626] = {		unidentifiedDisplayName = "Wolf Orb(Archer) 3Lv",		unidentifiedResourceName = "Wolf_Orb_E_Archer_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Archer) 3Lv",		identifiedResourceName = "Wolf_Orb_E_Archer_3",		identifiedDescriptionName = {			"HIT +16",
+			"Increases Attack Speed (Decreases After Attack Delay by 8%)."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310626] = {
+		unidentifiedDisplayName = "Wolf Orb(Archer) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_E_Archer_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Archer) 3Lv",
+		identifiedResourceName = "Wolf_Orb_E_Archer_3",
+		identifiedDescriptionName = {
+			"HIT +16",
 			"________________________",
-			"Increases ranged physical damage by 8%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310627] = {		unidentifiedDisplayName = "Wolf Orb(Critical) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Fatal_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Critical) 3Lv",		identifiedResourceName = "Wolf_Orb_Fatal_3",		identifiedDescriptionName = {			"CRI +12",
+			"Increases ranged physical damage by 8%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310627] = {
+		unidentifiedDisplayName = "Wolf Orb(Critical) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Fatal_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Critical) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Fatal_3",
+		identifiedDescriptionName = {
+			"CRI +12",
 			"________________________",
-			"Increases Critical Damage by 10%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310628] = {		unidentifiedDisplayName = "Wolf Orb(Fighting Spirit) 3Lv",		unidentifiedResourceName = "Wolf_Orb_F_Spirit_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Fighting Spirit) 3Lv",		identifiedResourceName = "Wolf_Orb_F_Spirit_3",		identifiedDescriptionName = {			"Perfect HIT +4%",
+			"Increases Critical Damage by 10%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310628] = {
+		unidentifiedDisplayName = "Wolf Orb(Fighting Spirit) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_F_Spirit_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Fighting Spirit) 3Lv",
+		identifiedResourceName = "Wolf_Orb_F_Spirit_3",
+		identifiedDescriptionName = {
+			"Perfect HIT +4%",
 			"________________________",
-			"Increases melee physical damage by 8%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310629] = {		unidentifiedDisplayName = "Wolf Orb(Magic Power) 3Lv",		unidentifiedResourceName = "Wolf_Orb_Spell_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Magic Power) 3Lv",		identifiedResourceName = "Wolf_Orb_Spell_3",		identifiedDescriptionName = {			"MATK +26",
+			"Increases melee physical damage by 8%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310629] = {
+		unidentifiedDisplayName = "Wolf Orb(Magic Power) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_Spell_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Magic Power) 3Lv",
+		identifiedResourceName = "Wolf_Orb_Spell_3",
+		identifiedDescriptionName = {
+			"MATK +26",
 			"________________________",
-			"Decreases Variable Casting Time of all skills by 8%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310630] = {		unidentifiedDisplayName = "Wolf Orb(After Attack Delay) 4Lv",		unidentifiedResourceName = "Wolf_Orb_A_Delay_4",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(After Attack Delay) 4Lv",		identifiedResourceName = "Wolf_Orb_A_Delay_4",		identifiedDescriptionName = {			"ATK +30",
+			"Decreases Variable Casting Time of all skills by 8%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310630] = {
+		unidentifiedDisplayName = "Wolf Orb(After Attack Delay) 4Lv",
+		unidentifiedResourceName = "Wolf_Orb_A_Delay_4",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(After Attack Delay) 4Lv",
+		identifiedResourceName = "Wolf_Orb_A_Delay_4",
+		identifiedDescriptionName = {
+			"ATK +30",
 			"________________________",
-			"Increases Attack Speed (Decreases After Attack Delay by 10%)."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310631] = {		unidentifiedDisplayName = "Wolf Orb(Archer) 4Lv",		unidentifiedResourceName = "Wolf_Orb_E_Archer_4",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(명궁) 4Lv",		identifiedResourceName = "Wolf_Orb_E_Archer_4",		identifiedDescriptionName = {			"HIT +20",
+			"Increases Attack Speed (Decreases After Attack Delay by 10%)."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310631] = {
+		unidentifiedDisplayName = "Wolf Orb(Archer) 4Lv",
+		unidentifiedResourceName = "Wolf_Orb_E_Archer_4",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(명궁) 4Lv",
+		identifiedResourceName = "Wolf_Orb_E_Archer_4",
+		identifiedDescriptionName = {
+			"HIT +20",
 			"________________________",
-			"Increases ranged physical damage by 10%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310632] = {		unidentifiedDisplayName = "Wolf Orb(Critical) 4Lv",		unidentifiedResourceName = "Wolf_Orb_Fatal_4",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Critical) 4Lv",		identifiedResourceName = "Wolf_Orb_Fatal_4",		identifiedDescriptionName = {			"CRI +15",
+			"Increases ranged physical damage by 10%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310632] = {
+		unidentifiedDisplayName = "Wolf Orb(Critical) 4Lv",
+		unidentifiedResourceName = "Wolf_Orb_Fatal_4",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Critical) 4Lv",
+		identifiedResourceName = "Wolf_Orb_Fatal_4",
+		identifiedDescriptionName = {
+			"CRI +15",
 			"________________________",
-			"Increases Critical Damage by 12%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310633] = {		unidentifiedDisplayName = "Wolf Orb(Fighting Spirit) 4Lv",		unidentifiedResourceName = "Wolf_Orb_F_Spirit_4",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Fighting Spirit) 4Lv",		identifiedResourceName = "Wolf_Orb_F_Spirit_4",		identifiedDescriptionName = {			"Perfect HIT +5%",
+			"Increases Critical Damage by 12%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310633] = {
+		unidentifiedDisplayName = "Wolf Orb(Fighting Spirit) 4Lv",
+		unidentifiedResourceName = "Wolf_Orb_F_Spirit_4",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Fighting Spirit) 4Lv",
+		identifiedResourceName = "Wolf_Orb_F_Spirit_4",
+		identifiedDescriptionName = {
+			"Perfect HIT +5%",
 			"________________________",
-			"Increases melee physical damage by 10%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310634] = {		unidentifiedDisplayName = "Wolf Orb(Magic Power) 4Lv",		unidentifiedResourceName = "Wolf_Orb_Spell_4",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Magic Power) 4Lv",		identifiedResourceName = "Wolf_Orb_Spell_4",		identifiedDescriptionName = {			"MATK +30",
+			"Increases melee physical damage by 10%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310634] = {
+		unidentifiedDisplayName = "Wolf Orb(Magic Power) 4Lv",
+		unidentifiedResourceName = "Wolf_Orb_Spell_4",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Magic Power) 4Lv",
+		identifiedResourceName = "Wolf_Orb_Spell_4",
+		identifiedDescriptionName = {
+			"MATK +30",
 			"________________________",
-			"Decreases Variable Casting Time of all skills by 10%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310635] = {		unidentifiedDisplayName = "Wolf Orb(HP Recovery) 1Lv",		unidentifiedResourceName = "Wolf_Orb_HealHP_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(HP Recovery) 1Lv",		identifiedResourceName = "Wolf_Orb_HealHP_1",		identifiedDescriptionName = {			"Increases HP Recovery Rate by 20%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310636] = {		unidentifiedDisplayName = "Wolf Orb(SP회복량) 1Lv",		unidentifiedResourceName = "Wolf_Orb_HealSP_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(SP회복량) 1Lv",		identifiedResourceName = "Wolf_Orb_HealSP_1",		identifiedDescriptionName = {			"Increases SP Recovery Rate by 20%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310637] = {		unidentifiedDisplayName = "Wolf Orb(HP Recovery) 2Lv",		unidentifiedResourceName = "Wolf_Orb_HealHP_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(HP Recovery) 2Lv",		identifiedResourceName = "Wolf_Orb_HealHP_2",		identifiedDescriptionName = {			"Increases HP Recovery Rate by 30%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310638] = {		unidentifiedDisplayName = "Wolf Orb(SP Recovery) 2Lv",		unidentifiedResourceName = "Wolf_Orb_HealSP_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(SP Recovery) 2Lv",		identifiedResourceName = "Wolf_Orb_HealSP_2",		identifiedDescriptionName = {			"Increases SP Recovery Rate by 30%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310639] = {		unidentifiedDisplayName = "Wolf Orb(HP Recovery) 3Lv",		unidentifiedResourceName = "Wolf_Orb_HealHP_3",		unidentifiedDescriptionName = { "HP 자연 회복량 40% 증가." },		identifiedDisplayName = "Wolf Orb(HP Recovery) 3Lv",		identifiedResourceName = "Wolf_Orb_HealHP_3",		identifiedDescriptionName = {			"Increases HP Recovery Rate by 40%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310640] = {		unidentifiedDisplayName = "Wolf Orb(SP Recovery) 3Lv",		unidentifiedResourceName = "Wolf_Orb_HealSP_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(SP Recovery) 3Lv",		identifiedResourceName = "Wolf_Orb_HealSP_3",		identifiedDescriptionName = {			"Increases SP Recovery Rate by 40%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310641] = {		unidentifiedDisplayName = "Wolf Orb(HP Recovery) 4Lv",		unidentifiedResourceName = "Wolf_Orb_HealHP_4",		unidentifiedDescriptionName = { "HP 자연 회복량 50% 증가." },		identifiedDisplayName = "Wolf Orb(HP Recovery) 4Lv",		identifiedResourceName = "Wolf_Orb_HealHP_4",		identifiedDescriptionName = {			"Increases HP Recovery Rate by 50%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310642] = {		unidentifiedDisplayName = "Wolf Orb(SP Recovery) 4Lv",		unidentifiedResourceName = "Wolf_Orb_HealSP_4",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(SP Recovery) 4Lv",		identifiedResourceName = "Wolf_Orb_HealSP_4",		identifiedDescriptionName = {			"Increases SP Recovery Rate by 50%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310643] = {		unidentifiedDisplayName = "Wolf Orb(Drain Life)",		unidentifiedResourceName = "Wolf_Orb_Life",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Drain Life)",		identifiedResourceName = "Wolf_Orb_Life",		identifiedDescriptionName = {			"Physical attacks have a 4% chance to absorb 2% of the inflicted damage as HP."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310644] = {		unidentifiedDisplayName = "Wolf Orb(Drain Soul)",		unidentifiedResourceName = "Wolf_Orb_Soul",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Drain Soul)",		identifiedResourceName = "Wolf_Orb_Soul",		identifiedDescriptionName = {			"Physical attacks have a 1% chance to absorb 3% of the inflicted damage as SP."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310645] = {		unidentifiedDisplayName = "Wolf Orb(Magic Healing)",		unidentifiedResourceName = "Wolf_Orb_M_Heal",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Magic Healing)",		identifiedResourceName = "Wolf_Orb_M_Heal",		identifiedDescriptionName = {			"Magical attacks have a 4% chance to recover 700 HP every 0.5 seconds for 19 times."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310646] = {		unidentifiedDisplayName = "Wolf Orb(Magic Soul)",		unidentifiedResourceName = "Wolf_Orb_M_Soul",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(Magic Soul)",		identifiedResourceName = "Wolf_Orb_M_Soul",		identifiedDescriptionName = {			"Magical attacks have a 2% chance to recover 100 SP every 0.5 seconds for 19 times."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[310647] = {		unidentifiedDisplayName = "Wolf Orb(All Force)",		unidentifiedResourceName = "Wolf_Orb_A_Force",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Wolf Orb(All Force)",		identifiedResourceName = "Wolf_Orb_A_Force",		identifiedDescriptionName = {			"Increases melee and ranged physical damage by 7%.",
-			"Increases all elemental magic damage by 7%."		},		slotCount = 0,		ClassNum = 0,		costume = false	},
+			"Decreases Variable Casting Time of all skills by 10%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310635] = {
+		unidentifiedDisplayName = "Wolf Orb(HP Recovery) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_HealHP_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(HP Recovery) 1Lv",
+		identifiedResourceName = "Wolf_Orb_HealHP_1",
+		identifiedDescriptionName = {
+			"Increases HP Recovery Rate by 20%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310636] = {
+		unidentifiedDisplayName = "Wolf Orb(SP회복량) 1Lv",
+		unidentifiedResourceName = "Wolf_Orb_HealSP_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(SP회복량) 1Lv",
+		identifiedResourceName = "Wolf_Orb_HealSP_1",
+		identifiedDescriptionName = {
+			"Increases SP Recovery Rate by 20%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310637] = {
+		unidentifiedDisplayName = "Wolf Orb(HP Recovery) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_HealHP_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(HP Recovery) 2Lv",
+		identifiedResourceName = "Wolf_Orb_HealHP_2",
+		identifiedDescriptionName = {
+			"Increases HP Recovery Rate by 30%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310638] = {
+		unidentifiedDisplayName = "Wolf Orb(SP Recovery) 2Lv",
+		unidentifiedResourceName = "Wolf_Orb_HealSP_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(SP Recovery) 2Lv",
+		identifiedResourceName = "Wolf_Orb_HealSP_2",
+		identifiedDescriptionName = {
+			"Increases SP Recovery Rate by 30%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310639] = {
+		unidentifiedDisplayName = "Wolf Orb(HP Recovery) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_HealHP_3",
+		unidentifiedDescriptionName = { "HP 자연 회복량 40% 증가." },
+		identifiedDisplayName = "Wolf Orb(HP Recovery) 3Lv",
+		identifiedResourceName = "Wolf_Orb_HealHP_3",
+		identifiedDescriptionName = {
+			"Increases HP Recovery Rate by 40%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310640] = {
+		unidentifiedDisplayName = "Wolf Orb(SP Recovery) 3Lv",
+		unidentifiedResourceName = "Wolf_Orb_HealSP_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(SP Recovery) 3Lv",
+		identifiedResourceName = "Wolf_Orb_HealSP_3",
+		identifiedDescriptionName = {
+			"Increases SP Recovery Rate by 40%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310641] = {
+		unidentifiedDisplayName = "Wolf Orb(HP Recovery) 4Lv",
+		unidentifiedResourceName = "Wolf_Orb_HealHP_4",
+		unidentifiedDescriptionName = { "HP 자연 회복량 50% 증가." },
+		identifiedDisplayName = "Wolf Orb(HP Recovery) 4Lv",
+		identifiedResourceName = "Wolf_Orb_HealHP_4",
+		identifiedDescriptionName = {
+			"Increases HP Recovery Rate by 50%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310642] = {
+		unidentifiedDisplayName = "Wolf Orb(SP Recovery) 4Lv",
+		unidentifiedResourceName = "Wolf_Orb_HealSP_4",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(SP Recovery) 4Lv",
+		identifiedResourceName = "Wolf_Orb_HealSP_4",
+		identifiedDescriptionName = {
+			"Increases SP Recovery Rate by 50%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310643] = {
+		unidentifiedDisplayName = "Wolf Orb(Drain Life)",
+		unidentifiedResourceName = "Wolf_Orb_Life",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Drain Life)",
+		identifiedResourceName = "Wolf_Orb_Life",
+		identifiedDescriptionName = {
+			"Physical attacks have a 4% chance to absorb 2% of the inflicted damage as HP."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310644] = {
+		unidentifiedDisplayName = "Wolf Orb(Drain Soul)",
+		unidentifiedResourceName = "Wolf_Orb_Soul",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Drain Soul)",
+		identifiedResourceName = "Wolf_Orb_Soul",
+		identifiedDescriptionName = {
+			"Physical attacks have a 1% chance to absorb 3% of the inflicted damage as SP."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310645] = {
+		unidentifiedDisplayName = "Wolf Orb(Magic Healing)",
+		unidentifiedResourceName = "Wolf_Orb_M_Heal",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Magic Healing)",
+		identifiedResourceName = "Wolf_Orb_M_Heal",
+		identifiedDescriptionName = {
+			"Magical attacks have a 4% chance to recover 700 HP every 0.5 seconds for 19 times."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310646] = {
+		unidentifiedDisplayName = "Wolf Orb(Magic Soul)",
+		unidentifiedResourceName = "Wolf_Orb_M_Soul",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(Magic Soul)",
+		identifiedResourceName = "Wolf_Orb_M_Soul",
+		identifiedDescriptionName = {
+			"Magical attacks have a 2% chance to recover 100 SP every 0.5 seconds for 19 times."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[310647] = {
+		unidentifiedDisplayName = "Wolf Orb(All Force)",
+		unidentifiedResourceName = "Wolf_Orb_A_Force",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Wolf Orb(All Force)",
+		identifiedResourceName = "Wolf_Orb_A_Force",
+		identifiedDescriptionName = {
+			"Increases melee and ranged physical damage by 7%.",
+			"Increases all elemental magic damage by 7%."
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
 	[400000] = {
 		unidentifiedDisplayName = "Unidentified Ribbon",
 		unidentifiedResourceName = "리본",
@@ -410040,22 +413101,46 @@ tbl = {
 		ClassNum = 0,
 		costume = false
 	},
-	[450166] = {		unidentifiedDisplayName = "Unidentified Armor",		unidentifiedResourceName = "코튼셔츠",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Faint Star Robe",		identifiedResourceName = "Vague_Star_Robe",		identifiedDescriptionName = {			"A robe faintly infused with the magic of stars.",			"________________________",
-			"MATK +125",			"________________________",
+	[450166] = {
+		unidentifiedDisplayName = "Unidentified Armor",
+		unidentifiedResourceName = "코튼셔츠",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Faint Star Robe",
+		identifiedResourceName = "Vague_Star_Robe",
+		identifiedDescriptionName = {
+			"A robe faintly infused with the magic of stars.",
+			"________________________",
+			"MATK +125",
+			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
-			"MATK +15",			"________________________",
+			"MATK +15",
+			"________________________",
 			"^0000FFRefine Level +9^000000:",
-			"Decreases Variable Casting Time of all skills by 10%.",			"________________________",
+			"Decreases Variable Casting Time of all skills by 10%.",
+			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases all elemental magic damage by 10%.",			"________________________",
+			"Increases all elemental magic damage by 10%.",
+			"________________________",
 			"^0000CCType:^000000 Armor",
 			"^0000CCDefense:^000000 105",
 			"^0000CCWeight:^000000 50",
 			"^0000CCArmor Level:^000000 2",
 			"________________________",
 			"^0000CCRequirement:^000000",
-			"Base Level 240"		},		slotCount = 1,		ClassNum = 0,		costume = false	},
-	[450167] = {		unidentifiedDisplayName = "Unidentified Armor",		unidentifiedResourceName = "타이즈",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Faint Star Suit",		identifiedResourceName = "Vague_Star_Suit",		identifiedDescriptionName = {			"A suit faintly infused with the magic of stars.",
+			"Base Level 240"
+		},
+		slotCount = 1,
+		ClassNum = 0,
+		costume = false
+	},
+	[450167] = {
+		unidentifiedDisplayName = "Unidentified Armor",
+		unidentifiedResourceName = "타이즈",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Faint Star Suit",
+		identifiedResourceName = "Vague_Star_Suit",
+		identifiedDescriptionName = {
+			"A suit faintly infused with the magic of stars.",
 			"________________________",
 			"ATK +75, MATK +75",
 			"________________________",
@@ -410074,8 +413159,20 @@ tbl = {
 			"^0000CCArmor Level:^000000 2",
 			"________________________",
 			"^0000CCRequirement:^000000",
-			"Base Level 240"		},		slotCount = 1,		ClassNum = 0,		costume = false	},
-	[450168] = {		unidentifiedDisplayName = "Unidentified Armor",		unidentifiedResourceName = "우든메일",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Faint Star Armor",		identifiedResourceName = "Vague_Star_Armor",		identifiedDescriptionName = {			"A armor faintly infused with the magic of stars.",
+			"Base Level 240"
+		},
+		slotCount = 1,
+		ClassNum = 0,
+		costume = false
+	},
+	[450168] = {
+		unidentifiedDisplayName = "Unidentified Armor",
+		unidentifiedResourceName = "우든메일",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Faint Star Armor",
+		identifiedResourceName = "Vague_Star_Armor",
+		identifiedDescriptionName = {
+			"A armor faintly infused with the magic of stars.",
 			"________________________",
 			"ATK +125",
 			"________________________",
@@ -410094,9 +413191,22 @@ tbl = {
 			"^0000CCArmor Level:^000000 2",
 			"________________________",
 			"^0000CCRequirement:^000000",
-			"Base Level 240"		},		slotCount = 1,		ClassNum = 0,		costume = false	},
-	[450169] = {		unidentifiedDisplayName = "Unidentified Armor",		unidentifiedResourceName = "우든메일",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Nebula Armor of power",		identifiedResourceName = "Star_Armor_Of_Pow",		identifiedDescriptionName = {			"A armor that received the energy of physics among the power of stars.",
-			"The physical ability will be increased.",			"________________________",
+			"Base Level 240"
+		},
+		slotCount = 1,
+		ClassNum = 0,
+		costume = false
+	},
+	[450169] = {
+		unidentifiedDisplayName = "Unidentified Armor",
+		unidentifiedResourceName = "우든메일",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Nebula Armor of power",
+		identifiedResourceName = "Star_Armor_Of_Pow",
+		identifiedDescriptionName = {
+			"A armor that received the energy of physics among the power of stars.",
+			"The physical ability will be increased.",
+			"________________________",
 			"POW +1",
 			"ATK +125",
 			"________________________",
@@ -410107,17 +413217,34 @@ tbl = {
 			"ATK +5%",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases melee physical damage by 20%.",			"________________________",
+			"Increases melee physical damage by 20%.",
+			"________________________",
 			"^CC3D3D[Additional Options by Grade]^000000",
-			"[Grade D]: ATK +2 and ATK +1% per ^0000FF2 Refine Levels^000000, melee physical damage +1% per ^0000FF3 Refine Levels^000000.",			"[Grade C]: ATK +3 and ATK +1% per ^0000FF2 Refine Levels^000000, melee physical damage +1% per ^0000FF3 Refine Levels^000000",			"[Grade B]: ATK +2% per ^0000FF2 Refine Levels^000000, melee physical damage +1% per ^0000FF3 Refine Levels^000000, P.ATK +1 per ^0000FF4 Refine Levels^000000",			"[Grade A]: ATK +3% per ^0000FF2 Refine Levels^000000, melee physical damage +2% per ^0000FF3 Refine Levels^000000, P.ATK +2 per ^0000FF4 Refine Levels^000000",			"________________________",
+			"[Grade D]: ATK +2 and ATK +1% per ^0000FF2 Refine Levels^000000, melee physical damage +1% per ^0000FF3 Refine Levels^000000.",
+			"[Grade C]: ATK +3 and ATK +1% per ^0000FF2 Refine Levels^000000, melee physical damage +1% per ^0000FF3 Refine Levels^000000",
+			"[Grade B]: ATK +2% per ^0000FF2 Refine Levels^000000, melee physical damage +1% per ^0000FF3 Refine Levels^000000, P.ATK +1 per ^0000FF4 Refine Levels^000000",
+			"[Grade A]: ATK +3% per ^0000FF2 Refine Levels^000000, melee physical damage +2% per ^0000FF3 Refine Levels^000000, P.ATK +2 per ^0000FF4 Refine Levels^000000",
+			"________________________",
 			"^0000CCType:^000000 Armor",
 			"^0000CCDefense:^000000 175",
 			"^0000CCWeight:^000000 250",
 			"^0000CCArmor Level:^000000 2",
 			"________________________",
 			"^0000CCRequirement:^000000",
-			"Base Level 240"		},		slotCount = 1,		ClassNum = 0,		costume = false	},
-	[450170] = {		unidentifiedDisplayName = "Unidentified Armor",		unidentifiedResourceName = "우든메일",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Nebula Armor of Stamina",		identifiedResourceName = "Star_Armor_Of_Sta",		identifiedDescriptionName = {			"A armor that received the energy of stamina among the power of stars.",
+			"Base Level 240"
+		},
+		slotCount = 1,
+		ClassNum = 0,
+		costume = false
+	},
+	[450170] = {
+		unidentifiedDisplayName = "Unidentified Armor",
+		unidentifiedResourceName = "우든메일",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Nebula Armor of Stamina",
+		identifiedResourceName = "Star_Armor_Of_Sta",
+		identifiedDescriptionName = {
+			"A armor that received the energy of stamina among the power of stars.",
 			"The physical defense and resilience will be increased.",
 			"________________________",
 			"STA +1",
@@ -410144,8 +413271,20 @@ tbl = {
 			"^0000CCArmor Level:^000000 2",
 			"________________________",
 			"^0000CCRequirement:^000000",
-			"Base Level 240"		},		slotCount = 1,		ClassNum = 0,		costume = false	},
-	[450171] = {		unidentifiedDisplayName = "Unidentified Armor",		unidentifiedResourceName = "타이즈",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Nebula Suit of Agility",		identifiedResourceName = "Star_Suit_Of_Con",		identifiedDescriptionName = {			"A suit that received the energy of agility among the power of stars.",
+			"Base Level 240"
+		},
+		slotCount = 1,
+		ClassNum = 0,
+		costume = false
+	},
+	[450171] = {
+		unidentifiedDisplayName = "Unidentified Armor",
+		unidentifiedResourceName = "타이즈",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Nebula Suit of Agility",
+		identifiedResourceName = "Star_Suit_Of_Con",
+		identifiedDescriptionName = {
+			"A suit that received the energy of agility among the power of stars.",
 			"Speed and ranged physical ability will be increased.",
 			"________________________",
 			"CON +1",
@@ -410172,8 +413311,20 @@ tbl = {
 			"^0000CCArmor Level:^000000 2",
 			"________________________",
 			"^0000CCRequirement:^000000",
-			"Base Level 240"		},		slotCount = 1,		ClassNum = 0,		costume = false	},
-	[450172] = {		unidentifiedDisplayName = "Unidentified Armor",		unidentifiedResourceName = "타이즈",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Nebula Suit of Luck",		identifiedResourceName = "Star_Suit_Of_Crt",		identifiedDescriptionName = {			"A suit that received the energy of luck among the power of stars.",
+			"Base Level 240"
+		},
+		slotCount = 1,
+		ClassNum = 0,
+		costume = false
+	},
+	[450172] = {
+		unidentifiedDisplayName = "Unidentified Armor",
+		unidentifiedResourceName = "타이즈",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Nebula Suit of Luck",
+		identifiedResourceName = "Star_Suit_Of_Crt",
+		identifiedDescriptionName = {
+			"A suit that received the energy of luck among the power of stars.",
 			"Critical ability will be increased.",
 			"________________________",
 			"CRT +1",
@@ -410200,8 +413351,20 @@ tbl = {
 			"^0000CCArmor Level:^000000 2",
 			"________________________",
 			"^0000CCRequirement:^000000",
-			"Base Level 240"		},		slotCount = 1,		ClassNum = 0,		costume = false	},
-	[450173] = {		unidentifiedDisplayName = "Unidentified Armor",		unidentifiedResourceName = "코튼셔츠",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Nebula Robe of Spell",		identifiedResourceName = "Star_Robe_Of_Spl",		identifiedDescriptionName = {			"A robe that received the energy of spell among the power of stars.",
+			"Base Level 240"
+		},
+		slotCount = 1,
+		ClassNum = 0,
+		costume = false
+	},
+	[450173] = {
+		unidentifiedDisplayName = "Unidentified Armor",
+		unidentifiedResourceName = "코튼셔츠",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Nebula Robe of Spell",
+		identifiedResourceName = "Star_Robe_Of_Spl",
+		identifiedDescriptionName = {
+			"A robe that received the energy of spell among the power of stars.",
 			"Magic ability will be increased.",
 			"________________________",
 			"SPL +1",
@@ -410228,8 +413391,20 @@ tbl = {
 			"^0000CCArmor Level:^000000 2",
 			"________________________",
 			"^0000CCRequirement:^000000",
-			"Base Level 240"		},		slotCount = 1,		ClassNum = 0,		costume = false	},
-	[450174] = {		unidentifiedDisplayName = "Unidentified Armor",		unidentifiedResourceName = "코튼셔츠",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Nebula Robe of Wisdom",		identifiedResourceName = "Star_Robe_Of_Wis",		identifiedDescriptionName = {			"A robe that received the energy of wisdom among the power of stars.",
+			"Base Level 240"
+		},
+		slotCount = 1,
+		ClassNum = 0,
+		costume = false
+	},
+	[450174] = {
+		unidentifiedDisplayName = "Unidentified Armor",
+		unidentifiedResourceName = "코튼셔츠",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Nebula Robe of Wisdom",
+		identifiedResourceName = "Star_Robe_Of_Wis",
+		identifiedDescriptionName = {
+			"A robe that received the energy of wisdom among the power of stars.",
 			"Magic defense and recovery ability will be increased.",
 			"________________________",
 			"WIS +1",
@@ -410257,8 +413432,21 @@ tbl = {
 			"^0000CCArmor Level:^000000 2",
 			"________________________",
 			"^0000CCRequirement:^000000",
-			"Base Level 240"		},		slotCount = 1,		ClassNum = 0,		costume = false	},
-	[450177] = {		unidentifiedDisplayName = " Unidentified Armor",		unidentifiedResourceName = "타이즈",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Gray Wolf Suit",		identifiedResourceName = "Gray_W_Suits",		identifiedDescriptionName = {			"A suit given to those who have been recognized by the Gray Wolf Clan.",			"________________________",
+			"Base Level 240"
+		},
+		slotCount = 1,
+		ClassNum = 0,
+		costume = false
+	},
+	[450177] = {
+		unidentifiedDisplayName = " Unidentified Armor",
+		unidentifiedResourceName = "타이즈",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Gray Wolf Suit",
+		identifiedResourceName = "Gray_W_Suits",
+		identifiedDescriptionName = {
+			"A suit given to those who have been recognized by the Gray Wolf Clan.",
+			"________________________",
 			"ATK +130",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
@@ -410279,8 +413467,20 @@ tbl = {
 			"^0000CCArmor Level:^000000 1",
 			"________________________",
 			"^0000CCRequirement:^000000",
-			"Base Level 190"		},		slotCount = 1,		ClassNum = 0,		costume = false	},
-	[450178] = {		unidentifiedDisplayName = "Unidentified Armor",		unidentifiedResourceName = "코튼셔츠",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Gray Wolf Robe",		identifiedResourceName = "Gray_W_Robe",		identifiedDescriptionName = {			"A robe given to those who have been recognized by the Gray Wolf Clan.",
+			"Base Level 190"
+		},
+		slotCount = 1,
+		ClassNum = 0,
+		costume = false
+	},
+	[450178] = {
+		unidentifiedDisplayName = "Unidentified Armor",
+		unidentifiedResourceName = "코튼셔츠",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Gray Wolf Robe",
+		identifiedResourceName = "Gray_W_Robe",
+		identifiedDescriptionName = {
+			"A robe given to those who have been recognized by the Gray Wolf Clan.",
 			"________________________",
 			"MATK +130",
 			"________________________",
@@ -410308,13 +413508,22 @@ tbl = {
 		ClassNum = 0,
 		costume = false
 	},
-	[450179] = {		unidentifiedDisplayName = "Unidentified Armor",		unidentifiedResourceName = "코튼셔츠",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Celine's Dress",		identifiedResourceName = "Bloody_Dress",		identifiedDescriptionName = {			"The dress worn by Celine.",
-			"There are marks that look like old bloodstains.",			"________________________",
+	[450179] = {
+		unidentifiedDisplayName = "Unidentified Armor",
+		unidentifiedResourceName = "코튼셔츠",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Celine's Dress",
+		identifiedResourceName = "Bloody_Dress",
+		identifiedDescriptionName = {
+			"The dress worn by Celine.",
+			"There are marks that look like old bloodstains.",
+			"________________________",
 			"MATK +50",
 			"________________________",
 			"^0000FFRefine Level +7^000000:",
 			"Decreases Variable Casting Time of all skills by 10%.",
-			"________________________",			"^0000FFRefine Level +9^000000:",
+			"________________________",
+			"^0000FFRefine Level +9^000000:",
 			"Increases all elemental magic damage by 10%.",
 			"________________________",
 			"^0000FFRefine Level +11^000000:",
@@ -410323,30 +413532,46 @@ tbl = {
 			"^0000FFRefine Level +12^000000:",
 			"Decreases After Skill Delay of all skills by additional 5%.",
 			"________________________",
-			"When equipped with ^990099Evil Thread Glove^000000:",			"MATK +10%",
+			"When equipped with ^990099Evil Thread Glove^000000:",
+			"MATK +10%",
 			"Perfect HIT +10%",
 			"Increases magical damage against all sized enemies by 15%.",
 			"Physical attacks have a random chance to increases magical damage against all race enemies, except ^FF0000Players^000000, by 15% for 10 seconds.",
-			"________________________",			"When equipped with ^990099Celine's Ribbon^000000:",
-			"^0000FFFor each Refine Level^000000 of ^990099Celine's Ribbon^000000 and ^990099Celine's Dress^000000:",			"Increases ^777777Holy^000000, ^777777Shadow^000000,^663399Poison^000000 and ^777777Ghost^000000 elemental magic damage by 1%.",
+			"________________________",
+			"When equipped with ^990099Celine's Ribbon^000000:",
+			"^0000FFFor each Refine Level^000000 of ^990099Celine's Ribbon^000000 and ^990099Celine's Dress^000000:",
+			"Increases ^777777Holy^000000, ^777777Shadow^000000,^663399Poison^000000 and ^777777Ghost^000000 elemental magic damage by 1%.",
 			" ",
 			"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+19^000000:",
 			"MATK +15%",
 			" ",
-			"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+23^000000:",			"Increases magical damage against all elemental enemies by 20%.",			"________________________",			"When equipped with ^990099Celine's Brooch^000000:",
-			"^0000FFFor each Refine Level^000000 of ^990099Celine's Dress^000000:",			"MATK +10",			" ",
+			"If ^0000FFtotal Refine Level of entire set^000000 at least ^0000FF+23^000000:",
+			"Increases magical damage against all elemental enemies by 20%.",
+			"________________________",
+			"When equipped with ^990099Celine's Brooch^000000:",
+			"^0000FFFor each Refine Level^000000 of ^990099Celine's Dress^000000:",
+			"MATK +10",
+			" ",
 			"If ^0000FFRefine Level^000000 of ^990099Celine's Dress^000000 is ^0000FF+9 or higher^000000:",
 			"Decreases Variable Casting Time of all skills by 5%.",
-			" ",			"If ^0000FFRefine Level^000000 of ^990099Celine's Dress^000000 is ^0000FF+11 or higher^000000:",
+			" ",
+			"If ^0000FFRefine Level^000000 of ^990099Celine's Dress^000000 is ^0000FF+11 or higher^000000:",
 			"Increases ^0000BBWater^000000, ^33CC00Wind^000000, ^CC5500Earth^000000, ^FF0000Fire^000000 and ^777777Neutral^000000 elemental magic damage by 10%.",
-			" ",			"If ^0000FFRefine Level^000000 of ^990099Celine's Dress^000000 is ^0000FF+13 or higher^000000:",
-			"^663399Indestructible in battle^000000",			"________________________",
+			" ",
+			"If ^0000FFRefine Level^000000 of ^990099Celine's Dress^000000 is ^0000FF+13 or higher^000000:",
+			"^663399Indestructible in battle^000000",
+			"________________________",
 			"^0000CCType:^000000 Armor",
 			"^0000CCDefense:^000000 40",
 			"^0000CCWeight:^000000 50",
 			"________________________",
 			"^0000CCRequirement:^000000",
-			"Base Level 130"		},		slotCount = 1,		ClassNum = 0,		costume = false	},
+			"Base Level 130"
+		},
+		slotCount = 1,
+		ClassNum = 0,
+		costume = false
+	},
 	[460005] = {
 		unidentifiedDisplayName = "Unidentified Shield",
 		unidentifiedResourceName = "가드",
@@ -411093,15 +414318,20 @@ tbl = {
 		identifiedDisplayName = "Aegirnian Shoes",
 		identifiedResourceName = "에길슈즈",
 		identifiedDescriptionName = {
-			"A newly made shoe based on Aegir's shoes.",			"________________________",
+			"A newly made shoe based on Aegir's shoes.",
+			"________________________",
 			"MaxHP +10%",
-			"MaxSP +5%",			"________________________",
+			"MaxSP +5%",
+			"________________________",
 			"^0000FFRefine Level +9^000000:",
-			"Increases Attack Speed (Decreases After Attack Delay by 10%).",			"________________________",
+			"Increases Attack Speed (Decreases After Attack Delay by 10%).",
+			"________________________",
 			"When equipped with ^990099Aegirnian Helm^000000:",
-			"Increases damage against ^0000BBWater^000000 and ^33CC00Wind^000000 elemental enemies by 10%.",			" ",
+			"Increases damage against ^0000BBWater^000000 and ^33CC00Wind^000000 elemental enemies by 10%.",
+			" ",
 			"^0000FFFor each Refine Level^000000 of ^990099Aegirnian Shoes^000000:",
-			"Increases damage against ^0000BBWater^000000 and ^33CC00Wind^000000 elemental enemies by additional 1%.",			"________________________",
+			"Increases damage against ^0000BBWater^000000 and ^33CC00Wind^000000 elemental enemies by additional 1%.",
+			"________________________",
 			"^0000CCType:^000000 Shoes",
 			"^0000CCDefense:^000000 35",
 			"^0000CCWeight:^000000 30",
@@ -411385,12 +414615,15 @@ tbl = {
 			"^0000FFFor each 2 Refine Levels^000000:",
 			"MaxSP +50",
 			"________________________",
-			"^0000FFRefine Level +7^000000:",			"Increases ranged physical damage by 7%.",
+			"^0000FFRefine Level +7^000000:",
+			"Increases ranged physical damage by 7%.",
 			"________________________",
 			"When equipped with ^990099Gray Wolf Suit^000000:",
-			"ATK +7%",			"________________________",
+			"ATK +7%",
+			"________________________",
 			"When equipped with ^990099Gray Wolf Robe^000000:",
-			"Increases Attack Speed (Decreases After Attack Delay by 7%).",			"________________________",
+			"Increases Attack Speed (Decreases After Attack Delay by 7%).",
+			"________________________",
 			"^0000CCType:^000000 Shoes",
 			"^0000CCDefense:^000000 70",
 			"^0000CCWeight:^000000 50",
@@ -411424,7 +414657,8 @@ tbl = {
 			"MaxSP +7%",
 			"________________________",
 			"When equipped with ^990099Gray Wolf Robe^000000:",
-			"MATK +7%",			"________________________",
+			"MATK +7%",
+			"________________________",
 			"^0000CCType:^000000 Shoes",
 			"^0000CCDefense:^000000 70",
 			"^0000CCWeight:^000000 50",
@@ -412329,7 +415563,8 @@ tbl = {
 		identifiedDisplayName = "Gray Wolf Scarf",
 		identifiedResourceName = "Gray_W_Muffler",
 		identifiedDescriptionName = {
-			"A scarf given to those who have been recognized by the Gray Wolf Clan.",			"________________________",
+			"A scarf given to those who have been recognized by the Gray Wolf Clan.",
+			"________________________",
 			"MaxHP +1500",
 			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
@@ -412342,7 +415577,8 @@ tbl = {
 			"Increases ranged physical damage by 7%.",
 			"________________________",
 			"When equipped with ^990099Gray Wolf Shoes^000000:",
-			"Increases all elemental magic damage by 15%.",			"________________________",
+			"Increases all elemental magic damage by 15%.",
+			"________________________",
 			"^0000CCType:^000000 Garment",
 			"^0000CCDefense:^000000 70",
 			"^0000CCWeight:^000000 90",
@@ -414437,9 +417673,11 @@ tbl = {
 		identifiedDisplayName = "Gray Wolf Pendant",
 		identifiedResourceName = "Gray_W_Pendant",
 		identifiedDescriptionName = {
-			"A pendant given to those who have been recognized by the Gray Wolf Clan.",			"________________________",
+			"A pendant given to those who have been recognized by the Gray Wolf Clan.",
+			"________________________",
 			"ATK +7%",
-			"MaxHP +5%",			"________________________",
+			"MaxHP +5%",
+			"________________________",
 			"^0000CCType:^000000 Accessory",
 			"^0000CCPosition:^000000 Right",
 			"^0000CCDefense:^000000 0",
@@ -415023,17 +418261,37 @@ tbl = {
 		ClassNum = 42,
 		costume = false
 	},
-	[500019] = {		unidentifiedDisplayName = "Unidentified Sword",		unidentifiedResourceName = "바스타드소드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Gladius",		identifiedResourceName = "Poenitentia_Gladius",		identifiedDescriptionName = {			"A sword containing the pain of bereavement.",			"________________________",			"MATK +250",			"MATK +10%",			"________________________",
-			"Increases damage of ^009900Cross Rain^000000 by 10%.",			"________________________",
+	[500019] = {
+		unidentifiedDisplayName = "Unidentified Sword",
+		unidentifiedResourceName = "바스타드소드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Gladius",
+		identifiedResourceName = "Poenitentia_Gladius",
+		identifiedDescriptionName = {
+			"A sword containing the pain of bereavement.",
+			"________________________",
+			"MATK +250",
+			"MATK +10%",
+			"________________________",
+			"Increases damage of ^009900Cross Rain^000000 by 10%.",
+			"________________________",
 			"^0000FFFor each 2 Refine Levels^000000:",
 			"Increases damage of ^009900Genesis Ray^000000 by 4%.",
 			"________________________",
-			"^0000FFRefine Level +7^000000:",			"Decreases Variable Casting Time of all skills by 10%.",			"________________________",
+			"^0000FFRefine Level +7^000000:",
+			"Decreases Variable Casting Time of all skills by 10%.",
+			"________________________",
 			"^0000FFRefine Level +9^000000:",
-			"Increases damage of ^009900Genesis Ray^000000 by additional 25%.",			"________________________",
+			"Increases damage of ^009900Genesis Ray^000000 by additional 25%.",
+			"________________________",
 			"^0000FFRefine Level +11^000000:",
-			"Increases ^777777Holy^000000 elemental magic damage by 10%.",			"________________________",			"^CC3D3D[Additional Options by Grade]^000000",
-			"[Grade D]: Increases damage of ^009900Cross Rain^000000 by 5%.",			"[Grade C]: Increases damage of ^009900Cross Rain^000000 by 8%, S.MATK +1.",			"[Grade B]: Increases damage of ^009900Cross Rain^000000 by 12%, SPL +1.",			"________________________",
+			"Increases ^777777Holy^000000 elemental magic damage by 10%.",
+			"________________________",
+			"^CC3D3D[Additional Options by Grade]^000000",
+			"[Grade D]: Increases damage of ^009900Cross Rain^000000 by 5%.",
+			"[Grade C]: Increases damage of ^009900Cross Rain^000000 by 8%, S.MATK +1.",
+			"[Grade B]: Increases damage of ^009900Cross Rain^000000 by 12%, SPL +1.",
+			"________________________",
 			"^0000CCType:^000000 Sword",
 			"^0000CCAttack:^000000 195",
 			"^0000CCWeight:^000000 180",
@@ -415041,8 +418299,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Imperial Guard"		},		slotCount = 2,		ClassNum = 42,		costume = false	},
-	[500020] = {		unidentifiedDisplayName = "Unidentified Sword",		unidentifiedResourceName = "바스타드소드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Ligula",		identifiedResourceName = "Poenitentia_Ligula",		identifiedDescriptionName = {			"A sword containing the pain of bereavement.",
+			"Imperial Guard"
+		},
+		slotCount = 2,
+		ClassNum = 42,
+		costume = false
+	},
+	[500020] = {
+		unidentifiedDisplayName = "Unidentified Sword",
+		unidentifiedResourceName = "바스타드소드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Ligula",
+		identifiedResourceName = "Poenitentia_Ligula",
+		identifiedDescriptionName = {
+			"A sword containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -415072,8 +418342,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Biolo"		},		slotCount = 2,		ClassNum = 42,		costume = false	},
-	[500024] = {		unidentifiedDisplayName = "Unidentified Sword",		unidentifiedResourceName = "소드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Thanos Sword-AD",		identifiedResourceName = "Thanos_Sword_AD",		identifiedDescriptionName = {			"Thanos' sword remodeled with the addition of Tim Artnard's technology.",
+			"Biolo"
+		},
+		slotCount = 2,
+		ClassNum = 42,
+		costume = false
+	},
+	[500024] = {
+		unidentifiedDisplayName = "Unidentified Sword",
+		unidentifiedResourceName = "소드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Thanos Sword-AD",
+		identifiedResourceName = "Thanos_Sword_AD",
+		identifiedDescriptionName = {
+			"Thanos' sword remodeled with the addition of Tim Artnard's technology.",
 			"________________________",
 			"Physical attacks have a random chance to recover 2500 HP and 50 SP every second for 4 seconds.",
 			"________________________",
@@ -415107,8 +418389,21 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 190",
-			"Genetic"		},		slotCount = 2,		ClassNum = 42,		costume = false	},
-	[500025] = {		unidentifiedDisplayName = "Unidentified Sword",		unidentifiedResourceName = "소드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Guardian Sword",		identifiedResourceName = "Adulter_F_G_Sword",		identifiedDescriptionName = {			"A guardian sword filled with false beliefs.",			"________________________",
+			"Genetic"
+		},
+		slotCount = 2,
+		ClassNum = 42,
+		costume = false
+	},
+	[500025] = {
+		unidentifiedDisplayName = "Unidentified Sword",
+		unidentifiedResourceName = "소드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Guardian Sword",
+		identifiedResourceName = "Adulter_F_G_Sword",
+		identifiedDescriptionName = {
+			"A guardian sword filled with false beliefs.",
+			"________________________",
 			"MATK +220",
 			"________________________",
 			"Increases damage of ^009900Genesis Ray^000000 by 10%.",
@@ -415135,8 +418430,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Royal Guard"		},		slotCount = 2,		ClassNum = 42,		costume = false	},
-	[500026] = {		unidentifiedDisplayName = "Unidentified Sword",		unidentifiedResourceName = "소드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Rapier",		identifiedResourceName = "Adulter_F_Lapier",		identifiedDescriptionName = {			"A rapier filled with false beliefs.",
+			"Royal Guard"
+		},
+		slotCount = 2,
+		ClassNum = 42,
+		costume = false
+	},
+	[500026] = {
+		unidentifiedDisplayName = "Unidentified Sword",
+		unidentifiedResourceName = "소드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Rapier",
+		identifiedResourceName = "Adulter_F_Lapier",
+		identifiedDescriptionName = {
+			"A rapier filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Cart Cannon^000000 by 10%.",
 			"________________________",
@@ -415162,8 +418469,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Genetic"		},		slotCount = 2,		ClassNum = 42,		costume = false	},
-	[500027] = {		unidentifiedDisplayName = "Unidentified Sword",		unidentifiedResourceName = "소드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Guardian Sword",		identifiedResourceName = "Vivatus_F_G_Sword",		identifiedDescriptionName = {			"A guardian sword reborn with the power of true faith through a ritual of purification.",
+			"Genetic"
+		},
+		slotCount = 2,
+		ClassNum = 42,
+		costume = false
+	},
+	[500027] = {
+		unidentifiedDisplayName = "Unidentified Sword",
+		unidentifiedResourceName = "소드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Guardian Sword",
+		identifiedResourceName = "Vivatus_F_G_Sword",
+		identifiedDescriptionName = {
+			"A guardian sword reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"MATK +220",
 			"________________________",
@@ -415197,8 +418516,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Imperial Guard"		},		slotCount = 2,		ClassNum = 42,		costume = false	},
-	[500028] = {		unidentifiedDisplayName = "Unidentified Sword",		unidentifiedResourceName = "소드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Rapier",		identifiedResourceName = "Vivatus_F_Lapier",		identifiedDescriptionName = {			"A rapier reborn with the power of true faith through a ritual of purification.",
+			"Imperial Guard"
+		},
+		slotCount = 2,
+		ClassNum = 42,
+		costume = false
+	},
+	[500028] = {
+		unidentifiedDisplayName = "Unidentified Sword",
+		unidentifiedResourceName = "소드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Rapier",
+		identifiedResourceName = "Vivatus_F_Lapier",
+		identifiedDescriptionName = {
+			"A rapier reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"Increases damage of ^009900Cart Cannon^000000 by 10%.",
 			"________________________",
@@ -415230,7 +418561,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Biolo"		},		slotCount = 2,		ClassNum = 42,		costume = false	},
+			"Biolo"
+		},
+		slotCount = 2,
+		ClassNum = 42,
+		costume = false
+	},
 	[510001] = {
 		unidentifiedDisplayName = "Unidentified Dagger",
 		unidentifiedResourceName = "나이프",
@@ -415770,7 +419106,14 @@ tbl = {
 		ClassNum = 31,
 		costume = false
 	},
-	[510027] = {		unidentifiedDisplayName = "Unidentified Dagger",		unidentifiedResourceName = "나이프",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Mucro",		identifiedResourceName = "Poenitentia_Mucro",		identifiedDescriptionName = {			"A dagger containing the pain of bereavement.",
+	[510027] = {
+		unidentifiedDisplayName = "Unidentified Dagger",
+		unidentifiedResourceName = "나이프",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Mucro",
+		identifiedResourceName = "Poenitentia_Mucro",
+		identifiedDescriptionName = {
+			"A dagger containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -415800,8 +419143,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Shadow Cross"		},		slotCount = 2,		ClassNum = 31,		costume = false	},
-	[510028] = {		unidentifiedDisplayName = "Unidentified Dagger",		unidentifiedResourceName = "나이프",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Dilacero",		identifiedResourceName = "Poenetentia_Dilacero",		identifiedDescriptionName = {			"A dagger containing the pain of bereavement.",
+			"Shadow Cross"
+		},
+		slotCount = 2,
+		ClassNum = 31,
+		costume = false
+	},
+	[510028] = {
+		unidentifiedDisplayName = "Unidentified Dagger",
+		unidentifiedResourceName = "나이프",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Dilacero",
+		identifiedResourceName = "Poenetentia_Dilacero",
+		identifiedDescriptionName = {
+			"A dagger containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -415831,8 +419186,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Abyss Chaser"		},		slotCount = 2,		ClassNum = 31,		costume = false	},
-	[510030] = {		unidentifiedDisplayName = "Unidentified Dagger",		unidentifiedResourceName = "나이프",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Thanos Dagger-AD",		identifiedResourceName = "Thanos_Dagger_AD",		identifiedDescriptionName = {			"Thanos' dagger remodeled with the addition of Tim Artnard's technology.",
+			"Abyss Chaser"
+		},
+		slotCount = 2,
+		ClassNum = 31,
+		costume = false
+	},
+	[510030] = {
+		unidentifiedDisplayName = "Unidentified Dagger",
+		unidentifiedResourceName = "나이프",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Thanos Dagger-AD",
+		identifiedResourceName = "Thanos_Dagger_AD",
+		identifiedDescriptionName = {
+			"Thanos' dagger remodeled with the addition of Tim Artnard's technology.",
 			"________________________",
 			"MATK +160",
 			"________________________",
@@ -415867,8 +419234,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 190",
-			"Genetic"		},		slotCount = 2,		ClassNum = 31,		costume = false	},
-	[510032] = {		unidentifiedDisplayName = "Unidentified Dagger",		unidentifiedResourceName = "나이프",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Dagger",		identifiedResourceName = "Adulter_F_Dagger",		identifiedDescriptionName = {			"A dagger filled with false beliefs.",
+			"Genetic"
+		},
+		slotCount = 2,
+		ClassNum = 31,
+		costume = false
+	},
+	[510032] = {
+		unidentifiedDisplayName = "Unidentified Dagger",
+		unidentifiedResourceName = "나이프",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Dagger",
+		identifiedResourceName = "Adulter_F_Dagger",
+		identifiedDescriptionName = {
+			"A dagger filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Fatal Menace^000000 by 10%.",
 			"________________________",
@@ -415894,8 +419273,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Shadow Chaser"		},		slotCount = 2,		ClassNum = 31,		costume = false	},
-	[510033] = {		unidentifiedDisplayName = "Unidentified Dagger",		unidentifiedResourceName = "나이프",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Dagger",		identifiedResourceName = "Vivatus_F_Dagger",		identifiedDescriptionName = {			"A dagger reborn with the power of true faith through a ritual of purification.",
+			"Shadow Chaser"
+		},
+		slotCount = 2,
+		ClassNum = 31,
+		costume = false
+	},
+	[510033] = {
+		unidentifiedDisplayName = "Unidentified Dagger",
+		unidentifiedResourceName = "나이프",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Dagger",
+		identifiedResourceName = "Vivatus_F_Dagger",
+		identifiedDescriptionName = {
+			"A dagger reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"Increases damage of ^009900Fatal Menace^000000 by 10%.",
 			"________________________",
@@ -415927,7 +419318,10 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Abyss Chaser"		},		slotCount = 2,		ClassNum = 31,
+			"Abyss Chaser"
+		},
+		slotCount = 2,
+		ClassNum = 31,
 		costume = false
 	},
 	[520000] = {
@@ -416030,7 +419424,14 @@ tbl = {
 		ClassNum = 6,
 		costume = false
 	},
-	[520008] = {		unidentifiedDisplayName = "Unidentified Axe",		unidentifiedResourceName = "액스",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Axe",		identifiedResourceName = "Adulter_F_Axe",		identifiedDescriptionName = {			"A axe filled with false beliefs.",
+	[520008] = {
+		unidentifiedDisplayName = "Unidentified Axe",
+		unidentifiedResourceName = "액스",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Axe",
+		identifiedResourceName = "Adulter_F_Axe",
+		identifiedDescriptionName = {
+			"A axe filled with false beliefs.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -416058,8 +419459,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Mechanic"		},		slotCount = 2,		ClassNum = 6,		costume = false	},
-	[520009] = {		unidentifiedDisplayName = "Unidentified Axe",		unidentifiedResourceName = "액스",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Axe",		identifiedResourceName = "Vivatus_F_Axe",		identifiedDescriptionName = {			"A axe reborn with the power of true faith through a ritual of purification.",
+			"Mechanic"
+		},
+		slotCount = 2,
+		ClassNum = 6,
+		costume = false
+	},
+	[520009] = {
+		unidentifiedDisplayName = "Unidentified Axe",
+		unidentifiedResourceName = "액스",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Axe",
+		identifiedResourceName = "Vivatus_F_Axe",
+		identifiedDescriptionName = {
+			"A axe reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -416093,7 +419506,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Meister"		},		slotCount = 2,		ClassNum = 6,		costume = false	},
+			"Meister"
+		},
+		slotCount = 2,
+		ClassNum = 6,
+		costume = false
+	},
 	[530000] = {
 		unidentifiedDisplayName = "Unidentified Spear",
 		unidentifiedResourceName = "쟈벨린",
@@ -416319,7 +419737,14 @@ tbl = {
 		ClassNum = 4,
 		costume = false
 	},
-	[530010] = {		unidentifiedDisplayName = "Unidentified Spear",		unidentifiedResourceName = "쟈벨린",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Hasta",		identifiedResourceName = "Poenitentia_Hasta",		identifiedDescriptionName = {			"A spear containing the pain of bereavement.",
+	[530010] = {
+		unidentifiedDisplayName = "Unidentified Spear",
+		unidentifiedResourceName = "쟈벨린",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Hasta",
+		identifiedResourceName = "Poenitentia_Hasta",
+		identifiedDescriptionName = {
+			"A spear containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -416349,8 +419774,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Imperial Guard"		},		slotCount = 2,		ClassNum = 4,		costume = false	},
-	[530012] = {		unidentifiedDisplayName = "Unidentified Spear",		unidentifiedResourceName = "쟈벨린",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Thanos Spear-AD",		identifiedResourceName = "Thanos_Spear_AD",		identifiedDescriptionName = {			"Thanos' spear remodeled with the addition of Tim Artnard's technology.",
+			"Imperial Guard"
+		},
+		slotCount = 2,
+		ClassNum = 4,
+		costume = false
+	},
+	[530012] = {
+		unidentifiedDisplayName = "Unidentified Spear",
+		unidentifiedResourceName = "쟈벨린",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Thanos Spear-AD",
+		identifiedResourceName = "Thanos_Spear_AD",
+		identifiedDescriptionName = {
+			"Thanos' spear remodeled with the addition of Tim Artnard's technology.",
 			"________________________",
 			"Physical attacks have a random chance to recover 2500 HP and 50 SP every second for 4 seconds.",
 			"________________________",
@@ -416384,8 +419821,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 190",
-			"Royal Guard"		},		slotCount = 2,		ClassNum = 4,		costume = false	},
-	[530013] = {		unidentifiedDisplayName = "Unidentified Spear",		unidentifiedResourceName = "쟈벨린",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Guardian Spear",		identifiedResourceName = "Adulter_F_G_Spear",		identifiedDescriptionName = {			"A guardian spear filled with false beliefs.",
+			"Royal Guard"
+		},
+		slotCount = 2,
+		ClassNum = 4,
+		costume = false
+	},
+	[530013] = {
+		unidentifiedDisplayName = "Unidentified Spear",
+		unidentifiedResourceName = "쟈벨린",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Guardian Spear",
+		identifiedResourceName = "Adulter_F_G_Spear",
+		identifiedDescriptionName = {
+			"A guardian spear filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Overbrand^000000 by 10%.",
 			"________________________",
@@ -416411,8 +419860,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Royal Guard"		},		slotCount = 2,		ClassNum = 4,		costume = false	},
-	[530014] = {		unidentifiedDisplayName = "Unidentified Spear",		unidentifiedResourceName = "쟈벨린",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Guardian Spear",		identifiedResourceName = "Vivatus_F_G_Spear",		identifiedDescriptionName = {			"A guardian spear reborn with the power of true faith through a ritual of purification.",
+			"Royal Guard"
+		},
+		slotCount = 2,
+		ClassNum = 4,
+		costume = false
+	},
+	[530014] = {
+		unidentifiedDisplayName = "Unidentified Spear",
+		unidentifiedResourceName = "쟈벨린",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Guardian Spear",
+		identifiedResourceName = "Vivatus_F_G_Spear",
+		identifiedDescriptionName = {
+			"A guardian spear reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"Increases damage of ^009900Overbrand^000000 by 10%.",
 			"________________________",
@@ -416444,7 +419905,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Imperial Guard"		},		slotCount = 2,		ClassNum = 4,		costume = false	},
+			"Imperial Guard"
+		},
+		slotCount = 2,
+		ClassNum = 4,
+		costume = false
+	},
 	[540000] = {
 		unidentifiedDisplayName = "Unidentified Book",
 		unidentifiedResourceName = "북",
@@ -416821,7 +420287,14 @@ tbl = {
 		ClassNum = 15,
 		costume = false
 	},
-	[540014] = {		unidentifiedDisplayName = "Unidentified Book",		unidentifiedResourceName = "북",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Codex",		identifiedResourceName = "Poenitentia_Codex",		identifiedDescriptionName = {			"A book containing the pain of bereavement.",
+	[540014] = {
+		unidentifiedDisplayName = "Unidentified Book",
+		unidentifiedResourceName = "북",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Codex",
+		identifiedResourceName = "Poenitentia_Codex",
+		identifiedDescriptionName = {
+			"A book containing the pain of bereavement.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -416855,8 +420328,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Elemental Master"		},		slotCount = 2,		ClassNum = 15,		costume = false	},
-	[540015] = {		unidentifiedDisplayName = "Unidentified Book",		unidentifiedResourceName = "북",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Liber",		identifiedResourceName = "Poenitentia_Liber",		identifiedDescriptionName = {			"A book containing the pain of bereavement.",
+			"Elemental Master"
+		},
+		slotCount = 2,
+		ClassNum = 15,
+		costume = false
+	},
+	[540015] = {
+		unidentifiedDisplayName = "Unidentified Book",
+		unidentifiedResourceName = "북",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Liber",
+		identifiedResourceName = "Poenitentia_Liber",
+		identifiedDescriptionName = {
+			"A book containing the pain of bereavement.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -416891,8 +420376,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Cardinal"		},		slotCount = 2,		ClassNum = 15,		costume = false	},
-	[540019] = {		unidentifiedDisplayName = "Unidentified Book",		unidentifiedResourceName = "북",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Magic Book",		identifiedResourceName = "Adulter_F_M_Book",		identifiedDescriptionName = {			"A magic book filled with false beliefs.",
+			"Cardinal"
+		},
+		slotCount = 2,
+		ClassNum = 15,
+		costume = false
+	},
+	[540019] = {
+		unidentifiedDisplayName = "Unidentified Book",
+		unidentifiedResourceName = "북",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Magic Book",
+		identifiedResourceName = "Adulter_F_M_Book",
+		identifiedDescriptionName = {
+			"A magic book filled with false beliefs.",
 			"________________________",
 			"MATK +220",
 			"________________________",
@@ -416920,8 +420417,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Sorcerer"		},		slotCount = 2,		ClassNum = 15,		costume = false	},
-	[540020] = {		unidentifiedDisplayName = "Unidentified Book",		unidentifiedResourceName = "북",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Poison Book",		identifiedResourceName = "Adulter_F_P_Book",		identifiedDescriptionName = {			"A poison book filled with false beliefs.",
+			"Sorcerer"
+		},
+		slotCount = 2,
+		ClassNum = 15,
+		costume = false
+	},
+	[540020] = {
+		unidentifiedDisplayName = "Unidentified Book",
+		unidentifiedResourceName = "북",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Poison Book",
+		identifiedResourceName = "Adulter_F_P_Book",
+		identifiedDescriptionName = {
+			"A poison book filled with false beliefs.",
 			"________________________",
 			"MATK +220",
 			"________________________",
@@ -416949,8 +420458,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Sorcerer"		},		slotCount = 2,		ClassNum = 15,		costume = false	},
-	[540021] = {		unidentifiedDisplayName = "Unidentified Book",		unidentifiedResourceName = "북",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Bible",		identifiedResourceName = "Adulter_F_Bible",		identifiedDescriptionName = {			"A bible filled with false beliefs.",
+			"Sorcerer"
+		},
+		slotCount = 2,
+		ClassNum = 15,
+		costume = false
+	},
+	[540021] = {
+		unidentifiedDisplayName = "Unidentified Book",
+		unidentifiedResourceName = "북",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Bible",
+		identifiedResourceName = "Adulter_F_Bible",
+		identifiedDescriptionName = {
+			"A bible filled with false beliefs.",
 			"________________________",
 			"MATK +210",
 			"________________________",
@@ -416979,8 +420500,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Archbishop"		},		slotCount = 2,		ClassNum = 15,		costume = false	},
-	[540022] = {		unidentifiedDisplayName = "Unidentified Book",		unidentifiedResourceName = "북",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Moon Book",		identifiedResourceName = "Adulter_F_Moon_B",		identifiedDescriptionName = {			"A moon book filled with false beliefs.",
+			"Archbishop"
+		},
+		slotCount = 2,
+		ClassNum = 15,
+		costume = false
+	},
+	[540022] = {
+		unidentifiedDisplayName = "Unidentified Book",
+		unidentifiedResourceName = "북",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Moon Book",
+		identifiedResourceName = "Adulter_F_Moon_B",
+		identifiedDescriptionName = {
+			"A moon book filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Full Moon Kick^000000 by 10%.",
 			"________________________",
@@ -417006,8 +420539,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Star Emperor"		},		slotCount = 2,		ClassNum = 15,		costume = false	},
-	[540023] = {		unidentifiedDisplayName = "Unidentified Book",		unidentifiedResourceName = "북",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Stardust Book",		identifiedResourceName = "Adulter_F_Star_B",		identifiedDescriptionName = {			"A star book filled with false beliefs.",
+			"Star Emperor"
+		},
+		slotCount = 2,
+		ClassNum = 15,
+		costume = false
+	},
+	[540023] = {
+		unidentifiedDisplayName = "Unidentified Book",
+		unidentifiedResourceName = "북",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Stardust Book",
+		identifiedResourceName = "Adulter_F_Star_B",
+		identifiedDescriptionName = {
+			"A star book filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Falling Star^000000 by 10%.",
 			"________________________",
@@ -417033,9 +420578,21 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Star Emperor"		},		slotCount = 2,		ClassNum = 15,		costume = false	},
-	[540024] = {		unidentifiedDisplayName = "Unidentified Book",		unidentifiedResourceName = "북",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Magic Book",		identifiedResourceName = "Vivatus_F_M_Book",		identifiedDescriptionName = {
-			"A magic book reborn with the power of true faith through a ritual of purification.",			"________________________",
+			"Star Emperor"
+		},
+		slotCount = 2,
+		ClassNum = 15,
+		costume = false
+	},
+	[540024] = {
+		unidentifiedDisplayName = "Unidentified Book",
+		unidentifiedResourceName = "북",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Magic Book",
+		identifiedResourceName = "Vivatus_F_M_Book",
+		identifiedDescriptionName = {
+			"A magic book reborn with the power of true faith through a ritual of purification.",
+			"________________________",
 			"MATK +200",
 			"________________________",
 			"Increases damage of ^009900Psychic Wave^000000 by 10%.",
@@ -417068,8 +420625,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Elemental Master"		},		slotCount = 2,		ClassNum = 15,		costume = false	},
-	[540025] = {		unidentifiedDisplayName = "Unidentified Book",		unidentifiedResourceName = "북",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Poison Book",		identifiedResourceName = "Vivatus_F_P_Book",		identifiedDescriptionName = {			"A poison book reborn with the power of true faith through a ritual of purification.",
+			"Elemental Master"
+		},
+		slotCount = 2,
+		ClassNum = 15,
+		costume = false
+	},
+	[540025] = {
+		unidentifiedDisplayName = "Unidentified Book",
+		unidentifiedResourceName = "북",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Poison Book",
+		identifiedResourceName = "Vivatus_F_P_Book",
+		identifiedDescriptionName = {
+			"A poison book reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"MATK +200",
 			"________________________",
@@ -417103,8 +420672,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Elemental Master"		},		slotCount = 2,		ClassNum = 15,		costume = false	},
-	[540026] = {		unidentifiedDisplayName = "Unidentified Book",		unidentifiedResourceName = "북",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Bible",		identifiedResourceName = "Vivatus_F_Bible",		identifiedDescriptionName = {			"A bible reborn with the power of true faith through a ritual of purification.",
+			"Elemental Master"
+		},
+		slotCount = 2,
+		ClassNum = 15,
+		costume = false
+	},
+	[540026] = {
+		unidentifiedDisplayName = "Unidentified Book",
+		unidentifiedResourceName = "북",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Bible",
+		identifiedResourceName = "Vivatus_F_Bible",
+		identifiedDescriptionName = {
+			"A bible reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"MATK +210",
 			"________________________",
@@ -417139,7 +420720,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Cardinal"		},		slotCount = 2,		ClassNum = 15,		costume = false	},
+			"Cardinal"
+		},
+		slotCount = 2,
+		ClassNum = 15,
+		costume = false
+	},
 	[550001] = {
 		unidentifiedDisplayName = "Unidentified Staff",
 		unidentifiedResourceName = "롯드",
@@ -417738,7 +421324,14 @@ tbl = {
 		ClassNum = 10,
 		costume = false
 	},
-	[550019] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Scipio",		identifiedResourceName = "Poenitentia_Scipio",		identifiedDescriptionName = {			"A staff containing the pain of bereavement.",
+	[550019] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Scipio",
+		identifiedResourceName = "Poenitentia_Scipio",
+		identifiedDescriptionName = {
+			"A staff containing the pain of bereavement.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -417772,8 +421365,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Elemental Master"		},		slotCount = 2,		ClassNum = 69,		costume = false	},
-	[550020] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Crystallum",		identifiedResourceName = "Poenitentia_Crystallum",		identifiedDescriptionName = {			"A staff containing the pain of bereavement.",
+			"Elemental Master"
+		},
+		slotCount = 2,
+		ClassNum = 69,
+		costume = false
+	},
+	[550020] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Crystallum",
+		identifiedResourceName = "Poenitentia_Crystallum",
+		identifiedDescriptionName = {
+			"A staff containing the pain of bereavement.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -417806,8 +421411,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Cardinal"		},		slotCount = 2,		ClassNum = 69,		costume = false	},
-	[550023] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Thanos Staff-AD",		identifiedResourceName = "Thanos_Staff_AD",		identifiedDescriptionName = {			"Thanos' staff remodeled with the addition of Tim Artnard's technology.",
+			"Cardinal"
+		},
+		slotCount = 2,
+		ClassNum = 69,
+		costume = false
+	},
+	[550023] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Thanos Staff-AD",
+		identifiedResourceName = "Thanos_Staff_AD",
+		identifiedDescriptionName = {
+			"Thanos' staff remodeled with the addition of Tim Artnard's technology.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -417845,8 +421462,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 190",
-			"Sorcerer"		},		slotCount = 2,		ClassNum = 69,		costume = false	},
-	[550024] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Wand",		identifiedResourceName = "Adulter_F_Wand",		identifiedDescriptionName = {			"A wand filled with false beliefs.",
+			"Sorcerer"
+		},
+		slotCount = 2,
+		ClassNum = 69,
+		costume = false
+	},
+	[550024] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Wand",
+		identifiedResourceName = "Adulter_F_Wand",
+		identifiedDescriptionName = {
+			"A wand filled with false beliefs.",
 			"________________________",
 			"MATK +210",
 			"________________________",
@@ -417876,8 +421505,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Archbishop"		},		slotCount = 2,		ClassNum = 69,		costume = false	},
-	[550025] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Soul Stick",		identifiedResourceName = "Adulter_F_S_Stick",		identifiedDescriptionName = {			"A soul stick filled with false beliefs.",
+			"Archbishop"
+		},
+		slotCount = 2,
+		ClassNum = 69,
+		costume = false
+	},
+	[550025] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Soul Stick",
+		identifiedResourceName = "Adulter_F_S_Stick",
+		identifiedDescriptionName = {
+			"A soul stick filled with false beliefs.",
 			"________________________",
 			"MATK +205",
 			"________________________",
@@ -417907,8 +421548,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Soul Reaper"		},		slotCount = 2,		ClassNum = 69,		costume = false	},
-	[550026] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Dark Wand",		identifiedResourceName = "Adulter_F_D_Wand",		identifiedDescriptionName = {			"A dark wand filled with false beliefs.",
+			"Soul Reaper"
+		},
+		slotCount = 2,
+		ClassNum = 69,
+		costume = false
+	},
+	[550026] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Dark Wand",
+		identifiedResourceName = "Adulter_F_D_Wand",
+		identifiedDescriptionName = {
+			"A dark wand filled with false beliefs.",
 			"________________________",
 			"MATK +220",
 			"________________________",
@@ -417938,8 +421591,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Soul Reaper"		},		slotCount = 2,		ClassNum = 69,		costume = false	},
-	[550027] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Foxtail Wand",		identifiedResourceName = "Adulter_F_F_Wand",		identifiedDescriptionName = {			"A foxtail wand filled with false beliefs.",
+			"Soul Reaper"
+		},
+		slotCount = 2,
+		ClassNum = 69,
+		costume = false
+	},
+	[550027] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Foxtail Wand",
+		identifiedResourceName = "Adulter_F_F_Wand",
+		identifiedDescriptionName = {
+			"A foxtail wand filled with false beliefs.",
 			"________________________",
 			"MATK +350",
 			"________________________",
@@ -417969,8 +421634,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Summoner (Doram)"		},		slotCount = 2,		ClassNum = 99,		costume = false	},
-	[550028] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Foxtail Model",		identifiedResourceName = "Adulter_F_F_model",		identifiedDescriptionName = {			"A foxtail model filled with false beliefs.",
+			"Summoner (Doram)"
+		},
+		slotCount = 2,
+		ClassNum = 99,
+		costume = false
+	},
+	[550028] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Foxtail Model",
+		identifiedResourceName = "Adulter_F_F_model",
+		identifiedDescriptionName = {
+			"A foxtail model filled with false beliefs.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -417998,9 +421675,21 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Summoner (Doram)"		},		slotCount = 2,		ClassNum = 99,		costume = false	},
-	[550029] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Wand",		identifiedResourceName = "Vivatus_F_Wand",		identifiedDescriptionName = {
-			"A wand reborn with the power of true faith through a ritual of purification.",			"________________________",
+			"Summoner (Doram)"
+		},
+		slotCount = 2,
+		ClassNum = 99,
+		costume = false
+	},
+	[550029] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Wand",
+		identifiedResourceName = "Vivatus_F_Wand",
+		identifiedDescriptionName = {
+			"A wand reborn with the power of true faith through a ritual of purification.",
+			"________________________",
 			"MATK +210",
 			"________________________",
 			"^663399Indestructible in battle^000000",
@@ -418035,7 +421724,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Cardinal"		},		slotCount = 2,		ClassNum = 69,		costume = false	},
+			"Cardinal"
+		},
+		slotCount = 2,
+		ClassNum = 69,
+		costume = false
+	},
 	[560000] = {
 		unidentifiedDisplayName = "Unidentified Knuckle",
 		unidentifiedResourceName = "바그낙",
@@ -418384,7 +422078,14 @@ tbl = {
 		ClassNum = 78,
 		costume = false
 	},
-	[560012] = {		unidentifiedDisplayName = "Unidentified Knuckle",		unidentifiedResourceName = "바그낙",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Caestus",		identifiedResourceName = "Poenitentia_Caestus",		identifiedDescriptionName = {			"A pair of knuckles containing the pain of bereavement.",
+	[560012] = {
+		unidentifiedDisplayName = "Unidentified Knuckle",
+		unidentifiedResourceName = "바그낙",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Caestus",
+		identifiedResourceName = "Poenitentia_Caestus",
+		identifiedDescriptionName = {
+			"A pair of knuckles containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -418414,8 +422115,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Inquisitor"		},		slotCount = 2,		ClassNum = 78,		costume = false	},
-	[560013] = {		unidentifiedDisplayName = "Unidentified Knuckle",		unidentifiedResourceName = "바그낙",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Ungula",		identifiedResourceName = "Poenitentia_Ungula",		identifiedDescriptionName = {			"A pair of knuckles containing the pain of bereavement.",
+			"Inquisitor"
+		},
+		slotCount = 2,
+		ClassNum = 78,
+		costume = false
+	},
+	[560013] = {
+		unidentifiedDisplayName = "Unidentified Knuckle",
+		unidentifiedResourceName = "바그낙",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Ungula",
+		identifiedResourceName = "Poenitentia_Ungula",
+		identifiedDescriptionName = {
+			"A pair of knuckles containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -418445,8 +422158,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Inquisitor"		},		slotCount = 2,		ClassNum = 78,		costume = false	},
-	[560017] = {		unidentifiedDisplayName = "Unidentified Knuckle",		unidentifiedResourceName = "바그낙",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Thanos Knuckle-AD",		identifiedResourceName = "Thanos_Knuckle_AD",		identifiedDescriptionName = {			"Thanos' knuckles remodeled with the addition of Tim Artnard's technology.",
+			"Inquisitor"
+		},
+		slotCount = 2,
+		ClassNum = 78,
+		costume = false
+	},
+	[560017] = {
+		unidentifiedDisplayName = "Unidentified Knuckle",
+		unidentifiedResourceName = "바그낙",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Thanos Knuckle-AD",
+		identifiedResourceName = "Thanos_Knuckle_AD",
+		identifiedDescriptionName = {
+			"Thanos' knuckles remodeled with the addition of Tim Artnard's technology.",
 			"________________________",
 			"Physical attacks have a random chance to recover 2500 HP and 50 SP every second for 4 seconds.",
 			"________________________",
@@ -418480,8 +422205,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 190",
-			"Sura"		},		slotCount = 2,		ClassNum = 78,		costume = false	},
-	[560018] = {		unidentifiedDisplayName = "Unidentified Knuckle",		unidentifiedResourceName = "바그낙",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Knuckle",		identifiedResourceName = "Adulter_F_Knuckle",		identifiedDescriptionName = {			"A pair of knuckles filled with false beliefs.",
+			"Sura"
+		},
+		slotCount = 2,
+		ClassNum = 78,
+		costume = false
+	},
+	[560018] = {
+		unidentifiedDisplayName = "Unidentified Knuckle",
+		unidentifiedResourceName = "바그낙",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Knuckle",
+		identifiedResourceName = "Adulter_F_Knuckle",
+		identifiedDescriptionName = {
+			"A pair of knuckles filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Tiger Cannon^000000 by 10%.",
 			"________________________",
@@ -418507,8 +422244,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Sura"		},		slotCount = 2,		ClassNum = 78,		costume = false	},
-	[560019] = {		unidentifiedDisplayName = "Unidentified Knuckle",		unidentifiedResourceName = "바그낙",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Claw",		identifiedResourceName = "Adulter_F_Claw",		identifiedDescriptionName = {			"A pair of claws filled with false beliefs.",
+			"Sura"
+		},
+		slotCount = 2,
+		ClassNum = 78,
+		costume = false
+	},
+	[560019] = {
+		unidentifiedDisplayName = "Unidentified Knuckle",
+		unidentifiedResourceName = "바그낙",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Claw",
+		identifiedResourceName = "Adulter_F_Claw",
+		identifiedDescriptionName = {
+			"A pair of claws filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Rampage Blaster^000000 by 10%.",
 			"________________________",
@@ -418534,8 +422283,21 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Sura"		},		slotCount = 2,		ClassNum = 78,		costume = false	},
-	[560020] = {		unidentifiedDisplayName = "Unidentified Knuckle",		unidentifiedResourceName = "바그낙",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Knuckle",		identifiedResourceName = "Vivatus_F_Knuckle",		identifiedDescriptionName = {			"A pair of knuckles reborn with the power of true faith through a ritual of purification.",			"________________________",
+			"Sura"
+		},
+		slotCount = 2,
+		ClassNum = 78,
+		costume = false
+	},
+	[560020] = {
+		unidentifiedDisplayName = "Unidentified Knuckle",
+		unidentifiedResourceName = "바그낙",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Knuckle",
+		identifiedResourceName = "Vivatus_F_Knuckle",
+		identifiedDescriptionName = {
+			"A pair of knuckles reborn with the power of true faith through a ritual of purification.",
+			"________________________",
 			"Increases damage of ^009900Tiger Cannon^000000 by 10%.",
 			"________________________",
 			"^0000FFFor each 3 Refine Levels^000000:",
@@ -418551,12 +422313,14 @@ tbl = {
 			"Increases damage of ^009900Tiger Cannon^000000 by additional 25%.",
 			"________________________",
 			"^0000FFRefine Level +12^000000:",
-			"Increases melee physical damage by 15%.",			"________________________",
+			"Increases melee physical damage by 15%.",
+			"________________________",
 			"^CC3D3D[Additional Options by Grade]^000000",
 			"[Grade D]: ^0000FFRefine Level +11^000000: Physical damage against all elemental enemies +15%.",
 			"[Grade C]: Damage of ^009900Tiger Cannon^000000 +15%.",
 			"[Grade B]: ATK +7%.",
-			"[Grade A]: POW +1, P.ATK +1 per ^0000FF3 Refine Levels^000000.",			"________________________",
+			"[Grade A]: POW +1, P.ATK +1 per ^0000FF3 Refine Levels^000000.",
+			"________________________",
 			"^0000CCType:^000000 Knuckle",
 			"^0000CCAttack:^000000 210",
 			"^0000CCWeight:^000000 100",
@@ -418564,8 +422328,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Inquisitor"		},		slotCount = 2,		ClassNum = 78,		costume = false	},
-	[560021] = {		unidentifiedDisplayName = "Unidentified Knuckle",		unidentifiedResourceName = "바그낙",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Claw",		identifiedResourceName = "Vivatus_F_Claw",		identifiedDescriptionName = {			"A pair of claws reborn with the power of true faith through a ritual of purification.",
+			"Inquisitor"
+		},
+		slotCount = 2,
+		ClassNum = 78,
+		costume = false
+	},
+	[560021] = {
+		unidentifiedDisplayName = "Unidentified Knuckle",
+		unidentifiedResourceName = "바그낙",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Claw",
+		identifiedResourceName = "Vivatus_F_Claw",
+		identifiedDescriptionName = {
+			"A pair of claws reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"Increases damage of ^009900Rampage Blaster^000000 by 10%.",
 			"________________________",
@@ -418597,7 +422373,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Inquisitor"		},		slotCount = 2,		ClassNum = 78,		costume = false	},
+			"Inquisitor"
+		},
+		slotCount = 2,
+		ClassNum = 78,
+		costume = false
+	},
 	[570000] = {
 		unidentifiedDisplayName = "Unidentified Instrument",
 		unidentifiedResourceName = "기타",
@@ -418930,7 +422711,14 @@ tbl = {
 		ClassNum = 13,
 		costume = false
 	},
-	[570013] = {		unidentifiedDisplayName = "Unidentified Instrument",		unidentifiedResourceName = "바이올린",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Chorda",		identifiedResourceName = "Poenitentia_Chorda",		identifiedDescriptionName = {			"A violin containing the pain of bereavement.",
+	[570013] = {
+		unidentifiedDisplayName = "Unidentified Instrument",
+		unidentifiedResourceName = "바이올린",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Chorda",
+		identifiedResourceName = "Poenitentia_Chorda",
+		identifiedDescriptionName = {
+			"A violin containing the pain of bereavement.",
 			"________________________",
 			"MATK +250",
 			"MATK +10%",
@@ -418961,8 +422749,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Troubadour"		},		slotCount = 2,		ClassNum = 13,		costume = false	},
-	[570016] = {		unidentifiedDisplayName = "Unidentified Instrument",		unidentifiedResourceName = "바이올린",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Thanos Violin-AD",		identifiedResourceName = "Thanos_Violin_AD",		identifiedDescriptionName = {			"Thanos' violin remodeled with the addition of Tim Artnard's technology.",
+			"Troubadour"
+		},
+		slotCount = 2,
+		ClassNum = 13,
+		costume = false
+	},
+	[570016] = {
+		unidentifiedDisplayName = "Unidentified Instrument",
+		unidentifiedResourceName = "바이올린",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Thanos Violin-AD",
+		identifiedResourceName = "Thanos_Violin_AD",
+		identifiedDescriptionName = {
+			"Thanos' violin remodeled with the addition of Tim Artnard's technology.",
 			"________________________",
 			"Physical attacks have a random chance to recover 2500 HP and 50 SP every second for 4 seconds.",
 			"________________________",
@@ -418996,8 +422796,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 190",
-			"Minstrel"		},		slotCount = 2,		ClassNum = 13,		costume = false	},
-	[570017] = {		unidentifiedDisplayName = "Unidentified Instrument",		unidentifiedResourceName = "바이올린",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Violin",		identifiedResourceName = "Adulter_F_Violin",		identifiedDescriptionName = {			"A violin filled with false beliefs.",
+			"Minstrel"
+		},
+		slotCount = 2,
+		ClassNum = 13,
+		costume = false
+	},
+	[570017] = {
+		unidentifiedDisplayName = "Unidentified Instrument",
+		unidentifiedResourceName = "바이올린",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Violin",
+		identifiedResourceName = "Adulter_F_Violin",
+		identifiedDescriptionName = {
+			"A violin filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Severe Rainstorm^000000 by 10%.",
 			"________________________",
@@ -419023,8 +422835,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Minstrel"		},		slotCount = 2,		ClassNum = 13,		costume = false	},
-	[570018] = {		unidentifiedDisplayName = "Unidentified Instrument",		unidentifiedResourceName = "바이올린",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Harp",		identifiedResourceName = "Adulter_F_Harp",		identifiedDescriptionName = {			"A harp filled with false beliefs.",
+			"Minstrel"
+		},
+		slotCount = 2,
+		ClassNum = 13,
+		costume = false
+	},
+	[570018] = {
+		unidentifiedDisplayName = "Unidentified Instrument",
+		unidentifiedResourceName = "바이올린",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Harp",
+		identifiedResourceName = "Adulter_F_Harp",
+		identifiedDescriptionName = {
+			"A harp filled with false beliefs.",
 			"________________________",
 			"MATK +210",
 			"________________________",
@@ -419052,8 +422876,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Minstrel"		},		slotCount = 2,		ClassNum = 13,		costume = false	},
-	[570019] = {		unidentifiedDisplayName = "Unidentified Instrument",		unidentifiedResourceName = "바이올린",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Violin",		identifiedResourceName = "Vivatus_F_Violin",		identifiedDescriptionName = {			"A violin reborn with the power of true faith through a ritual of purification.",
+			"Minstrel"
+		},
+		slotCount = 2,
+		ClassNum = 13,
+		costume = false
+	},
+	[570019] = {
+		unidentifiedDisplayName = "Unidentified Instrument",
+		unidentifiedResourceName = "바이올린",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Violin",
+		identifiedResourceName = "Vivatus_F_Violin",
+		identifiedDescriptionName = {
+			"A violin reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"Increases damage of ^009900Severe Rainstorm^000000 by 10%.",
 			"________________________",
@@ -419085,8 +422921,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Troubadour"		},		slotCount = 2,		ClassNum = 13,		costume = false	},
-	[570020] = {		unidentifiedDisplayName = "Unidentified Instrument",		unidentifiedResourceName = "바이올린",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Harp",		identifiedResourceName = "Vivatus_F_Harp",		identifiedDescriptionName = {			"A harp reborn with the power of true faith through a ritual of purification.",
+			"Troubadour"
+		},
+		slotCount = 2,
+		ClassNum = 13,
+		costume = false
+	},
+	[570020] = {
+		unidentifiedDisplayName = "Unidentified Instrument",
+		unidentifiedResourceName = "바이올린",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Harp",
+		identifiedResourceName = "Vivatus_F_Harp",
+		identifiedDescriptionName = {
+			"A harp reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"MATK +210",
 			"________________________",
@@ -419120,7 +422968,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Troubadour"		},		slotCount = 2,		ClassNum = 13,		costume = false	},
+			"Troubadour"
+		},
+		slotCount = 2,
+		ClassNum = 13,
+		costume = false
+	},
 	[580000] = {
 		unidentifiedDisplayName = "Unidentified Whip",
 		unidentifiedResourceName = "로프",
@@ -419453,7 +423306,14 @@ tbl = {
 		ClassNum = 14,
 		costume = false
 	},
-	[580013] = {		unidentifiedDisplayName = "Unidentified Whip",		unidentifiedResourceName = "로프",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Flagellum",		identifiedResourceName = "Poenitentia_Flagellum",		identifiedDescriptionName = {			"A whip containing the pain of bereavement.",
+	[580013] = {
+		unidentifiedDisplayName = "Unidentified Whip",
+		unidentifiedResourceName = "로프",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Flagellum",
+		identifiedResourceName = "Poenitentia_Flagellum",
+		identifiedDescriptionName = {
+			"A whip containing the pain of bereavement.",
 			"________________________",
 			"MATK +250",
 			"MATK +10%",
@@ -419484,8 +423344,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Trouvere"		},		slotCount = 2,		ClassNum = 14,		costume = false	},
-	[580016] = {		unidentifiedDisplayName = "Unidentified Whip",		unidentifiedResourceName = "로프",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Thanos Whip-AD",		identifiedResourceName = "Thanos_Whip_AD",		identifiedDescriptionName = {			"Thanos' whip remodeled with the addition of Tim Artnard's technology.",
+			"Trouvere"
+		},
+		slotCount = 2,
+		ClassNum = 14,
+		costume = false
+	},
+	[580016] = {
+		unidentifiedDisplayName = "Unidentified Whip",
+		unidentifiedResourceName = "로프",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Thanos Whip-AD",
+		identifiedResourceName = "Thanos_Whip_AD",
+		identifiedDescriptionName = {
+			"Thanos' whip remodeled with the addition of Tim Artnard's technology.",
 			"________________________",
 			"Physical attacks have a random chance to recover 2500 HP and 50 SP every second for 4 seconds.",
 			"________________________",
@@ -419519,8 +423391,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 190",
-			"Wanderer"		},		slotCount = 2,		ClassNum = 14,		costume = false	},
-	[580017] = {		unidentifiedDisplayName = "Unidentified Whip",		unidentifiedResourceName = "로프",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Chain Rope",		identifiedResourceName = "Adulter_F_C_Rope",		identifiedDescriptionName = {			"A chain rope filled with false beliefs.",
+			"Wanderer"
+		},
+		slotCount = 2,
+		ClassNum = 14,
+		costume = false
+	},
+	[580017] = {
+		unidentifiedDisplayName = "Unidentified Whip",
+		unidentifiedResourceName = "로프",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Chain Rope",
+		identifiedResourceName = "Adulter_F_C_Rope",
+		identifiedDescriptionName = {
+			"A chain rope filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Severe Rainstorm^000000 by 10%.",
 			"________________________",
@@ -419546,8 +423430,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Wanderer"		},		slotCount = 2,		ClassNum = 14,		costume = false	},
-	[580018] = {		unidentifiedDisplayName = "Unidentified Whip",		unidentifiedResourceName = "로프",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Ribbon",		identifiedResourceName = "Adulter_F_Ribbon",		identifiedDescriptionName = {			"A ribbon filled with false beliefs.",
+			"Wanderer"
+		},
+		slotCount = 2,
+		ClassNum = 14,
+		costume = false
+	},
+	[580018] = {
+		unidentifiedDisplayName = "Unidentified Whip",
+		unidentifiedResourceName = "로프",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Ribbon",
+		identifiedResourceName = "Adulter_F_Ribbon",
+		identifiedDescriptionName = {
+			"A ribbon filled with false beliefs.",
 			"________________________",
 			"MATK +210",
 			"________________________",
@@ -419575,8 +423471,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Wanderer"		},		slotCount = 2,		ClassNum = 14,		costume = false	},
-	[580019] = {		unidentifiedDisplayName = "Unidentified Whip",		unidentifiedResourceName = "로프",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Chain Rope",		identifiedResourceName = "Vivatus_F_C_Rope",		identifiedDescriptionName = {			"A chain rope reborn with the power of true faith through a ritual of purification.",
+			"Wanderer"
+		},
+		slotCount = 2,
+		ClassNum = 14,
+		costume = false
+	},
+	[580019] = {
+		unidentifiedDisplayName = "Unidentified Whip",
+		unidentifiedResourceName = "로프",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Chain Rope",
+		identifiedResourceName = "Vivatus_F_C_Rope",
+		identifiedDescriptionName = {
+			"A chain rope reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"Increases damage of ^009900Severe Rainstorm^000000 by 10%.",
 			"________________________",
@@ -419608,8 +423516,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Trouvere"		},		slotCount = 2,		ClassNum = 14,		costume = false	},
-	[580020] = {		unidentifiedDisplayName = "Unidentified Whip",		unidentifiedResourceName = "로프",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Ribbon",		identifiedResourceName = "Vivatus_F_Ribbon",		identifiedDescriptionName = {			"A ribbon reborn with the power of true faith through a ritual of purification.",
+			"Trouvere"
+		},
+		slotCount = 2,
+		ClassNum = 14,
+		costume = false
+	},
+	[580020] = {
+		unidentifiedDisplayName = "Unidentified Whip",
+		unidentifiedResourceName = "로프",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Ribbon",
+		identifiedResourceName = "Vivatus_F_Ribbon",
+		identifiedDescriptionName = {
+			"A ribbon reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"MATK +210",
 			"________________________",
@@ -419643,7 +423563,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Trouvere"		},		slotCount = 2,		ClassNum = 14,		costume = false	},
+			"Trouvere"
+		},
+		slotCount = 2,
+		ClassNum = 14,
+		costume = false
+	},
 	[590000] = {
 		unidentifiedDisplayName = "Unidentified Mace",
 		unidentifiedResourceName = "클럽",
@@ -420121,7 +424046,14 @@ tbl = {
 		ClassNum = 14,
 		costume = false
 	},
-	[590016] = {		unidentifiedDisplayName = "Unidentified Axe",		unidentifiedResourceName = "메이스",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Clava",		identifiedResourceName = "Poenitentia_Clava",		identifiedDescriptionName = {			"A axe containing the pain of bereavement.",
+	[590016] = {
+		unidentifiedDisplayName = "Unidentified Axe",
+		unidentifiedResourceName = "메이스",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Clava",
+		identifiedResourceName = "Poenitentia_Clava",
+		identifiedDescriptionName = {
+			"A axe containing the pain of bereavement.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -420153,8 +424085,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Meister"		},		slotCount = 2,		ClassNum = 62,		costume = false	},
-	[590017] = {		unidentifiedDisplayName = "Unidentified Mace",		unidentifiedResourceName = "메이스",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Pendulus",		identifiedResourceName = "Poenitentia_Pendulus",		identifiedDescriptionName = {			"A mace containing the pain of bereavement.",
+			"Meister"
+		},
+		slotCount = 2,
+		ClassNum = 62,
+		costume = false
+	},
+	[590017] = {
+		unidentifiedDisplayName = "Unidentified Mace",
+		unidentifiedResourceName = "메이스",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Pendulus",
+		identifiedResourceName = "Poenitentia_Pendulus",
+		identifiedDescriptionName = {
+			"A mace containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -420184,8 +424128,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Biolo"		},		slotCount = 2,		ClassNum = 62,		costume = false	},
-	[590020] = {		unidentifiedDisplayName = "Unidentified Mace",		unidentifiedResourceName = "클럽",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Thanos Hammer-AD",		identifiedResourceName = "Thanos_Hammer_AD",		identifiedDescriptionName = {			"Thanos' hammer remodeled with the addition of Tim Artnard's technology.",
+			"Biolo"
+		},
+		slotCount = 2,
+		ClassNum = 62,
+		costume = false
+	},
+	[590020] = {
+		unidentifiedDisplayName = "Unidentified Mace",
+		unidentifiedResourceName = "클럽",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Thanos Hammer-AD",
+		identifiedResourceName = "Thanos_Hammer_AD",
+		identifiedDescriptionName = {
+			"Thanos' hammer remodeled with the addition of Tim Artnard's technology.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -420224,8 +424180,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 190",
-			"Archbishop"		},		slotCount = 2,		ClassNum = 62,		costume = false	},
-	[590021] = {		unidentifiedDisplayName = "Unidentified Mace",		unidentifiedResourceName = "메이스",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Mace",		identifiedResourceName = "Adulter_F_Mace",		identifiedDescriptionName = {			"A mace filled with false beliefs.",
+			"Archbishop"
+		},
+		slotCount = 2,
+		ClassNum = 62,
+		costume = false
+	},
+	[590021] = {
+		unidentifiedDisplayName = "Unidentified Mace",
+		unidentifiedResourceName = "메이스",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Mace",
+		identifiedResourceName = "Adulter_F_Mace",
+		identifiedDescriptionName = {
+			"A mace filled with false beliefs.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -420253,8 +424221,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Mechanic"		},		slotCount = 2,		ClassNum = 62,		costume = false	},
-	[590022] = {		unidentifiedDisplayName = "Unidentified Mace",		unidentifiedResourceName = "메이스",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Hall",		identifiedResourceName = "Adulter_F_Hall",		identifiedDescriptionName = {			"A mace filled with false beliefs.",
+			"Mechanic"
+		},
+		slotCount = 2,
+		ClassNum = 62,
+		costume = false
+	},
+	[590022] = {
+		unidentifiedDisplayName = "Unidentified Mace",
+		unidentifiedResourceName = "메이스",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Hall",
+		identifiedResourceName = "Adulter_F_Hall",
+		identifiedDescriptionName = {
+			"A mace filled with false beliefs.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -420282,8 +424262,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Genetic"		},		slotCount = 2,		ClassNum = 62,		costume = false	},
-	[590023] = {		unidentifiedDisplayName = "Unidentified Mace",		unidentifiedResourceName = "메이스",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Mace",		identifiedResourceName = "Vivatus_F_Mace",		identifiedDescriptionName = {			"A mace reborn with the power of true faith through a ritual of purification.",
+			"Genetic"
+		},
+		slotCount = 2,
+		ClassNum = 62,
+		costume = false
+	},
+	[590023] = {
+		unidentifiedDisplayName = "Unidentified Mace",
+		unidentifiedResourceName = "메이스",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Mace",
+		identifiedResourceName = "Vivatus_F_Mace",
+		identifiedDescriptionName = {
+			"A mace reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -420317,8 +424309,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Meister"		},		slotCount = 2,		ClassNum = 62,		costume = false	},
-	[590024] = {		unidentifiedDisplayName = "Unidentified Mace",		unidentifiedResourceName = "메이스",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Hall",		identifiedResourceName = "Vivatus_F_Hall",		identifiedDescriptionName = {			"A mace reborn with the power of true faith through a ritual of purification.",
+			"Meister"
+		},
+		slotCount = 2,
+		ClassNum = 62,
+		costume = false
+	},
+	[590024] = {
+		unidentifiedDisplayName = "Unidentified Mace",
+		unidentifiedResourceName = "메이스",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Hall",
+		identifiedResourceName = "Vivatus_F_Hall",
+		identifiedDescriptionName = {
+			"A mace reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -420337,12 +424341,14 @@ tbl = {
 			"Increases damage of ^009900Cart Tornado^000000 by additional 25%.",
 			"________________________",
 			"^0000FFRefine Level +12^000000:",
-			"Increases melee physical damage by 15%.",			"________________________",
+			"Increases melee physical damage by 15%.",
+			"________________________",
 			"^CC3D3D[Additional Options by Grade]^000000",
 			"[Grade D]: ^0000FFRefine Level +11^000000: Physical damage against all elemental enemies +15%.",
 			"[Grade C]: Damage of ^009900Cart Tornado^000000 +15%.",
 			"[Grade B]: ATK +7%.",
-			"[Grade A]: POW +1, P.ATK +1 per ^0000FF3 Refine Levels^000000.",			"________________________",
+			"[Grade A]: POW +1, P.ATK +1 per ^0000FF3 Refine Levels^000000.",
+			"________________________",
 			"^0000CCType:^000000 Mace",
 			"^0000CCAttack:^000000 230",
 			"^0000CCWeight:^000000 300",
@@ -420350,7 +424356,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Biolo"		},		slotCount = 2,		ClassNum = 62,		costume = false	},
+			"Biolo"
+		},
+		slotCount = 2,
+		ClassNum = 62,
+		costume = false
+	},
 	[600000] = {
 		unidentifiedDisplayName = "IDTest Bothhand",
 		unidentifiedResourceName = "소드",
@@ -420679,7 +424690,14 @@ tbl = {
 		ClassNum = 49,
 		costume = false
 	},
-	[600014] = {		unidentifiedDisplayName = "Unidentified Sword",		unidentifiedResourceName = "바스타드소드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Ensis",		identifiedResourceName = "Poenitentia_Ensis",		identifiedDescriptionName = {			"A sword containing the pain of bereavement.",
+	[600014] = {
+		unidentifiedDisplayName = "Unidentified Sword",
+		unidentifiedResourceName = "바스타드소드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Ensis",
+		identifiedResourceName = "Poenitentia_Ensis",
+		identifiedDescriptionName = {
+			"A sword containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -420709,8 +424727,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Dragon Knight"		},		slotCount = 2,		ClassNum = 49,		costume = false	},
-	[600016] = {		unidentifiedDisplayName = "Unidentified Sword",		unidentifiedResourceName = "바스타드소드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Thanos Greatsword-AD",		identifiedResourceName = "Thanos_TSword_AD",		identifiedDescriptionName = {			"Thanos' greatsword remodeled with the addition of Tim Artnard's technology.",
+			"Dragon Knight"
+		},
+		slotCount = 2,
+		ClassNum = 49,
+		costume = false
+	},
+	[600016] = {
+		unidentifiedDisplayName = "Unidentified Sword",
+		unidentifiedResourceName = "바스타드소드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Thanos Greatsword-AD",
+		identifiedResourceName = "Thanos_TSword_AD",
+		identifiedDescriptionName = {
+			"Thanos' greatsword remodeled with the addition of Tim Artnard's technology.",
 			"________________________",
 			"Physical attacks have a random chance to recover 2500 HP and 50 SP every second for 4 seconds.",
 			"________________________",
@@ -420744,8 +424774,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 190",
-			"Rune Knight"		},		slotCount = 2,		ClassNum = 49,		costume = false	},
-	[600017] = {		unidentifiedDisplayName = "Unidentified Sword",		unidentifiedResourceName = "바스타드소드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Two-Handed Sword",		identifiedResourceName = "Adulter_F_T_Sword",		identifiedDescriptionName = {			"A two-handed sword filled with false beliefs.",
+			"Rune Knight"
+		},
+		slotCount = 2,
+		ClassNum = 49,
+		costume = false
+	},
+	[600017] = {
+		unidentifiedDisplayName = "Unidentified Sword",
+		unidentifiedResourceName = "바스타드소드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Two-Handed Sword",
+		identifiedResourceName = "Adulter_F_T_Sword",
+		identifiedDescriptionName = {
+			"A two-handed sword filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Wind Cutter^000000 by 10%.",
 			"________________________",
@@ -420771,8 +424813,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Rune Knight"		},		slotCount = 2,		ClassNum = 49,		costume = false	},
-	[600018] = {		unidentifiedDisplayName = "Unidentified Sword",		unidentifiedResourceName = "바스타드소드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Two-Handed Sword",		identifiedResourceName = "Vivatus_F_T_Sword",		identifiedDescriptionName = {			"A two-handed sword reborn with the power of true faith through a ritual of purification.",
+			"Rune Knight"
+		},
+		slotCount = 2,
+		ClassNum = 49,
+		costume = false
+	},
+	[600018] = {
+		unidentifiedDisplayName = "Unidentified Sword",
+		unidentifiedResourceName = "바스타드소드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Two-Handed Sword",
+		identifiedResourceName = "Vivatus_F_T_Sword",
+		identifiedDescriptionName = {
+			"A two-handed sword reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"Increases damage of ^009900Wind Cutter^000000 by 10%.",
 			"________________________",
@@ -420804,7 +424858,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Dragon Knight"		},		slotCount = 2,		ClassNum = 49,		costume = false	},
+			"Dragon Knight"
+		},
+		slotCount = 2,
+		ClassNum = 49,
+		costume = false
+	},
 	[610000] = {
 		unidentifiedDisplayName = "Unidentified Katar",
 		unidentifiedResourceName = "카타르",
@@ -421149,7 +425208,14 @@ tbl = {
 		ClassNum = 16,
 		costume = false
 	},
-	[610016] = {		unidentifiedDisplayName = "Unidentified Katar",		unidentifiedResourceName = "쥬르",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Manus",		identifiedResourceName = "Poenitentia_Manus",		identifiedDescriptionName = {			"A katar containing the pain of bereavement.",
+	[610016] = {
+		unidentifiedDisplayName = "Unidentified Katar",
+		unidentifiedResourceName = "쥬르",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Manus",
+		identifiedResourceName = "Poenitentia_Manus",
+		identifiedDescriptionName = {
+			"A katar containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -421179,8 +425245,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Shadow Cross"		},		slotCount = 2,		ClassNum = 16,		costume = false	},
-	[610019] = {		unidentifiedDisplayName = "Unidentified Katar",		unidentifiedResourceName = "쥬르",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Thanos Katar-AD",		identifiedResourceName = "Thanos_Katar_AD",		identifiedDescriptionName = {			"Thanos' katar remodeled with the addition of Tim Artnard's technology.",
+			"Shadow Cross"
+		},
+		slotCount = 2,
+		ClassNum = 16,
+		costume = false
+	},
+	[610019] = {
+		unidentifiedDisplayName = "Unidentified Katar",
+		unidentifiedResourceName = "쥬르",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Thanos Katar-AD",
+		identifiedResourceName = "Thanos_Katar_AD",
+		identifiedDescriptionName = {
+			"Thanos' katar remodeled with the addition of Tim Artnard's technology.",
 			"________________________",
 			"Physical attacks have a random chance to recover 2500 HP and 50 SP every second for 4 seconds.",
 			"________________________",
@@ -421214,8 +425292,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 190",
-			"Guillotine Cross"		},		slotCount = 2,		ClassNum = 16,		costume = false	},
-	[610020] = {		unidentifiedDisplayName = "Unidentified Katar",		unidentifiedResourceName = "카타르",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Chakram",		identifiedResourceName = "Adulter_F_Cakram",		identifiedDescriptionName = {			"A chakram filled with false beliefs.",
+			"Guillotine Cross"
+		},
+		slotCount = 2,
+		ClassNum = 16,
+		costume = false
+	},
+	[610020] = {
+		unidentifiedDisplayName = "Unidentified Katar",
+		unidentifiedResourceName = "카타르",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Chakram",
+		identifiedResourceName = "Adulter_F_Cakram",
+		identifiedDescriptionName = {
+			"A chakram filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Rolling Cutter^000000 by 10%.",
 			"________________________",
@@ -421241,8 +425331,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Guillotine Cross"		},		slotCount = 2,		ClassNum = 16,		costume = false	},
-	[610021] = {		unidentifiedDisplayName = "Unidentified Katar",		unidentifiedResourceName = "카타르",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Katar",		identifiedResourceName = "Adulter_F_Katar",		identifiedDescriptionName = {			"A katar filled with false beliefs.",
+			"Guillotine Cross"
+		},
+		slotCount = 2,
+		ClassNum = 16,
+		costume = false
+	},
+	[610021] = {
+		unidentifiedDisplayName = "Unidentified Katar",
+		unidentifiedResourceName = "카타르",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Katar",
+		identifiedResourceName = "Adulter_F_Katar",
+		identifiedDescriptionName = {
+			"A katar filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Counter Slash^000000 by 10%.",
 			"________________________",
@@ -421268,8 +425370,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Guillotine Cross"		},		slotCount = 2,		ClassNum = 16,		costume = false	},
-	[610022] = {		unidentifiedDisplayName = "Unidentified Katar",		unidentifiedResourceName = "카타르",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Chakram",		identifiedResourceName = "Vivatus_F_Cakram",		identifiedDescriptionName = {			"A chakram reborn with the power of true faith through a ritual of purification.",
+			"Guillotine Cross"
+		},
+		slotCount = 2,
+		ClassNum = 16,
+		costume = false
+	},
+	[610022] = {
+		unidentifiedDisplayName = "Unidentified Katar",
+		unidentifiedResourceName = "카타르",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Chakram",
+		identifiedResourceName = "Vivatus_F_Cakram",
+		identifiedDescriptionName = {
+			"A chakram reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"Increases damage of ^009900Rolling Cutter^000000 by 10%.",
 			"________________________",
@@ -421301,8 +425415,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Shadow Cross"		},		slotCount = 2,		ClassNum = 16,		costume = false	},
-	[610023] = {		unidentifiedDisplayName = "Unidentified Katar",		unidentifiedResourceName = "카타르",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Katar",		identifiedResourceName = "Vivatus_F_Katar",		identifiedDescriptionName = {			"A katar reborn with the power of true faith through a ritual of purification.",
+			"Shadow Cross"
+		},
+		slotCount = 2,
+		ClassNum = 16,
+		costume = false
+	},
+	[610023] = {
+		unidentifiedDisplayName = "Unidentified Katar",
+		unidentifiedResourceName = "카타르",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Katar",
+		identifiedResourceName = "Vivatus_F_Katar",
+		identifiedDescriptionName = {
+			"A katar reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"Increases damage of ^009900Counter Slash^000000 by 10%.",
 			"________________________",
@@ -421334,7 +425460,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Shadow Cross"		},		slotCount = 2,		ClassNum = 16,		costume = false	},
+			"Shadow Cross"
+		},
+		slotCount = 2,
+		ClassNum = 16,
+		costume = false
+	},
 	[620003] = {
 		unidentifiedDisplayName = "Unidentified Axe",
 		unidentifiedResourceName = "액스",
@@ -421459,7 +425590,14 @@ tbl = {
 		ClassNum = 7,
 		costume = false
 	},
-	[620006] = {		unidentifiedDisplayName = "Unidentified Axe",		unidentifiedResourceName = "액스",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Ascia",		identifiedResourceName = "Poenitentia_Ascia",		identifiedDescriptionName = {			"A huge axe containing the pain of bereavement.",
+	[620006] = {
+		unidentifiedDisplayName = "Unidentified Axe",
+		unidentifiedResourceName = "액스",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Ascia",
+		identifiedResourceName = "Poenitentia_Ascia",
+		identifiedDescriptionName = {
+			"A huge axe containing the pain of bereavement.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -421491,8 +425629,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Meister"		},		slotCount = 2,		ClassNum = 7,		costume = false	},
-	[620009] = {		unidentifiedDisplayName = "Unidentified Axe",		unidentifiedResourceName = "액스",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Thanos Axe-AD",		identifiedResourceName = "Thanos_Axe_AD",		identifiedDescriptionName = {			"Thanos' two-handed axe remodeled with the addition of Tim Artnard's technology.",
+			"Meister"
+		},
+		slotCount = 2,
+		ClassNum = 7,
+		costume = false
+	},
+	[620009] = {
+		unidentifiedDisplayName = "Unidentified Axe",
+		unidentifiedResourceName = "액스",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Thanos Axe-AD",
+		identifiedResourceName = "Thanos_Axe_AD",
+		identifiedDescriptionName = {
+			"Thanos' two-handed axe remodeled with the addition of Tim Artnard's technology.",
 			"________________________",
 			"Physical attacks have a random chance to recover 2500 HP and 50 SP every second for 4 seconds.",
 			"________________________",
@@ -421526,7 +425676,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 190",
-			"Mechanic"		},		slotCount = 2,		ClassNum = 7,		costume = false	},
+			"Mechanic"
+		},
+		slotCount = 2,
+		ClassNum = 7,
+		costume = false
+	},
 	[630003] = {
 		unidentifiedDisplayName = "Unidentified Spear",
 		unidentifiedResourceName = "랜스",
@@ -421711,7 +425866,14 @@ tbl = {
 		ClassNum = 49,
 		costume = false
 	},
-	[630009] = {		unidentifiedDisplayName = "Unidentified Spear",		unidentifiedResourceName = "랜스",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Catapulta",		identifiedResourceName = "Poenitentia_Catapulta",		identifiedDescriptionName = {			"A spear containing the pain of bereavement.",
+	[630009] = {
+		unidentifiedDisplayName = "Unidentified Spear",
+		unidentifiedResourceName = "랜스",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Catapulta",
+		identifiedResourceName = "Poenitentia_Catapulta",
+		identifiedDescriptionName = {
+			"A spear containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -421741,8 +425903,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Dragon Knight"		},		slotCount = 2,		ClassNum = 52,		costume = false	},
-	[630012] = {		unidentifiedDisplayName = "Unidentified Spear",		unidentifiedResourceName = "쟈벨린",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Lance",		identifiedResourceName = "Adulter_F_Lance",		identifiedDescriptionName = {			"A lance filled with false beliefs.",
+			"Dragon Knight"
+		},
+		slotCount = 2,
+		ClassNum = 52,
+		costume = false
+	},
+	[630012] = {
+		unidentifiedDisplayName = "Unidentified Spear",
+		unidentifiedResourceName = "쟈벨린",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Lance",
+		identifiedResourceName = "Adulter_F_Lance",
+		identifiedDescriptionName = {
+			"A lance filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Hundred Spear^000000 by 10%.",
 			"________________________",
@@ -421768,8 +425942,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Rune Knight"		},		slotCount = 2,		ClassNum = 52,		costume = false	},
-	[630013] = {		unidentifiedDisplayName = "Unidentified Spear",		unidentifiedResourceName = "쟈벨린",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Lance",		identifiedResourceName = "Vivatus_F_Lance",		identifiedDescriptionName = {			"A lance reborn with the power of true faith through a ritual of purification.",
+			"Rune Knight"
+		},
+		slotCount = 2,
+		ClassNum = 52,
+		costume = false
+	},
+	[630013] = {
+		unidentifiedDisplayName = "Unidentified Spear",
+		unidentifiedResourceName = "쟈벨린",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Lance",
+		identifiedResourceName = "Vivatus_F_Lance",
+		identifiedDescriptionName = {
+			"A lance reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"Increases damage of ^009900Hundred Spear^000000 by 10%.",
 			"________________________",
@@ -421801,7 +425987,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Dragon Knight"		},		slotCount = 2,		ClassNum = 52,		costume = false	},
+			"Dragon Knight"
+		},
+		slotCount = 2,
+		ClassNum = 52,
+		costume = false
+	},
 	[640000] = {
 		unidentifiedDisplayName = "Unidentified Staff",
 		unidentifiedResourceName = "롯드",
@@ -422188,7 +426379,14 @@ tbl = {
 		ClassNum = 96,
 		costume = false
 	},
-	[640014] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Termes",		identifiedResourceName = "Poenitentia_Termes",		identifiedDescriptionName = {			"A staff containing the pain of bereavement.",
+	[640014] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Termes",
+		identifiedResourceName = "Poenitentia_Termes",
+		identifiedDescriptionName = {
+			"A staff containing the pain of bereavement.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -422221,8 +426419,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Arch Mage"		},		slotCount = 2,		ClassNum = 96,		costume = false	},
-	[640015] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Virga",		identifiedResourceName = "Poenitentia_Virga",		identifiedDescriptionName = {			"A staff containing the pain of bereavement.",
+			"Arch Mage"
+		},
+		slotCount = 2,
+		ClassNum = 96,
+		costume = false
+	},
+	[640015] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Virga",
+		identifiedResourceName = "Poenitentia_Virga",
+		identifiedDescriptionName = {
+			"A staff containing the pain of bereavement.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -422255,8 +426465,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Arch Mage"		},		slotCount = 2,		ClassNum = 96,		costume = false	},
-	[640017] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Thanos Two-Handed Staff-AD",		identifiedResourceName = "Thanos_Rod_AD",		identifiedDescriptionName = {			"Thanos' two-handed staff remodeled with the addition of Tim Artnard's technology.",
+			"Arch Mage"
+		},
+		slotCount = 2,
+		ClassNum = 96,
+		costume = false
+	},
+	[640017] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Thanos Two-Handed Staff-AD",
+		identifiedResourceName = "Thanos_Rod_AD",
+		identifiedDescriptionName = {
+			"Thanos' two-handed staff remodeled with the addition of Tim Artnard's technology.",
 			"________________________",
 			"Magical attacks have a random chance to recover 1000 HP and 100 SP every second for 4 seconds.",
 			"________________________",
@@ -422290,8 +426512,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 190",
-			"Warlock"		},		slotCount = 2,		ClassNum = 96,		costume = false	},
-	[640019] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Two-Handed Staff",		identifiedResourceName = "Adulter_F_T_Staff",		identifiedDescriptionName = {			"A two-handed staff filled with false beliefs.",
+			"Warlock"
+		},
+		slotCount = 2,
+		ClassNum = 96,
+		costume = false
+	},
+	[640019] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Two-Handed Staff",
+		identifiedResourceName = "Adulter_F_T_Staff",
+		identifiedDescriptionName = {
+			"A two-handed staff filled with false beliefs.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -422321,8 +426555,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Warlock"		},		slotCount = 2,		ClassNum = 96,		costume = false	},
-	[640020] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Rod",		identifiedResourceName = "Adulter_F_Rod",		identifiedDescriptionName = {			"A rod filled with false beliefs.",
+			"Warlock"
+		},
+		slotCount = 2,
+		ClassNum = 96,
+		costume = false
+	},
+	[640020] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Rod",
+		identifiedResourceName = "Adulter_F_Rod",
+		identifiedDescriptionName = {
+			"A rod filled with false beliefs.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -422352,8 +426598,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Warlock"		},		slotCount = 2,		ClassNum = 96,		costume = false	},
-	[640021] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Two-Handed Staff",		identifiedResourceName = "Vivatus_F_T_Staff",		identifiedDescriptionName = {			"A two-handed staff reborn with the power of true faith through a ritual of purification.",
+			"Warlock"
+		},
+		slotCount = 2,
+		ClassNum = 96,
+		costume = false
+	},
+	[640021] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Two-Handed Staff",
+		identifiedResourceName = "Vivatus_F_T_Staff",
+		identifiedDescriptionName = {
+			"A two-handed staff reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -422389,8 +426647,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Arch Mage"		},		slotCount = 2,		ClassNum = 96,		costume = false	},
-	[640022] = {		unidentifiedDisplayName = "Unidentified Staff",		unidentifiedResourceName = "롯드",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Rod",		identifiedResourceName = "Vivatus_F_Rod",		identifiedDescriptionName = {			"A rod reborn with the power of true faith through a ritual of purification.",
+			"Arch Mage"
+		},
+		slotCount = 2,
+		ClassNum = 96,
+		costume = false
+	},
+	[640022] = {
+		unidentifiedDisplayName = "Unidentified Staff",
+		unidentifiedResourceName = "롯드",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Rod",
+		identifiedResourceName = "Vivatus_F_Rod",
+		identifiedDescriptionName = {
+			"A rod reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -422426,7 +426696,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Arch Mage"		},		slotCount = 2,		ClassNum = 96,		costume = false	},
+			"Arch Mage"
+		},
+		slotCount = 2,
+		ClassNum = 96,
+		costume = false
+	},
 	[650003] = {
 		unidentifiedDisplayName = "Unidentified Huuma Shuriken",
 		unidentifiedResourceName = "풍마_편익",
@@ -422516,7 +426791,14 @@ tbl = {
 		ClassNum = 22,
 		costume = false
 	},
-	[650008] = {		unidentifiedDisplayName = "Unidentified Huuma Shuriken",		unidentifiedResourceName = "풍마_편익",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Huuma Shuriken",		identifiedResourceName = "Adulter_F_Humma",		identifiedDescriptionName = {			"A huuma shuriken filled with false beliefs.",
+	[650008] = {
+		unidentifiedDisplayName = "Unidentified Huuma Shuriken",
+		unidentifiedResourceName = "풍마_편익",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Huuma Shuriken",
+		identifiedResourceName = "Adulter_F_Humma",
+		identifiedDescriptionName = {
+			"A huuma shuriken filled with false beliefs.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -422544,8 +426826,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Kagerou/Oboro"		},		slotCount = 2,		ClassNum = 22,		costume = false	},
-	[650009] = {		unidentifiedDisplayName = "Unidentified Huuma Shuriken",		unidentifiedResourceName = "풍마_편익",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Cross-Shaped Huuma Shuriken",		identifiedResourceName = "Adulter_F_C_Humma",		identifiedDescriptionName = {			"A cross-shaped huuma shuriken filled with false beliefs.",
+			"Kagerou/Oboro"
+		},
+		slotCount = 2,
+		ClassNum = 22,
+		costume = false
+	},
+	[650009] = {
+		unidentifiedDisplayName = "Unidentified Huuma Shuriken",
+		unidentifiedResourceName = "풍마_편익",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Cross-Shaped Huuma Shuriken",
+		identifiedResourceName = "Adulter_F_C_Humma",
+		identifiedDescriptionName = {
+			"A cross-shaped huuma shuriken filled with false beliefs.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -422573,7 +426867,10 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Kagerou/Oboro"		},		slotCount = 2,		ClassNum = 22,
+			"Kagerou/Oboro"
+		},
+		slotCount = 2,
+		ClassNum = 22,
 		costume = false
 	},
 	[700000] = {
@@ -423158,7 +427455,14 @@ tbl = {
 		ClassNum = 96,
 		costume = false
 	},
-	[700022] = {		unidentifiedDisplayName = "Unidentified Bow",		unidentifiedResourceName = "보우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Tenon",		identifiedResourceName = "Poenitentia_Tenon",		identifiedDescriptionName = {			"A bow containing the pain of bereavement.",
+	[700022] = {
+		unidentifiedDisplayName = "Unidentified Bow",
+		unidentifiedResourceName = "보우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Tenon",
+		identifiedResourceName = "Poenitentia_Tenon",
+		identifiedDescriptionName = {
+			"A bow containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -423188,8 +427492,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Abyss Chaser"		},		slotCount = 2,		ClassNum = 11,		costume = false	},
-	[700023] = {		unidentifiedDisplayName = "Unidentified Bow",		unidentifiedResourceName = "보우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Nervus",		identifiedResourceName = "Poenitentia_Nervus",		identifiedDescriptionName = {			"A bow containing the pain of bereavement.",
+			"Abyss Chaser"
+		},
+		slotCount = 2,
+		ClassNum = 11,
+		costume = false
+	},
+	[700023] = {
+		unidentifiedDisplayName = "Unidentified Bow",
+		unidentifiedResourceName = "보우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Nervus",
+		identifiedResourceName = "Poenitentia_Nervus",
+		identifiedDescriptionName = {
+			"A bow containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -423219,8 +427535,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Wind Hawk"		},		slotCount = 2,		ClassNum = 11,		costume = false	},
-	[700024] = {		unidentifiedDisplayName = "Unidentified Bow",		unidentifiedResourceName = "보우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Attendo",		identifiedResourceName = "Poenetentia_Attendo",		identifiedDescriptionName = {			"A bow containing the pain of bereavement.",
+			"Wind Hawk"
+		},
+		slotCount = 2,
+		ClassNum = 11,
+		costume = false
+	},
+	[700024] = {
+		unidentifiedDisplayName = "Unidentified Bow",
+		unidentifiedResourceName = "보우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Attendo",
+		identifiedResourceName = "Poenetentia_Attendo",
+		identifiedDescriptionName = {
+			"A bow containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -423250,8 +427578,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Wind Hawk"		},		slotCount = 2,		ClassNum = 11,		costume = false	},
-	[700025] = {		unidentifiedDisplayName = "Unidentified Bow",		unidentifiedResourceName = "보우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Penitentia Vatia",		identifiedResourceName = "Poenetentia_Vatia",		identifiedDescriptionName = {			"A bow containing the pain of bereavement.",
+			"Wind Hawk"
+		},
+		slotCount = 2,
+		ClassNum = 11,
+		costume = false
+	},
+	[700025] = {
+		unidentifiedDisplayName = "Unidentified Bow",
+		unidentifiedResourceName = "보우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Penitentia Vatia",
+		identifiedResourceName = "Poenetentia_Vatia",
+		identifiedDescriptionName = {
+			"A bow containing the pain of bereavement.",
 			"________________________",
 			"ATK +10%",
 			"________________________",
@@ -423281,8 +427621,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 230",
-			"Troubadour and Trouvere"		},		slotCount = 2,		ClassNum = 11,		costume = false	},
-	[700029] = {		unidentifiedDisplayName = "Unidentified Bow",		unidentifiedResourceName = "보우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Thanos Bow-AD",		identifiedResourceName = "Thanos_Bow_AD",		identifiedDescriptionName = {			"Thanos' bow remodeled with the addition of Tim Artnard's technology.",
+			"Troubadour and Trouvere"
+		},
+		slotCount = 2,
+		ClassNum = 11,
+		costume = false
+	},
+	[700029] = {
+		unidentifiedDisplayName = "Unidentified Bow",
+		unidentifiedResourceName = "보우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Thanos Bow-AD",
+		identifiedResourceName = "Thanos_Bow_AD",
+		identifiedDescriptionName = {
+			"Thanos' bow remodeled with the addition of Tim Artnard's technology.",
 			"________________________",
 			"Physical attacks have a random chance to recover 2500 HP and 50 SP every second for 4 seconds.",
 			"________________________",
@@ -423316,8 +427668,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 190",
-			"Ranger"		},		slotCount = 2,		ClassNum = 11,		costume = false	},
-	[700030] = {		unidentifiedDisplayName = "Unidentified Bow",		unidentifiedResourceName = "보우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Crossbow",		identifiedResourceName = "Adulter_F_C_Bow",		identifiedDescriptionName = {			"A crossbow filled with false beliefs.",
+			"Ranger"
+		},
+		slotCount = 2,
+		ClassNum = 11,
+		costume = false
+	},
+	[700030] = {
+		unidentifiedDisplayName = "Unidentified Bow",
+		unidentifiedResourceName = "보우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Crossbow",
+		identifiedResourceName = "Adulter_F_C_Bow",
+		identifiedDescriptionName = {
+			"A crossbow filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Triangle Shot^000000 by 10%.",
 			"________________________",
@@ -423343,8 +427707,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Shadow Chaser"		},		slotCount = 2,		ClassNum = 73,		costume = false	},
-	[700031] = {		unidentifiedDisplayName = "Unidentified Bow",		unidentifiedResourceName = "보우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Ballista",		identifiedResourceName = "Adulter_F_Ballista",		identifiedDescriptionName = {			"A ballista filled with false beliefs.",
+			"Shadow Chaser"
+		},
+		slotCount = 2,
+		ClassNum = 73,
+		costume = false
+	},
+	[700031] = {
+		unidentifiedDisplayName = "Unidentified Bow",
+		unidentifiedResourceName = "보우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Ballista",
+		identifiedResourceName = "Adulter_F_Ballista",
+		identifiedDescriptionName = {
+			"A ballista filled with false beliefs.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -423372,8 +427748,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Ranger"		},		slotCount = 2,		ClassNum = 11,		costume = false	},
-	[700032] = {		unidentifiedDisplayName = "Unidentified Bow",		unidentifiedResourceName = "보우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Aiming Bow",		identifiedResourceName = "Adulter_F_A_Bow",		identifiedDescriptionName = {			"A aiming bow filled with false beliefs.",
+			"Ranger"
+		},
+		slotCount = 2,
+		ClassNum = 11,
+		costume = false
+	},
+	[700032] = {
+		unidentifiedDisplayName = "Unidentified Bow",
+		unidentifiedResourceName = "보우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Aiming Bow",
+		identifiedResourceName = "Adulter_F_A_Bow",
+		identifiedDescriptionName = {
+			"A aiming bow filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Aimed Bolt^000000 by 10%.",
 			"________________________",
@@ -423399,8 +427787,21 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Ranger"		},		slotCount = 2,		ClassNum = 11,		costume = false	},
-	[700033] = {		unidentifiedDisplayName = "Unidentified Bow",		unidentifiedResourceName = "보우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Crossbow",		identifiedResourceName = "Vivatus_F_C_Bow",		identifiedDescriptionName = {			"A crossbow reborn with the power of true faith through a ritual of purification.",			"________________________",
+			"Ranger"
+		},
+		slotCount = 2,
+		ClassNum = 11,
+		costume = false
+	},
+	[700033] = {
+		unidentifiedDisplayName = "Unidentified Bow",
+		unidentifiedResourceName = "보우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Crossbow",
+		identifiedResourceName = "Vivatus_F_C_Bow",
+		identifiedDescriptionName = {
+			"A crossbow reborn with the power of true faith through a ritual of purification.",
+			"________________________",
 			"Increases damage of ^009900Triangle Shot^000000 by 10%.",
 			"________________________",
 			"^0000FFFor each 3 Refine Levels^000000:",
@@ -423431,8 +427832,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Abyss Chaser"		},		slotCount = 2,		ClassNum = 73,		costume = false	},
-	[700034] = {		unidentifiedDisplayName = "Unidentified Bow",		unidentifiedResourceName = "보우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Ballista",		identifiedResourceName = "Vivatus_F_Ballista",		identifiedDescriptionName = {			"A ballista reborn with the power of true faith through a ritual of purification.",
+			"Abyss Chaser"
+		},
+		slotCount = 2,
+		ClassNum = 73,
+		costume = false
+	},
+	[700034] = {
+		unidentifiedDisplayName = "Unidentified Bow",
+		unidentifiedResourceName = "보우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Ballista",
+		identifiedResourceName = "Vivatus_F_Ballista",
+		identifiedDescriptionName = {
+			"A ballista reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -423466,8 +427879,20 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Wind Hawk"		},		slotCount = 2,		ClassNum = 11,		costume = false	},
-	[700035] = {		unidentifiedDisplayName = "Unidentified Bow",		unidentifiedResourceName = "보우",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Vivatus Fides Aiming Bow",		identifiedResourceName = "Vivatus_F_A_Bow",		identifiedDescriptionName = {			"A aiming bow reborn with the power of true faith through a ritual of purification.",
+			"Wind Hawk"
+		},
+		slotCount = 2,
+		ClassNum = 11,
+		costume = false
+	},
+	[700035] = {
+		unidentifiedDisplayName = "Unidentified Bow",
+		unidentifiedResourceName = "보우",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Vivatus Fides Aiming Bow",
+		identifiedResourceName = "Vivatus_F_A_Bow",
+		identifiedDescriptionName = {
+			"A aiming bow reborn with the power of true faith through a ritual of purification.",
 			"________________________",
 			"Increases damage of ^009900Aimed Bolt^000000 by 10%.",
 			"________________________",
@@ -423499,7 +427924,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 210",
-			"Wind Hawk"		},		slotCount = 2,		ClassNum = 11,		costume = false	},
+			"Wind Hawk"
+		},
+		slotCount = 2,
+		ClassNum = 11,
+		costume = false
+	},
 	[800000] = {
 		unidentifiedDisplayName = "IDTest Gun",
 		unidentifiedResourceName = "식스슈터",
@@ -423691,7 +428121,14 @@ tbl = {
 		ClassNum = 18,
 		costume = false
 	},
-	[810002] = {		unidentifiedDisplayName = "Unidentified Rifle",		unidentifiedResourceName = "라이플",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Rifle",		identifiedResourceName = "Adulter_F_Rifle",		identifiedDescriptionName = {			"A rifle filled with false beliefs.",
+	[810002] = {
+		unidentifiedDisplayName = "Unidentified Rifle",
+		unidentifiedResourceName = "라이플",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Rifle",
+		identifiedResourceName = "Adulter_F_Rifle",
+		identifiedDescriptionName = {
+			"A rifle filled with false beliefs.",
 			"________________________",
 			"^663399Indestructible in battle^000000",
 			"________________________",
@@ -423719,7 +428156,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Rebellion"		},		slotCount = 2,		ClassNum = 18,		costume = false	},
+			"Rebellion"
+		},
+		slotCount = 2,
+		ClassNum = 18,
+		costume = false
+	},
 	[820000] = {
 		unidentifiedDisplayName = "Unidentified Shotgun",
 		unidentifiedResourceName = "싱글샷건",
@@ -423807,7 +428249,14 @@ tbl = {
 		ClassNum = 20,
 		costume = false
 	},
-	[820002] = {		unidentifiedDisplayName = "Unidentified Shotgun",		unidentifiedResourceName = "싱글샷건",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Shotgun",		identifiedResourceName = "Adulter_F_Shotgun",		identifiedDescriptionName = {			"A shotgun filled with false beliefs.",
+	[820002] = {
+		unidentifiedDisplayName = "Unidentified Shotgun",
+		unidentifiedResourceName = "싱글샷건",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Shotgun",
+		identifiedResourceName = "Adulter_F_Shotgun",
+		identifiedDescriptionName = {
+			"A shotgun filled with false beliefs.",
 			"________________________",
 			"Deals Splash Damage.",
 			"________________________",
@@ -423835,7 +428284,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Rebellion"		},		slotCount = 2,		ClassNum = 20,		costume = false	},
+			"Rebellion"
+		},
+		slotCount = 2,
+		ClassNum = 20,
+		costume = false
+	},
 	[830000] = {
 		unidentifiedDisplayName = "Unidentified Gatling Gun",
 		unidentifiedResourceName = "드리프터",
@@ -423982,7 +428436,14 @@ tbl = {
 		ClassNum = 19,
 		costume = false
 	},
-	[830003] = {		unidentifiedDisplayName = "Unidentified Gatling Gun",		unidentifiedResourceName = "드리프터",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Gatling Gun",		identifiedResourceName = "Adulter_F_Gatling",		identifiedDescriptionName = {			"A gatling gun filled with false beliefs.",
+	[830003] = {
+		unidentifiedDisplayName = "Unidentified Gatling Gun",
+		unidentifiedResourceName = "드리프터",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Gatling Gun",
+		identifiedResourceName = "Adulter_F_Gatling",
+		identifiedDescriptionName = {
+			"A gatling gun filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Round Trip^000000 by 10%.",
 			"________________________",
@@ -424008,7 +428469,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Rebellion"		},		slotCount = 2,		ClassNum = 19,		costume = false	},
+			"Rebellion"
+		},
+		slotCount = 2,
+		ClassNum = 19,
+		costume = false
+	},
 	[840000] = {
 		unidentifiedDisplayName = "Unidentified Grenade Launcher",
 		unidentifiedResourceName = "디스트로이어",
@@ -424093,7 +428559,14 @@ tbl = {
 		ClassNum = 21,
 		costume = false
 	},
-	[840002] = {		unidentifiedDisplayName = "Unidentified Grenade Launcher",		unidentifiedResourceName = "디스트로이어",		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },		identifiedDisplayName = "Adulter Fides Launcher",		identifiedResourceName = "Adulter_F_Launcher",		identifiedDescriptionName = {			"A launcher filled with false beliefs.",
+	[840002] = {
+		unidentifiedDisplayName = "Unidentified Grenade Launcher",
+		unidentifiedResourceName = "디스트로이어",
+		unidentifiedDescriptionName = { "Can be identified by using a ^990099Magnifier^000000." },
+		identifiedDisplayName = "Adulter Fides Launcher",
+		identifiedResourceName = "Adulter_F_Launcher",
+		identifiedDescriptionName = {
+			"A launcher filled with false beliefs.",
 			"________________________",
 			"Increases damage of ^009900Dragon Tail^000000 by 10%.",
 			"________________________",
@@ -424119,7 +428592,12 @@ tbl = {
 			"________________________",
 			"^0000CCRequirement:^000000",
 			"Base Level 180",
-			"Rebellion"		},		slotCount = 2,		ClassNum = 21,		costume = false	},
+			"Rebellion"
+		},
+		slotCount = 2,
+		ClassNum = 21,
+		costume = false
+	},
 	[1000000] = {
 		unidentifiedDisplayName = "IDTest event",
 		unidentifiedResourceName = "식인수의꽃",
@@ -428432,8 +432910,12 @@ tbl = {
 		identifiedDisplayName = "Episode 17 Clear Ticket",
 		identifiedResourceName = "EpisodClear17",
 		identifiedDescriptionName = {
-			"Episode 17 Clear Ticket.",			"* Note: Regardless of the current quest progress, all required episode quests will be completed.",
-			"You cannot receive rewards for clearing each quest.",			"^ff0000* You can select and complete the desired part from Episode 17.1 and Episode 17.2.^000000",			"<NAVI>^4D4DFFBright^000000<INFO>prt_cas,373,77,0,100,0,0</INFO></NAVI>^000000",			"________________________",
+			"Episode 17 Clear Ticket.",
+			"* Note: Regardless of the current quest progress, all required episode quests will be completed.",
+			"You cannot receive rewards for clearing each quest.",
+			"^ff0000* You can select and complete the desired part from Episode 17.1 and Episode 17.2.^000000",
+			"<NAVI>^4D4DFFBright^000000<INFO>prt_cas,373,77,0,100,0,0</INFO></NAVI>^000000",
+			"________________________",
 			"^0000CCWeight:^000000 0"
 		},
 		slotCount = 0,
@@ -429161,7 +433643,8 @@ tbl = {
 		identifiedDisplayName = "Magical Stone",
 		identifiedResourceName = "MD_Airboat_Tokken",
 		identifiedDescriptionName = {
-			"A stone in which the magical power that flowed from the fragment of Ymir that exploded as the unfairness crashed remained weak. Those who know the value of stone seem to be useful.",			"________________________",
+			"A stone in which the magical power that flowed from the fragment of Ymir that exploded as the unfairness crashed remained weak. Those who know the value of stone seem to be useful.",
+			"________________________",
 			"^0000CCWeight:^000000 0.1"
 		},
 		slotCount = 0,
@@ -429439,99 +433922,1177 @@ tbl = {
 		ClassNum = 0,
 		costume = false
 	},
-	[1000396] = {		unidentifiedDisplayName = "Naght Sieger Soul",		unidentifiedResourceName = "Naght_Sieger_Soul",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Naght Sieger Soul",		identifiedResourceName = "Naght_Sieger_Soul",		identifiedDescriptionName = {			"Naght Sieger's Soul.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000397] = {		unidentifiedDisplayName = "Beteleuse Soul",		unidentifiedResourceName = "Betelgeuse_Soul",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Beteleuse Soul",		identifiedResourceName = "Betelgeuse_Soul",		identifiedDescriptionName = {			"Betelgeuse's Soul.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000398] = {		unidentifiedDisplayName = "Power Meteorite Powder",		unidentifiedResourceName = "Pow_Meteorite_Dust",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Power Meteorite Powder",		identifiedResourceName = "Pow_Meteorite_Dust",		identifiedDescriptionName = {			"Meteorite Powder of Power.",			"________________________",			"^0000CCWeight:^000000 0.1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000399] = {		unidentifiedDisplayName = "Stamina Meteorite Powder",		unidentifiedResourceName = "Sta_Meteorite_Dust",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Stamina Meteorite Powder",		identifiedResourceName = "Sta_Meteorite_Dust",		identifiedDescriptionName = {			"Meteorite Powder of Stamina.",			"________________________",			"^0000CCWeight:^000000 0.1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000400] = {		unidentifiedDisplayName = "Agile Meteorite Powder",		unidentifiedResourceName = "Con_Meteorite_Dust",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Agile Meteorite Powder",		identifiedResourceName = "Con_Meteorite_Dust",		identifiedDescriptionName = {			"Meteorite Powder of Agility.",			"________________________",			"^0000CCWeight:^000000 0.1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000401] = {		unidentifiedDisplayName = "Lucky Meteorite Powder",		unidentifiedResourceName = "Crt_Meteorite_Dust",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Lucky Meteorite Powder",		identifiedResourceName = "Crt_Meteorite_Dust",		identifiedDescriptionName = {			"Meteorite Powder of Luck.",			"________________________",			"^0000CCWeight:^000000 0.1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000402] = {		unidentifiedDisplayName = "Meteorite Powder of Spell",		unidentifiedResourceName = "Spl_Meteorite_Dust",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Meteorite Powder of Spell",		identifiedResourceName = "Spl_Meteorite_Dust",		identifiedDescriptionName = {			"Meteorite Powder of Spell.",			"________________________",			"^0000CCWeight:^000000 0.1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000403] = {		unidentifiedDisplayName = "Meteorite Powder of Wisdom",		unidentifiedResourceName = "Wis_Meteorite_Dust",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Meteorite Powder of Wisdom",		identifiedResourceName = "Wis_Meteorite_Dust",		identifiedDescriptionName = {			"Meteorite Powder of Wisdom.",			"________________________",			"^0000CCWeight:^000000 0.1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000405] = {		unidentifiedDisplayName = "Amethyst Fragment",		unidentifiedResourceName = "Ep18_Amethyst_Fragment",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Amethyst Fragment",		identifiedResourceName = "Ep18_Amethyst_Fragment",		identifiedDescriptionName = {			"A piece of amethyst often found near the Gorge of Oz, the Gray Wolf Forest.",
+	[1000396] = {
+		unidentifiedDisplayName = "Naght Sieger Soul",
+		unidentifiedResourceName = "Naght_Sieger_Soul",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Naght Sieger Soul",
+		identifiedResourceName = "Naght_Sieger_Soul",
+		identifiedDescriptionName = {
+			"Naght Sieger's Soul.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000397] = {
+		unidentifiedDisplayName = "Beteleuse Soul",
+		unidentifiedResourceName = "Betelgeuse_Soul",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Beteleuse Soul",
+		identifiedResourceName = "Betelgeuse_Soul",
+		identifiedDescriptionName = {
+			"Betelgeuse's Soul.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000398] = {
+		unidentifiedDisplayName = "Power Meteorite Powder",
+		unidentifiedResourceName = "Pow_Meteorite_Dust",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Power Meteorite Powder",
+		identifiedResourceName = "Pow_Meteorite_Dust",
+		identifiedDescriptionName = {
+			"Meteorite Powder of Power.",
+			"________________________",
+			"^0000CCWeight:^000000 0.1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000399] = {
+		unidentifiedDisplayName = "Stamina Meteorite Powder",
+		unidentifiedResourceName = "Sta_Meteorite_Dust",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Stamina Meteorite Powder",
+		identifiedResourceName = "Sta_Meteorite_Dust",
+		identifiedDescriptionName = {
+			"Meteorite Powder of Stamina.",
+			"________________________",
+			"^0000CCWeight:^000000 0.1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000400] = {
+		unidentifiedDisplayName = "Agile Meteorite Powder",
+		unidentifiedResourceName = "Con_Meteorite_Dust",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Agile Meteorite Powder",
+		identifiedResourceName = "Con_Meteorite_Dust",
+		identifiedDescriptionName = {
+			"Meteorite Powder of Agility.",
+			"________________________",
+			"^0000CCWeight:^000000 0.1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000401] = {
+		unidentifiedDisplayName = "Lucky Meteorite Powder",
+		unidentifiedResourceName = "Crt_Meteorite_Dust",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Lucky Meteorite Powder",
+		identifiedResourceName = "Crt_Meteorite_Dust",
+		identifiedDescriptionName = {
+			"Meteorite Powder of Luck.",
+			"________________________",
+			"^0000CCWeight:^000000 0.1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000402] = {
+		unidentifiedDisplayName = "Meteorite Powder of Spell",
+		unidentifiedResourceName = "Spl_Meteorite_Dust",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Meteorite Powder of Spell",
+		identifiedResourceName = "Spl_Meteorite_Dust",
+		identifiedDescriptionName = {
+			"Meteorite Powder of Spell.",
+			"________________________",
+			"^0000CCWeight:^000000 0.1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000403] = {
+		unidentifiedDisplayName = "Meteorite Powder of Wisdom",
+		unidentifiedResourceName = "Wis_Meteorite_Dust",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Meteorite Powder of Wisdom",
+		identifiedResourceName = "Wis_Meteorite_Dust",
+		identifiedDescriptionName = {
+			"Meteorite Powder of Wisdom.",
+			"________________________",
+			"^0000CCWeight:^000000 0.1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000405] = {
+		unidentifiedDisplayName = "Amethyst Fragment",
+		unidentifiedResourceName = "Ep18_Amethyst_Fragment",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Amethyst Fragment",
+		identifiedResourceName = "Ep18_Amethyst_Fragment",
+		identifiedDescriptionName = {
+			"A piece of amethyst often found near the Gorge of Oz, the Gray Wolf Forest.",
 			"It is often used by locals to make jewelry or as a gift as a token of appreciation.",
-			"There seems to be a collector collecting pieces of amethyst.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000406] = {		unidentifiedDisplayName = "Very Unusual Crystal",		unidentifiedResourceName = "Ep18_Very_Ddan_Crystal",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Very Unusual Crystal",		identifiedResourceName = "Ep18_Very_Ddan_Crystal",		identifiedDescriptionName = {			"A crystal that can only be obtained in small quantities from the Gray Wolf. It seems as if the lava is hardened.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000407] = {		unidentifiedDisplayName = "Half Flower",		unidentifiedResourceName = "Ep18_Half_Flower",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Half Flower",		identifiedResourceName = "Ep18_Half_Flower",		identifiedDescriptionName = {			"A flower with two-colored petals with white petals on the right and pale gray on the left. It is said to grow wild only in the gray wolf forest. If you don't know a special way to pick a flower, it will wither.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000408] = {		unidentifiedDisplayName = "Recording Note",		unidentifiedResourceName = "Ep18_Recording_Note",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Recording Note",		identifiedResourceName = "Ep18_Recording_Note",		identifiedDescriptionName = {			"A notebook for dictating the various stories of the Gray Wolf Forest.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000409] = {		unidentifiedDisplayName = "Document File",		unidentifiedResourceName = "Ep18_Docu_FIle",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Document File",		identifiedResourceName = "Ep18_Docu_FIle",		identifiedDescriptionName = {			"A paper file with documents embedded in it.",
-			"It may be important.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000410] = {		unidentifiedDisplayName = "Water Filter",		unidentifiedResourceName = "Ep18_Water_Filter",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Water Filter",		identifiedResourceName = "Ep18_Water_Filter",		identifiedDescriptionName = {			"It is sold at the Temple of Sesrumnir in Rachel as a necessity for places where clean water is scarce, such as deserts and volcanoes. Mass production seems impossible.",
-			"At first glance, it looks like an ordinary medicine bag, but when immersed in water, it instantly glows and purifies. Have fun visiting.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000411] = {		unidentifiedDisplayName = "Purified Water",		unidentifiedResourceName = "Ep18_Purified_Bucket",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Purified Water",		identifiedResourceName = "Ep18_Purified_Bucket",		identifiedDescriptionName = {			"It is clean, purified water that does not give off any odor. When drinking, it is better to boil it once.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000412] = {		unidentifiedDisplayName = "Trapped Bird",		unidentifiedResourceName = "ep18_Trapped01",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Trapped Bird",		identifiedResourceName = "ep18_Trapped01",		identifiedDescriptionName = {			"It is a small animal caught in a trap installed in the forest. It will be a daily food.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000413] = {		unidentifiedDisplayName = "Trapped Lizard",		unidentifiedResourceName = "Ep18_Trapped02",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Trapped Lizard",		identifiedResourceName = "Ep18_Trapped02",		identifiedDescriptionName = {			"It is a small animal caught in a trap installed in the forest. It will be a daily food.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000414] = {		unidentifiedDisplayName = "Trapped Pear",		unidentifiedResourceName = "ep18_Trapped03",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Trapped Pear",		identifiedResourceName = "ep18_Trapped03",		identifiedDescriptionName = {			"It is a kind of fruit that cannot be found around here. It was a little spoiled, but it can be eaten.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000419] = {		unidentifiedDisplayName = "Weapon Enhancement Ore(Lower)",		unidentifiedResourceName = "Weapon_Ore_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Weapon Enhancement Ore(Lower)",		identifiedResourceName = "Weapon_Ore_1",		identifiedDescriptionName = {			"An lower gemstone used to upgrade weapon equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000420] = {		unidentifiedDisplayName = "Weapon Enhancement Ore(Intermediate)",		unidentifiedResourceName = "Weapon_Ore_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Weapon Enhancement Ore(Intermediate)",		identifiedResourceName = "Weapon_Ore_2",		identifiedDescriptionName = {			"An intermediate gemstone used to upgrade weapon equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000421] = {		unidentifiedDisplayName = "Weapon Enhancement Ore(High)",		unidentifiedResourceName = "Weapon_Ore_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Weapon Enhancement Ore(High)",		identifiedResourceName = "Weapon_Ore_3",		identifiedDescriptionName = {			"An high-grade gemstone used to upgrade weapon equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000422] = {		unidentifiedDisplayName = "Weapon Enhancement Ore(Superior)",		unidentifiedResourceName = "Weapon_Ore_4",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Weapon Enhancement Ore(Superior)",		identifiedResourceName = "Weapon_Ore_4",		identifiedDescriptionName = {			"An superior gemstone used to upgrade weapon equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000423] = {		unidentifiedDisplayName = "Armor Enhancement Ore(Lower)",		unidentifiedResourceName = "Armor_Ore_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Armor Enhancement Ore(Lower)",		identifiedResourceName = "Armor_Ore_1",		identifiedDescriptionName = {			"An lower gemstone used to upgrade armor equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000424] = {		unidentifiedDisplayName = "Armor Enhancement Ore(Intermediate)",		unidentifiedResourceName = "Armor_Ore_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Armor Enhancement Ore(Intermediate)",		identifiedResourceName = "Armor_Ore_2",		identifiedDescriptionName = {			"An intermediate gemstone used to upgrade armor equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000425] = {		unidentifiedDisplayName = "Armor Enhancement Ore(Superior)",		unidentifiedResourceName = "Armor_Ore_4",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Armor Enhancement Ore(Superior)",		identifiedResourceName = "Armor_Ore_4",		identifiedDescriptionName = {			"An superior gemstone used to upgrade armor equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000426] = {		unidentifiedDisplayName = "Accessory Enhancement Ore(Lower)",		unidentifiedResourceName = "Acc_Ore_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Accessory Enhancement Ore(Lower)",		identifiedResourceName = "Acc_Ore_1",		identifiedDescriptionName = {			"An lower gemstone used to upgrade accessory equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000427] = {		unidentifiedDisplayName = "Accessory Enhancement Ore(Intermediate)",		unidentifiedResourceName = "Acc_Ore_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Accessory Enhancement Ore(Intermediate)",		identifiedResourceName = "Acc_Ore_2",		identifiedDescriptionName = {			"An intermediate gemstone used to upgrade accessory equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000428] = {		unidentifiedDisplayName = "Accessory Enhancement Ore(High)",		unidentifiedResourceName = "Acc_Ore_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Accessory Enhancement Ore(High)",		identifiedResourceName = "Acc_Ore_3",		identifiedDescriptionName = {			"An high-grade gemstone used to upgrade accessory equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000429] = {		unidentifiedDisplayName = "Accessory Enhancement Ore(Superior)",		unidentifiedResourceName = "Acc_Ore_4",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Accessory Enhancement Ore(Superior)",		identifiedResourceName = "Acc_Ore_4",		identifiedDescriptionName = {			"An superior gemstone used to upgrade accessory equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000430] = {		unidentifiedDisplayName = "Weapon Upgrade Stone(Lower)",		unidentifiedResourceName = "Weapon_Stone_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Weapon Upgrade Stone(Lower)",		identifiedResourceName = "Weapon_Stone_1",		identifiedDescriptionName = {			"Ore made by refining Weapon Enhancement Ore(Lower).",
-			"Used to upgrade weapon equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000431] = {		unidentifiedDisplayName = "Weapon Upgrade Stone(Intermediate)",		unidentifiedResourceName = "Weapon_Stone_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Weapon Upgrade Stone(Intermediate)",		identifiedResourceName = "Weapon_Stone_2",		identifiedDescriptionName = {			"Ore made by refining Weapon Enhancement Ore(Intermediate).",
-			"Used to upgrade weapon equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000432] = {		unidentifiedDisplayName = "Weapon Upgrade Stone(High)",		unidentifiedResourceName = "Weapon_Stone_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Weapon Upgrade Stone(High)",		identifiedResourceName = "Weapon_Stone_3",		identifiedDescriptionName = {			"Ore made by refining Weapon Enhancement Ore(High).",
-			"Used to upgrade weapon equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000433] = {		unidentifiedDisplayName = "Weapon Upgrade Stone(Superior)",		unidentifiedResourceName = "Weapon_Stone_4",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Weapon Upgrade Stone(Superior)",		identifiedResourceName = "Weapon_Stone_4",		identifiedDescriptionName = {			"Ore made by refining Weapon Enhancement Ore(Superior).",
-			"Used to upgrade weapon equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000434] = {		unidentifiedDisplayName = "Armor Upgrade Stone(Lower)",		unidentifiedResourceName = "Armor_Stone_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Armor Upgrade Stone(Lower)",		identifiedResourceName = "Armor_Stone_1",		identifiedDescriptionName = {			"Ore made by refining Armor Enhancement Ore(Lower).",
-			"Used to upgrade armor equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000435] = {		unidentifiedDisplayName = "Armor Upgrade Stone(Intermediate)",		unidentifiedResourceName = "Armor_Stone_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Armor Upgrade Stone(Intermediate)",		identifiedResourceName = "Armor_Stone_2",		identifiedDescriptionName = {			"Ore made by refining Armor Enhancement Ore(Intermediate).",
-			"Used to upgrade armor equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000436] = {		unidentifiedDisplayName = "Armor Upgrade Stone(High)",		unidentifiedResourceName = "Armor_Stone_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Armor Upgrade Stone(High)",		identifiedResourceName = "Armor_Stone_3",		identifiedDescriptionName = {			"Ore made by refining Armor Enhancement Ore(High).",
-			"Used to upgrade armor equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000437] = {		unidentifiedDisplayName = "Armor Upgrade Stone(Superior)",		unidentifiedResourceName = "Armor_Stone_4",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Armor Upgrade Stone(Superior)",		identifiedResourceName = "Armor_Stone_4",		identifiedDescriptionName = {			"Ore made by refining Armor Enhancement Ore(Superior).",
-			"Used to upgrade armor equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000438] = {		unidentifiedDisplayName = "Accessory Upgrade Stone(Lower)",		unidentifiedResourceName = "Acc_Stone_1",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Accessory Upgrade Stone(Lower)",		identifiedResourceName = "Acc_Stone_1",		identifiedDescriptionName = {			"Ore made by refining Accessory Enhancement Ore(Lower).",
-			"Used to upgrade accessory equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000439] = {		unidentifiedDisplayName = "Accessory Upgrade Stone(Intermediate)",		unidentifiedResourceName = "Acc_Stone_2",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Accessory Upgrade Stone(Intermediate)",		identifiedResourceName = "Acc_Stone_2",		identifiedDescriptionName = {			"Ore made by refining Accessory Enhancement Ore(Intermediate).",
-			"Used to upgrade accessory equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000440] = {		unidentifiedDisplayName = "Accessory Upgrade Stone(High)",		unidentifiedResourceName = "Acc_Stone_3",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Accessory Upgrade Stone(High)",		identifiedResourceName = "Acc_Stone_3",		identifiedDescriptionName = {			"Ore made by refining Accessory Enhancement Ore(High).",
-			"Used to upgrade accessory equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000441] = {		unidentifiedDisplayName = "Accessory Upgrade Stone(Superior)",		unidentifiedResourceName = "Acc_Stone_4",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Accessory Upgrade Stone(Superior)",		identifiedResourceName = "Acc_Stone_4",		identifiedDescriptionName = {			"Ore made by refining Accessory Enhancement Ore(Superior).",
-			"Used to upgrade accessory equipment.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000442] = {		unidentifiedDisplayName = "Power Meteorite Fragment",		unidentifiedResourceName = "Pow_Meteorite_Fragment",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Power Meteorite Fragment",		identifiedResourceName = "Pow_Meteorite_Fragment",		identifiedDescriptionName = {			"Meteorite Fragment of Power.",			"________________________",			"^0000CCWeight:^000000 0.1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000443] = {		unidentifiedDisplayName = "Stamina Meteorite Fragment",		unidentifiedResourceName = "Sta_Meteorite_Fragment",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Stamina Meteorite Fragment",		identifiedResourceName = "Sta_Meteorite_Fragment",		identifiedDescriptionName = {			"Meteorite Fragment of Stamina.",			"________________________",			"^0000CCWeight:^000000 0.1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000444] = {		unidentifiedDisplayName = "Agile Meteorite Fragment",		unidentifiedResourceName = "Con_Meteorite_Fragment",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Agile Meteorite Fragment",		identifiedResourceName = "Con_Meteorite_Fragment",		identifiedDescriptionName = {			"Meteorite Fragment of Agility.",			"________________________",			"^0000CCWeight:^000000 0.1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000445] = {		unidentifiedDisplayName = "Lucky Meteorite Fragment",		unidentifiedResourceName = "Crt_Meteorite_Fragment",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Lucky Meteorite Fragment",		identifiedResourceName = "Crt_Meteorite_Fragment",		identifiedDescriptionName = {			"Meteorite Fragment of Luck.",			"________________________",			"^0000CCWeight:^000000 0.1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000446] = {		unidentifiedDisplayName = "Meteorite Fragment of Spell",		unidentifiedResourceName = "Spl_Meteorite_Fragment",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Meteorite Fragment of Spell",		identifiedResourceName = "Spl_Meteorite_Fragment",		identifiedDescriptionName = {			"Meteorite Fragment of Spell.",			"________________________",			"^0000CCWeight:^000000 0.1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000447] = {		unidentifiedDisplayName = "Meteorite Fragment of Wisdom",		unidentifiedResourceName = "Wis_Meteorite_Fragment",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Meteorite Fragment of Wisdom",		identifiedResourceName = "Wis_Meteorite_Fragment",		identifiedDescriptionName = {			"Meteorite Fragment of Wisdom.",			"________________________",			"^0000CCWeight:^000000 0.1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000471] = {		unidentifiedDisplayName = "Villa Basement Key",		unidentifiedResourceName = "기만의열쇠",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Villa Basement Key",		identifiedResourceName = "기만의열쇠",		identifiedDescriptionName = {			"A key that fits perfectly into the lock of the forbidden door of the deceived villa. No one knows what will be inside the forbidden door.",			"________________________",			"^0000CCWeight:^000000 1"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000475] = {		unidentifiedDisplayName = "Fides Two-Handed Sword Blueprint",		unidentifiedResourceName = "Conse_F_T_Sword",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Two-Handed Sword Blueprint",		identifiedResourceName = "Conse_F_T_Sword",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Two-Handed Sword.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000476] = {		unidentifiedDisplayName = "Fides Lance Blueprint",		unidentifiedResourceName = "Conse_F_Lance",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Lance Blueprint",		identifiedResourceName = "Conse_F_Lance",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Lance.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000477] = {		unidentifiedDisplayName = "Fides Guardian Sword Blueprint",		unidentifiedResourceName = "Conse_F_G_Sword",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Guardian Sword Blueprint",		identifiedResourceName = "Conse_F_G_Sword",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Guardian Sword.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000478] = {		unidentifiedDisplayName = "Fides Guardian Spear Blueprint",		unidentifiedResourceName = "Conse_F_G_Spear",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Guardian Spear Blueprint",		identifiedResourceName = "Conse_F_G_Spear",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Guardian Spear.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000479] = {		unidentifiedDisplayName = "Fides Axe Blueprint",		unidentifiedResourceName = "Conse_F_Axe",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Axe Blueprint",		identifiedResourceName = "Conse_F_Axe",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Axe.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000480] = {		unidentifiedDisplayName = "Fides Mace Blueprint",		unidentifiedResourceName = "Conse_F_Mace",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Mace Blueprint",		identifiedResourceName = "Conse_F_Mace",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Mace.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000481] = {		unidentifiedDisplayName = "Fides Rapier Blueprint",		unidentifiedResourceName = "Conse_F_Lapier",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Rapier Blueprint",		identifiedResourceName = "Conse_F_Lapier",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Rapier.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000482] = {		unidentifiedDisplayName = "Fides Hall Blueprint",		unidentifiedResourceName = "Conse_F_Hall",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Hall Blueprint",		identifiedResourceName = "Conse_F_Hall",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Hall.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000483] = {		unidentifiedDisplayName = "Fides Chakram Blueprint",		unidentifiedResourceName = "Conse_F_Cakram",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Chakram Blueprint",		identifiedResourceName = "Conse_F_Cakram",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Chakram.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000484] = {		unidentifiedDisplayName = "Fides Katar Blueprint",		unidentifiedResourceName = "Conse_F_Katar",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Katar Blueprint",		identifiedResourceName = "Conse_F_Katar",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Katar.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000485] = {		unidentifiedDisplayName = "Fides Dagger Blueprint",		unidentifiedResourceName = "Conse_F_Dagger",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Dagger Blueprint",		identifiedResourceName = "Conse_F_Dagger",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Dagger.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000486] = {		unidentifiedDisplayName = "Fides Crossbow Blueprint",		unidentifiedResourceName = "Conse_F_C_Bow",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Crossbow Blueprint",		identifiedResourceName = "Conse_F_C_Bow",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Crossbow.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000487] = {		unidentifiedDisplayName = "Fides Two-Handed Staff Blueprint",		unidentifiedResourceName = "Conse_F_T_Staff",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Two-Handed Staff Blueprint",		identifiedResourceName = "Conse_F_T_Staff",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Two-Handed Staff.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000488] = {		unidentifiedDisplayName = "Fides Rod Blueprint",		unidentifiedResourceName = "Conse_F_Rod",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Rod Blueprint",		identifiedResourceName = "Conse_F_Rod",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Rod.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000489] = {		unidentifiedDisplayName = "Fides Magic Book Blueprint",		unidentifiedResourceName = "Conse_F_M_Book",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Magic Book Blueprint",		identifiedResourceName = "Conse_F_M_Book",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Magic Book.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000490] = {		unidentifiedDisplayName = "Fides Poison Book Blueprint",		unidentifiedResourceName = "Conse_F_P_Book",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Poison Book Blueprint",		identifiedResourceName = "Conse_F_P_Book",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Poison Book.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000491] = {		unidentifiedDisplayName = "Fides Bible Blueprint",		unidentifiedResourceName = "Conse_F_Bible",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Bible Blueprint",		identifiedResourceName = "Conse_F_Bible",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Bible.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000492] = {		unidentifiedDisplayName = "Fides Wand Blueprint",		unidentifiedResourceName = "Conse_F_Wand",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Wand Blueprint",		identifiedResourceName = "Conse_F_Wand",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Wand.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000493] = {		unidentifiedDisplayName = "Fides Knuckle Blueprint",		unidentifiedResourceName = "Conse_F_Knuckle",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Knuckle Blueprint",		identifiedResourceName = "Conse_F_Knuckle",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Knuckle.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000494] = {		unidentifiedDisplayName = "Fides Claw Blueprint",		unidentifiedResourceName = "Conse_F_Claw",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Claw Blueprint",		identifiedResourceName = "Conse_F_Claw",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Claw.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000495] = {		unidentifiedDisplayName = "Fides Ballista Blueprint",		unidentifiedResourceName = "Conse_F_Ballista",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Ballista Blueprint",		identifiedResourceName = "Conse_F_Ballista",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Ballista.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000496] = {		unidentifiedDisplayName = "Fides Aiming Bow Blueprint",		unidentifiedResourceName = "Conse_F_A_Bow",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Aiming Bow Blueprint",		identifiedResourceName = "Conse_F_A_Bow",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Aiming Bow.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000497] = {		unidentifiedDisplayName = "Fides Violin Blueprint",		unidentifiedResourceName = "Conse_F_Violin",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Violin Blueprint",		identifiedResourceName = "Conse_F_Violin",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Violin.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000498] = {		unidentifiedDisplayName = "Fides Chain Rope Blueprint",		unidentifiedResourceName = "Conse_F_C_Rope",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Chain Rope Blueprint",		identifiedResourceName = "Conse_F_C_Rope",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Chain Rope.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000499] = {		unidentifiedDisplayName = "Fides Harp Blueprint",		unidentifiedResourceName = "Conse_F_Harp",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Harp Blueprint",		identifiedResourceName = "Conse_F_Harp",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Harp.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000500] = {		unidentifiedDisplayName = "Fides Ribbon Blueprint",		unidentifiedResourceName = "Conse_F_Ribbon",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Fides Ribbon Blueprint",		identifiedResourceName = "Conse_F_Ribbon",		identifiedDescriptionName = {			"A blueprint required to purify and reassemble the Adulter Fides Ribbon.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000501] = {		unidentifiedDisplayName = "Holy Oil of Purification",		unidentifiedResourceName = "Purificatory_Holy_O",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Holy Oil of Purification",		identifiedResourceName = "Purificatory_Holy_O",		identifiedDescriptionName = {			"Holy oil needed to purify false beliefs in weapons.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000502] = {		unidentifiedDisplayName = "Holy Water of Purification",		unidentifiedResourceName = "Purificatory_Holy_W",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Holy Water of Purification",		identifiedResourceName = "Purificatory_Holy_W",		identifiedDescriptionName = {			"Holy water needed to purify false beliefs in weapons.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
-	[1000503] = {		unidentifiedDisplayName = "Sabbatical Handkerchief",		unidentifiedResourceName = "Sanctuary_Sudarium",		unidentifiedDescriptionName = { "" },		identifiedDisplayName = "Sabbatical Handkerchief",		identifiedResourceName = "Sanctuary_Sudarium",		identifiedDescriptionName = {			"A necessary handkerchief needed to purify false beliefs in weapons.",			"________________________",			"^0000CCWeight:^000000 0"		},		slotCount = 0,		ClassNum = 0,		costume = false	},
+			"There seems to be a collector collecting pieces of amethyst.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000406] = {
+		unidentifiedDisplayName = "Very Unusual Crystal",
+		unidentifiedResourceName = "Ep18_Very_Ddan_Crystal",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Very Unusual Crystal",
+		identifiedResourceName = "Ep18_Very_Ddan_Crystal",
+		identifiedDescriptionName = {
+			"A crystal that can only be obtained in small quantities from the Gray Wolf. It seems as if the lava is hardened.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000407] = {
+		unidentifiedDisplayName = "Half Flower",
+		unidentifiedResourceName = "Ep18_Half_Flower",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Half Flower",
+		identifiedResourceName = "Ep18_Half_Flower",
+		identifiedDescriptionName = {
+			"A flower with two-colored petals with white petals on the right and pale gray on the left. It is said to grow wild only in the gray wolf forest. If you don't know a special way to pick a flower, it will wither.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000408] = {
+		unidentifiedDisplayName = "Recording Note",
+		unidentifiedResourceName = "Ep18_Recording_Note",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Recording Note",
+		identifiedResourceName = "Ep18_Recording_Note",
+		identifiedDescriptionName = {
+			"A notebook for dictating the various stories of the Gray Wolf Forest.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000409] = {
+		unidentifiedDisplayName = "Document File",
+		unidentifiedResourceName = "Ep18_Docu_FIle",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Document File",
+		identifiedResourceName = "Ep18_Docu_FIle",
+		identifiedDescriptionName = {
+			"A paper file with documents embedded in it.",
+			"It may be important.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000410] = {
+		unidentifiedDisplayName = "Water Filter",
+		unidentifiedResourceName = "Ep18_Water_Filter",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Water Filter",
+		identifiedResourceName = "Ep18_Water_Filter",
+		identifiedDescriptionName = {
+			"It is sold at the Temple of Sesrumnir in Rachel as a necessity for places where clean water is scarce, such as deserts and volcanoes. Mass production seems impossible.",
+			"At first glance, it looks like an ordinary medicine bag, but when immersed in water, it instantly glows and purifies. Have fun visiting.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000411] = {
+		unidentifiedDisplayName = "Purified Water",
+		unidentifiedResourceName = "Ep18_Purified_Bucket",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Purified Water",
+		identifiedResourceName = "Ep18_Purified_Bucket",
+		identifiedDescriptionName = {
+			"It is clean, purified water that does not give off any odor. When drinking, it is better to boil it once.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000412] = {
+		unidentifiedDisplayName = "Trapped Bird",
+		unidentifiedResourceName = "ep18_Trapped01",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Trapped Bird",
+		identifiedResourceName = "ep18_Trapped01",
+		identifiedDescriptionName = {
+			"It is a small animal caught in a trap installed in the forest. It will be a daily food.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000413] = {
+		unidentifiedDisplayName = "Trapped Lizard",
+		unidentifiedResourceName = "Ep18_Trapped02",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Trapped Lizard",
+		identifiedResourceName = "Ep18_Trapped02",
+		identifiedDescriptionName = {
+			"It is a small animal caught in a trap installed in the forest. It will be a daily food.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000414] = {
+		unidentifiedDisplayName = "Trapped Pear",
+		unidentifiedResourceName = "ep18_Trapped03",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Trapped Pear",
+		identifiedResourceName = "ep18_Trapped03",
+		identifiedDescriptionName = {
+			"It is a kind of fruit that cannot be found around here. It was a little spoiled, but it can be eaten.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000419] = {
+		unidentifiedDisplayName = "Weapon Enhancement Ore(Lower)",
+		unidentifiedResourceName = "Weapon_Ore_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Weapon Enhancement Ore(Lower)",
+		identifiedResourceName = "Weapon_Ore_1",
+		identifiedDescriptionName = {
+			"An lower gemstone used to upgrade weapon equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000420] = {
+		unidentifiedDisplayName = "Weapon Enhancement Ore(Intermediate)",
+		unidentifiedResourceName = "Weapon_Ore_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Weapon Enhancement Ore(Intermediate)",
+		identifiedResourceName = "Weapon_Ore_2",
+		identifiedDescriptionName = {
+			"An intermediate gemstone used to upgrade weapon equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000421] = {
+		unidentifiedDisplayName = "Weapon Enhancement Ore(High)",
+		unidentifiedResourceName = "Weapon_Ore_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Weapon Enhancement Ore(High)",
+		identifiedResourceName = "Weapon_Ore_3",
+		identifiedDescriptionName = {
+			"An high-grade gemstone used to upgrade weapon equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000422] = {
+		unidentifiedDisplayName = "Weapon Enhancement Ore(Superior)",
+		unidentifiedResourceName = "Weapon_Ore_4",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Weapon Enhancement Ore(Superior)",
+		identifiedResourceName = "Weapon_Ore_4",
+		identifiedDescriptionName = {
+			"An superior gemstone used to upgrade weapon equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000423] = {
+		unidentifiedDisplayName = "Armor Enhancement Ore(Lower)",
+		unidentifiedResourceName = "Armor_Ore_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Armor Enhancement Ore(Lower)",
+		identifiedResourceName = "Armor_Ore_1",
+		identifiedDescriptionName = {
+			"An lower gemstone used to upgrade armor equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000424] = {
+		unidentifiedDisplayName = "Armor Enhancement Ore(Intermediate)",
+		unidentifiedResourceName = "Armor_Ore_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Armor Enhancement Ore(Intermediate)",
+		identifiedResourceName = "Armor_Ore_2",
+		identifiedDescriptionName = {
+			"An intermediate gemstone used to upgrade armor equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000425] = {
+		unidentifiedDisplayName = "Armor Enhancement Ore(Superior)",
+		unidentifiedResourceName = "Armor_Ore_4",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Armor Enhancement Ore(Superior)",
+		identifiedResourceName = "Armor_Ore_4",
+		identifiedDescriptionName = {
+			"An superior gemstone used to upgrade armor equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000426] = {
+		unidentifiedDisplayName = "Accessory Enhancement Ore(Lower)",
+		unidentifiedResourceName = "Acc_Ore_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Accessory Enhancement Ore(Lower)",
+		identifiedResourceName = "Acc_Ore_1",
+		identifiedDescriptionName = {
+			"An lower gemstone used to upgrade accessory equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000427] = {
+		unidentifiedDisplayName = "Accessory Enhancement Ore(Intermediate)",
+		unidentifiedResourceName = "Acc_Ore_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Accessory Enhancement Ore(Intermediate)",
+		identifiedResourceName = "Acc_Ore_2",
+		identifiedDescriptionName = {
+			"An intermediate gemstone used to upgrade accessory equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000428] = {
+		unidentifiedDisplayName = "Accessory Enhancement Ore(High)",
+		unidentifiedResourceName = "Acc_Ore_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Accessory Enhancement Ore(High)",
+		identifiedResourceName = "Acc_Ore_3",
+		identifiedDescriptionName = {
+			"An high-grade gemstone used to upgrade accessory equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000429] = {
+		unidentifiedDisplayName = "Accessory Enhancement Ore(Superior)",
+		unidentifiedResourceName = "Acc_Ore_4",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Accessory Enhancement Ore(Superior)",
+		identifiedResourceName = "Acc_Ore_4",
+		identifiedDescriptionName = {
+			"An superior gemstone used to upgrade accessory equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000430] = {
+		unidentifiedDisplayName = "Weapon Upgrade Stone(Lower)",
+		unidentifiedResourceName = "Weapon_Stone_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Weapon Upgrade Stone(Lower)",
+		identifiedResourceName = "Weapon_Stone_1",
+		identifiedDescriptionName = {
+			"Ore made by refining Weapon Enhancement Ore(Lower).",
+			"Used to upgrade weapon equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000431] = {
+		unidentifiedDisplayName = "Weapon Upgrade Stone(Intermediate)",
+		unidentifiedResourceName = "Weapon_Stone_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Weapon Upgrade Stone(Intermediate)",
+		identifiedResourceName = "Weapon_Stone_2",
+		identifiedDescriptionName = {
+			"Ore made by refining Weapon Enhancement Ore(Intermediate).",
+			"Used to upgrade weapon equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000432] = {
+		unidentifiedDisplayName = "Weapon Upgrade Stone(High)",
+		unidentifiedResourceName = "Weapon_Stone_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Weapon Upgrade Stone(High)",
+		identifiedResourceName = "Weapon_Stone_3",
+		identifiedDescriptionName = {
+			"Ore made by refining Weapon Enhancement Ore(High).",
+			"Used to upgrade weapon equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000433] = {
+		unidentifiedDisplayName = "Weapon Upgrade Stone(Superior)",
+		unidentifiedResourceName = "Weapon_Stone_4",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Weapon Upgrade Stone(Superior)",
+		identifiedResourceName = "Weapon_Stone_4",
+		identifiedDescriptionName = {
+			"Ore made by refining Weapon Enhancement Ore(Superior).",
+			"Used to upgrade weapon equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000434] = {
+		unidentifiedDisplayName = "Armor Upgrade Stone(Lower)",
+		unidentifiedResourceName = "Armor_Stone_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Armor Upgrade Stone(Lower)",
+		identifiedResourceName = "Armor_Stone_1",
+		identifiedDescriptionName = {
+			"Ore made by refining Armor Enhancement Ore(Lower).",
+			"Used to upgrade armor equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000435] = {
+		unidentifiedDisplayName = "Armor Upgrade Stone(Intermediate)",
+		unidentifiedResourceName = "Armor_Stone_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Armor Upgrade Stone(Intermediate)",
+		identifiedResourceName = "Armor_Stone_2",
+		identifiedDescriptionName = {
+			"Ore made by refining Armor Enhancement Ore(Intermediate).",
+			"Used to upgrade armor equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000436] = {
+		unidentifiedDisplayName = "Armor Upgrade Stone(High)",
+		unidentifiedResourceName = "Armor_Stone_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Armor Upgrade Stone(High)",
+		identifiedResourceName = "Armor_Stone_3",
+		identifiedDescriptionName = {
+			"Ore made by refining Armor Enhancement Ore(High).",
+			"Used to upgrade armor equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000437] = {
+		unidentifiedDisplayName = "Armor Upgrade Stone(Superior)",
+		unidentifiedResourceName = "Armor_Stone_4",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Armor Upgrade Stone(Superior)",
+		identifiedResourceName = "Armor_Stone_4",
+		identifiedDescriptionName = {
+			"Ore made by refining Armor Enhancement Ore(Superior).",
+			"Used to upgrade armor equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000438] = {
+		unidentifiedDisplayName = "Accessory Upgrade Stone(Lower)",
+		unidentifiedResourceName = "Acc_Stone_1",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Accessory Upgrade Stone(Lower)",
+		identifiedResourceName = "Acc_Stone_1",
+		identifiedDescriptionName = {
+			"Ore made by refining Accessory Enhancement Ore(Lower).",
+			"Used to upgrade accessory equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000439] = {
+		unidentifiedDisplayName = "Accessory Upgrade Stone(Intermediate)",
+		unidentifiedResourceName = "Acc_Stone_2",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Accessory Upgrade Stone(Intermediate)",
+		identifiedResourceName = "Acc_Stone_2",
+		identifiedDescriptionName = {
+			"Ore made by refining Accessory Enhancement Ore(Intermediate).",
+			"Used to upgrade accessory equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000440] = {
+		unidentifiedDisplayName = "Accessory Upgrade Stone(High)",
+		unidentifiedResourceName = "Acc_Stone_3",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Accessory Upgrade Stone(High)",
+		identifiedResourceName = "Acc_Stone_3",
+		identifiedDescriptionName = {
+			"Ore made by refining Accessory Enhancement Ore(High).",
+			"Used to upgrade accessory equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000441] = {
+		unidentifiedDisplayName = "Accessory Upgrade Stone(Superior)",
+		unidentifiedResourceName = "Acc_Stone_4",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Accessory Upgrade Stone(Superior)",
+		identifiedResourceName = "Acc_Stone_4",
+		identifiedDescriptionName = {
+			"Ore made by refining Accessory Enhancement Ore(Superior).",
+			"Used to upgrade accessory equipment.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000442] = {
+		unidentifiedDisplayName = "Power Meteorite Fragment",
+		unidentifiedResourceName = "Pow_Meteorite_Fragment",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Power Meteorite Fragment",
+		identifiedResourceName = "Pow_Meteorite_Fragment",
+		identifiedDescriptionName = {
+			"Meteorite Fragment of Power.",
+			"________________________",
+			"^0000CCWeight:^000000 0.1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000443] = {
+		unidentifiedDisplayName = "Stamina Meteorite Fragment",
+		unidentifiedResourceName = "Sta_Meteorite_Fragment",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Stamina Meteorite Fragment",
+		identifiedResourceName = "Sta_Meteorite_Fragment",
+		identifiedDescriptionName = {
+			"Meteorite Fragment of Stamina.",
+			"________________________",
+			"^0000CCWeight:^000000 0.1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000444] = {
+		unidentifiedDisplayName = "Agile Meteorite Fragment",
+		unidentifiedResourceName = "Con_Meteorite_Fragment",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Agile Meteorite Fragment",
+		identifiedResourceName = "Con_Meteorite_Fragment",
+		identifiedDescriptionName = {
+			"Meteorite Fragment of Agility.",
+			"________________________",
+			"^0000CCWeight:^000000 0.1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000445] = {
+		unidentifiedDisplayName = "Lucky Meteorite Fragment",
+		unidentifiedResourceName = "Crt_Meteorite_Fragment",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Lucky Meteorite Fragment",
+		identifiedResourceName = "Crt_Meteorite_Fragment",
+		identifiedDescriptionName = {
+			"Meteorite Fragment of Luck.",
+			"________________________",
+			"^0000CCWeight:^000000 0.1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000446] = {
+		unidentifiedDisplayName = "Meteorite Fragment of Spell",
+		unidentifiedResourceName = "Spl_Meteorite_Fragment",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Meteorite Fragment of Spell",
+		identifiedResourceName = "Spl_Meteorite_Fragment",
+		identifiedDescriptionName = {
+			"Meteorite Fragment of Spell.",
+			"________________________",
+			"^0000CCWeight:^000000 0.1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000447] = {
+		unidentifiedDisplayName = "Meteorite Fragment of Wisdom",
+		unidentifiedResourceName = "Wis_Meteorite_Fragment",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Meteorite Fragment of Wisdom",
+		identifiedResourceName = "Wis_Meteorite_Fragment",
+		identifiedDescriptionName = {
+			"Meteorite Fragment of Wisdom.",
+			"________________________",
+			"^0000CCWeight:^000000 0.1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000471] = {
+		unidentifiedDisplayName = "Villa Basement Key",
+		unidentifiedResourceName = "기만의열쇠",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Villa Basement Key",
+		identifiedResourceName = "기만의열쇠",
+		identifiedDescriptionName = {
+			"A key that fits perfectly into the lock of the forbidden door of the deceived villa. No one knows what will be inside the forbidden door.",
+			"________________________",
+			"^0000CCWeight:^000000 1"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000475] = {
+		unidentifiedDisplayName = "Fides Two-Handed Sword Blueprint",
+		unidentifiedResourceName = "Conse_F_T_Sword",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Two-Handed Sword Blueprint",
+		identifiedResourceName = "Conse_F_T_Sword",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Two-Handed Sword.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000476] = {
+		unidentifiedDisplayName = "Fides Lance Blueprint",
+		unidentifiedResourceName = "Conse_F_Lance",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Lance Blueprint",
+		identifiedResourceName = "Conse_F_Lance",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Lance.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000477] = {
+		unidentifiedDisplayName = "Fides Guardian Sword Blueprint",
+		unidentifiedResourceName = "Conse_F_G_Sword",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Guardian Sword Blueprint",
+		identifiedResourceName = "Conse_F_G_Sword",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Guardian Sword.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000478] = {
+		unidentifiedDisplayName = "Fides Guardian Spear Blueprint",
+		unidentifiedResourceName = "Conse_F_G_Spear",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Guardian Spear Blueprint",
+		identifiedResourceName = "Conse_F_G_Spear",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Guardian Spear.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000479] = {
+		unidentifiedDisplayName = "Fides Axe Blueprint",
+		unidentifiedResourceName = "Conse_F_Axe",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Axe Blueprint",
+		identifiedResourceName = "Conse_F_Axe",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Axe.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000480] = {
+		unidentifiedDisplayName = "Fides Mace Blueprint",
+		unidentifiedResourceName = "Conse_F_Mace",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Mace Blueprint",
+		identifiedResourceName = "Conse_F_Mace",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Mace.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000481] = {
+		unidentifiedDisplayName = "Fides Rapier Blueprint",
+		unidentifiedResourceName = "Conse_F_Lapier",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Rapier Blueprint",
+		identifiedResourceName = "Conse_F_Lapier",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Rapier.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000482] = {
+		unidentifiedDisplayName = "Fides Hall Blueprint",
+		unidentifiedResourceName = "Conse_F_Hall",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Hall Blueprint",
+		identifiedResourceName = "Conse_F_Hall",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Hall.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000483] = {
+		unidentifiedDisplayName = "Fides Chakram Blueprint",
+		unidentifiedResourceName = "Conse_F_Cakram",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Chakram Blueprint",
+		identifiedResourceName = "Conse_F_Cakram",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Chakram.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000484] = {
+		unidentifiedDisplayName = "Fides Katar Blueprint",
+		unidentifiedResourceName = "Conse_F_Katar",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Katar Blueprint",
+		identifiedResourceName = "Conse_F_Katar",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Katar.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000485] = {
+		unidentifiedDisplayName = "Fides Dagger Blueprint",
+		unidentifiedResourceName = "Conse_F_Dagger",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Dagger Blueprint",
+		identifiedResourceName = "Conse_F_Dagger",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Dagger.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000486] = {
+		unidentifiedDisplayName = "Fides Crossbow Blueprint",
+		unidentifiedResourceName = "Conse_F_C_Bow",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Crossbow Blueprint",
+		identifiedResourceName = "Conse_F_C_Bow",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Crossbow.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000487] = {
+		unidentifiedDisplayName = "Fides Two-Handed Staff Blueprint",
+		unidentifiedResourceName = "Conse_F_T_Staff",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Two-Handed Staff Blueprint",
+		identifiedResourceName = "Conse_F_T_Staff",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Two-Handed Staff.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000488] = {
+		unidentifiedDisplayName = "Fides Rod Blueprint",
+		unidentifiedResourceName = "Conse_F_Rod",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Rod Blueprint",
+		identifiedResourceName = "Conse_F_Rod",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Rod.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000489] = {
+		unidentifiedDisplayName = "Fides Magic Book Blueprint",
+		unidentifiedResourceName = "Conse_F_M_Book",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Magic Book Blueprint",
+		identifiedResourceName = "Conse_F_M_Book",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Magic Book.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000490] = {
+		unidentifiedDisplayName = "Fides Poison Book Blueprint",
+		unidentifiedResourceName = "Conse_F_P_Book",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Poison Book Blueprint",
+		identifiedResourceName = "Conse_F_P_Book",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Poison Book.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000491] = {
+		unidentifiedDisplayName = "Fides Bible Blueprint",
+		unidentifiedResourceName = "Conse_F_Bible",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Bible Blueprint",
+		identifiedResourceName = "Conse_F_Bible",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Bible.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000492] = {
+		unidentifiedDisplayName = "Fides Wand Blueprint",
+		unidentifiedResourceName = "Conse_F_Wand",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Wand Blueprint",
+		identifiedResourceName = "Conse_F_Wand",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Wand.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000493] = {
+		unidentifiedDisplayName = "Fides Knuckle Blueprint",
+		unidentifiedResourceName = "Conse_F_Knuckle",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Knuckle Blueprint",
+		identifiedResourceName = "Conse_F_Knuckle",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Knuckle.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000494] = {
+		unidentifiedDisplayName = "Fides Claw Blueprint",
+		unidentifiedResourceName = "Conse_F_Claw",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Claw Blueprint",
+		identifiedResourceName = "Conse_F_Claw",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Claw.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000495] = {
+		unidentifiedDisplayName = "Fides Ballista Blueprint",
+		unidentifiedResourceName = "Conse_F_Ballista",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Ballista Blueprint",
+		identifiedResourceName = "Conse_F_Ballista",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Ballista.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000496] = {
+		unidentifiedDisplayName = "Fides Aiming Bow Blueprint",
+		unidentifiedResourceName = "Conse_F_A_Bow",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Aiming Bow Blueprint",
+		identifiedResourceName = "Conse_F_A_Bow",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Aiming Bow.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000497] = {
+		unidentifiedDisplayName = "Fides Violin Blueprint",
+		unidentifiedResourceName = "Conse_F_Violin",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Violin Blueprint",
+		identifiedResourceName = "Conse_F_Violin",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Violin.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000498] = {
+		unidentifiedDisplayName = "Fides Chain Rope Blueprint",
+		unidentifiedResourceName = "Conse_F_C_Rope",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Chain Rope Blueprint",
+		identifiedResourceName = "Conse_F_C_Rope",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Chain Rope.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000499] = {
+		unidentifiedDisplayName = "Fides Harp Blueprint",
+		unidentifiedResourceName = "Conse_F_Harp",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Harp Blueprint",
+		identifiedResourceName = "Conse_F_Harp",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Harp.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000500] = {
+		unidentifiedDisplayName = "Fides Ribbon Blueprint",
+		unidentifiedResourceName = "Conse_F_Ribbon",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Fides Ribbon Blueprint",
+		identifiedResourceName = "Conse_F_Ribbon",
+		identifiedDescriptionName = {
+			"A blueprint required to purify and reassemble the Adulter Fides Ribbon.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000501] = {
+		unidentifiedDisplayName = "Holy Oil of Purification",
+		unidentifiedResourceName = "Purificatory_Holy_O",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Holy Oil of Purification",
+		identifiedResourceName = "Purificatory_Holy_O",
+		identifiedDescriptionName = {
+			"Holy oil needed to purify false beliefs in weapons.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000502] = {
+		unidentifiedDisplayName = "Holy Water of Purification",
+		unidentifiedResourceName = "Purificatory_Holy_W",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Holy Water of Purification",
+		identifiedResourceName = "Purificatory_Holy_W",
+		identifiedDescriptionName = {
+			"Holy water needed to purify false beliefs in weapons.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
+	[1000503] = {
+		unidentifiedDisplayName = "Sabbatical Handkerchief",
+		unidentifiedResourceName = "Sanctuary_Sudarium",
+		unidentifiedDescriptionName = { "" },
+		identifiedDisplayName = "Sabbatical Handkerchief",
+		identifiedResourceName = "Sanctuary_Sudarium",
+		identifiedDescriptionName = {
+			"A necessary handkerchief needed to purify false beliefs in weapons.",
+			"________________________",
+			"^0000CCWeight:^000000 0"
+		},
+		slotCount = 0,
+		ClassNum = 0,
+		costume = false
+	},
 	[1100000] = {
 		unidentifiedDisplayName = "IDTest Heal",
 		unidentifiedResourceName = "개구리알",
@@ -429685,47 +435246,46 @@ tbl = {
 		ClassNum = 0,
 		costume = false
 	},
-
-	[35001] = {
+[35001] = {
 		unidentifiedDisplayName = "Moneda de Platino OzRo",
-		unidentifiedResourceName = "백금화",
-		unidentifiedDescriptionName = { "Una moneda de platino acu?ada en OzRagnarok." },
+		unidentifiedResourceName = "ozro_platinum_coin",
+		unidentifiedDescriptionName = { "Una moneda de platino acu�ada en OzRagnarok." },
 		identifiedDisplayName = "Moneda de Platino OzRo",
-		identifiedResourceName = "백금화",
-		identifiedDescriptionName = { "Una moneda de platino acu?ada en OzRagnarok." },
+		identifiedResourceName = "ozro_platinum_coin",
+		identifiedDescriptionName = { "Una moneda de platino acu�ada en OzRagnarok." },
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
 	[35002] = {
 		unidentifiedDisplayName = "Moneda de Oro OzRo",
-		unidentifiedResourceName = "금화",
-		unidentifiedDescriptionName = { "Una moneda de oro acu?ada en OzRagnarok." },
+		unidentifiedResourceName = "ozro_gold_coin",
+		unidentifiedDescriptionName = { "Una moneda de oro acu�ada en OzRagnarok." },
 		identifiedDisplayName = "Moneda de Oro OzRo",
-		identifiedResourceName = "금화",
-		identifiedDescriptionName = { "Una moneda de oro acu?ada en OzRagnarok." },
+		identifiedResourceName = "ozro_gold_coin",
+		identifiedDescriptionName = { "Una moneda de oro acu�ada en OzRagnarok." },
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
 	[35003] = {
 		unidentifiedDisplayName = "Moneda de Plata OzRo",
-		unidentifiedResourceName = "은화",
-		unidentifiedDescriptionName = { "Una moneda de plata acu?ada en OzRagnarok." },
+		unidentifiedResourceName = "ozro_silver_coin",
+		unidentifiedDescriptionName = { "Una moneda de plata acu�ada en OzRagnarok." },
 		identifiedDisplayName = "Moneda de Plata OzRo",
-		identifiedResourceName = "은화",
-		identifiedDescriptionName = { "Una moneda de plata acu?ada en OzRagnarok." },
+		identifiedResourceName = "ozro_silver_coin",
+		identifiedDescriptionName = { "Una moneda de plata acu�ada en OzRagnarok." },
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
 	},
 	[35004] = {
 		unidentifiedDisplayName = "Moneda de Bronce OzRo",
-		unidentifiedResourceName = "동화",
-		unidentifiedDescriptionName = { "Una moneda de bronce acu?ada en OzRagnarok." },
+		unidentifiedResourceName = "ozro_bronze_coin",
+		unidentifiedDescriptionName = { "Una moneda de bronce acu�ada en OzRagnarok." },
 		identifiedDisplayName = "Moneda de Bronce OzRo",
-		identifiedResourceName = "동화",
-		identifiedDescriptionName = { "Una moneda de bronce acu?ada en OzRagnarok." },
+		identifiedResourceName = "ozro_bronze_coin",
+		identifiedDescriptionName = { "Una moneda de bronce acu�ada en OzRagnarok." },
 		slotCount = 0,
 		ClassNum = 0,
 		costume = false
@@ -429735,13 +435295,17 @@ tbl = {
 		unidentifiedResourceName = "영혼의조각",
 		unidentifiedDescriptionName = {
 			"Fragmento de la esencia de un MVP derrotado.",
-			"Se usa para invocar monstruos poderosos."
+			"Se usa para invocar monstruos poderosos.",
+			"Prueba de acentos: 誦腸� 좼顧� 鑄 黃 에",
+			"^0000CCAcento con color:^000000 �and�, ping�ino, 퓉u� tal?"
 		},
 		identifiedDisplayName = "Alma de MVP",
 		identifiedResourceName = "영혼의조각",
 		identifiedDescriptionName = {
 			"Fragmento de la esencia de un MVP derrotado.",
-			"Se usa para invocar monstruos poderosos."
+			"Se usa para invocar monstruos poderosos.",
+			"Prueba de acentos: 誦腸� 좼顧� 鑄 黃 에",
+			"^0000CCAcento con color:^000000 �and�, ping�ino, 퓉u� tal?"
 		},
 		slotCount = 0,
 		ClassNum = 0,
@@ -429749,18 +435313,22 @@ tbl = {
 	},
 	[35010] = {
 		unidentifiedDisplayName = "OzRo Apple",
-		unidentifiedResourceName = "사과",
+		unidentifiedResourceName = "ozro_apple",
 		unidentifiedDescriptionName = {
 			"A crisp apple from OzRagnarok. Good for testing custom effects.",
+			"Prueba de acentos: 誦腸� 좼顧� 鑄 黃 에",
+			"^0000CCAcento con color:^000000 �and�, ping�ino, 퓉u� tal?",
 			"^FFFFFF_^000000",
 			" HP",
 			"^ffffff_^000000",
 			"Weight :^777777 2^000000"
 		},
 		identifiedDisplayName = "OzRo Apple",
-		identifiedResourceName = "사과",
+		identifiedResourceName = "ozro_apple",
 		identifiedDescriptionName = {
 			"A crisp apple from OzRagnarok. Good for testing custom effects.",
+			"Prueba de acentos: 誦腸� 좼顧� 鑄 黃 에",
+			"^0000CCAcento con color:^000000 �and�, ping�ino, 퓉u� tal?",
 			"^FFFFFF_^000000",
 			" HP",
 			"^ffffff_^000000",
