@@ -1,3 +1,12 @@
 custom/_ref/
 tmp/
 __pycache__/
+
+# Binarios grandes: se distribuyen fuera de git (USB/link)
+*.grf
+*.exe
+dist/*.zip
+
+# Intentos fallidos de actualización; no versionar
+patch2/
+patch3/
