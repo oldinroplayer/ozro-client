@@ -19,7 +19,7 @@ new_5-1	npc/re/jobs/novice/academy.txt	no	no	no	not_in_available_clients
 new_5-2	npc/re/jobs/novice/academy.txt	no	no	no	not_in_available_clients
 new_5-3	npc/re/jobs/novice/academy.txt	no	no	no	not_in_available_clients
 new_5-4	npc/re/jobs/novice/academy.txt	no	no	no	not_in_available_clients
-job3_war02	npc/re/jobs/3-1/warlock.txt	no	no	no	not_in_available_clients
-jupe_core2	npc/re/jobs/3-1/mechanic.txt	no	no	no	not_in_available_clients
-sword_1-1	npc/re/jobs/3-2/sura.txt	no	no	no	not_in_available_clients
-sword_2-1	npc/re/jobs/3-2/sura.txt	no	no	no	not_in_available_clients
+job3_war02	npc/re/jobs/3-1/warlock.txt	no	no	no	cloned_from_job3_war01
+jupe_core2	npc/re/jobs/3-1/mechanic.txt	no	no	no	cloned_from_jupe_core
+sword_1-1	npc/re/jobs/3-2/sura.txt	no	no	no	cloned_from_job_sword1
+sword_2-1	npc/re/jobs/3-2/sura.txt	no	no	no	cloned_from_job_sword1

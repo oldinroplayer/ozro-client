@@ -38,8 +38,16 @@ es el asset visual del cliente.
   `ro2021/data.grf`, ni en el cliente desplegado (`data.grf`/`rdata.grf`).
 - Solo existen como `.mcache` en `/home/oz/Code/ozro/maps/re/` (cache del server),
   sin `.gat/.rsw/.gnd` visuales.
-- Por ahora no hay fuente de assets para estos mapas; las opciones son conseguir
-  un cliente antiguo que los tenga o desactivar las job quests afectadas.
+- Los `.mcache` muestran que los mapas faltantes son **clones** de mapas base que
+  sí están en el cliente:
+  - `job3_war02` = `job3_war01`
+  - `jupe_core2` = `jupe_core`
+  - `sword_1-1`, `sword_2-1`, `sword_3-1` = `job_sword1`
+- Se extrajeron los assets base desde `Ragnarok_210607/data.grf` con libgrf y se
+  instalaron con los nombres de los clones en `patch/data/` (y en el cliente vivo).
+  Como los `.mcache` son idénticos, la colisión coincide con el server.
+- `new_1-*` (Novice Academy) sigue sin fuente: no está en los GRF disponibles y
+  no tiene un mapa base equivalente.
 
 ## Uso
 
