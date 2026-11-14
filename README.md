@@ -26,6 +26,9 @@ patch/
 
 dist/
   patch.zip                 zip manual para repartir
+
+tools/
+  grf.py                    lector/extractor GRF v2
 ```
 
 ## Items: fuente de verdad
@@ -77,6 +80,24 @@ Items de prueba actuales:
 | 35004 | Ozro_Bronze_Coin | Moneda baja |
 | 35005 | MVP_Soul | Invocaciones; buen test de encoding con resource name coreano |
 | 35010 | Ozro_Apple | Test; requiere alta en el server para poder usarlo |
+
+## Herramientas y formatos de referencia
+
+`tools/grf.py` lee GRF v2 (rdata.grf), lista entradas y extrae archivos. La tabla de contenidos de rdata está comprimida con zlib y casi todas las entradas son plaintext; la única entrada con DES se reporta como no soportada.
+
+```bash
+python3 tools/grf.py info tmp/rdata.grf
+python3 tools/grf.py list tmp/rdata.grf --filter collection --limit 20
+python3 tools/grf.py extract tmp/rdata.grf \
+  "data/texture/유저인터페이스/collection/amber.bmp" --out /tmp/amber.bmp
+python3 tools/grf.py extract-matching tmp/rdata.grf \
+  --filter .gat --out-dir /tmp/gat --limit 3
+```
+
+Formatos verificados contra `rdata.grf`:
+
+- **Icono de item**: 24×24. Los vanilla son BMP 24bpp con fondo magenta `(255,0,255)`; los custom actuales son BMP 8bpp con el mismo color clave. El cliente acepta ambos.
+- **Imagen `collection`**: 75×100, BMP 24bpp, fondo blanco.
 
 ## Flujo de trabajo
 
