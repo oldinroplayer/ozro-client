@@ -1,15 +1,15 @@
 tb_cashshop_banner = {
 	[1] = {
 		"ozro00.bmp",
-		"https://oz-ragnarok.web.app/"
+		"https://ro.ozkr.net/"
 	},
 	[2] = {
 		"ozro01.bmp",
-		"https://oz-ragnarok.web.app/"
+		"https://ro.ozkr.net/"
 	},
 	[3] = {
 		"ozro02.bmp",
-		"https://oz-ragnarok.web.app/"
+		"https://ro.ozkr.net/"
 	}
 }
 
