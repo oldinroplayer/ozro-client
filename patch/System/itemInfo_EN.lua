@@ -435292,13 +435292,13 @@ tbl = {
 	},
 	[35005] = {
 		unidentifiedDisplayName = "Alma de MVP",
-		unidentifiedResourceName = "¿µÈ¥ÀÇÁ¶°¢",
+		unidentifiedResourceName = "ozro_mvp_soul",
 		unidentifiedDescriptionName = {
 			"Fragmento de la esencia de un MVP derrotado.",
 			"Se usa para invocar monstruos poderosos."
 		},
 		identifiedDisplayName = "Alma de MVP",
-		identifiedResourceName = "¿µÈ¥ÀÇÁ¶°¢",
+		identifiedResourceName = "ozro_mvp_soul",
 		identifiedDescriptionName = {
 			"Fragmento de la esencia de un MVP derrotado.",
 			"Se usa para invocar monstruos poderosos."

@@ -70,16 +70,18 @@ Comprobación rápida: abre y guarda sin cambiar nada; `git diff --stat patch/Sy
 
 **Nota:** si un item usa un `ResourceName` vanilla (ej. `백금화`), el icono y la imagen grande salen del GRF base y no necesitan BMP en `data/`. Si usa un nombre custom (`ozro_*`), ambos BMP tienen que existir en `data/texture/.../item/` y `data/texture/.../collection/` o el cliente mostrará `Resource File Loading fail`. Antes las monedas custom parecían tener icono porque sus entradas usaban resource names vanilla, no los BMP custom.
 
-Items de prueba actuales:
+Items custom actuales:
 
-| ID | AegisName | Uso |
-|----|-----------|-----|
-| 35001 | Ozro_Platinum_Coin | Moneda premium |
-| 35002 | Ozro_Gold_Coin | Moneda alta |
-| 35003 | Ozro_Silver_Coin | Moneda media |
-| 35004 | Ozro_Bronze_Coin | Moneda baja |
-| 35005 | MVP_Soul | Invocaciones; buen test de encoding con resource name coreano |
-| 35010 | Ozro_Apple | Test; requiere alta en el server para poder usarlo |
+| ID | AegisName | Resource | Assets | Uso |
+|----|-----------|----------|--------|-----|
+| 35001 | Ozro_Platinum_Coin | `ozro_platinum_coin` | item + collection | Moneda premium |
+| 35002 | Ozro_Gold_Coin | `ozro_gold_coin` | item + collection | Moneda alta |
+| 35003 | Ozro_Silver_Coin | `ozro_silver_coin` | item + collection | Moneda media |
+| 35004 | Ozro_Bronze_Coin | `ozro_bronze_coin` | item + collection | Moneda baja |
+| 35005 | MVP_Soul | `ozro_mvp_soul` | item + collection | Cristal de invocación |
+| 35010 | Ozro_Apple | `ozro_apple` | solo item | Test; requiere alta en el server para poder usarlo |
+
+Los assets viven en `data/texture/<carpeta coreana>/item/` y `.../collection/`, con el nombre del `Resource`.
 
 ## Herramientas y formatos de referencia
 
