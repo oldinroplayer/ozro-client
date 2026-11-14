@@ -26,6 +26,21 @@ tmp/                       pruebas y GRFs locales (ignorado por git)
 - Para añadir un item: entrada en `itemInfo_EN.lua`, icono y collection en `patch/data/texture/<carpeta coreana>/item|collection/<resource>.bmp`, alta en `rathena/db/import/item_db.yml` (fuera de este repo), probar con `@reloaditemdb` y `@item`, y repackear.
 - Si el `ResourceName` es custom y falta el BMP de item o collection, el cliente muestra `Resource File Loading fail`.
 
+## Mapas sin árboles de navidad
+
+El `data.grf` actual trae versiones de evento en varias ciudades. En `patch/data/` hay overrides `.rsw` no-event para quitar los árboles y la decoración de modelos:
+
+| Mapa | Origen |
+|---|---|
+| `prontera.rsw` | `pprontera.rsw` del mismo `data.grf` |
+| `geffen.rsw`, `izlude.rsw`, `aldebaran.rsw`, `alberta.rsw`, `hugel.rsw` | kRO 2020 (`kro_20200306_data.grf`) |
+
+- Solo se reemplaza el `.rsw`. Los `.gnd`/`.gat` siguen saliendo de `data.grf`, así que la colisión y el `map_cache` del server no cambian. Si queda decoración en el piso, habría que reemplazar también el `.gnd`.
+- Para revertir un mapa: borrar `patch/data/<mapa>.rsw`.
+- Izlude 2020 conserva 4 modelos pequeños de pan navideño, no árboles; el resto de las ciudades quedó sin referencias navideñas.
+- Otras ciudades: Rachel/Malangdo/Lasagna tienen referencias menores; Payon, Lighthalzen, Einbroch, Veins, Umbala, etc. tienen el RSW cifrado y no se escanearon.
+- Si el cliente muestra modelos faltantes o NPCs desalineados, probar el set GND/RSW completo de la misma fuente o revertir ese mapa puntual.
+
 ## Imágenes (genkit, externo)
 
 Herramienta: `/home/oz/Code/genkit` (perfiles YAML + Replicate/RunPod). Perfiles RO:
