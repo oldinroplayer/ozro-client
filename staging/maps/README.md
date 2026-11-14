@@ -30,6 +30,17 @@ Ver `manifest.tsv`. Por ahora ninguno está disponible en los GRF parciales:
 El `map_cache.dat` del server ya tiene la colisión de esos mapas; lo que falta
 es el asset visual del cliente.
 
+## Resultado con el cliente 2023 (libgrf)
+
+- `libgrf` abre el cliente 2023 (probado extrayendo `airplane.gat`).
+- Los mapas de job quest (`job3_war02`, `jupe_core2`, `sword_1-1`, `sword_2-1`,
+  `new_*`) **no están** en `2023/client/data.grf` ni `rdata.grf`, ni en
+  `ro2021/data.grf`, ni en el cliente desplegado (`data.grf`/`rdata.grf`).
+- Solo existen como `.mcache` en `/home/oz/Code/ozro/maps/re/` (cache del server),
+  sin `.gat/.rsw/.gnd` visuales.
+- Por ahora no hay fuente de assets para estos mapas; las opciones son conseguir
+  un cliente antiguo que los tenga o desactivar las job quests afectadas.
+
 ## Uso
 
 Extraer un mapa desde un GRF a `staging/maps/<map>/data/`:
