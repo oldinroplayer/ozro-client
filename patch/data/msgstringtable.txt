@@ -3576,7 +3576,7 @@ message#
 TITLE#
 Expand Damage#
 Display Map Name#
-System Message: The current stall display function is in %s state. (/view stalls)#
+#
 Vertical Sync#
 Material#
 http://rodata.zhaouc.com/renwu.html#
