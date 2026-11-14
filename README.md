@@ -1,15 +1,6 @@
 # OzRo Client
 
-Parche de cliente de Ragnarok Online para **OzRagnarok**. Proyecto pequeño (3 jugadores), mantenido por una persona, sin updater ni servicios web para el cliente: se edita `patch/`, se comprime en `dist/patch.zip` y se reparte por USB o link. Cada jugador descomprime en la raíz de su cliente y juega. El sitio público es solo informativo: `https://ro.ozkr.net/`.
-
-El cliente actual lee directamente la carpeta `data/` del disco. **`ozro.grf` ya no se usa.** No hay que empaquetar GRF propio ni mantener versiones del parche.
-
-## Cómo carga el cliente
-
-- `OzRo.exe` es un Ragexe parcheado con WARP. No se toca salvo cambio de PACKETVER.
-- `data.ini` lista los GRF base (gefenia, renewal2021, resources2021, data, rdata).
-- `data/` en disco tiene prioridad sobre esos GRF. Ahí van los assets del cliente.
-- `patch/` es el overlay listo para comprimir.
+Parche de cliente de Ragnarok Online para **OzRagnarok** (3 jugadores). Se mantiene a mano, sin updater ni servicios web. Se edita `patch/`, se comprime en `dist/patch.zip` y se reparte por USB o link; cada jugador lo descomprime en la raíz de su cliente. Sitio informativo: `https://ro.ozkr.net/`.
 
 ## Estructura
 
@@ -17,93 +8,60 @@ El cliente actual lee directamente la carpeta `data/` del disco. **`ozro.grf` ya
 patch/
   OzRo.exe
   data.ini
-  data/                     overlay: clientinfo, texturas...
-    texture/<carpeta coreana>/item/         iconos 24x24 de items custom
-    texture/<carpeta coreana>/collection/   imágenes grandes de items custom
-  System/itemInfo_EN.lua    FUENTE DE VERDAD de nombres y descripciones
-  gefenia.grf               referencia local, NO va en el zip
-  OzRo.ico                  referencia local, NO va en el zip
-
-dist/
-  patch.zip                 zip manual para repartir
-
-tools/
-  grf.py                    lector/extractor GRF v2
+  data/                    overlay que pisa los GRF (clientinfo, texturas...)
+  System/itemInfo_EN.lua   fuente de verdad de nombres y descripciones de items
+  gefenia.grf, OzRo.ico    referencias locales
+dist/patch.zip             paquete manual para repartir
+tools/grf.py               lector/extractor GRF v2
+tmp/                       pruebas y GRFs locales (ignorado por git)
 ```
 
-## Items: fuente de verdad
+`OzRo.exe` lee `data.ini` y `data/`; `data/` tiene prioridad sobre los GRF. No hay `ozro.grf`.
 
-El cliente usa **solo** `patch/System/itemInfo_EN.lua`. No hay archivo de staging aparte: la entrada se edita directamente ahí, dentro de `tbl`.
+## Items
 
-### Codificación (importante)
+- Editar `patch/System/itemInfo_EN.lua` dentro de `tbl`. Es la única fuente; no hay archivo de staging.
+- Encoding mixto: texto visible en **ISO-8859-1/CP1252**; `ResourceName` vanilla en **CP949**; custom en ASCII (`ozro_*`).
+- Abrir y guardar el archivo como **ISO-8859-1 estricto** (no UTF-8 ni autodetectado). Los `ResourceName` coreanos se ven como mojibake y no se tocan. Guardar sin cambios debe dejar `git diff` vacío; si aparece un diff masivo, `git checkout -- patch/System/itemInfo_EN.lua`.
+- Para añadir un item: entrada en `itemInfo_EN.lua`, icono y collection en `patch/data/texture/<carpeta coreana>/item|collection/<resource>.bmp`, alta en `rathena/db/import/item_db.yml` (fuera de este repo), probar con `@reloaditemdb` y `@item`, y repackear.
+- Si el `ResourceName` es custom y falta el BMP de item o collection, el cliente muestra `Resource File Loading fail`.
 
-El archivo contiene bytes de dos mundos:
+## Imágenes (genkit, externo)
 
-- **Texto visible** (`*DisplayName` y `*DescriptionName`): **ISO-8859-1 / Windows-1252**. Así se renderizan bien tildes y `ñ` con `langtype 12`.
-- **`ResourceName` vanilla**: bytes **CP949** (coreano). Los custom usan ASCII (`ozro_platinum_coin`).
+Herramienta: `/home/oz/Code/genkit` (perfiles YAML + Replicate/RunPod). Perfiles RO:
 
-A nivel de archivo todos son bytes `0x00-0xFF`, así que **puedes abrirlo y guardarlo entero como ISO-8859-1**: el round-trip es exacto. Los `ResourceName` coreanos se verán como mojibake (`¿µÈ¥ÀÇÁ¶°¢`), pero conservan sus bytes.
+- `ro-item-icon`: RD+ `skill_icon`, genera 96×96 y deja BMP **24×24, 8bpp, fondo magenta**.
+- `ro-item-illustration`: RunPod Flux Schnell, genera 512×688 y deja BMP **75×100, 24bpp, fondo blanco**.
 
-Reglas para que sea seguro:
+Flujo recomendado: **3 variantes de icono y 3 de ilustración por item, con seed random**, armar una overview y que el usuario elija. No elegir automáticamente.
 
-1. Abre el archivo explícitamente como **ISO-8859-1**, no como UTF-8 ni en autodetectado. En VS Code: *Reopen with Encoding* → *Western (ISO 8859-1)*.
-2. Guarda con la misma codificación. No uses *Save with Encoding: UTF-8*.
-3. No toques los `ResourceName` coreanos: no los retipees ni los pegues desde una fuente Unicode.
-4. Para items custom usa `ResourceName` ASCII (`ozro_*`); así no dependes de los bytes coreanos.
-5. No pegues caracteres fuera de ISO-8859-1 (coreano, comillas curvas, `€`, em dash). Tildes, `ñ`, `¿` y `¡` están bien.
+```bash
+cd /home/oz/Code/genkit
+./run.sh image --profile ro-item-icon --prompt "..." --out /ruta/item/<resource>.bmp
+./run.sh image --profile ro-item-illustration --prompt "..." --out /ruta/collection/<resource>.bmp
+```
 
-Riesgo:
+Preferencias de estilo:
 
-- **Bajo** si el editor abre y guarda ISO-8859-1 de forma estricta.
-- **Medio** si el editor interpreta Windows-1252 o autodetecta: puede cambiar bytes en `0x80-0x9F` (hay unos pocos, dentro de nombres coreanos y un apóstrofo curvo) al guardar como ISO-8859-1.
-- **Alto** si abre como UTF-8 o convierte a UTF-8: rompe los `ResourceName`.
+- Iconos: pixel art RO, silueta clara, 1px de outline, sin texto.
+- Ilustraciones: acuarela/lápiz de color, ligera inclinación en tres cuartos, sombra suave separada del objeto, fondo blanco.
+- Los perfiles hacen el postproceso local con Pillow; `--out` debe terminar en `.bmp`.
 
-Comprobación rápida: abre y guarda sin cambiar nada; `git diff --stat patch/System/itemInfo_EN.lua` debe quedar vacío. Si aparecen miles de líneas, el editor reconvirtió el archivo: `git checkout -- patch/System/itemInfo_EN.lua`.
+## GRF
 
-### Añadir un item custom
-
-1. Añade la entrada directamente en `patch/System/itemInfo_EN.lua`, dentro de `tbl`, respetando el encoding: texto Latin-1, `ResourceName` tal cual. El `identifiedResourceName` debe coincidir con el BMP sin extensión.
-2. Copia el icono a `patch/data/texture/<carpeta coreana existente>/item/<resource>.bmp` y la imagen grande a `.../collection/<resource>.bmp`. Usa la misma carpeta coreana que ya contiene `loading00.jpg`; no crees otra.
-3. Alta en el servidor: `rathena/db/import/item_db.yml` (fuera de este repo).
-4. Comprime el contenido de `patch/` (sin `gefenia.grf` ni `OzRo.ico`) en `dist/patch.zip`.
-5. Prueba: `@reloaditemdb`, `@item <AegisName>`, y revisa nombre, descripción, icono e imagen grande.
-
-**Nota:** si un item usa un `ResourceName` vanilla (ej. `백금화`), el icono y la imagen grande salen del GRF base y no necesitan BMP en `data/`. Si usa un nombre custom (`ozro_*`), ambos BMP tienen que existir en `data/texture/.../item/` y `data/texture/.../collection/` o el cliente mostrará `Resource File Loading fail`. Antes las monedas custom parecían tener icono porque sus entradas usaban resource names vanilla, no los BMP custom.
-
-Items custom actuales:
-
-| ID | AegisName | Resource | Assets | Uso |
-|----|-----------|----------|--------|-----|
-| 35001 | Ozro_Platinum_Coin | `ozro_platinum_coin` | item + collection | Moneda premium |
-| 35002 | Ozro_Gold_Coin | `ozro_gold_coin` | item + collection | Moneda alta |
-| 35003 | Ozro_Silver_Coin | `ozro_silver_coin` | item + collection | Moneda media |
-| 35004 | Ozro_Bronze_Coin | `ozro_bronze_coin` | item + collection | Moneda baja |
-| 35005 | MVP_Soul | `ozro_mvp_soul` | item + collection | Cristal de invocación |
-| 35010 | Ozro_Apple | `ozro_apple` | solo item | Test; requiere alta en el server para poder usarlo |
-
-Los assets viven en `data/texture/<carpeta coreana>/item/` y `.../collection/`, con el nombre del `Resource`.
-
-## Herramientas y formatos de referencia
-
-`tools/grf.py` lee GRF v2 (rdata.grf), lista entradas y extrae archivos. La tabla de contenidos de rdata está comprimida con zlib y casi todas las entradas son plaintext; la única entrada con DES se reporta como no soportada.
+`tools/grf.py` lee GRF v2 (rdata.grf), lista y extrae. No escribe ni repackea todavía.
 
 ```bash
 python3 tools/grf.py info tmp/rdata.grf
 python3 tools/grf.py list tmp/rdata.grf --filter collection --limit 20
-python3 tools/grf.py extract tmp/rdata.grf \
-  "data/texture/유저인터페이스/collection/amber.bmp" --out /tmp/amber.bmp
-python3 tools/grf.py extract-matching tmp/rdata.grf \
-  --filter .gat --out-dir /tmp/gat --limit 3
+python3 tools/grf.py extract tmp/rdata.grf "data/texture/.../collection/amber.bmp" --out /tmp/amber.bmp
+python3 tools/grf.py extract-matching tmp/rdata.grf --filter .gat --out-dir /tmp/gat --limit 3
 ```
 
-Formatos verificados contra `rdata.grf`:
+Los mapas `.gat`/`.rsw`/`.gnd` de rdata son plaintext. La única entrada DES se reporta como no soportada.
 
-- **Icono de item**: 24×24. Los vanilla son BMP 24bpp con fondo magenta `(255,0,255)`; los custom actuales son BMP 8bpp con el mismo color clave. El cliente acepta ambos.
-- **Imagen `collection`**: 75×100, BMP 24bpp, fondo blanco.
+## Enviar cambios
 
-## Flujo de trabajo
-
-1. Edita en `patch/`.
-2. Prueba en el cliente/servidor.
-3. Comprime el contenido de `patch/` en `dist/patch.zip` (excluye `gefenia.grf` y `OzRo.ico`).
-4. Reparte el zip por USB o link. Sin updater ni servicios web para el cliente.
+1. Editar y probar en `patch/`.
+2. Comprimir el contenido de `patch/` en `dist/patch.zip`.
+3. Repartir por USB o link; descomprimir en la raíz del cliente.
