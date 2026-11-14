@@ -34,14 +34,28 @@ El cliente usa **solo** `patch/System/itemInfo_EN.lua`. No hay archivo de stagin
 
 ### Codificación (importante)
 
-`itemInfo_EN.lua` es un archivo de **encoding mixto**:
+El archivo contiene bytes de dos mundos:
 
-- **Texto visible** (`*DisplayName` y `*DescriptionName`): **ISO-8859-1**. Así se renderizan bien tildes y `ñ` con `langtype 12`.
-- **`ResourceName`**: **CP949** si es un nombre vanilla coreano (ej. `영혼의조각`), o ASCII si es custom (ej. `ozro_platinum_coin`).
+- **Texto visible** (`*DisplayName` y `*DescriptionName`): **ISO-8859-1 / Windows-1252**. Así se renderizan bien tildes y `ñ` con `langtype 12`.
+- **`ResourceName` vanilla**: bytes **CP949** (coreano). Los custom usan ASCII (`ozro_platinum_coin`).
 
-No guardes el archivo completo como Latin-1 ni como CP949: romperías la otra mitad. Tampoco lo abras y lo guardes con un editor que re-codifique todo el archivo. Si editas a mano, cambia solo el texto entre comillas y conserva los bytes de los `ResourceName` coreanos.
+A nivel de archivo todos son bytes `0x00-0xFF`, así que **puedes abrirlo y guardarlo entero como ISO-8859-1**: el round-trip es exacto. Los `ResourceName` coreanos se verán como mojibake (`¿µÈ¥ÀÇÁ¶°¢`), pero conservan sus bytes.
 
-Consecuencia práctica: decodificar el archivo entero como CP949 o como Latin-1 falla o corrompe nombres. Cualquier script que lo procese debe trabajar por campo.
+Reglas para que sea seguro:
+
+1. Abre el archivo explícitamente como **ISO-8859-1**, no como UTF-8 ni en autodetectado. En VS Code: *Reopen with Encoding* → *Western (ISO 8859-1)*.
+2. Guarda con la misma codificación. No uses *Save with Encoding: UTF-8*.
+3. No toques los `ResourceName` coreanos: no los retipees ni los pegues desde una fuente Unicode.
+4. Para items custom usa `ResourceName` ASCII (`ozro_*`); así no dependes de los bytes coreanos.
+5. No pegues caracteres fuera de ISO-8859-1 (coreano, comillas curvas, `€`, em dash). Tildes, `ñ`, `¿` y `¡` están bien.
+
+Riesgo:
+
+- **Bajo** si el editor abre y guarda ISO-8859-1 de forma estricta.
+- **Medio** si el editor interpreta Windows-1252 o autodetecta: puede cambiar bytes en `0x80-0x9F` (hay unos pocos, dentro de nombres coreanos y un apóstrofo curvo) al guardar como ISO-8859-1.
+- **Alto** si abre como UTF-8 o convierte a UTF-8: rompe los `ResourceName`.
+
+Comprobación rápida: abre y guarda sin cambiar nada; `git diff --stat patch/System/itemInfo_EN.lua` debe quedar vacío. Si aparecen miles de líneas, el editor reconvirtió el archivo: `git checkout -- patch/System/itemInfo_EN.lua`.
 
 ### Añadir un item custom
 
