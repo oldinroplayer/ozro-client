@@ -61260,408 +61260,681 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[70305] = {
+		Title = "Bounty Board Wormtail",
+		Description = {
+			"Hunt 150 Wormtail monsters and return to the Bounty Board at Alberta"
+		},
+		Summary = ""
+	},
+	[70306] = {
+		Title = "Bounty Board Hydra",
+		Description = {
+			"Hunt 150 Hydra monsters and return to the Bounty Board at Alberta"
+		},
+		Summary = ""
+	},
+	[70307] = {
+		Title = "Bounty Board Pirate Skeleton",
+		Description = {
+			"Hunt 150 Pirate Skeleton monsters and return to the Bounty Board at Alberta"
+		},
+		Summary = ""
+	},
+	[70308] = {
 		Title = "Bounty Board Permeter",
 		Description = {
 			"Hunt 150 Permeter monsters and return to the Bounty Board at Alberta"
 		},
 		Summary = ""
 	},
-	[70306] = {
+	[70309] = {
 		Title = "Bounty Board Solider",
 		Description = {
 			"Hunt 150 Solider monsters and return to the Bounty Board at Alberta"
 		},
 		Summary = ""
 	},
-	[70307] = {
+	[70310] = {
 		Title = "Bounty Board Freezer",
 		Description = {
 			"Hunt 150 Freezer monsters and return to the Bounty Board at Alberta"
 		},
 		Summary = ""
 	},
-	[70308] = {
+	[70311] = {
+		Title = "Bounty Board Baby Desert Wolf",
+		Description = {
+			"Hunt 150 Baby Desert Wolf monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70312] = {
+		Title = "Bounty Board Drops",
+		Description = {
+			"Hunt 150 Drops monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70313] = {
+		Title = "Bounty Board Picky",
+		Description = {
+			"Hunt 150 Picky monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70314] = {
+		Title = "Bounty Board Picky (Shell)",
+		Description = {
+			"Hunt 150 Picky (Shell) monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70315] = {
+		Title = "Bounty Board Scorpion",
+		Description = {
+			"Hunt 150 Scorpion monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70316] = {
+		Title = "Bounty Board Ant Egg",
+		Description = {
+			"Hunt 150 Ant Egg monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70317] = {
+		Title = "Bounty Board Andre",
+		Description = {
+			"Hunt 150 Andre monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70318] = {
+		Title = "Bounty Board Deniro",
+		Description = {
+			"Hunt 150 Deniro monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70319] = {
+		Title = "Bounty Board Familiar",
+		Description = {
+			"Hunt 150 Familiar monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70320] = {
+		Title = "Bounty Board Piere",
+		Description = {
+			"Hunt 150 Piere monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70321] = {
+		Title = "Bounty Board Isis",
+		Description = {
+			"Hunt 150 Isis monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70322] = {
+		Title = "Bounty Board Metaller",
+		Description = {
+			"Hunt 150 Metaller monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70323] = {
+		Title = "Bounty Board Minorous",
+		Description = {
+			"Hunt 150 Minorous monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70324] = {
+		Title = "Bounty Board Mummy",
+		Description = {
+			"Hunt 150 Mummy monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70325] = {
+		Title = "Bounty Board Verit",
+		Description = {
+			"Hunt 150 Verit monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70326] = {
 		Title = "Bounty Board Golem",
 		Description = {
 			"Hunt 150 Golem monsters and return to the Bounty Board at Morocc"
 		},
 		Summary = ""
 	},
-	[70309] = {
+	[70327] = {
 		Title = "Bounty Board Hode",
 		Description = {
 			"Hunt 150 Hode monsters and return to the Bounty Board at Morocc"
 		},
 		Summary = ""
 	},
-	[70310] = {
+	[70328] = {
 		Title = "Bounty Board Marduk",
 		Description = {
 			"Hunt 150 Marduk monsters and return to the Bounty Board at Morocc"
 		},
 		Summary = ""
 	},
-	[70311] = {
+	[70329] = {
 		Title = "Bounty Board Pasana",
 		Description = {
 			"Hunt 150 Pasana monsters and return to the Bounty Board at Morocc"
 		},
 		Summary = ""
 	},
-	[70312] = {
+	[70330] = {
 		Title = "Bounty Board Sandman",
 		Description = {
 			"Hunt 150 Sandman monsters and return to the Bounty Board at Morocc"
 		},
 		Summary = ""
 	},
-	[70313] = {
+	[70331] = {
 		Title = "Bounty Board Zerom",
 		Description = {
 			"Hunt 150 Zerom monsters and return to the Bounty Board at Morocc"
 		},
 		Summary = ""
 	},
-	[70314] = {
+	[70332] = {
+		Title = "Bounty Board Minorus (Nightmare)",
+		Description = {
+			"Hunt 150 Minorus (Nightmare) monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70333] = {
+		Title = "Bounty Board Mimic (Nightmare)",
+		Description = {
+			"Hunt 150 Mimic (Nightmare) monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70334] = {
+		Title = "Bounty Board Verit (Nightmare)",
+		Description = {
+			"Hunt 150 Verit (Nightmare) monsters and return to the Bounty Board at Morocc"
+		},
+		Summary = ""
+	},
+	[70335] = {
 		Title = "Bounty Board Cookie",
 		Description = {
 			"Hunt 150 Cookie monsters and return to the Bounty Board at Lutie"
 		},
 		Summary = ""
 	},
-	[70315] = {
+	[70336] = {
 		Title = "Bounty Board Christmas Cookie",
 		Description = {
 			"Hunt 150 Christmas Cookie monsters and return to the Bounty Board at Lutie"
 		},
 		Summary = ""
 	},
-	[70316] = {
+	[70337] = {
 		Title = "Bounty Board Cruiser",
 		Description = {
 			"Hunt 150 Cruiser monsters and return to the Bounty Board at Lutie"
 		},
 		Summary = ""
 	},
-	[70317] = {
+	[70338] = {
 		Title = "Bounty Board Marin",
 		Description = {
 			"Hunt 150 Marin monsters and return to the Bounty Board at Lutie"
 		},
 		Summary = ""
 	},
-	[70318] = {
+	[70339] = {
 		Title = "Bounty Board Myst Case",
 		Description = {
 			"Hunt 150 Myst Case monsters and return to the Bounty Board at Lutie"
 		},
 		Summary = ""
 	},
-	[70319] = {
+	[70340] = {
 		Title = "Bounty Board Disguise",
 		Description = {
 			"Hunt 150 Disguise monsters and return to the Bounty Board at Niflheim"
 		},
 		Summary = ""
 	},
-	[70320] = {
+	[70341] = {
 		Title = "Bounty Board Loli Ruri",
 		Description = {
 			"Hunt 150 Loli Ruri monsters and return to the Bounty Board at Niflheim"
 		},
 		Summary = ""
 	},
-	[70321] = {
+	[70342] = {
 		Title = "Bounty Board Red Eruma",
 		Description = {
 			"Hunt 150 Red Eruma monsters and return to the Bounty Board at Malangdo"
 		},
 		Summary = ""
 	},
-	[70322] = {
+	[70343] = {
 		Title = "Bounty Board Siorava",
 		Description = {
 			"Hunt 150 Siorava monsters and return to the Bounty Board at Malangdo"
 		},
 		Summary = ""
 	},
-	[70323] = {
+	[70344] = {
 		Title = "Bounty Board Holden",
 		Description = {
 			"Hunt 150 Holden monsters and return to the Bounty Board at Einbroch"
 		},
 		Summary = ""
 	},
-	[70324] = {
+	[70345] = {
 		Title = "Bounty Board Metaling",
 		Description = {
 			"Hunt 150 Metaling monsters and return to the Bounty Board at Einbroch"
 		},
 		Summary = ""
 	},
-	[70325] = {
+	[70346] = {
 		Title = "Bounty Board Noxious",
 		Description = {
 			"Hunt 150 Noxious monsters and return to the Bounty Board at Einbroch"
 		},
 		Summary = ""
 	},
-	[70326] = {
+	[70347] = {
 		Title = "Bounty Board Porcellio",
 		Description = {
 			"Hunt 150 Porcellio monsters and return to the Bounty Board at Einbroch"
 		},
 		Summary = ""
 	},
-	[70327] = {
+	[70348] = {
 		Title = "Bounty Board Teddy Bear",
 		Description = {
 			"Hunt 150 Teddy Bear monsters and return to the Bounty Board at Einbroch"
 		},
 		Summary = ""
 	},
-	[70328] = {
+	[70349] = {
 		Title = "Bounty Board Venomous",
 		Description = {
 			"Hunt 150 Venomous monsters and return to the Bounty Board at Einbroch"
 		},
 		Summary = ""
 	},
-	[70329] = {
+	[70350] = {
+		Title = "Bounty Board Anacondaq",
+		Description = {
+			"Hunt 150 Anacondaq monsters and return to the Bounty Board at Rachel"
+		},
+		Summary = ""
+	},
+	[70351] = {
+		Title = "Bounty Board Roween",
+		Description = {
+			"Hunt 150 Roween monsters and return to the Bounty Board at Rachel"
+		},
+		Summary = ""
+	},
+	[70352] = {
+		Title = "Bounty Board Siroma",
+		Description = {
+			"Hunt 150 Siroma monsters and return to the Bounty Board at Rachel"
+		},
+		Summary = ""
+	},
+	[70353] = {
+		Title = "Bounty Board Desert Wolf",
+		Description = {
+			"Hunt 150 Desert Wolf monsters and return to the Bounty Board at Rachel"
+		},
+		Summary = ""
+	},
+	[70354] = {
+		Title = "Bounty Board Drosera",
+		Description = {
+			"Hunt 150 Drosera monsters and return to the Bounty Board at Rachel"
+		},
+		Summary = ""
+	},
+	[70355] = {
+		Title = "Bounty Board Hill Wind",
+		Description = {
+			"Hunt 150 Hill Wind monsters and return to the Bounty Board at Rachel"
+		},
+		Summary = ""
+	},
+	[70356] = {
+		Title = "Bounty Board Ice Titan",
+		Description = {
+			"Hunt 150 Ice Titan monsters and return to the Bounty Board at Rachel"
+		},
+		Summary = ""
+	},
+	[70357] = {
+		Title = "Bounty Board Snowier",
+		Description = {
+			"Hunt 150 Snowier monsters and return to the Bounty Board at Rachel"
+		},
+		Summary = ""
+	},
+	[70358] = {
 		Title = "Bounty Board Agav",
 		Description = {
 			"Hunt 150 Agav monsters and return to the Bounty Board at Rachel"
 		},
 		Summary = ""
 	},
-	[70330] = {
+	[70359] = {
 		Title = "Bounty Board Echio",
 		Description = {
 			"Hunt 150 Echio monsters and return to the Bounty Board at Rachel"
 		},
 		Summary = ""
 	},
-	[70331] = {
+	[70360] = {
 		Title = "Bounty Board Hodremlin",
 		Description = {
 			"Hunt 150 Hodremlin monsters and return to the Bounty Board at Rachel"
 		},
 		Summary = ""
 	},
-	[70332] = {
+	[70361] = {
 		Title = "Bounty Board Isilla",
 		Description = {
 			"Hunt 150 Isilla monsters and return to the Bounty Board at Rachel"
 		},
 		Summary = ""
 	},
-	[70333] = {
+	[70362] = {
 		Title = "Bounty Board Seeker",
 		Description = {
 			"Hunt 150 Seeker monsters and return to the Bounty Board at Rachel"
 		},
 		Summary = ""
 	},
-	[70334] = {
+	[70363] = {
 		Title = "Bounty Board Vanberk",
 		Description = {
 			"Hunt 150 Vanberk monsters and return to the Bounty Board at Rachel"
 		},
 		Summary = ""
 	},
-	[70335] = {
+	[70364] = {
+		Title = "Bounty Board Drosera",
+		Description = {
+			"Hunt 150 Drosera monsters and return to the Bounty Board at Veins"
+		},
+		Summary = ""
+	},
+	[70365] = {
+		Title = "Bounty Board Galion",
+		Description = {
+			"Hunt 150 Galion monsters and return to the Bounty Board at Veins"
+		},
+		Summary = ""
+	},
+	[70366] = {
+		Title = "Bounty Board Magmaring",
+		Description = {
+			"Hunt 150 Magmaring monsters and return to the Bounty Board at Veins"
+		},
+		Summary = ""
+	},
+	[70367] = {
+		Title = "Bounty Board Muscipular",
+		Description = {
+			"Hunt 150 Muscipular monsters and return to the Bounty Board at Veins"
+		},
+		Summary = ""
+	},
+	[70368] = {
 		Title = "Bounty Board Kasa",
 		Description = {
 			"Hunt 150 Kasa monsters and return to the Bounty Board at Veins"
 		},
 		Summary = ""
 	},
-	[70336] = {
+	[70369] = {
 		Title = "Bounty Board Knocker",
 		Description = {
 			"Hunt 150 Knocker monsters and return to the Bounty Board at Veins"
 		},
 		Summary = ""
 	},
-	[70337] = {
+	[70370] = {
 		Title = "Bounty Board Necromancer",
 		Description = {
 			"Hunt 150 Necromancer monsters and return to the Bounty Board at Veins"
 		},
 		Summary = ""
 	},
-	[70338] = {
+	[70371] = {
 		Title = "Bounty Board Ragged Zombie",
 		Description = {
 			"Hunt 150 Ragged Zombie monsters and return to the Bounty Board at Veins"
 		},
 		Summary = ""
 	},
-	[70339] = {
+	[70372] = {
 		Title = "Bounty Board Salamander",
 		Description = {
 			"Hunt 150 Salamander monsters and return to the Bounty Board at Veins"
 		},
 		Summary = ""
 	},
-	[70340] = {
+	[70373] = {
 		Title = "Bounty Board Zombie Slaughter",
 		Description = {
 			"Hunt 150 Zombie Slaughter monsters and return to the Bounty Board at Veins"
 		},
 		Summary = ""
 	},
-	[70341] = {
+	[70374] = {
+		Title = "Bounty Board Bradium Golem",
+		Description = {
+			"Hunt 150 Bradium Golem monsters and return to the Bounty Board at Manuk"
+		},
+		Summary = ""
+	},
+	[70375] = {
+		Title = "Bounty Board Centipede Larva",
+		Description = {
+			"Hunt 150 Centipede Larva monsters and return to the Bounty Board at Manuk"
+		},
+		Summary = ""
+	},
+	[70376] = {
+		Title = "Bounty Board Tatacho",
+		Description = {
+			"Hunt 150 Tatacho monsters and return to the Bounty Board at Manuk"
+		},
+		Summary = ""
+	},
+	[70377] = {
 		Title = "Bounty Board Uni Horn Scaraba",
 		Description = {
 			"Hunt 150 Uni Horn Scaraba monsters and return to the Bounty Board at Manuk"
 		},
 		Summary = ""
 	},
-	[70342] = {
+	[70378] = {
 		Title = "Bounty Board Horn Scaraba",
 		Description = {
 			"Hunt 150 Horn Scaraba monsters and return to the Bounty Board at Manuk"
 		},
 		Summary = ""
 	},
-	[70343] = {
+	[70379] = {
 		Title = "Bounty Board Antler Scaraba",
 		Description = {
 			"Hunt 150 Antler Scaraba monsters and return to the Bounty Board at Manuk"
 		},
 		Summary = ""
 	},
-	[70344] = {
+	[70380] = {
 		Title = "Bounty Board Rake Scaraba",
 		Description = {
 			"Hunt 150 Rake Scaraba monsters and return to the Bounty Board at Manuk"
 		},
 		Summary = ""
 	},
-	[70345] = {
+	[70381] = {
 		Title = "Bounty Board Pinguicula",
 		Description = {
 			"Hunt 150 Pinguicula monsters and return to the Bounty Board at Splendide"
 		},
 		Summary = ""
 	},
-	[70346] = {
+	[70382] = {
 		Title = "Bounty Board Dark Pinguicula",
 		Description = {
 			"Hunt 150 Dark Pinguicula monsters and return to the Bounty Board at Splendide"
 		},
 		Summary = ""
 	},
-	[70347] = {
+	[70383] = {
 		Title = "Bounty Board Nepenthes",
 		Description = {
 			"Hunt 150 Nepenthes monsters and return to the Bounty Board at Splendide"
 		},
 		Summary = ""
 	},
-	[70348] = {
+	[70384] = {
 		Title = "Bounty Board Cornus",
 		Description = {
 			"Hunt 150 Cornus monsters and return to the Bounty Board at Splendide"
 		},
 		Summary = ""
 	},
-	[70349] = {
+	[70385] = {
 		Title = "Bounty Board Naga",
 		Description = {
 			"Hunt 150 Naga monsters and return to the Bounty Board at Splendide"
 		},
 		Summary = ""
 	},
-	[70350] = {
+	[70386] = {
 		Title = "Bounty Board Luciola Vespa",
 		Description = {
 			"Hunt 150 Luciola Vespa monsters and return to the Bounty Board at Splendide"
 		},
 		Summary = ""
 	},
-	[70351] = {
+	[70387] = {
 		Title = "Bounty Board Antique Book",
 		Description = {
 			"Hunt 150 Antique Book monsters and return to the Bounty Board at Eclage"
 		},
 		Summary = ""
 	},
-	[70352] = {
+	[70388] = {
 		Title = "Bounty Board Cenere",
 		Description = {
 			"Hunt 150 Cenere monsters and return to the Bounty Board at Eclage"
 		},
 		Summary = ""
 	},
-	[70353] = {
+	[70389] = {
 		Title = "Bounty Board Lichtern Yellow",
 		Description = {
 			"Hunt 150 Lichtern Yellow monsters and return to the Bounty Board at Eclage"
 		},
 		Summary = ""
 	},
-	[70354] = {
+	[70390] = {
 		Title = "Bounty Board Lichtern Blue",
 		Description = {
 			"Hunt 150 Lichtern Blue monsters and return to the Bounty Board at Eclage"
 		},
 		Summary = ""
 	},
-	[70355] = {
+	[70391] = {
 		Title = "Bounty Board Lichtern Red",
 		Description = {
 			"Hunt 150 Lichtern Red monsters and return to the Bounty Board at Eclage"
 		},
 		Summary = ""
 	},
-	[70356] = {
+	[70392] = {
 		Title = "Bounty Board Lichtern Green",
 		Description = {
 			"Hunt 150 Lichtern Green monsters and return to the Bounty Board at Eclage"
 		},
 		Summary = ""
 	},
-	[70357] = {
+	[70393] = {
 		Title = "Bounty Board Eggring",
 		Description = {
 			"Hunt 150 Eggring monsters and return to the Bounty Board at Lasagna"
 		},
 		Summary = ""
 	},
-	[70358] = {
+	[70394] = {
 		Title = "Bounty Board Leaf Lunatic",
 		Description = {
 			"Hunt 150 Leaf Lunatic monsters and return to the Bounty Board at Lasagna"
 		},
 		Summary = ""
 	},
-	[70359] = {
+	[70395] = {
 		Title = "Bounty Board Grass Fabre",
 		Description = {
 			"Hunt 150 Grass Fabre monsters and return to the Bounty Board at Lasagna"
 		},
 		Summary = ""
 	},
-	[70360] = {
+	[70396] = {
 		Title = "Bounty Board Wild Hornet",
 		Description = {
 			"Hunt 150 Wild Hornet monsters and return to the Bounty Board at Lasagna"
 		},
 		Summary = ""
 	},
-	[70361] = {
+	[70397] = {
 		Title = "Bounty Board Sweet Roda Frog",
 		Description = {
 			"Hunt 150 Sweet Roda Frog monsters and return to the Bounty Board at Lasagna"
 		},
 		Summary = ""
 	},
-	[70362] = {
+	[70398] = {
 		Title = "Bounty Board Hunter Desert Wolf",
 		Description = {
 			"Hunt 150 Hunter Desert Wolf monsters and return to the Bounty Board at Lasagna"
+		},
+		Summary = ""
+	},
+	[70399] = {
+		Title = "Bounty Board Combat Basilisk",
+		Description = {
+			"Hunt 150 Combat Basilisk monsters and return to the Bounty Board at Lasagna"
+		},
+		Summary = ""
+	},
+	[70400] = {
+		Title = "Bounty Board Combat Basilisk",
+		Description = {
+			"Hunt 150 Combat Basilisk monsters and return to the Bounty Board at Lasagna"
+		},
+		Summary = ""
+	},
+	[70401] = {
+		Title = "Bounty Board Jungle Madragora",
+		Description = {
+			"Hunt 150 Jungle Madragora monsters and return to the Bounty Board at Lasagna"
 		},
 		Summary = ""
 	},
