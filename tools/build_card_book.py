@@ -71,14 +71,7 @@ def parse_item_names(db_root: Path) -> dict[int, str]:
 
 
 def page_group(code: str) -> int:
-    if code in ("BOSS", "MVP"):
-        return 3
-    first = code[0]
-    if "A" <= first <= "F":
-        return 0
-    if "G" <= first <= "M":
-        return 1
-    return 2
+    return 1 if code in ("BOSS", "MVP") else 0
 
 
 def save_hashed_webp(image: Image.Image, out_dir: Path, index: int, quality: int) -> str:
