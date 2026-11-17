@@ -3188,8 +3188,8 @@ Total fee : #
 Select receiver#
 Select receiving group#
 Change size(F10)#
-Loading mailbox, Please don't delete the^c92114 message^000000~!!#
-NOW LOADING..#
+No puedes usar RoDex en este momento.#
+Intenta nuevamente en unos segundos.#
 Title#
 Sender#
 Can't open two game windows, game installation might corrupt#
