@@ -11,7 +11,8 @@ Scope: `OzRo.exe` (PE32 i386, Ragexe 2019-06-05, patched build).
 | live client | `/mnt/games/OzRo/OzRo.exe` | `d4335d1ef9d565c23ee6236e286a1272715ac9d76aa5e08c8133be4fa204e5be` |
 | base + timestamp | `/mnt/games/OzRo (experiments)/OzRo.exe` | `4ef074a628551e6f7cd6e65e52be285823fed31c99f8ad798b7bb31a9ce00669` |
 | + nav button hide | `/mnt/games/OzRo (experiments)/OzRo-navihide.exe` | `e2d88fb73dc81c7833040f8e831de604e8a21642ff43aa1070b40ea4277392c2` |
-| + nav window/guards (final) | `/mnt/games/OzRo (experiments)/OzRo-navihide-nonav.exe` | `19d81cac4684ff267cab558b7abebd3a126483ac028e5e7060a1911d1c7cce24` |
+| + nav window/guards | `/mnt/games/OzRo (experiments)/OzRo-navihide-nonav.exe` | `19d81cac4684ff267cab558b7abebd3a126483ac028e5e7060a1911d1c7cce24` |
+| + StartNavigation kill (final) | `/mnt/games/OzRo (experiments)/OzRo-navihide-nonav-noarrows.exe` | `0cfa7681a5dd00eee8a2beb38e4e9b9209ab0a602fa7ca90f7e1542f7b015ee8` |
 | committed copy | `patch/OzRo.exe` | same as final |
 
 Size: `9,216,000` bytes.
@@ -197,9 +198,29 @@ file 0x8C9FEB / VA 0xF469EB, 19 bytes:
 
 Empty `.xdiff` tail is used: `0x8C9FB0..0x8C9FFF`. Navi hook cave ends at `0x8C9FD0`; guards start at `0x8C9FD8` and `0x8C9FEB`.
 
+## Minimap icon navigation (StartNavigation kill)
+
+Minimap town/quest buttons call `CNavigationManager::StartNavigation`, which draws the route arrows. Blocking window 203 does **not** stop these icons.
+
+`CNavigationManager::StartNavigation`:
+- Entry VA `0x7B3C30`, stdcall/thiscall cleanup `ret 0x30`.
+- Normal early-return path at `0x7B3CF3`: sets `[ebp-0x231]=0`, `[ebp-4]=-1`, destroys the by-value `std::string` at `[ebp+8]` via `call 0x46B690`, then epilogue.
+- Patching at `0x7B3C5D` (after prologue/SEH setup) to jump to `0x7B3CF3` returns `false` and still runs the string destructor.
+
+Patch:
+
+```
+file 0x3B305D / VA 0x7B3C5D, 5 bytes:
+  8B F9 8B 45 20  ->  E9 91 00 00 00    ; jmp 0x7B3CF3
+```
+
+Effect: all `StartNavigation` calls return false. Minimap town/quest icon clicks and quest links no longer set a route; no arrows. Icons and the magnifier toggle remain functional. No leak from the by-value string because the destructor path is preserved.
+
+Minimap UI source: `/home/oz/Descargas/rodecomp/Source/UI/Dialogs/UIEditctrlWnd.cpp` (`UIMiniMapWnd::SendMsg`, IDs 1000..1999 towns, >2000 quest marks, both call `StartNavigation`).
+
 ## Complete reproducible patch list
 
-Base: live `OzRo.exe` (timestamp 0). Applying these bytes in order produces the final hash `19d81cac...` exactly.
+Base: live `OzRo.exe` (timestamp 0). Applying these bytes in order produces the final hash `0cfa7681...` exactly.
 
 ```python
 patches = [
@@ -211,10 +232,11 @@ patches = [
  (0x8C9FD8, bytes.fromhex("85f60f847e8355ff8b8ed0000000e9c08055ff")),  # guard cave A
  (0x9E775,  bytes.fromhex("e97176aa0090")),  # guard 49F340
  (0x8C9FEB, bytes.fromhex("85f60f84b48955ff8b8ed0000000e97d8955ff")),  # guard cave B
+ (0x3B305D, bytes.fromhex("e991000000")),  # StartNavigation -> return false
 ]
 ```
 
-Validation: SHA-256 of the result must be `19d81cac4684ff267cab558b7abebd3a126483ac028e5e7060a1911d1c7cce24`.
+Validation: SHA-256 of the result must be `0cfa7681a5dd00eee8a2beb38e4e9b9209ab0a602fa7ca90f7e1542f7b015ee8`.
 
 ## Decompiled source (reference, offsets differ slightly)
 
@@ -239,6 +261,7 @@ Embedded: Lua 5.1.4; `CDClient.dll`, `cps.dll` external.
 - Do not assume PE timestamp from filename; check `0x140`.
 - Do not set timestamp to raw `20190605`; use a real Unix timestamp. Noon UTC avoids date-boundary issues.
 - Do not block window 203 without the two null guards; world-map click crashes at `0x49EAA5`.
+- `StartNavigation` kill is global: it also disables quest-link navigation. Intentional for OzRo; do not use if navigation should remain partially available.
 - Do not use `2019-06-05fRagexe_patched.exe` as base; lacks live data/GRF patch set.
 - Do not write patches beyond `.xdiff` tail `0xF46A00`; section ends there.
 - Do not mark new experimental exes executable if Wine double-click is desired; mode `664`.
