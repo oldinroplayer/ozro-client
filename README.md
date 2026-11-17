@@ -31,7 +31,7 @@ tmp/                       pruebas y GRFs locales (ignorado por git)
 - El server define las quests en `rathena/db/import/quest_db.yml` y en los scripts (`setquest`/`setquestinfo`).
 - El cliente muestra la ventana CTRL+U desde `System/OngoingQuestInfoList_True_EN.lub` (y variantes `_EN`/`_True`) en la carpeta del cliente; si se overridea, va en `patch/System/`. **Cada QuestID debe existir en ambos lados**: si falta en el cliente, la quest aparece vacía/rota aunque el server la tenga.
 - Bounty boards: `F_Bounty_Board` recibe cuartetos `MonsterID, QuestID, BaseExp, JobExp`; cada `QuestID` tiene que estar en `quest_db.yml` y en la lista del cliente.
-- Estado actual: los 188 IDs custom de `quest_db.yml` y los 181 IDs usados por las bounty boards están presentes en la lista del cliente.
+- Estado actual: los 290 IDs custom de `quest_db.yml` (incluidas las bounty boards) están presentes en la lista del cliente.
 - `npc/custom/ozro/hunting_missions.txt` (Hunting Missions, Euphy) está deshabilitado en `scripts_custom.conf`. Usa variables de personaje (`Mission0`, `#Mission_Delay`), **no** el sistema de quests, así que no afecta CTRL+U.
 - En `npc/custom/ozro/bounty/Geffen.txt` están comentados `FAKE_ANGEL` (1371/62691) y `MINI_DEMON` (1292/62693). Ambos IDs existen hoy en `quest_db.yml` y en la lista del cliente; se pueden reactivar y probar.
 - Al crear una quest custom: alta en `quest_db.yml`, entrada en la lista del cliente, y prueba en CTRL+U. `DISABLE_QUESTINFO_MARKERS` solo oculta el icono de questinfo sobre el NPC, no la ventana de quests.
