@@ -1,8 +1,10 @@
 # Navigation disable attempts (OzRo client)
 
+> **SUPERSEDED 2026-11-17** by [ragexe-internals.md](./ragexe-internals.md). The PE timestamp was fixed, the navigation button was hidden, and window `203` was blocked with null guards. Conclusions below about "button not removable", out-of-bounds IDs, and "do not retry HideGameWindows" are historical/obsolete. Keep for failure history only.
+
 Date: 2026-11-16
 Scope: only the in-game navigation button/window for `OzRo.exe`.
-Status: unresolved. The navigation button is still visible. Do not retry the approaches below.
+Status: resolved (see `ragexe-internals.md`).
 
 ## Current state
 
