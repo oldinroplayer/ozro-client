@@ -264,6 +264,28 @@ The white dropdown box + arrow is **baked into** `bg_login.tga`; moving the comb
 
 Excluded from GRFs for now (still being worked on): custom item/collection/cashshop textures, custom sprites, loading/background illustrations, `System/*` (itemInfo/quest list/Towninfo), `data/msgstringtable.txt`, cashshop banner Lua.
 
+## NPC signboards
+
+- Source: `data/luafiles514/lua files/signboardlist.lub`, global `SignBoardList` (`IT_SIGNBOARD`), 49294 B in `data.grf`; older 39682 B copy in `rdata.grf`. `data.grf` wins with current `data.ini`.
+- Loader: `data/luafiles514/lua files/signboardlist_f.lub`, function `GetSignBoardListTable(index)`.
+- Access pattern: `SignBoardList[index][field]`; returns 8 values:
+  `MAPNAME, CELLX, CELLY, HEIGHT, ICONID, FILEPATH, CONTENTS, CHARCOLOR`.
+- Renders world NPC head icons/nameplates. Icons:
+  `information\over_guide.bmp`, `information\over_store.bmp`, `information\over_kafra.bmp`,
+  `information\over_inn.bmp`, `information\over_warp.bmp`-style paths; custom entries carry `CONTENTS` text.
+- Empty `SignBoardList = {}` -> `SignBoardList_F.lua:30: attempt to index field '?' (a nil value)`.
+- Disable without error: one dummy entry:
+  `MAPNAME="disabled", CELLX=0, CELLY=0, HEIGHT=0, ICONID=0, FILEPATH="", CONTENTS="", CHARCOLOR=0`.
+- Override via `ozro_ui.grf` (data.ini key 1, first wins). `data/` does not override GRF entries without `DataFolderFirst`.
+
+## Towninfo load path
+
+- Client opens `System/Towninfo_EN.lub`; `System/Towninfo.lub` is not opened (Wine `strace`, openat).
+- Towninfo feeds minimap town icons only, not world NPC head icons.
+- Empty `mapNPCInfoTable = {}` removes minimap town icons; restore original files to recover them.
+- `MINIMAPWNDINFO.WHOWNPC` (registry `Software\Wow6432Node\Gravity Soft\Ragnarok\UIRectInfo`; default `1`) = minimap "show towns", not head icons.
+- `.xdiff` begins with ASCII override list: `System/Towninfo_EN.lub`, `system\OngoingQuestInfoList_True_EN`, `system\RecommendedQuestInfoList_True_EN`, `DATA.INI`, etc.
+
 ## Complete reproducible patch list
 
 Base: live `OzRo.exe` (timestamp 0). Applying these bytes in order produces the final hash `39f49643...` exactly.
@@ -316,3 +338,6 @@ Embedded: Lua 5.1.4; `CDClient.dll`, `cps.dll` external.
 - Do not mark new experimental exes executable if Wine double-click is desired; mode `664`.
 - Do not save UI TGA overrides as RLE (type 10); use uncompressed type 2 (`rle=False`).
 - Do not expect `data/` to override a file that already exists in a GRF without `DataFolderFirst`. Use a high-priority GRF (`data.ini` key 1 wins).
+- Do not remove world NPC head icons by editing `Towninfo*`; those are signboards (`signboardlist.lub`).
+- Do not empty `SignBoardList` to `{}`; keep one dummy entry or `GetSignBoardListTable` errors on `SignBoardList[1]`.
+- Do not trust `MINIMAPWNDINFO.WHOWNPC` for head icons; it only toggles minimap town marks.
