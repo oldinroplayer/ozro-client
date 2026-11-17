@@ -12,7 +12,8 @@ Scope: `OzRo.exe` (PE32 i386, Ragexe 2019-06-05, patched build).
 | base + timestamp | `/mnt/games/OzRo (experiments)/OzRo.exe` | `4ef074a628551e6f7cd6e65e52be285823fed31c99f8ad798b7bb31a9ce00669` |
 | + nav button hide | `/mnt/games/OzRo (experiments)/OzRo-navihide.exe` | `e2d88fb73dc81c7833040f8e831de604e8a21642ff43aa1070b40ea4277392c2` |
 | + nav window/guards | `/mnt/games/OzRo (experiments)/OzRo-navihide-nonav.exe` | `19d81cac4684ff267cab558b7abebd3a126483ac028e5e7060a1911d1c7cce24` |
-| + StartNavigation kill (final) | `/mnt/games/OzRo (experiments)/OzRo-navihide-nonav-noarrows.exe` | `0cfa7681a5dd00eee8a2beb38e4e9b9209ab0a602fa7ca90f7e1542f7b015ee8` |
+| + StartNavigation kill | `/mnt/games/OzRo (experiments)/OzRo-navihide-nonav-noarrows.exe` | `0cfa7681a5dd00eee8a2beb38e4e9b9209ab0a602fa7ca90f7e1542f7b015ee8` |
+| + login window cleanup (final) | `/mnt/games/OzRo (experiments)/OzRo.exe` | `39f49643f85ed354e7da1cba288504583b7f835f48679133ce95e7be7ff5b20a` |
 | committed copy | `patch/OzRo.exe` | same as final |
 
 Size: `9,216,000` bytes.
@@ -218,9 +219,54 @@ Effect: all `StartNavigation` calls return false. Minimap town/quest icon clicks
 
 Minimap UI source: `/home/oz/Descargas/rodecomp/Source/UI/Dialogs/UIEditctrlWnd.cpp` (`UIMiniMapWnd::SendMsg`, IDs 1000..1999 towns, >2000 quest marks, both call `StartNavigation`).
 
+## Login window cleanup
+
+`UILoginWnd::OnCreate` is at VA `0x5D6C00` in this build; confirmed by `EnsureWindow(0x145)` = `WID_RPIMAGEWND2` (325). It creates the account-type combo and two bottom buttons.
+
+Object layout observed (actual build, differs from newer decomp headers):
+- Combo pointer: `[this+0xC8]`, allocated with `new(0xB8)` at `0x5D736F`.
+- Combo `Move(13,10)` at `0x5D73EE`.
+- Bottom button id `285` `Move(13,104)` at `0x5D6DDB`.
+- Bottom button `ID_MAKEACCOUNT` `Move(87,104)` at `0x5D6F47`.
+
+Patches (move offscreen to `-100,-100`; keep objects/logic intact):
+
+```
+file 0x1D61DB / VA 0x5D6DDB: 6A 68 6A 0D -> 6A 9C 6A 9C  ; button 285 Move(13,104)
+file 0x1D6347 / VA 0x5D6F47: 6A 68 6A 57 -> 6A 9C 6A 9C  ; ID_MAKEACCOUNT Move(87,104)
+file 0x1D67EE / VA 0x5D73EE: 6A 0A 6A 0D -> 6A 9C 6A 9C  ; loginTypeCombo Move(13,10)
+```
+
+The combo still initializes and sets `loginExtra = "G000"`. Login/exit buttons are untouched.
+
+### Empty dropdown background
+
+The white dropdown box + arrow is **baked into** `bg_login.tga`; moving the combo only removes its label. The login background is 301x132 32-bit TGA.
+- Client TGA loader requires **uncompressed type 2**; an RLE type 10 file is ignored/falls back to GRF. PIL save must use `rle=False`.
+- Edit area used: `x=12..173, y=9..32` filled with white (panel color).
+- `data/` folder does **not** override existing GRF entries by default (`DataFolderFirst` not active). `data.ini` order: **key 1 is highest priority** (first wins).
+- Shipped as `ozro_ui.grf` at key 1.
+
+## GRF layout (current)
+
+`patch/data.ini`:
+
+```
+1=ozro_ui.grf          # login background / UI overrides (highest)
+2=ozro_maps.grf        # loose map .rsw/.gnd/.gat overrides
+3=ozro_fixes.grf       # data/clientinfo.xml + data/etcinfo.txt
+4=gefenia.grf          # custom gefenia maps
+5=renewal2021.grf
+6=resources2021.grf
+7=data.grf
+8=rdata.grf
+```
+
+Excluded from GRFs for now (still being worked on): custom item/collection/cashshop textures, custom sprites, loading/background illustrations, `System/*` (itemInfo/quest list/Towninfo), `data/msgstringtable.txt`, cashshop banner Lua.
+
 ## Complete reproducible patch list
 
-Base: live `OzRo.exe` (timestamp 0). Applying these bytes in order produces the final hash `0cfa7681...` exactly.
+Base: live `OzRo.exe` (timestamp 0). Applying these bytes in order produces the final hash `39f49643...` exactly.
 
 ```python
 patches = [
@@ -233,10 +279,13 @@ patches = [
  (0x9E775,  bytes.fromhex("e97176aa0090")),  # guard 49F340
  (0x8C9FEB, bytes.fromhex("85f60f84b48955ff8b8ed0000000e97d8955ff")),  # guard cave B
  (0x3B305D, bytes.fromhex("e991000000")),  # StartNavigation -> return false
+ (0x1D61DB, bytes.fromhex("6a9c6a9c")),  # login button id 285 -> offscreen
+ (0x1D6347, bytes.fromhex("6a9c6a9c")),  # login ID_MAKEACCOUNT -> offscreen
+ (0x1D67EE, bytes.fromhex("6a9c6a9c")),  # loginTypeCombo -> offscreen
 ]
 ```
 
-Validation: SHA-256 of the result must be `0cfa7681a5dd00eee8a2beb38e4e9b9209ab0a602fa7ca90f7e1542f7b015ee8`.
+Validation: SHA-256 of the result must be `39f49643f85ed354e7da1cba288504583b7f835f48679133ce95e7be7ff5b20a`.
 
 ## Decompiled source (reference, offsets differ slightly)
 
@@ -265,3 +314,5 @@ Embedded: Lua 5.1.4; `CDClient.dll`, `cps.dll` external.
 - Do not use `2019-06-05fRagexe_patched.exe` as base; lacks live data/GRF patch set.
 - Do not write patches beyond `.xdiff` tail `0xF46A00`; section ends there.
 - Do not mark new experimental exes executable if Wine double-click is desired; mode `664`.
+- Do not save UI TGA overrides as RLE (type 10); use uncompressed type 2 (`rle=False`).
+- Do not expect `data/` to override a file that already exists in a GRF without `DataFolderFirst`. Use a high-priority GRF (`data.ini` key 1 wins).
