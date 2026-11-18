@@ -13,7 +13,8 @@ Scope: `OzRo.exe` (PE32 i386, Ragexe 2019-06-05, patched build).
 | + nav button hide | `/mnt/games/OzRo (experiments)/OzRo-navihide.exe` | `e2d88fb73dc81c7833040f8e831de604e8a21642ff43aa1070b40ea4277392c2` |
 | + nav window/guards | `/mnt/games/OzRo (experiments)/OzRo-navihide-nonav.exe` | `19d81cac4684ff267cab558b7abebd3a126483ac028e5e7060a1911d1c7cce24` |
 | + StartNavigation kill | `/mnt/games/OzRo (experiments)/OzRo-navihide-nonav-noarrows.exe` | `0cfa7681a5dd00eee8a2beb38e4e9b9209ab0a602fa7ca90f7e1542f7b015ee8` |
-| + login window cleanup (final) | `/mnt/games/OzRo (experiments)/OzRo.exe` | `39f49643f85ed354e7da1cba288504583b7f835f48679133ce95e7be7ff5b20a` |
+| + login window cleanup | `/mnt/games/OzRo (experiments)/OzRo.exe` | `39f49643f85ed354e7da1cba288504583b7f835f48679133ce95e7be7ff5b20a` |
+| + bank menu button hide (final) | `/mnt/games/OzRo (experiments)/OzRo-nobankbutton2.exe` | `7f3e62096ca9b4e38eaf05f4dd24127c92ff2b1f34581e8aa2793d2b4aef4692` |
 | committed copy | `patch/OzRo.exe` | same as final |
 
 Size: `9,216,000` bytes.
@@ -286,9 +287,23 @@ Excluded from GRFs for now (still being worked on): custom item/collection/cashs
 - `MINIMAPWNDINFO.WHOWNPC` (registry `Software\Wow6432Node\Gravity Soft\Ragnarok\UIRectInfo`; default `1`) = minimap "show towns", not head icons.
 - `.xdiff` begins with ASCII override list: `System/Towninfo_EN.lub`, `system\OngoingQuestInfoList_True_EN`, `system\RecommendedQuestInfoList_True_EN`, `DATA.INI`, etc.
 
+## Bank menu button
+
+`UIMenuIconWnd::OnCreate` creates the menu icons; the bank button is the basic-info/menu entry id **`0x1BB`** (443), not `MENUICON_BANK` (`0x1CD` / 461, which is a different menu icon).
+
+Visibility table for the basic window buttons: VA `0x57F5C4`, normalized id = `id - 0x169`.
+
+Patch (hide bank button):
+
+```
+file 0x17EA16 / VA 0x57F616 (0x57F5C4 + 0x52): 01 -> 00
+```
+
+`0x1CD` (file `0x17EA28`) was tested first and did **not** hide the basic bank button; it is the `MENUICON_BANK` menu icon id, not the button the NPC replaced. The bank UI itself is opened by the NPC via `openbank` (`OUT_UI_BANK`); do not block `WID_BANK_NEWWND`.
+
 ## Complete reproducible patch list
 
-Base: live `OzRo.exe` (timestamp 0). Applying these bytes in order produces the final hash `39f49643...` exactly.
+Base: live `OzRo.exe` (timestamp 0). Applying these bytes in order produces the final hash `7f3e6209...` exactly.
 
 ```python
 patches = [
@@ -304,10 +319,11 @@ patches = [
  (0x1D61DB, bytes.fromhex("6a9c6a9c")),  # login button id 285 -> offscreen
  (0x1D6347, bytes.fromhex("6a9c6a9c")),  # login ID_MAKEACCOUNT -> offscreen
  (0x1D67EE, bytes.fromhex("6a9c6a9c")),  # loginTypeCombo -> offscreen
+ (0x17EA16, bytes.fromhex("00")),  # basic bank button id 0x1BB -> hidden
 ]
 ```
 
-Validation: SHA-256 of the result must be `39f49643f85ed354e7da1cba288504583b7f835f48679133ce95e7be7ff5b20a`.
+Validation: SHA-256 of the result must be `7f3e62096ca9b4e38eaf05f4dd24127c92ff2b1f34581e8aa2793d2b4aef4692`.
 
 ## Decompiled source (reference, offsets differ slightly)
 
