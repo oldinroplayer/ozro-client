@@ -14,7 +14,9 @@ Scope: `OzRo.exe` (PE32 i386, Ragexe 2019-06-05, patched build).
 | + nav window/guards | `/mnt/games/OzRo (experiments)/OzRo-navihide-nonav.exe` | `19d81cac4684ff267cab558b7abebd3a126483ac028e5e7060a1911d1c7cce24` |
 | + StartNavigation kill | `/mnt/games/OzRo (experiments)/OzRo-navihide-nonav-noarrows.exe` | `0cfa7681a5dd00eee8a2beb38e4e9b9209ab0a602fa7ca90f7e1542f7b015ee8` |
 | + login window cleanup | `/mnt/games/OzRo (experiments)/OzRo.exe` | `39f49643f85ed354e7da1cba288504583b7f835f48679133ce95e7be7ff5b20a` |
-| + bank menu button hide (final) | `/mnt/games/OzRo (experiments)/OzRo-nobankbutton2.exe` | `7f3e62096ca9b4e38eaf05f4dd24127c92ff2b1f34581e8aa2793d2b4aef4692` |
+| + bank menu button hide | `/mnt/games/OzRo (experiments)/OzRo-nobankbutton2.exe` | `7f3e62096ca9b4e38eaf05f4dd24127c92ff2b1f34581e8aa2793d2b4aef4692` |
+| + hide menu icons: keyboard/tip/shop/attendance/achievement/rec | `/mnt/games/OzRo (experiments)/OzRo.exe` | `8e81d4db75b8d603819d6ead778a5bb60636c583df662d7d56cc3073863525a3` |
+| + hide menu icon battle/battlegrounds (final) | `/mnt/games/OzRo (experiments)/OzRo.exe` | `a7d4cd97a96ed5d484848f8b452320bde936302c44fbc67612ccc1c99997fd41` |
 | committed copy | `patch/OzRo.exe` | same as final |
 
 Size: `9,216,000` bytes.
@@ -301,9 +303,50 @@ file 0x17EA16 / VA 0x57F616 (0x57F5C4 + 0x52): 01 -> 00
 
 `0x1CD` (file `0x17EA28`) was tested first and did **not** hide the basic bank button; it is the `MENUICON_BANK` menu icon id, not the button the NPC replaced. The bank UI itself is opened by the NPC via `openbank` (`OUT_UI_BANK`); do not block `WID_BANK_NEWWND`.
 
+## Main menu icons (hide options)
+
+`UIMenuIconWnd::OnCreate` (VA `0x57E680`) builds the menu from two parallel 22-entry local arrays constructed from `.rdata` constants:
+
+- ids array (`ids[0..21]`), loaded via `movaps` from VA `0xADCB90`, `0xADCBA0`, `0xADCB80`, `0xADCBB0`, `0xADCBC0`, plus two immediates.
+- names array: `status, equip, item, skill, booking, party, guild, battle, quest, map, navigation, option, bank, rec, mail, achievement, tip, shop, keyboard, sns, attendance, adventurerAgency`.
+
+| name | id | notes |
+|---|---|---|
+| keyboard | `0x160` | Shortcut Description (opens `UIHotkeyGuideWnd`) |
+| battle | `0x166` | Battlegrounds (crossed swords); **not** Battle Mode (`/bm`) |
+| rec | `0x17D` | replay/record |
+| achievement | `0x1C7` | menu id; `MENUICON_ACHIEVEMENT` differs |
+| tip | `0x1ED` | |
+| shop | `0x1EE` | cash shop |
+| attendance | `0x20A` | |
+| booking | `0x169` | already skipped by default |
+| sns | `0x1F4` | already skipped by default |
+| adventurerAgency | `0x20E` | already skipped by default |
+
+Hide mechanism: the create switch at VA `0x57ED00` computes `eax = id - 0x169`, rejects `eax > 0xB5`, then indexes the byte table at VA `0x57F5C4` and jumps through `0x57F5BC`. Table value `00` -> `0x57F303` (skip, no icon, no position slot); value `01` -> `0x57ED1A` (create).
+
+- **id in `0x169..0x21E`**: patch the table byte at file `0x17E9C4 + (id - 0x169)` from `01` to `00`.
+- **id below `0x169`**: not addressable by that table; rewrite the ids constant instead:
+  - `keyboard` (`ids[18]`, file `0x6DB9C8`): `0x160` -> `0x169`
+  - `battle` (`ids[7]`, file `0x6DB9AC`): `0x166` -> `0x169`
+
+Applied hides (all one-byte writes except the two dwords):
+
+```
+file 0x17E9D8 / id rec 0x17D:          01 -> 00
+file 0x17EA22 / id achievement 0x1C7:  01 -> 00
+file 0x17EA48 / id tip 0x1ED:          01 -> 00
+file 0x17EA49 / id shop 0x1EE:         01 -> 00
+file 0x17EA65 / id attendance 0x20A:   01 -> 00
+file 0x6DB9C8 / keyboard 0x160:  60 01 00 00 -> 69 01 00 00
+file 0x6DB9AC / battle 0x166:    66 01 00 00 -> 69 01 00 00
+```
+
+Skipping does not increment the icon position, so the remaining icons reflow without a gap. This removes the Battlegrounds menu icon only; Battle Mode (`/bm`, checkbox in Shortcut Settings) and the Esc-menu `Shortcut Settings` are untouched.
+
 ## Complete reproducible patch list
 
-Base: live `OzRo.exe` (timestamp 0). Applying these bytes in order produces the final hash `7f3e6209...` exactly.
+Base: live `OzRo.exe` (timestamp 0). Applying these bytes in order produces the final hash `a7d4cd97...` exactly.
 
 ```python
 patches = [
@@ -320,10 +363,17 @@ patches = [
  (0x1D6347, bytes.fromhex("6a9c6a9c")),  # login ID_MAKEACCOUNT -> offscreen
  (0x1D67EE, bytes.fromhex("6a9c6a9c")),  # loginTypeCombo -> offscreen
  (0x17EA16, bytes.fromhex("00")),  # basic bank button id 0x1BB -> hidden
+ (0x17E9D8, bytes.fromhex("00")),  # menu icon rec 0x17D -> hidden
+ (0x17EA22, bytes.fromhex("00")),  # menu icon achievement 0x1C7 -> hidden
+ (0x17EA48, bytes.fromhex("00")),  # menu icon tip 0x1ED -> hidden
+ (0x17EA49, bytes.fromhex("00")),  # menu icon shop 0x1EE -> hidden
+ (0x17EA65, bytes.fromhex("00")),  # menu icon attendance 0x20A -> hidden
+ (0x6DB9C8, bytes.fromhex("69010000")),  # menu icon keyboard 0x160 -> 0x169 (skipped)
+ (0x6DB9AC, bytes.fromhex("69010000")),  # menu icon battle 0x166 -> 0x169 (skipped)
 ]
 ```
 
-Validation: SHA-256 of the result must be `7f3e62096ca9b4e38eaf05f4dd24127c92ff2b1f34581e8aa2793d2b4aef4692`.
+Validation: SHA-256 of the result must be `a7d4cd97a96ed5d484848f8b452320bde936302c44fbc67612ccc1c99997fd41`.
 
 ## Decompiled source (reference, offsets differ slightly)
 
