@@ -1257,7 +1257,7 @@ Do you really want to purchase this item? %d points will be deducted from your t
  The '%s' item will disappear in %d minutes.#
  '%s' item will be deleted from the Inventory in 1 minute.#
   '%s' item has been deleted from the Inventory.#
-Input Number#
+Inserta el Numero#
 %m/%d %H:%M#
 Boss Monster '%s' will appear within 1 minute.#
 Mercenary Soldier Skill List#
