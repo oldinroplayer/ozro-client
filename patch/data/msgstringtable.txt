@@ -46,7 +46,7 @@ Música desactivada#
 /inall: permite los susurros de cualquiera#
 /exall: bloquea los susurros de todos#
 Haz clic derecho en un personaje y selecciona [Registrar como amigo] para añadir a alguien a tu lista de amigos.#
-F12 abre una ventana de atajos donde puedes arrastrar objetos de recuperación, equipo y habilidades para acceder más rápido.#
+F12 abre una ventana de atajos donde puedes arrastrar objetos de recuperación, equipo y skills para acceder más rápido.#
 No puedes escribir la misma palabra/frase más de 3 veces.#
 Filtro de chat: Eh, no, amigo...#
 No puedes superponer objetos en una ventana.#
@@ -157,13 +157,13 @@ Obtuviste %s (%d).#
 Cómo susurrar: escribe el nombre del personaje a la izquierda de la ventana de chat y tu mensaje a la derecha. La tecla Tab te ayuda a moverte entre los campos.#
 /!,/?,/ho,/lv,/lv2,/swt,/ic,/an,/ag,/$,/??,/thx,/wah,/sry,/heh,/swt2,/hmm,/no1,/??,/omg,/oh,/X,/hp,/go,/sob,/gg,/kis,/kis2,/pif,/ok: iconos de emoción correspondientes a Alt + (1~9) Ctrl + (-=\\)#
 Cómo hablar por la party: añade '%' delante de cada mensaje.(Ejemplo: \%Hola\)#
-No has aprendido suficientes habilidades básicas para comerciar.#
-No has aprendido suficientes habilidades básicas para usar iconos de emoción.#
-No has aprendido suficientes habilidades básicas para sentarte.#
-No has aprendido suficientes habilidades básicas para crear una sala de chat.#
-No has aprendido suficientes habilidades básicas para formar una party.#
-No has aprendido suficientes habilidades para gritar.#
-No has aprendido suficientes habilidades para el PK.#
+No has aprendido suficientes skills básicas para comerciar.#
+No has aprendido suficientes skills básicas para usar iconos de emoción.#
+No has aprendido suficientes skills básicas para sentarte.#
+No has aprendido suficientes skills básicas para crear una sala de chat.#
+No has aprendido suficientes skills básicas para formar una party.#
+No has aprendido suficientes skills para gritar.#
+No has aprendido suficientes skills para el PK.#
 Comprar objetos#
 Tienda de objetos#
 Vender objetos#
@@ -202,22 +202,22 @@ Privado#
 Público#
 No hay suficiente SP#
 No hay suficiente HP#
-La habilidad falló.#
+La skill falló.#
 El robo falló.#
 Comerciar#
-La habilidad Envenom falló.#
+La skill Envenom falló.#
 No puedes usar este ID en este servidor.#
 La velocidad aumentó.#
 La velocidad disminuyó.#
 /memo: memoriza un lugar como punto de teletransporte (si eres de la clase Acolyte)#
 Zona aleatoria#
 Selecciona una zona a la que teletransportarte#
-El nivel de la habilidad no es suficiente#
+El nivel de la skill no es suficiente#
 No hay ubicaciones memorizadas (puntos de memo).#
 No has aprendido Warp.#
-Ubicación guardada como punto de memo para la habilidad Warp.#
+Ubicación guardada como punto de memo para la skill Warp.#
 Cancelar#
-Hay un retardo después de usar una habilidad.#
+Hay un retardo después de usar una skill.#
 No puedes tener este objeto porque superarás el límite de peso.#
 Capacidad máxima superada#
 Objetos del carrito#
@@ -231,18 +231,18 @@ Comprar objetos#
 Sin existencias#
 %s %d vendidos.#
 Objetos disponibles para venta ambulante#
-La habilidad falló porque no tienes suficiente zeny.#
+La skill falló porque no tienes suficiente zeny.#
 Selecciona un objetivo.#
 /pk on: activa el PK. /pk off: desactiva el PK.#
 Tienda#
 Objetos del carrito [Alt+W]#
 Información básica#
-No se puede usar la habilidad con esta arma.#
+No se puede usar la skill con esta arma.#
 Falló la compra de %s. Sin existencias. Existencias actuales %d.#
 Te has desconectado por una diferencia de tiempo entre tú y el servidor.#
 Equipa primero la munición adecuada.#
-No puedes atacar ni usar habilidades porque superaste el límite de peso.#
-No puedes usar habilidades porque superaste el límite de peso.#
+No puedes atacar ni usar skills porque superaste el límite de peso.#
+No puedes usar skills porque superaste el límite de peso.#
 Munición equipada.#
 Se requiere gema roja.#
 Se requiere gema azul.#
@@ -271,9 +271,9 @@ ATK#
 DEF#
 Snap de ataque activado#
 Snap de ataque desactivado#
-Snap de habilidad activado#
-Snap de habilidad desactivado#
-/snap: activa | desactiva el snap para combates; /skillsnap: activa | desactiva el snap para habilidades; /itemsnap: activa | desactiva el snap para objetos en el suelo.#
+Snap de skill activado#
+Snap de skill desactivado#
+/snap: activa | desactiva el snap para combates; /skillsnap: activa | desactiva el snap para skills; /itemsnap: activa | desactiva el snap para objetos en el suelo.#
 Snap de objetos activado#
 Snap de objetos desactivado#
 Snap#
@@ -281,9 +281,9 @@ No puedes llevar más de 30.000 unidades de un mismo objeto.#
 No puedes eliminar un personaje de nivel superior a 30. Si quieres eliminarlo, contacta con un Game Master.#
 No puedes usar la tienda de un NPC mientras comercias.#
 Nombre#
-Árbol de habilidades#
-Puntos de habilidad: %d#
-La habilidad falló.#
+Árbol de Skills#
+Puntos de skill: %d#
+La skill falló.#
 Pasiva#
 Individual#
 Compartido#
@@ -305,9 +305,9 @@ La eliminación del personaje falló porque introdujiste un SSN incorrecto.#
 No puedes vender más de 15 tipos de objetos a la vez.#
 El límite de edad de las tablas de mando no puede conectarse a este servidor.#
 El HP/SP no se recuperará cuando tu peso transportado supere el 50%% del límite de peso.#
-No puedes usar habilidades ni atacar mientras tu peso transportado supere el 90%% del límite de peso.#
+No puedes usar skills ni atacar mientras tu peso transportado supere el 90%% del límite de peso.#
 Tu HP/SP se está recuperando de forma natural.#
-Ya puedes atacar y usar habilidades.#
+Ya puedes atacar y usar skills.#
 El archivo EXE de tu juego no es la última versión.#
 Los objetos están agotados.#
 Guardar chat como archivo de texto#
@@ -320,8 +320,8 @@ Muestra ''Miss''#
 Zoom de cámara activado#
 Zoom de cámara desactivado#
 /camera: activa o desactiva el zoom de cámara. /miss: alterna la visualización de ''Miss''#
-Ver información de habilidad#
-Cambiar habilidad#
+Ver información de Skill#
+Cambiar skill#
 Resolución de sprites#
 Resolución de texturas#
 Ajustar detalle#
@@ -341,7 +341,7 @@ Antagonistas#
 Información de la guild#
 Miembro#
 Posición#
-Habilidad de guild#
+Skill de guild#
 Lista de expulsión#
 Anuncio#
 Lista completa de guilds#
@@ -381,7 +381,7 @@ Oferta rechazada#
 Oferta aceptada#
 Tu guild está llena.#
 Enviar invitación de guild a (%s)#
-No has aprendido suficientes habilidades para alinearte.#
+No has aprendido suficientes skills para alinearte.#
 Alineación completada.#
 Ya gastaste tu punto de hoy.#
 Aún no ha pasado un mes desde que alineaste a esta persona.#
@@ -524,7 +524,7 @@ Insertar carta#
 Introduce el motivo de la separación.#
 Introduce el motivo de la expulsión.#
 Cierra la tienda.#
-Habilidad #
+Skill #
 Nombre del objeto#
 https://pay.ragnarok.co.kr (Billing Web)#
 La capacidad de IP de este cibercafé está llena. ¿Deseas pagar la tarifa personal?#
@@ -578,7 +578,7 @@ Tu conexión se cerró por un cambio en la política de facturación. Vuelve a conec
 Tu conexión se cerró porque tu IP no coincide con la IP autorizada del servidor de cuentas.#
 Tu conexión se cerró para evitar el cobro de tu tiempo de juego.#
 El equipo de Game Master te desconectó.#
-No puedes usar esta habilidad porque superaste tu límite de peso.#
+No puedes usar esta skill porque superaste tu límite de peso.#
 Sin nombre#
 ¡Felicidades! El rango de %s subió a %d.#
 ¡Qué lástima! El rango de %s bajó a %d.#
@@ -662,8 +662,8 @@ Debes tener un carrito.#
 No se puede abrir una ventana de chat.#
 Registrar una cuenta es el primer paso para acceder al juego. ¿Deseas visitar la página de registro ahora?#
 No puedes usar este objeto mientras estás sentado.#
-Tu uso de habilidades y chat estará bloqueado durante los próximos %d minutos.#
-Se restableció tu uso de habilidades y chat.#
+Tu uso de skills y chat estará bloqueado durante los próximos %d minutos.#
+Se restableció tu uso de skills y chat.#
 - [No equipado]#
  Con mucha hambre#
  Hambriento#
@@ -698,7 +698,7 @@ Tu personaje se desmayó. Presiona la tecla ESC para reiniciar.#
 Lista de hechizos#
 /minimize#
 Este objeto se dañó.#
-/noshift: Puedes usar tu habilidad ''force heal'' sin la tecla Shift. On | Off#
+/noshift: Puedes usar tu skill ''force heal'' sin la tecla Shift. On | Off#
 Opción [no shift] activada. [ON]#
 Opción [no shift] desactivada. [OFF]#
 MSI_REFUSE_BAN_BY_DBA#
@@ -727,9 +727,9 @@ La sala de internet está pagando ahora.#
 El cupón prepago es válido hasta dentro de %d días %d horas %d minutos.\nEl cupón de límite de tiempo es válido hasta dentro de %d horas %d minutos.#
 /bingbing: Gira al jugador en sentido antihorario.#
 /bangbang: Gira al jugador en sentido horario.#
-/skillfail: Mostrar un mensaje en fuente roja cuando falla una habilidad. On | Off#
-Se mostrarán los mensajes de fallo de habilidad. [Mostrar ON]#
-No se mostrarán los mensajes de fallo de habilidad. [Mostrar OFF]#
+/skillfail: Mostrar un mensaje en fuente roja cuando falla una skill. On | Off#
+Se mostrarán los mensajes de fallo de skill. [Mostrar ON]#
+No se mostrarán los mensajes de fallo de skill. [Mostrar OFF]#
 /notalkmsg: El chat no se mostrará en la ventana de chat. On | Off#
 El contenido del chat se mostrará en la ventana de chat. [Mostrar ON]#
 El contenido del chat no se mostrará en la ventana de chat. [Mostrar OFF]#
@@ -763,12 +763,12 @@ Si el modo de pantalla completa no funciona, se sugiere usar alt+tab [o ctrl+esc
 (%d jugadores) - Servidor de pago#
 (%d jugadores) - Servidor gratuito#
 Los jugadores de prueba no pueden conectarse al servidor de pago.#
-Las habilidades del menú de clic derecho para F9 están activadas.[/q1 ON]#
-Las habilidades del menú de clic derecho para F9 están desactivadas.[/q1 OFF]#
-/quickspell: El menú de clic derecho permite usar las habilidades asignadas a la tecla de acceso rápido F9. On | Off#
-Las habilidades con la rueda del ratón para F7 y F8 están activadas.[/q2 ON]#
-Las habilidades con la rueda del ratón para F7 y F8 están desactivadas.[/q2 OFF]#
-/quickspell2: Al girar la rueda del ratón hacia arriba y abajo, puedes usar las habilidades registradas en las teclas de acceso rápido F7 y F8. On | Off#
+Las skills del menú de clic derecho para F9 están activadas.[/q1 ON]#
+Las skills del menú de clic derecho para F9 están desactivadas.[/q1 OFF]#
+/quickspell: El menú de clic derecho permite usar las skills asignadas a la tecla de acceso rápido F9. On | Off#
+Las skills con la rueda del ratón para F7 y F8 están activadas.[/q2 ON]#
+Las skills con la rueda del ratón para F7 y F8 están desactivadas.[/q2 OFF]#
+/quickspell2: Al girar la rueda del ratón hacia arriba y abajo, puedes usar las skills registradas en las teclas de acceso rápido F7 y F8. On | Off#
 /q3: /quickspell (/q1) + /quickspell2 (/q2)#
 /bzz#
 /rice#
@@ -783,17 +783,17 @@ Las habilidades con la rueda del ratón para F7 y F8 están desactivadas.[/q2 OFF]
 /grat#
 /hp#
 /emotion: muestra la lista de emoticonos.#
-Las habilidades asignadas a las ventanas de atajos 1, 2 y 3 están activadas. [/bm ON]#
-Las habilidades asignadas a las ventanas de atajos 1, 2 y 3 están desactivadas. [/bm OFF]#
-/battlemode: permite usar las habilidades asignadas a la ventana de atajos 2 presionando las teclas Q ~ O.#
-Las teclas A ~ L permiten usar las habilidades asignadas a la ventana de atajos 3.#
+Las skills asignadas a las ventanas de atajos 1, 2 y 3 están activadas. [/bm ON]#
+Las skills asignadas a las ventanas de atajos 1, 2 y 3 están desactivadas. [/bm OFF]#
+/battlemode: permite usar las skills asignadas a la ventana de atajos 2 presionando las teclas Q ~ O.#
+Las teclas A ~ L permiten usar las skills asignadas a la ventana de atajos 3.#
 Recuerda que los programas que se ejecutan en segundo plano mientras juegas pueden afectar el rendimiento del juego.#
 Querido ángel, ¿puedes oír mi voz?#
 Super Novice#
 Super Novice~#
 Ayúdame~ Por favor~ T_T#
  desea adoptarte. ¿Aceptas?#
-Las teclas Z ~ > permiten usar las habilidades asignadas a la ventana de atajos 1. On | Off#
+Las teclas Z ~ > permiten usar las skills asignadas a la ventana de atajos 1. On | Off#
 Presiona la barra espaciadora para chatear cuando estés en modo de batalla [/battlemode | /bm].#
 "No hay ningún Game Guard instalado en el programa o Game Guard está alterado. Por favor, intenta reinstalar Game Guard desde su archivo de instalación."#
 Algunos archivos del sistema de Windows se dañaron. Reinstala tu Internet Explorer.#
@@ -828,10 +828,10 @@ El precio se fijará en 10,000,000 zeny, incluso si introduces un precio mayor.#
 (Promedio)#
 (Por encima)#
 (Muy por encima)#
-El equipo de GM te ha bloqueado el uso de chat y habilidades durante %d minutos.#
+El equipo de GM te ha bloqueado el uso de chat y skills durante %d minutos.#
 Quedan %d minutos para liberarte de la penalización de GM.#
 Has quedado libre de la penalización de GM.#
-Se te ha bloqueado el uso de chat y habilidades durante %d minutos como penalización automática.#
+Se te ha bloqueado el uso de chat y skills durante %d minutos como penalización automática.#
 Quedan %d minutos para liberarte de la penalización automática.#
 Has quedado libre de la penalización automática. Evita el spam dentro del juego.#
 %s y %s se han divorciado.#
@@ -856,7 +856,7 @@ Se ha ajustado correctamente un punto de conducta.#
 Estás en una zona PK. Cuidado con los ataques repentinos.#
 La actualización de Game Guard falló porque un virus o spyware entró en conflicto. Por favor, desinstala el programa de protección contra spyware y virus antes de iniciar sesión.#
 El programa encontró un error relacionado con la compatibilidad de Windows. Inicia el juego de nuevo.#
-Se te ha bloqueado el chat, el uso de habilidades y de objetos.#
+Se te ha bloqueado el chat, el uso de skills y de objetos.#
 El inicio de sesión no está disponible temporalmente mientras se elimina este personaje.#
 El inicio de sesión no está disponible temporalmente mientras se elimina el personaje de tu cónyuge.#
 Novice#
@@ -911,7 +911,7 @@ Ocultar mensajes de chat (incluido el chat de guild) [/nm2 OFF]#
 Armas mejorables#
 Armas mejoradas: %s#
 Armas mejoradas: %s#
-No puedes mejorar %s hasta que subas el nivel de tu habilidad Upgrade Weapon.#
+No puedes mejorar %s hasta que subas el nivel de tu skill Upgrade Weapon.#
 Te falta el objeto necesario %s para mejorar esta arma.#
 Full Divestment no puede atravesar al objetivo. El objetivo está completamente protegido.#
 No puedes adoptar a una persona casada.#
@@ -924,8 +924,8 @@ Los susurros de amigos se muestran como [ Friend ], y los de miembros de la guil
 /blacksmith: Muestra los 10 mejores Blacksmith del servidor.#
 /alchemist: Muestra los 10 mejores Alchemist del servidor.#
 ALT+Y: Abre una ventana que te permite usar varios comandos con facilidad.#
-[PUNTO] Has sido recompensado con %d puntos de rango de la misión Tae-Kwon. Tu total de puntos es %d.#
-[Misión Taekwon] Monstruo objetivo: %s (%d%%)#
+[PUNTO] Has sido recompensado con %d puntos de rango de la Quest Tae-Kwon. Tu total de puntos es %d.#
+[Quest Taekwon] Monstruo objetivo: %s (%d%%)#
 Error: no se pudo inicializar GameGuard: %lu#
 Se ha detectado Speed Hack.#
 Se ha detectado el programa ilegal (%s).#
@@ -935,7 +935,7 @@ El juego o GameGuard ya se está ejecutando. Cierra el juego y reinícialo.#
 No se pudo inicializar GameGuard. Inténtalo de nuevo después de reiniciar el sistema o cerrar otros programas.#
 No se pudo cargar el módulo de escaneo de virus y herramientas de hackeo. Se debe a falta de memoria o a una infección de virus en el PC.#
 Info. de homúnculo#
-Lista de habilidades del homúnculo#
+Lista de skills del homúnculo#
 Ponle a tu homúnculo un nombre de no más de 23 letras.#
 Solo puedes nombrar a un homúnculo una vez. Has introducido el nombre ^0000ff%s^000000. ¿Deseas continuar?#
 (Ausente)#
@@ -1187,10 +1187,10 @@ Lealtad#
 Invocaciones#
 Matar#
 Puedes sentir el odio de tu mascota por no alimentarla.#
-[PUNTO] Ganaste %d puntos de clasificación de la misión de domesticación, lo que te da un total de %d puntos.#
-[Misión de domesticación] Monstruo objetivo: %s#
+[PUNTO] Ganaste %d puntos de clasificación de la Quest de domesticación, lo que te da un total de %d puntos.#
+[Quest de domesticación] Monstruo objetivo: %s#
 /hunting: Puedes consultar tu lista de caza.#
-[Pregunta del ángel] Dime, ¿cuántas habilidades %s tienes?#
+[Pregunta del ángel] Dime, ¿cuántas skills %s tienes?#
 [Pregunta del ángel] Dime, ¿cuánto zeny tendrás si lo divides entre 100,000?#
 [Pregunta del ángel] Dime, ¿qué fecha es hoy?#
 [Pregunta del ángel] Dime, ¿cuántos %s tienes?#
@@ -1260,7 +1260,7 @@ Información del mapa de monstruos jefe durante los próximos 10 minutos.#
 Inserta el Número#
 %m/%d %H:%M#
 El monstruo jefe '%s' aparecerá en 1 minuto.#
-Lista de habilidades del mercenario#
+Lista de skills del mercenario#
 ¿Aceptas lanzar el hechizo mágico que consume 1 Black Gemstone y 1,000,000 zeny?#
 [Punto] Has ganado %d puntos de rango de Collector; ahora tienes un total de %d puntos de rango de Collector.#
 [Rango de Collector] Objeto objetivo: %s#
@@ -1284,7 +1284,7 @@ Visualización del mensaje de activación/desactivación de equipo#
 Visualización de mensajes de estado anormal#
 Visualización del mensaje de objetos obtenidos por miembros de la party#
 Visualización de mensajes de estado anormal de miembros de la party#
-Visualización de mensajes de fallo de habilidad#
+Visualización de mensajes de fallo de skill#
 Visualización de mensajes de configuración de party#
 Visualización de mensajes de equipo dañado#
 Visualización de la ventana de mensajes de batalla#
@@ -1302,7 +1302,7 @@ El equipo de %s se ha dañado.#
 El %s de %s se dañó.#
 Arma#
 Armadura#
-Nivel de habilidad insuficiente para unirse a una party#
+Nivel de skill insuficiente para unirse a una party#
 Free Cash de [%s]: %d Cash#
 Usar Free Cash: #
 Cash#
@@ -1315,7 +1315,7 @@ Han pasado %d hora(s).#
 Han pasado %d hora(s) %d minuto(s).#
 Deja de jugar y toma un descanso. La EXP y otras funciones se reducirán al 50%%.#
 Deja de jugar, ya que necesitas descansar. La EXP y otras funciones se fijarán en 0%%.#
-Lista de misiones#
+Lista de Quests#
 Tienda RO#
 La Memorial Dungeon, '%s', está reservada.#
 No se pudo reservar la Memorial Dungeon, '%s'.#
@@ -1332,7 +1332,7 @@ Solicitar unirse a la party#
 Mostrar información de WoE#
 Se ha cancelado la reserva de la Memorial Dungeon %s.#
 No se pudo crear la Memorial Dungeon %s. Inténtalo de nuevo.#
-Esta habilidad no se puede usar dentro de esta zona.#
+Esta skill no se puede usar dentro de esta zona.#
 Este objeto no se puede usar dentro de esta zona.#
 Memorial Dungeon#
 %s en espera#
@@ -1342,7 +1342,7 @@ Nadie entró en la Memorial Dungeon dentro de su duración; la dungeon ha desapare
 Solicita de nuevo la entrada a la dungeon para jugar en ella.#
 Tu prioridad de espera: ^ff0000%d^000000#
 La dungeon solicitada se eliminará si no entras antes de ^ff0000%s^000000.#
-Límite de tiempo de la misión de dungeon:#
+Límite de tiempo de la Quest de dungeon:#
 Se ha cancelado la reserva de la Memorial Dungeon.#
 La duración de la Memorial Dungeon expiró; ha sido destruida.#
 El límite de tiempo de entrada de la Memorial Dungeon expiró; ha sido destruida.#
@@ -1372,10 +1372,10 @@ La Memorial Dungeon ahora está cerrada.#
 La Memorial Dungeon ahora está abierta.#
 Esta cuenta no ha sido confirmada mediante la conexión con la clave de comunicación segura. Conéctate primero a la clave y luego inicia sesión en el juego.#
 El número de cuentas conectadas a esta IP ha superado el límite.#
-Has recibido una nueva misión.#
+Has recibido una nueva Quest.#
 ^777777Condiciones de adquisición:#
-Ver info. de la habilidad#
-Una vez usados, los puntos de habilidad no se pueden redistribuir. ¿Deseas usar los puntos de habilidad?#
+Ver Skill info#
+Una vez usados, los puntos de skill no se pueden redistribuir. ¿Deseas usar los puntos de skill?#
 1er trabajo#
 2º trabajo#
 Esta cuenta se ha usado para programas ilegales o de hackeo. Tiempo de bloqueo: %s#
@@ -1394,12 +1394,12 @@ Free Cash: %d Cash#
 Un usuario de este servidor no puede conectarse al servidor gratuito#
 Tu contraseña ha expirado. Inicia sesión de nuevo#
 3er trabajo#
-Esta habilidad no se puede usar sobre ese objetivo.#
-No puedes usar la habilidad porque superaste el límite de posesión de Ancilla#
+Esta skill no se puede usar sobre ese objetivo.#
+No puedes usar la skill porque superaste el límite de posesión de Ancilla#
 Se requiere agua bendita.#
 Se requiere Ancilla.#
 No se puede duplicar dentro de cierta distancia.#
-Esta habilidad requiere otras habilidades para usarse.#
+Esta skill requiere otras skills para usarse.#
 No se permite el chat en este mapa#
 Han pasado 3 horas.#
 Han pasado 5 horas.#
@@ -1409,13 +1409,13 @@ Se ha encontrado un programa que entra en conflicto con Game Guard#
 Cliente incorrecto. Ejecuta un cliente normal#
 Realiza una verificación móvil#
 La verificación falló#
-Esta habilidad no se puede usar sola#
-Esta habilidad solo se puede usar en cierta dirección#
+Esta skill no se puede usar sola#
+Esta skill solo se puede usar en cierta dirección#
 Ya no se pueden invocar esferas.#
 No hay ninguna esfera invocada o no tienes suficientes esferas.#
-No hay habilidades de imitación disponibles.#
-No puedes reutilizar esta habilidad#
-La habilidad no se puede usar en este estado#
+No hay skills de imitación disponibles.#
+No puedes reutilizar esta skill#
+La skill no se puede usar en este estado#
 Has superado la cantidad máxima de posesión de otro objeto.#
 Sin privilegios administrativos. Primero se debe ejecutar el programa con privilegios de administrador.#
 nProtect KeyCrypt no coincide. Reinicia primero el programa y el equipo.#
@@ -1425,7 +1425,7 @@ Se detectó un intento de keylogging por USB.#
 Se ha detectado una herramienta de monitoreo HHD.#
 Se requiere Paintbrush.#
 Se requiere Paint.#
-Usa las habilidades que no están en la ubicación especificada.#
+Usa las skills que no están en la ubicación especificada.#
 No hay suficiente SP.#
 El personaje %d de la ventana de selección de personajes no puede conectarse al juego porque se supera el total. Elimina los personajes no deseados.#
 Se requiere Neck Protection Candy.#
@@ -1463,13 +1463,13 @@ No se puede eliminar por encima del nivel %d#
 No se puede usar mientras se está en Magic Gear.#
 Desmontar dragón#
 Desmontar Magic Gear#
-Usar#
+Usa#
 Cash#
 Armaduras#
 Armas#
 Munición#
 Carta#
-Otros#
+Etc#
 El tiempo de respuesta del cliente ha pasado, así que se cerró la conexión#
 Versión incorrecta del archivo de hack shield. Reinstala el cliente#
 Se requiere [Magic Book].#
@@ -1489,7 +1489,7 @@ No se puede especificar una sola tecla.#
 No se puede especificar la tecla asignada.#
 Duplicado con ['%s']. ¿Aún deseas cambiar?#
 La configuración inicial se guarda en los ajustes de teclas de acceso rápido. ¿Deseas inicializarla?#
-Barra de habilidades#
+Barra de skills#
 Interfaz#
 Macros#
 Configuración de atajos#
@@ -1557,8 +1557,8 @@ Ya se ha solicitado.#
 El registro se ha cancelado debido al tiempo de espera excesivo.#
 No registrado porque los requisitos de admisión no coinciden.#
 Se canceló el registro y hubo un error.#
-La habilidad necesita [%s].#
-La habilidad necesita una habilidad concreta.#
+La skill necesita [%s].#
+La skill necesita una skill concreta.#
 Requiere %d balas mentales#
 Se requiere Mind Bullet.#
 No se pueden crear más piedras rúnicas que la cantidad máxima.#
@@ -1608,8 +1608,8 @@ Alguien#
  [%s] recibe '%d' puntos de daño.#
  [%s] ataca a [%s] con '%d' puntos de daño.#
 Dejaste caer %s (%d).#
-[%s] misión: derrotar a [%s] progreso (%d/%d).#
-La misión [%s] fue eliminada.#
+[%s] Quest: derrotar a [%s] progreso (%d/%d).#
+La Quest [%s] fue eliminada.#
 [%s] #
  %d puntos de EXP base#
  %d puntos de EXP de clase#
@@ -1620,10 +1620,10 @@ Mensaje de batalla#
 Mostrar mensajes de batalla de party#
 Mostrar mensajes de experiencia#
 Mostrar mensajes de experiencia de party#
-Mostrar mensajes de información de misión#
+Mostrar mensajes de información de Quest#
 Mostrar mensajes de campo de batalla#
 #
-Lanza la habilidad [%s].#
+Lanza la skill [%s].#
 Activar función de bloqueo#
 Desactivar función de bloqueo#
 [%s] abrió [%s] y obtuvo '%s'!!#
@@ -1884,7 +1884,7 @@ El nombre no coincide. Inténtalo de nuevo.#
 El número de ID no coincide. Inténtalo de nuevo.#
 El servicio no está disponible en este momento. Inténtalo de nuevo más tarde.#
 No se puede atacar mientras se monta.#
-No se puede lanzar la habilidad mientras se monta.#
+No se puede lanzar la skill mientras se monta.#
 El PIN debe tener de 4 a 6 caracteres.#
 La autenticación segura fue exitosa.#
 Se creó la segunda contraseña.#
@@ -1907,7 +1907,7 @@ Se agregó a la seguridad de tu cuenta la contraseña establecida.#
 Usa el ratón para introducir la contraseña de 4 dígitos a continuación.#
 Si introduces una contraseña incorrecta 3 veces, se cerrará el cliente.#
 OBJETO#
-HABILIDAD#
+SKILL#
 TÁCTICA#
 OTROS#
 COMBATE#
@@ -1930,12 +1930,12 @@ El personaje actual no se puede eliminar si está en una party o en una guild.#
 Los objetos solo se pueden usar cerca de la pared.#
 %s: nivel %d %s de party para obtener nivel.#
 Mientras se monta, las riendas no están disponibles para los objetos.#
-Esta habilidad requiere 1%% de experiencia.#
+Esta skill requiere 1%% de experiencia.#
 E   X   P: #
 Tasa de drop: #
 Penalización por muerte: #
 %d%% (PCcafe %d%% + TPLUS %d%% + Premium %d%% + Servidor %s %d%%)#
-La cantidad de miembros de party para lanzar la habilidad Chorus SP es baja.#
+La cantidad de miembros de party para lanzar la skill Chorus SP es baja.#
 El personaje relacionado que posee los objetos no puede intercambiar porque se superó la cantidad..#
 El personaje relacionado que posee una cantidad de objetos que se supera hace imposible el intercambio.#
 Se superaron las cantidades; la posesión del objeto no está disponible para compra.#
@@ -1946,11 +1946,11 @@ No se pudieron comprar las runas; los objetos superan la cantidad máxima que se 
 Se superó la cantidad de objetos individuales; la compra falló.#
 La compra falló por un error desconocido.#
 Inténtalo de nuevo más tarde.#
-Se debe equipar Kunai para usar esta habilidad..#
+Se debe equipar Kunai para usar esta skill..#
 Introduce el valor del nivel mínimo para reclutar.#
 No es posible recibir el objeto de la agencia Jonda al NPC. Obtén posesión del espacio libre de la ventana.#
-Esta habilidad solo está disponible en el asedio.#
-Esta habilidad solo está disponible para el jugador.#
+Esta skill solo está disponible en el asedio.#
+Esta skill solo está disponible para el jugador.#
 No se puede equipar en el estado prohibido.#
 La creación de tiendas y salas de chat está deshabilitada en la ubicación actual.#
 Tiempo transcurrido: %d:%d:%d / %d:%d:%d#
@@ -1998,7 +1998,7 @@ Nv. de clase %d#
 Zeny: %s#
 Trilineal#
 ataque#
-habilidad#
+skill#
 objeto#
 NoCtrl#
 Campo de batalla#
@@ -2017,7 +2017,7 @@ No disponible#
 ¿De verdad quieres moverte?#
 No se pudo mover la ranura de personaje.#
 El nombre del personaje no es válido.#
-Mostrar misión#
+Mostrar Quest#
 Según la protección de menores, de 0:00 a 6:00 el uso del juego está limitado para menores de 16 años.#
 Según la protección de menores, de 0:00 a 6:00 ^ff0000 para menores de 16 años ^000000 se limita tu uso del juego y el juego finaliza.#
 Para cambiar el nombre del personaje, debes salir de la guild.#
@@ -2048,7 +2048,7 @@ Introduce tu anuncio de party.#
 Solo el líder de party puede registrar el anuncio de party.#
 Ya aceptaste este anuncio.#
 Para#
-Equipo#
+Eqp#
 Fav#
  Bloqueo de drop: On/Off#
 Alarma de party#
@@ -2341,7 +2341,7 @@ En línea desde hace %d minutos#
 Tiempo en línea: %d#
 En línea desde hace %d horas y %d minutos#
 /monsterhp : Muestra el HP del monstruo atacado. On off#
-Puntos de habilidad: #
+Puntos de skill: #
 No hay respuesta del servidor de autenticación. Inténtalo de nuevo#
 Cambia tu contraseña#
 http://www.ragnarok.co.kr#
@@ -2561,7 +2561,7 @@ Historial de ventas de objetos#
 Historial de compras de objetos#
 El Grenade Launcher debe estar equipado con balas.#
 [Heat barrel],[Last Stand],[Platinum Alter] no se pueden usar mientras estás sentado.#
-No se puede usar la habilidad en este mapa.#
+No se puede usar la skill en este mapa.#
 Si estás usando un almacén de guild, todos los objetos en su interior desaparecerán.#
 http://ragnarok.gamesamba.com/paytest.html#
 Introduce una contraseña para iniciar sesión.#
@@ -2669,7 +2669,7 @@ Mazmorra #
 Batalla #
 Duelo #
 Entrenamiento #
-Misión #
+Quest #
 Episodio #
 General #
 Conmemorativo #
@@ -2740,8 +2740,8 @@ ERROR DE SCRIPT AID#
 \nArchivo de error : %s\nLínea de error : %d item\nContexto de error: %s#
 ^ff0000¿Seguro que quieres comprar el objeto? Tras la confirmación se consumirán %d puntos y %d crackers.#
 Apagado#
-Misión#
-Ver icono de misión#
+Quest#
+Ver icono de Quest#
 Instalación#
 Ver icono de instalación#
 Guild/Party#
@@ -2750,7 +2750,7 @@ Registro#
 Monstruo jefe#
 I#
 ¿Seguro que quieres eliminarlo?#
-NPC de misión#
+NPC de Quest#
 Contenido del registro#
 Tienda#
 Registro#
@@ -2836,12 +2836,12 @@ Este peinado no se puede teñir.#
 Presiona una flecha para elegir el estilo que quieras.#
 Ven a ver los nuevos estilos.\n(Los accesorios comprados se enviarán por RODEX.)#
 Estilo básico#
-Puedes subir la habilidad desde el nivel base %d.#
+Puedes subir la skill desde el nivel base %d.#
 No se pueden usar símbolos especiales en el nombre#
-El MaxHP es demasiado bajo para usar esta habilidad#
-El MaxSP es demasiado bajo para usar esta habilidad#
+El MaxHP es demasiado bajo para usar esta skill#
+El MaxSP es demasiado bajo para usar esta skill#
 Comparar equipamiento#
-Bloquear caída de objetos#
+Bloquear drop de objetos#
 No se adjuntó la captura de pantalla#
 Twitter#
 General#
@@ -2995,16 +2995,16 @@ Cierra otras ventanas para continuar.#
 Efecto de aura ACTIVADO#
 Efecto de aura DESACTIVADO#
 Efecto de aura DESACTIVADO. Actívalo y vuelve a intentarlo#
-Necesitas %d bala(s) para usar la habilidad.#
+Necesitas %d bala(s) para usar la skill.#
 ¿Quieres cambiar el equipo?#
 No puedes hacerlo mientras estás KO.#
-No puedes hacerlo mientras estás lanzando una habilidad#
+No puedes hacerlo mientras estás lanzando una skill#
 No puedes hacerlo mientras intercambias#
 No puedes hacerlo mientras abres una tienda#
 No puedes hacerlo mientras hablas con un NPC#
 No puedes hacerlo mientras abres una sala de chat#
 Los miembros de la party no están conectados.#
-Necesitas %d flecha(s) para usar la habilidad.#
+Necesitas %d flecha(s) para usar la skill.#
 Alinear objetos#
 Para descartar el objeto, cierra la ventana de cambio de equipo.#
 No hay ningún objeto para reemplazar.#
@@ -3078,7 +3078,7 @@ Total#
 Información básica#
 Equipar#
 Objeto#
-Habilidad#
+Skill#
 Guild#
 Party#
 Chat#
@@ -3128,7 +3128,7 @@ Tasa de esquiva#
 Velocidad de ataque#
 Descripción del atajo#
 Efecto#
-Atajo de habilidad (F1 ~ F9)#
+Atajo de skill (F1 ~ F9)#
 Captura de pantalla#
 Alejar#
 Acercar#
@@ -3358,7 +3358,7 @@ Registro en la agencia de aventureros#
 Detener reclutamiento#
 Configuración de la agencia de aventureros#
 Nota#
-Misión#
+Quest#
 Campo#
 Mazmorra#
 MD#
@@ -3398,7 +3398,7 @@ No hay lista de bloqueo.#
 Act#
 Rec#
 Pen#
-Información de misión#
+Información de Quest#
 Descripción#
 Monstruo#
 Recompensa#
@@ -3407,7 +3407,7 @@ Exp de trabajo#
 Objeto#
 Mostrar/Ocultar#
 Ocultar#
-Mostrar ventana pequeña de misiones#
+Mostrar ventana pequeña de Quests#
 Tiempo de entrada#
 Guardar ID#
 Contraseña#
@@ -3456,7 +3456,7 @@ Has introducido mal la contraseña 3 veces. Tu cuenta se bloqueará durante 24 hor
 Oficial#
 Recompensa de asistencia del día %d.#
 #
-Esta habilidad solo se puede usar estando en party.#
+Esta skill solo se puede usar estando en party.#
 Se ha cancelado el reclutamiento de la party.#
 La experiencia de guild se puede acumular hasta %d%%.#
 El nivel de la guild está al máximo; ya no puedes contribuir a la experiencia de la guild.#
@@ -3480,8 +3480,8 @@ No se pudo enviar el mensaje a Twitter#
 Debe tener al menos 4 caracteres en inglés o 2 caracteres en hangul.#
 La doma de monstruos está prohibida en este mapa.#
 Obteniendo clasificación...#
-Esta habilidad solo se puede usar estando en party.#
-El SP del compañero es insuficiente o la habilidad está desactivada.#
+Esta skill solo se puede usar estando en party.#
+El SP del compañero es insuficiente o la skill está desactivada.#
 Cerrar por la fuerza el correo de notificación de la tienda de medio tiempo#
 Hola. Equipo de operación.\r\nSe confirmó que esos puestos de trabajo de medio tiempo no cumplían la política de operación y se cerraron por la fuerza.\r\nSi deseas más información, ponte en contacto con nosotros.\r\n Gracias#
 No puedes introducir un valor superior al 50%.#
@@ -3529,9 +3529,9 @@ Emblema mostrado con borde#
 Emblema mostrado sin borde#
 No hay ningún arma equipada.#
 Esferas de energía insuficientes.#
-Contiene la habilidad (%s) que no se puede aprender.#
+Contiene la skill (%s) que no se puede aprender.#
 /frame#
-Después de activar Bloqueo con Arma, las habilidades posibles están disponibles para usar durante un tiempo limitado.#
+Después de activar Bloqueo con Arma, las skills posibles están disponibles para usar durante un tiempo limitado.#
 El nombre de usuario o la contraseña son incorrectos.#
 E X P : %.1f%% ( base 100.0%% %s %.1f%%)#
 BOTÍN : %.1f%% ( base 100.0%% %s %.1f%%)#
@@ -3593,8 +3593,8 @@ Recuperar seleccionados#
 Recuperar todo#
 ¿Quieres recuperar los adjuntos del correo seleccionado?#
 ¿Quieres recuperar todos los objetos adjuntos del buzón [%s]?#
-Barra de habilidades 2#
-Cambiar barra de habilidades#
+Barra de skills 2#
+Cambiar barra de skills#
 ¡ç#
 ¡è#
 ¡æ#
@@ -3632,7 +3632,7 @@ Comprobación comercial/defensiva#
 ¿Quieres moverte al territorio administrativo "%s"?\nSe consumirán %d zeny por cada movimiento.\n(Se consumirán %d zeny durante el horario de WoE.)#
 \nTerritorio administrativo: "%s"\n	\nDefensa: %d / %d\nComercialidad: %d / %d#
 Esta función no está disponible en territorio de WoE.#
-Un personaje que no ha dominado la habilidad Basic Skill.#
+Un personaje que no ha dominado la skill Basic Skill.#
 Ragnarok:Zero no se puede usar con la IP conectada.\nPonte en contacto con el centro de atención al cliente o con la página web.#
 Montar/Desmontar#
 Importar#
@@ -3688,7 +3688,7 @@ Se ha guardado la lista de objetos del puesto de compra.#
 Error de autenticación de VTC.#
 No se puede llevar equipo mientras se intercambia.#
 Objetos que quieres intercambiar#
- Sube las habilidades de trabajo de 1.ª, 2.ª y 3.ª clase.#
+ Sube las skills de trabajo de 1.ª, 2.ª y 3.ª clase.#
 Puedes tener hasta %d objetos iguales.#
 Se pueden intercambiar hasta %d objetos a la vez.#
 Ese rodex se puede abrir en el servidor "%s".#
@@ -3757,9 +3757,9 @@ El daño mágico de elemento sagrado y la resistencia a los elementos sombra/no mu
 El efecto Holy Shield se ha cancelado.#
 Se otorgó el efecto de resurrección instantánea.#
 El efecto Ultimate Sacrifice se ha cancelado.#
-Los efectos de ciertas habilidades han cambiado.#
+Los efectos de ciertas skills han cambiado.#
 El efecto Climax se ha cancelado.#
-Los efectos de ciertas habilidades han vuelto a la normalidad.#
+Los efectos de ciertas skills han vuelto a la normalidad.#
 El efecto Shadow Exceed se ha cancelado.#
 Se ha otorgado el efecto de ignorar Res.#
 El efecto Potent Venom se ha cancelado.#
@@ -3788,7 +3788,7 @@ El dispositivo de ataque se ha desactivado.#
 DEF y RES aumentaron.#
 El dispositivo de defensa se ha desactivado.#
 Buscar#
-Ahora puedes usar habilidades de Ensemble en solitario.#
+Ahora puedes usar skills de Ensemble en solitario.#
 El efecto Sonata of Kvasir se ha cancelado.#
 Se ha otorgado el efecto Mystic Symphony.#
 El efecto Mystic Symphony se ha cancelado.#
