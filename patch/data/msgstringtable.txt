@@ -3297,12 +3297,12 @@ Pergaminos#
 Consumibles#
 Otros#
 Especial#
-Recargando#
+Recargar#
 Comprar#
 https://rathena.org/board/clients/donations/#
 Búsqueda de objetos#
 Puntos gratis#
-Usar puntos gratis#
+Puntos a usar#
 Puntos propios#
 Actualizar#
 Emperador Estelar (Chica)#
