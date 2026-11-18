@@ -16,7 +16,8 @@ Scope: `OzRo.exe` (PE32 i386, Ragexe 2019-06-05, patched build).
 | + login window cleanup | `/mnt/games/OzRo (experiments)/OzRo.exe` | `39f49643f85ed354e7da1cba288504583b7f835f48679133ce95e7be7ff5b20a` |
 | + bank menu button hide | `/mnt/games/OzRo (experiments)/OzRo-nobankbutton2.exe` | `7f3e62096ca9b4e38eaf05f4dd24127c92ff2b1f34581e8aa2793d2b4aef4692` |
 | + hide menu icons: keyboard/tip/shop/attendance/achievement/rec | `/mnt/games/OzRo (experiments)/OzRo.exe` | `8e81d4db75b8d603819d6ead778a5bb60636c583df662d7d56cc3073863525a3` |
-| + hide menu icon battle/battlegrounds (final) | `/mnt/games/OzRo (experiments)/OzRo.exe` | `a7d4cd97a96ed5d484848f8b452320bde936302c44fbc67612ccc1c99997fd41` |
+| + hide menu icon battle/battlegrounds | `/mnt/games/OzRo (experiments)/OzRo.exe` | `a7d4cd97a96ed5d484848f8b452320bde936302c44fbc67612ccc1c99997fd41` |
+| + menu window height 197 -> 111 (final) | `/mnt/games/OzRo (experiments)/OzRo.exe` | `84938b455345c8ca9384800a0949d4a12d08f3c8d2822d4feceadf0f4edf4d65` |
 | committed copy | `patch/OzRo.exe` | same as final |
 
 Size: `9,216,000` bytes.
@@ -344,9 +345,31 @@ file 0x6DB9AC / battle 0x166:    66 01 00 00 -> 69 01 00 00
 
 Skipping does not increment the icon position, so the remaining icons reflow without a gap. This removes the Battlegrounds menu icon only; Battle Mode (`/bm`, checkbox in Shortcut Settings) and the Esc-menu `Shortcut Settings` are untouched.
 
+### Menu window height
+
+The menu panel is the **window geometry**, not an image. `EnsureWindow` creates `UIMenuIconWnd` with `SetSize(220, 197)` then `Move(0, 225)`:
+
+```
+VA 0x6F6BE0 / file 0x2F5FE0:
+  68 C5 00 00 00   push 197   ; height -> byte at file 0x2F5FE3
+  68 DC 00 00 00   push 220   ; width
+  call SetSize
+  68 E1 00 00 00   push 225   ; Move(0, 225); UIMenuIconWnd::Move sets y = 225 - 4
+```
+
+`CUIFrameWnd::Paint` fills `geometry.width × geometry.height` and draws the rounded outline, so the height controls the visible panel. `menu_icon/bg_menu.tga` is **only a translucent overlay** (220×225, black alpha 128, white right edge) drawn at `(0,13)` and clipped to the window; cropping/scaling it would not shrink the panel.
+
+Icons are 32×34 at `x = (position % 5) * 42 + 9`, `y = (position / 5) * 43 + 23`. With 10 visible icons (2 rows) the last icon ends at `y=100`; the original 197 was sized for 4 rows (`y=186` + 11 px). Patch height to 111 to match:
+
+```
+file 0x2F5FE3: C5 -> 6F   ; 197 -> 111
+```
+
+Height is fixed, so if enough icons are re-enabled to reach a 3rd row (`y=109`, bottom 143), use ~155 instead.
+
 ## Complete reproducible patch list
 
-Base: live `OzRo.exe` (timestamp 0). Applying these bytes in order produces the final hash `a7d4cd97...` exactly.
+Base: live `OzRo.exe` (timestamp 0). Applying these bytes in order produces the final hash `84938b45...` exactly.
 
 ```python
 patches = [
@@ -370,10 +393,11 @@ patches = [
  (0x17EA65, bytes.fromhex("00")),  # menu icon attendance 0x20A -> hidden
  (0x6DB9C8, bytes.fromhex("69010000")),  # menu icon keyboard 0x160 -> 0x169 (skipped)
  (0x6DB9AC, bytes.fromhex("69010000")),  # menu icon battle 0x166 -> 0x169 (skipped)
+ (0x2F5FE3, bytes.fromhex("6f")),  # menu window height 197 -> 111
 ]
 ```
 
-Validation: SHA-256 of the result must be `a7d4cd97a96ed5d484848f8b452320bde936302c44fbc67612ccc1c99997fd41`.
+Validation: SHA-256 of the result must be `84938b455345c8ca9384800a0949d4a12d08f3c8d2822d4feceadf0f4edf4d65`.
 
 ## Decompiled source (reference, offsets differ slightly)
 
