@@ -99,7 +99,7 @@ Expulsar#
 Enviar mensajes#
 Chat 1:1#
 Información#
-Configuración de party#
+Conf. de party#
 Amigo#
 Party#
 Equipo#
@@ -124,7 +124,7 @@ Espera...#
 Espera...#
 Espera...#
 Crear una sala#
-Configuración de sala#
+Conf. de sala#
 Expulsar personaje#
 Dar autoridad de líder#
 Ver información#
@@ -289,7 +289,7 @@ Individual#
 Compartido#
 Individual#
 Reparto de party#
-Configuración de party#
+Conf. de party#
 Cómo compartir EXP#
 Cómo compartir objetos#
 Solo el líder de la party puede cambiar esta opción.#
@@ -353,7 +353,7 @@ Eliminar#
 Cerrar desde la próxima vez#
 Última hora de conexión#
 Última IP de conexión#
-Configuración de amigos#
+Conf. de amigos#
 ¿Seguro que quieres eliminar?#
 ¿Seguro que quieres salir?#
 Registrar como amigo#
@@ -371,7 +371,7 @@ Precio: #
 %s ha sido expulsado de nuestra guild.#
 Motivo de expulsión: %s#
 No puedes equipar este objeto.#
-No puedes modificar la configuración de party.#
+No puedes modificar la conf. de party.#
 La guild ha sido creada.#
 Ya estás en una guild.#
 Ese nombre de guild ya existe.#
@@ -799,9 +799,9 @@ Presiona la barra espaciadora para chatear cuando estés en modo de batalla [/bat
 Algunos archivos del sistema de Windows se dañaron. Reinstala tu Internet Explorer.#
 "No se pudo ejecutar Game Guard. Por favor, intenta reinstalar Game Guard desde su archivo de instalación."#
 "Se ha detectado al menos un programa peligroso. Por favor, cierra todos los programas innecesarios antes de ejecutar Game Guard."#
-"Se canceló la actualización de Game Guard. Si la desconexión continúa, por favor, revisa tu conexión a internet o la configuración del firewall."#
-"No se pudo conectar al servidor de actualizaciones de Game Guard. Intenta conectarte de nuevo más tarde o revisa la conexión a internet o la configuración del firewall."#
-"No se pudo completar el proceso de actualización de Game Guard. Por favor, intenta ejecutar un programa antivirus para eliminar virus. O bien, intenta modificar la configuración de tu herramienta de administración del PC si usas alguna."#
+"Se canceló la actualización de Game Guard. Si la desconexión continúa, por favor, revisa tu conexión a internet o la conf. del firewall."#
+"No se pudo conectar al servidor de actualizaciones de Game Guard. Intenta conectarte de nuevo más tarde o revisa la conexión a internet o la conf. del firewall."#
+"No se pudo completar el proceso de actualización de Game Guard. Por favor, intenta ejecutar un programa antivirus para eliminar virus. O bien, intenta modificar la conf. de tu herramienta de administración del PC si usas alguna."#
 /notrade: Rechaza automáticamente las ofertas de intercambio. On | Off#
 El rechazo automático de ofertas de intercambio se ha activado. [/nt ON]#
 El rechazo automático de ofertas de intercambio se ha desactivado. [/nt OFF]#
@@ -1285,7 +1285,7 @@ Visualización de mensajes de estado anormal#
 Visualización del mensaje de objetos obtenidos por miembros de la party#
 Visualización de mensajes de estado anormal de miembros de la party#
 Visualización de mensajes de fallo de skill#
-Visualización de mensajes de configuración de party#
+Visualización de mensajes de conf. de party#
 Visualización de mensajes de equipo dañado#
 Visualización de la ventana de mensajes de batalla#
 Han Coin de [%s]: %d Han Coin#
@@ -1482,17 +1482,17 @@ El tiempo de espera ha pasado. Inicia sesión de nuevo#
 ¡Cuidado! Ya hay una sesión iniciada con la misma cuenta. Detén la verificación móvil e inicia sesión de nuevo después de cambiar tu contraseña#
 ¡Cuidado! La misma cuenta está esperando la verificación móvil. Detén la verificación móvil e inicia sesión de nuevo después de cambiar tu contraseña#
 Opción de juego                                                                                                 #
-Configuración gráfica#
-Configuración de sonido#
+Conf. gráfica#
+Conf. de sonido#
 Presiona una tecla para asignar. Al presionar 'ESC' se eliminará la tecla asignada.#
 No se puede especificar una sola tecla.#
 No se puede especificar la tecla asignada.#
 Duplicado con ['%s']. ¿Aún deseas cambiar?#
-La configuración inicial se guarda en los ajustes de teclas de acceso rápido. ¿Deseas inicializarla?#
+La conf. inicial se guarda en los ajustes de teclas de acceso rápido. ¿Deseas inicializarla?#
 Barra de skills#
 Interfaz#
 Macros#
-Configuración de atajos#
+Conf. de atajos#
 BGM#
 Efecto#
 Skin#
@@ -1537,7 +1537,7 @@ No se puede cambiar debido a la diferencia de nivel#
 Se requiere [%s] en cantidad '%d'.#
 Ahora se refina el valor reducido.#
 Se necesita llevar puesto [%s] para usar.#
-Configuración de entrada al campo de batalla#
+Conf. de entrada al campo de batalla#
 Campo de batalla: ¿te inscribes en [%s]?#
 #
 Se canceló el registro y no se pudo entrar en el estado.#
@@ -1924,7 +1924,7 @@ Peso superior al 85%%#
 Hay un trabajo en curso (diálogo de NPC, fabricación...). Sal y vuelve a intentarlo.#
 La experiencia de caza de clase de monstruos que puedes obtener con la duplicación de %d es de %.2f minutos.#
 SaveData_ExMacro %d#
-La configuración de [%s] se guarda en.#
+La conf. de [%s] se guarda en.#
 Nivel de seguridad#
 El personaje actual no se puede eliminar si está en una party o en una guild.#
 Los objetos solo se pueden usar cerca de la pared.#
@@ -1969,7 +1969,7 @@ Tiempo récord: %d-%01d-%01d %d: %02d: %02d#
 Tiempo de juego: %02d: %02d: %02d#
 No hay archivo de repetición.#
 Servidor no coincide#
-Configuración de opciones de repetición#
+Conf. de opciones de repetición#
 Introduce el nombre del archivo#
 Configurar datos de guardado de repetición#
 Configurar opción de grabación#
@@ -2294,7 +2294,7 @@ Puntos finales: (%d %d)#
 Esa área no admite navegación.#
 El destino no está claro#
 No cumple el requisito del mapa#
-Fallo de información | Cambiar configuración#
+Fallo de información | Cambiar conf.#
 ¡No se pudo establecer la información de la ubicación!#
 No se pudo encontrar una ruta#
 No se pudieron encontrar jugadores #
@@ -2372,7 +2372,7 @@ Introduce el nombre del personaje#
 Ventana de selección de sexo#
 Se detectó la edición del archivo#
 Los objetos obtenidos al abrir el objeto quedan vinculados al personaje (no se pueden mover al almacén). ¿Quieres abrir la caja?#
-Configuración del juego#
+Conf. del juego#
 Sistema del juego#
 Comandos del juego#
 Comandos del juego ON/OFF#
@@ -3161,10 +3161,10 @@ Traje#
 Título#
 /quake : Efecto de vibración de pantalla ACTIVADO/DESACTIVADO#
 /aura2 : Activar/desactivar completamente el efecto de aura#
-Configuración básica#
-Configuración avanzada#
-Establecer configuración básica#
-¿Establecer configuración básica?#
+Conf. básica#
+Conf. avanzada#
+Establecer conf. básica#
+¿Establecer conf. básica?#
 ¿Aplicar estos valores?#
 Para aplicar estos valores, es necesario reiniciar el cliente. ¿Continuar?#
 Niebla#
@@ -3209,7 +3209,7 @@ Resultado de búsqueda[0]#
 Búsqueda y descripción#
 Error de ubicación#
 Resultado de búsqueda[%d]#
-Mostrar configuración de iconos de navegación#
+Mostrar conf. de iconos de navegación#
 Ruta que usa zeny#
 Abrir ventana de navegación#
 La cuenta no está activa#
@@ -3259,10 +3259,10 @@ No hay ningún miembro de la party al que se pueda delegar. ¿Quieres disolver la 
  - Edad 18+#
  - Servidor de pago#
  - Servidor gratuito#
-Fluido#
-Normal#
-Ocupado#
-Congestionado#
+LOW#
+MED#
+HGH#
+FUL#
 mapa#
 El almacén del servidor solo puede guardar objetos del inventario.#
 No puedes guardar Cute Pet Egg en el almacén del servidor.#
@@ -3337,7 +3337,7 @@ No se pueden registrar nombres con palabras malsonantes.#
 Ve al sitio web oficial para hacerte miembro.#
 Error de conexión con el servidor de TokenAgency#
 Información de facturación#
-Eliminar reserva#
+Eliminar#
 Cancelar reserva#
 Iniciar juego#
 Eliminar#
@@ -3356,7 +3356,7 @@ No es posible moverse cuando tu personaje está KO#
 Creación de personaje#
 Registro en la agencia de aventureros#
 Detener reclutamiento#
-Configuración de la agencia de aventureros#
+Conf. de la agencia de aventureros#
 Nota#
 Quest#
 Campo#
@@ -3570,7 +3570,7 @@ No es posible comprar porque se excedería el límite de posesión.#
 Solo puedes comprar un objeto a la vez.#
 Emperador Estelar#
 Segador de Almas#
-La configuración se guarda en el servidor al salir normalmente.#
+La conf. se guarda en el servidor al salir normalmente.#
 Capturar monstruo#
 mensaje#
 TÍTULO#
