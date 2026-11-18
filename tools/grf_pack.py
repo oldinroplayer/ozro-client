@@ -19,8 +19,16 @@ HEADER_SIZE = 0x2E
 GRF_MAGIC = b"Master of Magic\x00"
 
 
-WRONG_TEXTURE_PREFIX = "À¯ÀúÀÎÅÍÆäÀÌ½º".encode("utf-8")
-RIGHT_TEXTURE_PREFIX = "유저인터페이스".encode("cp949")
+def normalize_component(part: bytes) -> bytes:
+    """Convert UTF-8 encoded mojibake back to the original CP949 bytes."""
+    if part.isascii():
+        return part
+    try:
+        raw = part.decode("utf-8").encode("latin1")
+        raw.decode("cp949")
+    except (UnicodeDecodeError, UnicodeEncodeError):
+        return part
+    return raw
 
 
 def iter_files(root: bytes, prefix: bytes):
@@ -28,8 +36,8 @@ def iter_files(root: bytes, prefix: bytes):
         for filename in filenames:
             full = os.path.join(dirpath, filename)
             rel = os.path.relpath(full, root).replace(b"/", b"\\")
+            rel = b"\\".join(normalize_component(part) for part in rel.split(b"\\"))
             name = (prefix + b"\\" + rel) if prefix else rel
-            name = name.replace(WRONG_TEXTURE_PREFIX, RIGHT_TEXTURE_PREFIX)
             yield name, full
 
 

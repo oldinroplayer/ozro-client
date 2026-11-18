@@ -8,28 +8,31 @@ Parche de cliente de Ragnarok Online para **OzRagnarok** (3 jugadores). Se manti
 patch/
   OzRo.exe
   data.ini
-  data/                    overlay que pisa los GRF (clientinfo, texturas...)
-  System/itemInfo_EN.lua   fuente de verdad de nombres y descripciones de items
-  gefenia.grf, OzRo.ico    referencias locales
-dist/patch.zip             paquete manual para repartir
-tools/grf.py               lector/extractor GRF v2
-tmp/                       pruebas y GRFs locales (ignorado por git)
+  ozro.grf          base custom: data/ + System/ (prioridad 1)
+  gefenia.grf       mapas custom
+  OzRo.ico, Setup.exe, mfc100.dll
+dist/patch.zip      paquete manual para repartir
+tools/grf.py        lector/extractor GRF v2
+tools/grf_pack.py   empaquetador GRF v2
+tmp/                pruebas y GRFs locales (ignorado por git)
 ```
 
-`OzRo.exe` lee `data.ini` y `data/`; `data/` tiene prioridad sobre los GRF. No hay `ozro.grf`.
+Todo el contenido custom vive en `patch/ozro.grf`, incluido `System/`. Se asume una copia limpia del cliente: no hacen falta `data/` ni `System/` sueltos. `data.ini` ordena de mayor a menor prioridad (clave 1 gana) y `rdata.grf` va antes que `data.grf` porque es renewal y pisa algunas entradas. Un fix futuro es un GRF nuevo en la clave 1 más el `data.ini`; el `.exe` solo se toca en casos extremos.
 
 ## Items
 
-- Editar `patch/System/itemInfo_EN.lua` dentro de `tbl`. Es la única fuente; no hay archivo de staging.
+- `System/itemInfo_EN.lua` vive dentro de `patch/ozro.grf`. Extraerlo: `python3 tools/grf.py extract patch/ozro.grf "System/itemInfo_EN.lua" --out /tmp/itemInfo_EN.lua`.
+- Editar ese archivo dentro de `tbl`. Es la única fuente; no hay archivo de staging.
 - Encoding mixto: texto visible en **ISO-8859-1/CP1252**; `ResourceName` vanilla en **CP949**; custom en ASCII (`ozro_*`).
-- Abrir y guardar el archivo como **ISO-8859-1 estricto** (no UTF-8 ni autodetectado). Los `ResourceName` coreanos se ven como mojibake y no se tocan. Guardar sin cambios debe dejar `git diff` vacío; si aparece un diff masivo, `git checkout -- patch/System/itemInfo_EN.lua`.
-- Para añadir un item: entrada en `itemInfo_EN.lua`, icono y collection en `patch/data/texture/<carpeta coreana>/item|collection/<resource>.bmp`, alta en `rathena/db/import/item_db.yml` (fuera de este repo), probar con `@reloaditemdb` y `@item`, y repackear.
+- Abrir y guardar el archivo como **ISO-8859-1 estricto** (no UTF-8 ni autodetectado). Los `ResourceName` coreanos se ven como mojibake y no se tocan. Comparar con `cmp` contra la extracción original para confirmar que no se corrompió.
+- Para añadir o corregir un item: editar `itemInfo_EN.lua`, empaquetar `System/` e icono/collection en un GRF nuevo (ej. `ozro_fix_YYYYMMDD.grf`) con `tools/grf_pack.py` y ponerlo como clave 1 en `data.ini`. Los BMP van en `data/texture/유저인터페이스/item|collection/<resource>.bmp`; alta en `rathena/db/import/item_db.yml` (fuera de este repo), probar con `@reloaditemdb` y `@item`, y repackear.
+- `grf_pack.py` normaliza nombres de archivo mal codificados (UTF-8 de mojibake) a los bytes CP949 que espera el cliente.
 - Si el `ResourceName` es custom y falta el BMP de item o collection, el cliente muestra `Resource File Loading fail`.
 
 ## Quests y CTRL+U
 
 - El server define las quests en `rathena/db/import/quest_db.yml` y en los scripts (`setquest`/`setquestinfo`).
-- El cliente muestra la ventana CTRL+U desde `System/OngoingQuestInfoList_True_EN.lub` (y variantes `_EN`/`_True`) en la carpeta del cliente; si se overridea, va en `patch/System/`. **Cada QuestID debe existir en ambos lados**: si falta en el cliente, la quest aparece vacía/rota aunque el server la tenga.
+- El cliente muestra la ventana CTRL+U desde `System/OngoingQuestInfoList_True_EN.lub` (y variantes `_EN`/`_True`), dentro de `patch/ozro.grf`. **Cada QuestID debe existir en ambos lados**: si falta en el cliente, la quest aparece vacía/rota aunque el server la tenga.
 - Bounty boards: `F_Bounty_Board` recibe cuartetos `MonsterID, QuestID, BaseExp, JobExp`; cada `QuestID` tiene que estar en `quest_db.yml` y en la lista del cliente.
 - Estado actual: los 290 IDs custom de `quest_db.yml` (incluidas las bounty boards) están presentes en la lista del cliente.
 - `npc/custom/ozro/hunting_missions.txt` (Hunting Missions, Euphy) está deshabilitado en `scripts_custom.conf`. Usa variables de personaje (`Mission0`, `#Mission_Delay`), **no** el sistema de quests, así que no afecta CTRL+U.
@@ -38,7 +41,7 @@ tmp/                       pruebas y GRFs locales (ignorado por git)
 
 ## Mapas sin árboles de navidad
 
-El `data.grf` actual trae versiones de evento en varias ciudades. Los overrides no-event viven en `patch/ozro_maps.grf` (clave 2 de `data.ini`):
+El `data.grf` actual trae versiones de evento en varias ciudades. Los overrides no-event viven en `patch/ozro.grf` (clave 1 de `data.ini`):
 
 | Mapa | `.rsw` (modelos) | `.gnd` (piso/sombras) |
 |---|---|---|
@@ -76,7 +79,14 @@ Preferencias de estilo:
 
 ## GRF
 
-`tools/grf.py` lee GRF v2 (rdata.grf), lista y extrae. No escribe ni repackea todavía.
+`tools/grf.py` lee GRF v2, lista y extrae. `tools/grf_pack.py` empaqueta GRF v2:
+
+```bash
+python3 tools/grf_pack.py --out patch/ozro_fix_YYYYMMDD.grf \
+  --root data=/ruta/data --root System=/ruta/System
+```
+
+Empaquetar un fix nuevo y ponerlo como clave 1 en `data.ini` evita tocar `ozro.grf`. El empaquetador normaliza cada componente de ruta a CP949.
 
 ```bash
 python3 tools/grf.py info tmp/rdata.grf
@@ -89,6 +99,6 @@ Los mapas `.gat`/`.rsw`/`.gnd` de rdata son plaintext. La única entrada DES se 
 
 ## Enviar cambios
 
-1. Editar y probar en `patch/`.
+1. Extraer, editar y reempaquetar el GRF correspondiente en `patch/`, y probar.
 2. Comprimir el contenido de `patch/` en `dist/patch.zip`.
 3. Repartir por USB o link; descomprimir en la raíz del cliente.
