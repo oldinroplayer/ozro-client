@@ -38,16 +38,18 @@ tmp/                       pruebas y GRFs locales (ignorado por git)
 
 ## Mapas sin árboles de navidad
 
-El `data.grf` actual trae versiones de evento en varias ciudades. En `patch/data/` hay overrides `.rsw` no-event para quitar los árboles y la decoración de modelos:
+El `data.grf` actual trae versiones de evento en varias ciudades. Los overrides no-event viven en `patch/ozro_maps.grf` (clave 2 de `data.ini`):
 
-| Mapa | Origen |
-|---|---|
-| `prontera.rsw` | `pprontera.rsw` del mismo `data.grf` |
-| `geffen.rsw`, `izlude.rsw`, `aldebaran.rsw`, `alberta.rsw`, `hugel.rsw` | kRO 2020 (`kro_20200306_data.grf`) |
+| Mapa | `.rsw` (modelos) | `.gnd` (piso/sombras) |
+|---|---|---|
+| `prontera` | `pprontera.rsw` del mismo `data.grf` | `pprontera.gnd` |
+| `geffen`, `izlude`, `aldebaran`, `alberta`, `hugel` | `Ragnarok_210607/data.grf` | el `.gnd` de la misma fuente |
 
-- Solo se reemplaza el `.rsw`. Los `.gnd`/`.gat` siguen saliendo de `data.grf`, así que la colisión y el `map_cache` del server no cambian. Si queda decoración en el piso, habría que reemplazar también el `.gnd`.
-- Para revertir un mapa: borrar `patch/data/<mapa>.rsw`.
-- Izlude 2020 conserva 4 modelos pequeños de pan navideño, no árboles; el resto de las ciudades quedó sin referencias navideñas.
+- El `.rsw` quita árboles y decoración; el `.gnd` aporta las texturas de piso y los lightmaps con las sombras horneadas. Si se cambia solo el `.rsw`, quedan las sombras del mapa de evento (árboles que ya no están).
+- No se reemplaza el `.gat`: la colisión y el `map_cache` del server no cambian.
+- Los `.rsw` de las 5 ciudades coinciden byte a byte con `Ragnarok_210607/data.grf`, así que su `.gnd` es el par correcto.
+- Para revertir un mapa: quitar sus entradas del GRF y reempaquetar.
+- Izlude conserva 4 modelos pequeños de pan navideño, no árboles; el resto de las ciudades quedó sin referencias navideñas.
 - Otras ciudades: Rachel/Malangdo/Lasagna tienen referencias menores; Payon, Lighthalzen, Einbroch, Veins, Umbala, etc. tienen el RSW cifrado y no se escanearon.
 - Si el cliente muestra modelos faltantes o NPCs desalineados, probar el set GND/RSW completo de la misma fuente o revertir ese mapa puntual.
 
