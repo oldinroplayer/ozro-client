@@ -286,12 +286,12 @@ Puntos de skill: %d#
 La skill falló.#
 Pasiva#
 Individual#
-Compartido#
+Compartida#
 Individual#
-Reparto de party#
+Repartido#
 Conf. de party#
-Cómo compartir EXP#
-Cómo compartir objetos#
+Reparto de Exp#
+Reparto de Loot#
 Solo el líder de la party puede cambiar esta opción.#
 Alternar cantidad de objetos#
 El personaje se eliminará en ^ff0000%d^000000 segundos. Presiona Cancelar para salir.#
@@ -736,9 +736,9 @@ El contenido del chat no se mostrará en la ventana de chat. [Mostrar OFF]#
 /set1: /noctrl + /showname + /skillfail#
 /fog: Efecto de niebla. On | Off#
 Has recibido una propuesta de matrimonio. ¿Aceptas?#
-Tipo de reparto de objetos#
+Recogida#
 Individual#
-Compartido#
+Repartido#
 nProtect KeyCrypt#
 Se detectó un controlador de teclado. \n\n¿Deseas instalar un programa de seguridad de teclado?    \n\n(Después de la instalación, se requiere reiniciar el sistema)#
 La instalación se completó.  \n\nEl sistema se reiniciará.#
