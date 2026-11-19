@@ -97,6 +97,30 @@ python3 tools/grf.py extract-matching tmp/rdata.grf --filter .gat --out-dir /tmp
 
 Los mapas `.gat`/`.rsw`/`.gnd` de rdata son plaintext. La única entrada DES se reporta como no soportada.
 
+## Archivos sueltos para el cliente web
+
+El GRF es la fuente canónica, pero roBrowser ejecuta Lua con `io.open`/`dofile`
+y esos archivos tienen que existir en disco. Si faltan aparecen `Unknown Item`,
+`QuestInfoList` nil y errores de `Towninfo`/`msgstringtable`.
+
+Materializarlos desde el GRF en la carpeta del cliente:
+
+```bash
+python3 tools/restore_loose.py --grf patch/ozro.grf --out "/mnt/games/OzRo"
+```
+
+El script extrae:
+
+- `System/itemInfo_EN.lua`
+- `System/OngoingQuestInfoList_True_EN.lub`
+- `System/Towninfo.lub` y `System/Towninfo_EN.lub`
+- `data/msgstringtable.txt`
+- `data/luafiles514/lua files/signboardlist.lub`
+- `data/luafiles514/lua files/datainfo/tb_cashshop_banner.lub`
+
+El compose del cliente web monta `System/` y `data/` en `/app/System` y
+`/app/data`, así que el Lua VM los encuentra ahí.
+
 ## Enviar cambios
 
 1. Extraer, editar y reempaquetar el GRF correspondiente en `patch/`, y probar.
