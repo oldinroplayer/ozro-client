@@ -8,31 +8,41 @@ Parche de cliente de Ragnarok Online para **OzRagnarok** (3 jugadores). Se manti
 patch/
   OzRo.exe
   data.ini
-  ozro.grf          base custom: data/ + System/ (prioridad 1)
+  ozro_fix.grf      capa de fixes: loading/sprites (prioridad 1)
+  ozro.grf          base custom: data/ + System/ (prioridad 2)
   gefenia.grf       mapas custom
+  System/           Lua que el cliente abre desde disco
+  data/             msgstringtable + Lua de UI
   OzRo.ico, Setup.exe, mfc100.dll
 dist/patch.zip      paquete manual para repartir
 tools/grf.py        lector/extractor GRF v2
 tools/grf_pack.py   empaquetador GRF v2
+tools/restore_loose.py  materializa la capa Lua desde el GRF
 tmp/                pruebas y GRFs locales (ignorado por git)
 ```
 
-Todo el contenido custom vive en `patch/ozro.grf`, incluido `System/`. Se asume una copia limpia del cliente: no hacen falta `data/` ni `System/` sueltos. `data.ini` ordena de mayor a menor prioridad (clave 1 gana) y `rdata.grf` va antes que `data.grf` porque es renewal y pisa algunas entradas. Un fix futuro es un GRF nuevo en la clave 1 más el `data.ini`; el `.exe` solo se toca en casos extremos.
+`ozro.grf` y `ozro_fix.grf` son la fuente canónica. `patch/System/` y `patch/data/`
+tienen la capa mínima que el Lua VM abre con `io.open`/`dofile`; no es opcional para
+el cliente web. `data.ini` ordena de mayor a menor prioridad (clave 1 gana) y
+`rdata.grf` va antes que `data.grf` porque es renewal y pisa algunas entradas.
+Un fix futuro es un GRF nuevo en la clave 1 más el `data.ini`; el `.exe` solo se
+toca en casos extremos. Después de tocar el GRF, corré `restore_loose.py` para
+mantener la paridad de `patch/System/` y `patch/data/`.
 
 ## Items
 
-- `System/itemInfo_EN.lua` vive dentro de `patch/ozro.grf`. Extraerlo: `python3 tools/grf.py extract patch/ozro.grf "System/itemInfo_EN.lua" --out /tmp/itemInfo_EN.lua`.
-- Editar ese archivo dentro de `tbl`. Es la única fuente; no hay archivo de staging.
+- `System/itemInfo_EN.lua` existe en `patch/System/` (loose, para el Lua VM) y dentro de `patch/ozro.grf` (fuente canónica). Editar `patch/System/itemInfo_EN.lua` dentro de `tbl`.
+- Al publicar, empaquetarlo en un fix GRF y correr `tools/restore_loose.py` para que el loose y el GRF queden en paridad.
 - Encoding mixto: texto visible en **ISO-8859-1/CP1252**; `ResourceName` vanilla en **CP949**; custom en ASCII (`ozro_*`).
 - Abrir y guardar el archivo como **ISO-8859-1 estricto** (no UTF-8 ni autodetectado). Los `ResourceName` coreanos se ven como mojibake y no se tocan. Comparar con `cmp` contra la extracción original para confirmar que no se corrompió.
-- Para añadir o corregir un item: editar `itemInfo_EN.lua`, empaquetar `System/` e icono/collection en un GRF nuevo (ej. `ozro_fix_YYYYMMDD.grf`) con `tools/grf_pack.py` y ponerlo como clave 1 en `data.ini`. Los BMP van en `data/texture/유저인터페이스/item|collection/<resource>.bmp`; alta en `rathena/db/import/item_db.yml` (fuera de este repo), probar con `@reloaditemdb` y `@item`, y repackear.
+- Para añadir o corregir un item: editar `patch/System/itemInfo_EN.lua`, empaquetar `System/` e icono/collection en `patch/ozro_fix.grf` (o un fix nuevo) con `tools/grf_pack.py` y ponerlo como clave 1 en `data.ini`. Los BMP van en `data/texture/유저인터페이스/item|collection/<resource>.bmp`; alta en `rathena/db/import/item_db.yml` (fuera de este repo), probar con `@reloaditemdb` y `@item`, y repackear.
 - `grf_pack.py` normaliza nombres de archivo mal codificados (UTF-8 de mojibake) a los bytes CP949 que espera el cliente.
 - Si el `ResourceName` es custom y falta el BMP de item o collection, el cliente muestra `Resource File Loading fail`.
 
 ## Quests y CTRL+U
 
 - El server define las quests en `rathena/db/import/quest_db.yml` y en los scripts (`setquest`/`setquestinfo`).
-- El cliente muestra la ventana CTRL+U desde `System/OngoingQuestInfoList_True_EN.lub` (y variantes `_EN`/`_True`), dentro de `patch/ozro.grf`. **Cada QuestID debe existir en ambos lados**: si falta en el cliente, la quest aparece vacía/rota aunque el server la tenga.
+- El cliente muestra la ventana CTRL+U desde `patch/System/OngoingQuestInfoList_True_EN.lub` (y variantes `_EN`/`_True`), también dentro de `patch/ozro.grf`; el GRF es la fuente canónica y el loose es la copia que usa el Lua VM. **Cada QuestID debe existir en ambos lados**: si falta en el cliente, la quest aparece vacía/rota aunque el server la tenga.
 - Bounty boards: `F_Bounty_Board` recibe cuartetos `MonsterID, QuestID, BaseExp, JobExp`; cada `QuestID` tiene que estar en `quest_db.yml` y en la lista del cliente.
 - Estado actual: los 290 IDs custom de `quest_db.yml` (incluidas las bounty boards) están presentes en la lista del cliente.
 - `npc/custom/ozro/hunting_missions.txt` (Hunting Missions, Euphy) está deshabilitado en `scripts_custom.conf`. Usa variables de personaje (`Mission0`, `#Mission_Delay`), **no** el sistema de quests, así que no afecta CTRL+U.
@@ -103,7 +113,8 @@ El GRF es la fuente canónica, pero roBrowser ejecuta Lua con `io.open`/`dofile`
 y esos archivos tienen que existir en disco. Si faltan aparecen `Unknown Item`,
 `QuestInfoList` nil y errores de `Towninfo`/`msgstringtable`.
 
-Materializarlos desde el GRF en la carpeta del cliente:
+`patch/System/` y `patch/data/` ya contienen esa capa. Para materializarla también
+en la carpeta del cliente:
 
 ```bash
 python3 tools/restore_loose.py --grf patch/ozro.grf --out "/mnt/games/OzRo"

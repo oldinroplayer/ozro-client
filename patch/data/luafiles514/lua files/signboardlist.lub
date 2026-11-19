@@ -1,0 +1,12 @@
+SignBoardList = {
+	{
+		MAPNAME = "disabled",
+		CELLX = 0,
+		CELLY = 0,
+		HEIGHT = 0,
+		ICONID = 0,
+		FILEPATH = "",
+		CONTENTS = "",
+		CHARCOLOR = 0,
+	},
+}

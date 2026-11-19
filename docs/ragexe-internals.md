@@ -256,21 +256,26 @@ The white dropdown box + arrow is **baked into** `bg_login.tga`; moving the comb
 `patch/data.ini`:
 
 ```
-1=ozro.grf             # base custom: data/ + System/ (highest) - 91 entries
-2=gefenia.grf          # custom gefenia maps
-3=renewal2021.grf
-4=resources2021.grf
-5=rdata.grf            # renewal patch data; overrides some data.grf entries
-6=data.grf
+1=ozro_fix.grf         # loading/sprites fix (highest)
+2=ozro.grf             # base custom: data/ + System/ - 91 entries
+3=gefenia.grf          # custom gefenia maps
+4=renewal2021.grf
+5=resources2021.grf
+6=rdata.grf            # renewal patch data; overrides some data.grf entries
+7=data.grf
 ```
 
-`ozro.grf` is the single custom base. It flattens the former `ozro_data.grf`, `ozro_ui.grf`, `ozro_maps.grf`, `ozro_fixes.grf`, and the loose `patch/System/` files: `msgstringtable.txt`, item/collection/cashshop textures, custom ground sprites, loading/background illustrations, map overrides, `clientinfo.xml`, `etcinfo.txt`, `System/itemInfo_EN.lua`, `System/OngoingQuestInfoList_True_EN.lub`, and `System/Towninfo*.lub`. No loose `data/` or `System/` remains in `patch/`.
+`ozro.grf` is the single custom base. It flattens the former `ozro_data.grf`, `ozro_ui.grf`, `ozro_maps.grf`, `ozro_fixes.grf`, and the loose `patch/System/` files: `msgstringtable.txt`, item/collection/cashshop textures, custom ground sprites, loading/background illustrations, map overrides, `clientinfo.xml`, `etcinfo.txt`, `System/itemInfo_EN.lua`, `System/OngoingQuestInfoList_True_EN.lub`, and `System/Towninfo*.lub`.
 
-The distribution is a clean client: base GRFs + `ozro.grf` + `gefenia.grf` + `data.ini`. `rdata.grf` goes before `data.grf` because it is renewal data and overrides some entries. Future fixes go in a new GRF at key 1 (first wins); the `.exe` is only touched in extreme cases. `tools/grf_pack.py` normalizes each path component from UTF-8-encoded mojibake to CP949.
+`ozro_fix.grf` is the override layer for small fixes: currently `loading07-10` and the Alchemist sprites.
+
+The Lua VM opens some of these files with `io.open`/`dofile`, so `patch/System/` and `patch/data/` keep the minimum loose compatibility copy (`itemInfo`, quest list, `Towninfo`, `msgstringtable`, `signboardlist`, cashshop banner). The GRF remains canonical; run `tools/restore_loose.py` after changing it so both sides stay in parity. The web client mounts `System/` and `data/` at `/app/System` and `/app/data`.
+
+The distribution is a client: base GRFs + `ozro.grf` + `ozro_fix.grf` + `gefenia.grf` + `data.ini` + the loose compatibility files. `rdata.grf` goes before `data.grf` because it is renewal data and overrides some entries. Future fixes go in a new GRF at key 1 (first wins); the `.exe` is only touched in extreme cases. `tools/grf_pack.py` normalizes each path component from UTF-8-encoded mojibake to CP949.
 
 ## NPC signboards
 
-- Source: `data/luafiles514/lua files/signboardlist.lub`, global `SignBoardList` (`IT_SIGNBOARD`), 49294 B in `data.grf`; older 39682 B copy in `rdata.grf`. `ozro.grf` wins (key 1); without it, `rdata.grf` wins over `data.grf`.
+- Source: `data/luafiles514/lua files/signboardlist.lub`, global `SignBoardList` (`IT_SIGNBOARD`), 49294 B in `data.grf`; older 39682 B copy in `rdata.grf`. `ozro.grf` wins (key 2); without it, `rdata.grf` wins over `data.grf`.
 - Loader: `data/luafiles514/lua files/signboardlist_f.lub`, function `GetSignBoardListTable(index)`.
 - Access pattern: `SignBoardList[index][field]`; returns 8 values:
   `MAPNAME, CELLX, CELLY, HEIGHT, ICONID, FILEPATH, CONTENTS, CHARCOLOR`.
@@ -280,7 +285,7 @@ The distribution is a clean client: base GRFs + `ozro.grf` + `gefenia.grf` + `da
 - Empty `SignBoardList = {}` -> `SignBoardList_F.lua:30: attempt to index field '?' (a nil value)`.
 - Disable without error: one dummy entry:
   `MAPNAME="disabled", CELLX=0, CELLY=0, HEIGHT=0, ICONID=0, FILEPATH="", CONTENTS="", CHARCOLOR=0`.
-- Override via `ozro.grf` (data.ini key 1, first wins). `data/` does not override GRF entries without `DataFolderFirst`.
+- Override via `ozro.grf` (data.ini key 2); small fixes go in `ozro_fix.grf` (key 1, first wins). `data/` does not override GRF entries without `DataFolderFirst`.
 
 ## Towninfo load path
 
